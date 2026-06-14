@@ -81,6 +81,8 @@ def _scenario_ensemble(params: MatchParams, max_goals: int) -> dict[str, Any]:
     """Run each named scenario and report the spread of 1X2 probabilities."""
     rows = []
     for sc in params.scenarios:
+        if not isinstance(sc, dict):
+            continue
         st = sc.get("strength", {})
         try:
             lh = (

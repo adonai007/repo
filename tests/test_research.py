@@ -59,6 +59,19 @@ def test_research_uses_runner_output_and_clips():
     assert res["params"]["strength"]["home"]["atk"] == pytest.approx(1.5 * 1.4, abs=1e-6)
 
 
+def test_normalize_team_named_market_odds():
+    from footy.research.engine import _normalize_market_odds
+    params = {
+        "match": {"home": "Netherlands", "away": "Japan"},
+        "market_odds": {"netherlands_win": "+104", "draw": "+263",
+                        "japan_win": "+262", "source": "books", "date": "2026-06-14"},
+    }
+    _normalize_market_odds(params)
+    mo = params["market_odds"]
+    assert mo["home"] == "+104" and mo["away"] == "+262" and mo["draw"] == "+263"
+    assert mo["source"] == "books"  # meta keys preserved
+
+
 def test_extract_json_block():
     params, dossier = _extract("text before\n```json\n{\"a\": 1}\n```\n")
     assert params == {"a": 1}

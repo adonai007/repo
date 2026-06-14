@@ -53,7 +53,8 @@ RULES:
 - Anchor `strength` to the prior. Move a value at most ~40% from the prior, and ONLY with cited evidence
   (form, injuries, lineup, matchup). Keep `prior_strength` unchanged for traceability.
 - Encode injuries/absences and form as `adjustments` multipliers (0.5..1.5) on atk/def, not by overwriting strength.
-- If you find closing odds, fill `market_odds` (American or decimal) with source + date.
+- If you find closing odds, fill `market_odds` with EXACTLY the keys `home`, `draw`, `away`
+  (American or decimal numbers) plus `source` and `date`. Do not key odds by team name.
 - Every non-obvious number must have a citation. Set `confidence` to alta/media/baja.
 
 OUTPUT FORMAT (exactly, in this order):

@@ -61,6 +61,32 @@ def _extract(raw: str) -> tuple[dict, str]:
     return params, dossier
 
 
+_META_KEYS = {"source", "date", "format", "books", "note"}
+
+
+def _normalize_market_odds(params: dict) -> None:
+    """Rewrite market_odds keys to home/draw/away (LLMs key them by team name)."""
+    mo = params.get("market_odds")
+    if not isinstance(mo, dict):
+        return
+    home_tok = str(params["match"]["home"]).split()[0].lower()
+    away_tok = str(params["match"]["away"]).split()[0].lower()
+    out: dict = {}
+    for k, v in mo.items():
+        kl = str(k).strip().lower()
+        if kl in _META_KEYS:
+            out[k] = v
+        elif "draw" in kl or kl in ("x", "tie"):
+            out["draw"] = v
+        elif "home" in kl or kl == "1" or home_tok in kl:
+            out["home"] = v
+        elif "away" in kl or kl == "2" or away_tok in kl:
+            out["away"] = v
+        else:
+            out[k] = v
+    params["market_odds"] = out
+
+
 def _clip_to_prior(params: dict) -> dict:
     """Clamp researched strengths to +/-MAX_DEVIATION of the prior anchor."""
     prior = params.get("prior_strength")
@@ -103,6 +129,7 @@ def research_match(
                 # preserve the prior anchor + provenance, then validate
                 cand["prior_strength"] = baseline["prior_strength"]
                 cand.setdefault("base_rate", baseline["base_rate"])
+                _normalize_market_odds(cand)
                 cand = _clip_to_prior(cand)
                 MatchParams.parse(cand)  # validate; raises on bad output
                 cand["research_engine"] = "claude-code-cli/deep-research"

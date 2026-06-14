@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Netherlands",
+    "away": "Japan",
+    "date": "2026-06-14",
+    "neutral": true,
+    "stage": "group",
+    "venue": "AT&T Stadium, Arlington (Dallas), TX, USA"
+  },
+  "base_rate": 1.0684,
+  "strength": {
+    "home": {
+      "atk": 3.0346,
+      "def": 0.4501
+    },
+    "away": {
+      "atk": 2.608,
+      "def": 0.3286
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 3.0346,
+      "def": 0.4501
+    },
+    "away": {
+      "atk": 2.608,
+      "def": 0.3286
+    }
+  },
+  "rho": -0.0633,
+  "adjustments": {
+    "home_atk": 0.88,
+    "home_def": 1.18,
+    "away_atk": 0.82,
+    "away_def": 1.06
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "market_odds": {
+    "home": "+104",
+    "draw": "+263",
+    "away": "+262",
+    "source": "Average of FanDuel (+100/+250/+270), BetOnline (+112/+265/+275), bet365 (+100/+275/+240); NED/Draw/JAP",
+    "date": "2026-06-14",
+    "format": "american"
+  },
+  "scenarios": {
+    "verbruggen_confirmed_out": "Raise home_def to 1.25; Flekken (Brentford) is a significant GK quality downgrade",
+    "verbruggen_confirmed_fit": "Lower home_def to 1.10; base defensive disruption from Timber+De Vrij only",
+    "japan_form_warning": "7-game unbeaten run (incl. W vs England, W vs Brazil 3-2) may understate Japan's current quality vs their prior; monitor for model underfitting Japan"
+  },
+  "evidence": {
+    "elo_netherlands": 1959,
+    "elo_japan": 1879,
+    "elo_gap_ned_advantage": 80,
+    "elo_source": "eloratings.net / worldfootballrankings.com, Jan 2026",
+    "market_value_netherlands_eur": 754200000,
+    "market_value_japan_eur": 270900000,
+    "market_value_source": "Transfermarkt via planetfootball.com / si.com, 2026",
+    "key_absences_netherlands": [
+      "Xavi Simons — ACL (April 2026, Tottenham); high impact on attack",
+      "Jurriën Timber — groin; high impact on defense",
+      "Stefan de Vrij — injury; medium impact on defense",
+      "Jerdy Schouten — injury; low-medium impact on midfield",
+      "Bart Verbruggen — hip (June 8 vs Uzbekistan); day-to-day, GK quality risk"
+    ],
+    "key_absences_japan": [
+      "Wataru Endo — foot injury + international retirement; very high impact (DM anchor/captain)",
+      "Kaoru Mitoma — hamstring; very high impact (best winger)",
+      "Takumi Minamino — ACL; medium impact"
+    ],
+    "netherlands_last5": "W2-1 Uzbekistan, L0-1 Algeria, D1-1 Ecuador, W2-1 Norway, W4-0 Lithuania",
+    "netherlands_last5_record": "W3 D1 L1",
+    "japan_unbeaten_run_matches": 7,
+    "japan_recent_highlights": "W1-0 England, W3-2 Brazil, W2-1 S.Korea, W2-1 Australia, W1-0 Scotland",
+    "gk_netherlands_save_pct_note": "Verbruggen day-to-day; Flekken backup",
+    "gk_japan_club_save_pct_2526": 0.702,
+    "gk_japan_note": "Suzuki (Parma), 70.2% Serie A save%, confirmed starter",
+    "venue_confirmed": "AT&T Stadium, Dallas/Arlington TX",
+    "both_teams_first_match_of_tournament": true
+  },
+  "context": {
+    "stage_detail": "Group F, Match Day 1",
+    "group_rivals": [
+      "Sweden",
+      "Tunisia"
+    ],
+    "japan_qatar_2022_precedent": "Japan beat Germany and Spain from behind in Qatar 2022 group stage — proven upset pedigree",
+    "netherlands_title_motivation": "Netherlands chasing first-ever World Cup title",
+    "discipline_notes": "Both teams disciplined; NED max 1 yellow in 6 of last 7; Japan rarely overbooked in qualifying",
+    "set_piece_aerial_edge": "Netherlands (Van Dijk 1.95m, Van Hecke 1.89m, Dumfries 1.88m) dominate aerially vs Japan's compact shape",
+    "tactical_matchup": "NED 4-2-3-1 high-line vs JAP 3-4-2-1 compact block; NED without Simons struggles to break Japan's shape; JAP without Mitoma loses primary width and counter-pace"
+  },
+  "confidence": "media",
+  "rationale": "Netherlands favored by ~80 Elo points and 2.8x squad market value, but arrive with severe squad disruption: Simons (ACL, best creator), Timber + De Vrij (two key CBs), and Verbruggen (GK, day-to-day hip) all missing or doubtful. Japan equally impacted: Mitoma (best winger, hamstring), Minamino (ACL), and captain Endo (foot, retired internationally) are all out. The prior encodes Japan's structural defensive excellence (def=0.3286) vs Netherlands' prolific attack (atk=3.0346) but relatively leaky defense (def=0.4501). Adjustments: NED attack -12% (Simons loss, Memphis off-form), NED defense +18% (triple CB/GK disruption); JAP attack -18% (Mitoma+Minamino absent, Japan's most impactful injury bloc), JAP defense +6% (Endo loss weakens press/screen but back-three is stable). Injury effects partially cancel. Market closing at ~+104 NED / ~47% implied win probability serves as the primary calibration anchor. Neutral venue at AT&T Stadium; no travel or rest advantage for either team.",
+  "research_engine": "claude-code-cli/deep-research",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-14",
+  "n_prior_matches": {
+    "home": 93,
+    "away": 104
+  },
+  "citations": [
+    "https://www.espn.com/soccer/story/_/id/49022242/netherlands-bart-verbruggen-injury-2026-world-cup-japan",
+    "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info",
+    "https://www.aljazeera.com/sports/2026/5/15/mitoma-fails-to-make-japans-2026-world-cup-squad-due-to-hamstring-injury",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-japan-wataru-endo-o",
+    "https://www.si.com/soccer/netherlands-key-player-ruled-out-2026-world-cup-injury",
+    "https://karlobag.eu/en/sports/injuries-before-the-2026-world-cup-timber-karl-and-wesley-ruled-out-of-major-squ-cxafy/",
+    "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/predicted-lineups/koemans-big-depay-doubt-malen-starts-predicted-netherlands-lineup-vs-japan_599062.html",
+    "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/will-tanaka-step-up-in-endos-absence-predicted-japan-lineup-vs-netherlands_599063.html",
+    "https://worldfootballrankings.com/rankings",
+    "https://www.eloratings.net/2026_World_Cup",
+    "https://www.planetfootball.com/lists-and-rankings/world-cup-2026-every-squad-ranked-market-value",
+    "https://www.si.com/soccer/most-expensive-squads-2026-world-cup-ranked",
+    "https://www.covers.com/world-cup/netherlands-vs-japan-prediction-picks-odds-sunday-6-14-2026",
+    "https://www.cbssports.com/soccer/news/japan-vs-netherlands-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-match-on-sunday/",
+    "https://sports.yahoo.com/articles/netherlands-vs-japan-picks-predictions-164551362.html",
+    "https://www.rotowire.com/soccer/article/netherlands-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-117958",
+    "https://www.flashscore.co.za/news/an-unorthodox-path-japan-goalkeeper-zion-suzuki-ready-for-world-cup/CAWj7E7U/",
+    "https://footystats.org/players/japan/zion-suzuki",
+    "https://www.sportinglife.com/free-bets/news/netherlands-vs-japan-world-cup-2026-prediction-betting-tips-bet-builder/745",
+    "https://www.prizepicks.com/playbook-article/japan-world-cup-2026-preview-lineup-best-players-group-picks",
+    "https://www.fourfourtwo.com/team/netherlands-world-cup-2026-squad",
+    "https://sports.yahoo.com/articles/netherlands-vs-japan-world-cup-090823555.html"
+  ],
+  "generated_at": "2026-06-14T14:02:44+00:00"
+}
