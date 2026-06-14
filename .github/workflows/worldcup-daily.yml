@@ -1,0 +1,72 @@
+name: World Cup daily predictions
+
+# Runs every day during the tournament: refit the prior, deep-research + predict
+# the day's matches, grade anything newly played, and commit the artifacts so the
+# dashboard / REPORT.md always reflect fresh data.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Match date (YYYY-MM-DD) or 'today'"
+        default: "today"
+      research:
+        description: "Run deep research via Claude (true/false)"
+        default: "true"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: worldcup-daily
+  cancel-in-progress: false
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/football-prediction-framework-mmje5o
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install footy
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Install Claude Code
+        if: ${{ github.event.inputs.research != 'false' }}
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Fit prior (as-of today)
+        run: footy fit --asof today
+
+      - name: Predict the day's matches
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          DATE="${{ github.event.inputs.date }}"
+          DATE="${DATE:-today}"
+          if [ "${{ github.event.inputs.research }}" = "false" ]; then
+            footy worldcup --date "$DATE" --no-research
+          else
+            footy worldcup --date "$DATE" --research
+          fi
+
+      - name: Commit & push artifacts
+        run: |
+          git config user.name "footy-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add predictions ratings REPORT.md data/snapshots 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "chore: daily World Cup predictions $(date -u +%F)"
+            for i in 1 2 3 4; do git push && break || sleep $((2**i)); done
+          fi
