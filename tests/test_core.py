@@ -70,6 +70,14 @@ def test_implied_probabilities_demargined():
     assert p["home"] == pytest.approx(0.59, abs=0.02)
 
 
+def test_implied_accepts_key_variants():
+    # LLM-style keys (home_win_decimal etc.) must normalise to home/draw/away
+    p = implied_probabilities({"home_win_decimal": 1.82, "draw_decimal": 3.4,
+                               "away_win_decimal": 6.0})
+    assert p["home"] + p["draw"] + p["away"] == pytest.approx(1.0, abs=1e-12)
+    assert p["home"] > p["away"]
+
+
 def test_shin_sums_to_one():
     p = shin_probabilities({"home": -175, "draw": 300, "away": 425})
     assert p["home"] + p["draw"] + p["away"] == pytest.approx(1.0, abs=1e-9)

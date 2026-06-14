@@ -32,12 +32,37 @@ def _raw_prob(value: float) -> float:
     return american_to_prob(v)
 
 
+# map common odds-key spellings -> canonical home/draw/away
+_KEY_ALIASES = {
+    "home": "home", "home_win": "home", "home_win_decimal": "home",
+    "home_decimal": "home", "1": "home",
+    "draw": "draw", "draw_decimal": "draw", "x": "draw", "tie": "draw",
+    "away": "away", "away_win": "away", "away_win_decimal": "away",
+    "away_decimal": "away", "2": "away",
+}
+
+
+def _canonical_odds(odds: dict) -> dict:
+    """Map a market_odds dict (various key spellings) to {home, draw, away}."""
+    out = {}
+    for k, v in odds.items():
+        canon = _KEY_ALIASES.get(str(k).strip().lower())
+        if canon and canon not in out:
+            out[canon] = v
+    missing = {"home", "draw", "away"} - set(out)
+    if missing:
+        raise KeyError(f"market_odds missing outcomes: {missing}")
+    return out
+
+
 def implied_probabilities(odds: dict) -> dict:
     """De-margined 1X2 probabilities via the multiplicative (normalisation) method.
 
-    ``odds`` keys: ``home``, ``draw``, ``away`` (American or decimal).
-    Returns probabilities that sum to 1, plus the implied ``overround``.
+    ``odds`` keys may be ``home``/``draw``/``away`` or common variants
+    (``home_win_decimal``, ``1``/``X``/``2`` ...). Returns probabilities that sum
+    to 1, plus the implied ``overround``.
     """
+    odds = _canonical_odds(odds)
     raw = {k: _raw_prob(odds[k]) for k in ("home", "draw", "away")}
     overround = sum(raw.values())
     probs = {k: v / overround for k, v in raw.items()}
@@ -51,6 +76,7 @@ def shin_probabilities(odds: dict, max_iter: int = 100, tol: float = 1e-10) -> d
     Solves for z (proportion of informed money) so probabilities sum to 1.
     Falls back to the multiplicative method if it fails to converge.
     """
+    odds = _canonical_odds(odds)
     raw = np.array([_raw_prob(odds[k]) for k in ("home", "draw", "away")], dtype=float)
     booksum = raw.sum()
     pi = raw / booksum  # initial guess
