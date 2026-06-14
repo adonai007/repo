@@ -29,9 +29,9 @@ _JSON_BLOCK = re.compile(r"```(?:json)?\s*(\{.*?\})\s*```", re.DOTALL)
 class ClaudeCliRunner:
     """Invoke Claude Code headless (`claude -p`) and return its stdout."""
 
-    # Headless research needs live web tools and no interactive permission prompts.
-    DEFAULT_ARGS = ["--dangerously-skip-permissions",
-                    "--allowedTools", "WebSearch", "WebFetch"]
+    # Pre-approve web tools so headless `-p` can do live research without prompts.
+    # (`--allowedTools` works as root; `--dangerously-skip-permissions` does not.)
+    DEFAULT_ARGS = ["--allowedTools", "WebSearch", "WebFetch"]
 
     def __init__(self, model: str | None = None, timeout: int = 900,
                  extra_args: list[str] | None = None):
