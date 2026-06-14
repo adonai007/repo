@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# soccerdata / scraping cache (transient)
+.soccerdata/
+data/cache/
+
+# Local scratch
+*.log
+.DS_Store
+
+# NOTE: we deliberately COMMIT the durable artifacts (ephemeral env):
+#   data/snapshots/  ratings/  predictions/  REPORT.md
+# Only transient caches above are ignored.

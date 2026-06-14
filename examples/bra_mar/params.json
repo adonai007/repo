@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Brazil",
+    "away": "Morocco",
+    "date": "2026-06-13",
+    "neutral": true,
+    "stage": "group",
+    "venue": "MetLife Stadium"
+  },
+  "base_rate": 1.30,
+  "strength": {
+    "home": {"atk": 1.45, "def": 0.86},
+    "away": {"atk": 0.88, "def": 0.63}
+  },
+  "rho": -0.10,
+  "adjustments": {"home_atk": 0.90, "home_def": 1.00, "away_atk": 1.00, "away_def": 1.08},
+  "home_advantage": {"home": 1.00, "away": 1.00},
+  "market_odds": {"home": -175, "draw": 300, "away": 425, "source": "bet365", "asof": "2026-06-13"},
+  "blend_weight": 0.5,
+  "context": {"key_absences": {"home": ["Neymar", "Rodrygo"], "away": ["Aguerd"]}},
+  "confidence": "media",
+  "rationale": "Elite Morocco defence compresses Brazil's lambda; Neymar/Rodrygo out cut Brazil creation ~10%, Aguerd out raises Morocco set-piece vulnerability ~8%.",
+  "research_engine": "manual/original-script",
+  "citations": ["bet365 via Squawka 2026-06-13"]
+}
