@@ -165,6 +165,37 @@ def backtest(
     typer.echo(f"  beats uniform: {r['beats_uniform']}  ·  beats base-rate: {r['beats_baserate']}")
 
 
+@app.command()
+def tournament(
+    sims: int = typer.Option(20_000, "--sims", help="Number of tournaments to simulate."),
+    seed: int = typer.Option(0, "--seed"),
+    top: int = typer.Option(16, "--top", help="How many favorites to print."),
+    out: Path = typer.Option(None, "--out", help="Write full per-team JSON here."),
+    refresh: bool = typer.Option(False, "--refresh", help="Refetch the fixture feed."),
+):
+    """Simulate the whole World Cup (groups -> bracket) for champion odds."""
+    from .ratings.store import latest_prior
+    from .data.fixture import load_fixture
+    from .simulate.tournament import simulate_tournament
+
+    prior = latest_prior()
+    if prior is None:
+        raise typer.Exit("no prior found; run `footy fit` first")
+    fx = load_fixture(refresh=refresh)
+    res = simulate_tournament(prior, fx, n_sims=sims, seed=seed)
+
+    typer.echo(f"\nWorld Cup 2026 — {res['n_sims']:,} simulations, {res['n_groups']} groups")
+    typer.echo(f"({res['bracket_note']})\n")
+    typer.echo(f"  {'team':<18}{'champ':>8}{'final':>8}{'semi':>8}{'advance':>9}")
+    for f in res["favorites"][:top]:
+        typer.echo(f"  {f['team']:<18}{f['champion']*100:>7.1f}%{f['final']*100:>7.1f}%"
+                   f"{f['semi']*100:>7.1f}%{f['advance']*100:>8.1f}%")
+    if out is not None:
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(res, ensure_ascii=False, indent=2))
+        typer.echo(f"\nwrote {out}")
+
+
 def main():  # pragma: no cover
     app()
 

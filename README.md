@@ -66,6 +66,7 @@ pip install -e ".[dev]"     # + pytest
 footy fixture                       # the 104-match World Cup schedule (live scores)
 footy fit --asof today              # fit the data-driven prior from history
 footy worldcup --date today         # research + predict the day's matches -> predictions/
+footy tournament --sims 20000       # simulate the whole bracket -> champion odds
 footy backtest --year 2022          # honesty check vs baselines (RPS)
 streamlit run dashboard/app.py      # interactive scoreboard + what-if sliders
 
@@ -81,6 +82,24 @@ plus an append-only `predictions/ledger.parquet` and a repo-root `REPORT.md`
 scoreboard. A GitHub Actions cron (`.github/workflows/worldcup-daily.yml`) runs
 the whole thing daily and commits the results (needs a `CLAUDE_CODE_OAUTH_TOKEN`
 secret for the research step; it degrades gracefully to the prior baseline).
+
+### Tournament odds
+
+`footy tournament` Monte-Carlos the full event from the prior: it samples every
+group match (already-played matches use their real score, so it also works
+mid-tournament), ranks groups by the FIFA criteria (points → GD → GF →
+head-to-head), advances the top two plus the eight best third-placed teams, then
+runs a strength-seeded knockout bracket (each tie via 90′ → extra time →
+shootout). Output is each team's probability of advancing and of reaching every
+round up to the title (latest run in [`tournament/`](tournament/)):
+
+| Team | Champion | Final | Semi |
+|---|---|---|---|
+| Argentina | 18.7% | 27.6% | 40.6% |
+| Spain | 12.8% | 21.6% | 35.5% |
+| England | 9.0% | 16.5% | 28.4% |
+| Morocco | 6.0% | 11.6% | 21.9% |
+| Brazil | 5.2% | 10.8% | 20.9% |
 
 ### Does it work? (backtest)
 
@@ -125,7 +144,7 @@ pytest      # golden Bra-Mar reproduction + core property tests
 footy/
   schema.py            params.json contract + validation guards
   model/               expected goals, Dixon-Coles matrix, markets, knockout
-  simulate/            Monte Carlo validation
+  simulate/            Monte Carlo: per-match validation + full-tournament sim
   odds/                de-margining (multiplicative + Shin) + model<->market blend
   predict.py           single-match orchestration
   data/                fixture ingestion, team-name aliases
@@ -134,7 +153,7 @@ footy/
   worldcup/            daily pipeline + durable results store (ledger, REPORT.md)
   eval/                RPS / log-loss / Brier / reliability + tournament backtest
   report/              Markdown report + scoreline heatmap
-  cli.py               fixture | fit | research | predict | worldcup | backtest
+  cli.py               fixture | fit | research | predict | worldcup | tournament | backtest
 dashboard/app.py       Streamlit: scoreboard + per-match + live what-if
 .github/workflows/     daily cron
 ```
@@ -143,6 +162,7 @@ dashboard/app.py       Streamlit: scoreboard + per-match + live what-if
 
 Implemented and tested end-to-end: core engine, params contract, data-driven prior,
 research engine (with prior-anchored guards + graceful fallback), daily World Cup
-pipeline, durable persistence + ledger, evaluation/backtest, reporting, dashboard,
-and the GitHub Actions cron. Future extensions: full tournament/group-advancement
-simulation with FIFA tiebreakers, and player-level xG lineup contributions.
+pipeline, durable persistence + ledger, evaluation/backtest, full-tournament
+simulation with FIFA tiebreakers (champion odds), reporting, dashboard, and the
+GitHub Actions cron. Future extensions: official R32 third-place slotting table,
+and player-level xG lineup contributions.
