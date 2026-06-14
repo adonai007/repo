@@ -13,6 +13,9 @@ venv/
 .soccerdata/
 data/cache/
 
+# large re-fetchable raw dataset (derived ratings JSON is committed instead)
+data/snapshots/martj42-results.csv
+
 # Local scratch
 *.log
 .DS_Store

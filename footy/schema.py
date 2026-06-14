@@ -17,9 +17,14 @@ from typing import Any
 
 from . import SCHEMA_VERSION
 
-# --- plausibility guards (reject obviously broken LLM output) -----------------
-ATK_RANGE = (0.3, 3.0)        # 1.0 = average elite national side
-DEF_RANGE = (0.3, 3.0)        # <1.0 concedes less than average
+# --- plausibility guards (reject obviously broken output) ---------------------
+# Wide absolute bounds: they only catch garbage (negative / 100x). The real
+# anti-hallucination control is anchoring strengths to the statistical prior and
+# clipping relative deviations (see footy/research). Note the data-driven prior
+# and the original manual script use different index scales (each internally
+# consistent via its own base_rate), so bounds must accommodate both.
+ATK_RANGE = (0.1, 6.0)
+DEF_RANGE = (0.1, 6.0)
 RHO_RANGE = (-0.2, 0.2)       # Dixon-Coles low-score dependence
 ADJ_RANGE = (0.5, 1.5)        # context multipliers (injuries/form)
 BASE_RATE_RANGE = (0.8, 2.0)  # baseline goals per elite side

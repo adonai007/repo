@@ -82,6 +82,25 @@ def fixture(
         typer.echo(f"wrote {out}")
 
 
+@app.command()
+def fit(
+    asof: str = typer.Option(None, "--asof", help="Cut-off date YYYY-MM-DD (default today)."),
+    window: int = typer.Option(8, "--window", help="Years of history to fit on."),
+    xi: float = typer.Option(0.0018, "--xi", help="Time-decay rate per day."),
+):
+    """Fit the data-driven attack/defence prior from international results."""
+    from .ratings.prior_fit import fit_prior
+    from .ratings.store import save_prior
+
+    prior = fit_prior(asof=asof, window_years=window, xi=xi)
+    path = save_prior(prior)
+    typer.echo(f"fitted {len(prior.teams)} teams on {prior.n_matches_fit} matches "
+               f"(as-of {prior.asof})")
+    typer.echo(f"  base_rate={prior.base_rate:.3f}  home_adv={prior.home_advantage:.3f}  "
+               f"rho={prior.rho:.4f}")
+    typer.echo(f"  saved -> {path}")
+
+
 def main():  # pragma: no cover
     app()
 
