@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Netherlands",
+    "away": "Japan",
+    "date": "2026-06-14",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Dallas Stadium"
+  },
+  "base_rate": 1.0684,
+  "strength": {
+    "home": {
+      "atk": 3.0346,
+      "def": 0.4501
+    },
+    "away": {
+      "atk": 2.608,
+      "def": 0.3286
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 3.0346,
+      "def": 0.4501
+    },
+    "away": {
+      "atk": 2.608,
+      "def": 0.3286
+    }
+  },
+  "rho": -0.0633,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-14",
+  "n_prior_matches": {
+    "home": 93,
+    "away": 104
+  },
+  "generated_at": "2026-06-14T13:37:56+00:00"
+}

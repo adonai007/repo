@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Côte d'Ivoire",
+    "away": "Ecuador",
+    "date": "2026-06-14",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Philadelphia Stadium"
+  },
+  "base_rate": 1.0684,
+  "strength": {
+    "home": {
+      "atk": 1.662,
+      "def": 0.4349
+    },
+    "away": {
+      "atk": 1.7399,
+      "def": 0.2415
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 1.662,
+      "def": 0.4349
+    },
+    "away": {
+      "atk": 1.7399,
+      "def": 0.2415
+    }
+  },
+  "rho": -0.0633,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-14",
+  "n_prior_matches": {
+    "home": 89,
+    "away": 92
+  },
+  "generated_at": "2026-06-14T13:37:55+00:00"
+}

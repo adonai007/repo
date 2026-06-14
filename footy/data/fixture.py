@@ -29,8 +29,12 @@ _PLACEHOLDERS = ("to be announced", "tbd", "winner", "runner", "loser", "1st", "
 def _is_placeholder(name: str | None) -> bool:
     if not name:
         return True
-    low = name.strip().lower()
-    return any(tok in low for tok in _PLACEHOLDERS)
+    s = name.strip()
+    # Bracket slots reference group positions: "1K", "2A", "3ABCDF" — they start
+    # with a digit, which no real national-team name does.
+    if s[0].isdigit():
+        return True
+    return any(tok in s.lower() for tok in _PLACEHOLDERS)
 
 
 def _fetch_raw(url: str = FIXTURE_SOURCE, timeout: int = 30) -> list[dict]:
