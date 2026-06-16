@@ -4,14 +4,13 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **3**
-- Mean RPS: **0.185**  ·  log-loss: 1.022  ·  Brier: 0.594
-- Hit rate (argmax): **33%**
+- Matches graded: **6**
+- Mean RPS: **0.208**  ·  log-loss: 1.303  ·  Brier: 0.825
+- Hit rate (argmax): **17%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 13 | 2026-06-15 | Saudi Arabia vs Uruguay | 13% / 32% / 55% | 0-1 |
-| 14 | 2026-06-15 | Spain vs Cabo Verde | 88% / 9% / 3% | 3-0 |
-| 16 | 2026-06-15 | Belgium vs Egypt | 50% / 30% / 20% | 1-0 |
+| 17 | 2026-06-16 | France vs Senegal | 47% / 29% / 25% | 1-1 |
+| 18 | 2026-06-16 | Iraq vs Norway | 10% / 21% / 68% | 0-2 |
