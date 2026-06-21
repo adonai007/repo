@@ -4,13 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **16**
-- Mean RPS: **0.173**  ·  log-loss: 0.987  ·  Brier: 0.599
-- Hit rate (argmax): **50%**
+- Matches graded: **18**
+- Mean RPS: **0.166**  ·  log-loss: 0.939  ·  Brier: 0.563
+- Hit rate (argmax): **56%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 33 | 2026-06-20 | Germany vs Côte d'Ivoire | 53% / 27% / 20% | 1-0 |
-| 35 | 2026-06-20 | Netherlands vs Sweden | 62% / 20% / 19% | 2-1 |
+| 37 | 2026-06-21 | Uruguay vs Cabo Verde | 57% / 30% / 12% | 1-0 |
+| 38 | 2026-06-21 | Spain vs Saudi Arabia | 78% / 16% / 6% | 2-0 |
+| 39 | 2026-06-21 | Belgium vs IR Iran | 50% / 26% / 24% | 1-1 |
