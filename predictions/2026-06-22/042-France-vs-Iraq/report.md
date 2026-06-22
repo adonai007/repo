@@ -16,7 +16,7 @@
 | Draw | **18.3%** |
 | Iraq win | **7.2%** |
 
-*Monte Carlo (50,000 sims):* 74.6% / 18.3% / 7.1% · avg goals 2.67
+*Monte Carlo (50,000 sims):* 74.6% / 18.2% / 7.1% · avg goals 2.68
 
 ## Most likely scorelines
 

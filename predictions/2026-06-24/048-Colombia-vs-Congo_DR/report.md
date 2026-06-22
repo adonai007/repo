@@ -4,7 +4,7 @@
 
 ## Expected goals (model)
 
-- **Colombia**: 1.39
+- **Colombia**: 1.40
 - **Congo DR**: 0.63
 - **Total**: 2.02  ·  rho = -0.0673
 
