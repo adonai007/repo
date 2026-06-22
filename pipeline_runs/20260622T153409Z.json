@@ -1,0 +1,108 @@
+{
+  "status": "ok",
+  "started_at": "2026-06-22T15:34:09+00:00",
+  "finished_at": "2026-06-22T15:34:34+00:00",
+  "from_day": "2026-06-22",
+  "code_sha": "22fbb76",
+  "config": {
+    "refit_prior": true,
+    "asof": "today",
+    "research": false,
+    "refresh_existing": true,
+    "include_started": false,
+    "n_sims": 50000,
+    "tournament_sims": 20000,
+    "tournament_seed": 0
+  },
+  "fixture": {
+    "matches": 104,
+    "played": 40,
+    "predictable_unplayed": 32,
+    "selected_for_prediction": 32
+  },
+  "prior": {
+    "asof": "2026-06-22",
+    "path": "ratings\\2026-06-22.json",
+    "teams": 278,
+    "matches_fit": 7780,
+    "base_rate": 1.076190497502085,
+    "home_advantage": 1.2460936878400786,
+    "rho": -0.06732329081903916
+  },
+  "predictions": {
+    "predicted": 32,
+    "errors": [],
+    "skipped_started": []
+  },
+  "ledger": {
+    "rows": 62,
+    "graded": 30,
+    "ungraded": 32
+  },
+  "artifacts": {
+    "report": "REPORT.md",
+    "tournament": "tournament\\2026-06-22.json",
+    "run": "pipeline_runs\\20260622T153409Z.json"
+  },
+  "tournament": {
+    "sims": 20000,
+    "favorites": [
+      {
+        "team": "Argentina",
+        "champion": 0.21925,
+        "final": 0.32045,
+        "semi": 0.4589,
+        "advance": 0.9994
+      },
+      {
+        "team": "Spain",
+        "champion": 0.1282,
+        "final": 0.2214,
+        "semi": 0.3589,
+        "advance": 1.0
+      },
+      {
+        "team": "England",
+        "champion": 0.0808,
+        "final": 0.1585,
+        "semi": 0.2834,
+        "advance": 0.9989
+      },
+      {
+        "team": "Morocco",
+        "champion": 0.06375,
+        "final": 0.11965,
+        "semi": 0.23315,
+        "advance": 1.0
+      },
+      {
+        "team": "Brazil",
+        "champion": 0.05465,
+        "final": 0.10805,
+        "semi": 0.21965,
+        "advance": 1.0
+      },
+      {
+        "team": "Japan",
+        "champion": 0.05155,
+        "final": 0.10695,
+        "semi": 0.22015,
+        "advance": 1.0
+      },
+      {
+        "team": "Germany",
+        "champion": 0.05105,
+        "final": 0.10695,
+        "semi": 0.22495,
+        "advance": 1.0
+      },
+      {
+        "team": "France",
+        "champion": 0.04905,
+        "final": 0.1045,
+        "semi": 0.2137,
+        "advance": 0.9984
+      }
+    ]
+  }
+}
