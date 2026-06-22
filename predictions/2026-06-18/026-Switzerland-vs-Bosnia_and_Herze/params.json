@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Switzerland",
+    "away": "Bosnia and Herzegovina",
+    "date": "2026-06-18",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Los Angeles Stadium"
+  },
+  "base_rate": 1.0751,
+  "strength": {
+    "home": {
+      "atk": 2.5999,
+      "def": 0.4518
+    },
+    "away": {
+      "atk": 1.4166,
+      "def": 0.6716
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 2.5999,
+      "def": 0.4518
+    },
+    "away": {
+      "atk": 1.4166,
+      "def": 0.6716
+    }
+  },
+  "rho": -0.0668,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-18",
+  "n_prior_matches": {
+    "home": 97,
+    "away": 79
+  },
+  "research_note": "research failed, using prior baseline: Command '['claude', '-p', 'You are an elite football analyst calibrating a Dixon-Coles match model for the 2026 World Cup.\\n\\nMATCH: Switzerland vs Bosnia and Herzegovina on 2026-06-18 (stage: group, venue: Los Angeles Stadium, neutral: True).\\n\\nDo a focused deep-research pass on this specific match, then output a calibrated params.json.\\n\\nResearch these inputs (ordered by predictive power for international football) and cite sources:\\n 1. World Football Elo rating of each side and the gap (strongest single predictor).\\n 2. Squad market value + average age (Transfermarkt) — PELE-style.\\n 3. Recent xG / xGA (FBref/Understat); if possible split set-piece vs open-play.\\n 4. Form over the last ~9 matches (results AND performance, recency-weighted).\\n 5. Probable XI + the starters\\' club xG/xA per 90.\\n 6. Goalkeeper quality (post-shot xG faced vs conceded, save%).\\n 7. Injuries/absences — weight by player importance x replacement quality x timing.\\n 8. Rest days / travel / congestion; venue (neutral vs host advantage).\\n 9. Set pieces & discipline (corners, penalties, cards).\\n10. Style/matchup notes (e.g. counter-attack vs high line, key duels).\\n11. Closing market odds (average of books) — strong benchmark.\\n12. Stage / motivation (group vs knockout).\\n\\nSTATISTICAL PRIOR (anchor — do NOT invent strengths from scratch):\\n  base_rate = 1.0751, rho = -0.0668\\n  Switzerland (home): atk=2.5999, def=0.4518\\n  Bosnia and Herzegovina (away): atk=1.4166, def=0.6716\\n(atk: higher = stronger attack; def: LOWER = stronger defence. These already encode long-run strength.)\\n\\nRULES:\\n- You set PARAMETERS ONLY. Never compute or state win/draw probabilities — the engine does that.\\n- Anchor `strength` to the prior. Move a value at most ~40% from the prior, and ONLY with cited evidence\\n  (form, injuries, lineup, matchup). Keep `prior_strength` unchanged for traceability.\\n- Encode injuries/absences and form as `adjustments` multipliers (0.5..1.5) on atk/def, not by overwriting strength.\\n- If you find closing odds, fill `market_odds` with EXACTLY the keys `home`, `draw`, `away`\\n  (American or decimal numbers) plus `source` and `date`. Do not key odds by team name.\\n- Every non-obvious number must have a citation. Set `confidence` to alta/media/baja.\\n\\nOUTPUT FORMAT (exactly, in this order):\\n1. A markdown dossier: TL;DR, key findings per the checklist with inline source citations, and a short rationale.\\n2. Then a single fenced ```json code block containing the params.json with these keys:\\n   schema_version, match, base_rate, strength, prior_strength, rho, adjustments, home_advantage,\\n   market_odds (optional), scenarios (optional), evidence (optional), context (optional),\\n   confidence, citations (list of URLs), rationale.\\n\\nHere is the baseline params.json to refine (keep its structure):\\n```json\\n{\\n  \"schema_version\": \"1.0\",\\n  \"match\": {\\n    \"home\": \"Switzerland\",\\n    \"away\": \"Bosnia and Herzegovina\",\\n    \"date\": \"2026-06-18\",\\n    \"neutral\": true,\\n    \"stage\": \"group\",\\n    \"venue\": \"Los Angeles Stadium\"\\n  },\\n  \"base_rate\": 1.0751,\\n  \"strength\": {\\n    \"home\": {\\n      \"atk\": 2.5999,\\n      \"def\": 0.4518\\n    },\\n    \"away\": {\\n      \"atk\": 1.4166,\\n      \"def\": 0.6716\\n    }\\n  },\\n  \"prior_strength\": {\\n    \"home\": {\\n      \"atk\": 2.5999,\\n      \"def\": 0.4518\\n    },\\n    \"away\": {\\n      \"atk\": 1.4166,\\n      \"def\": 0.6716\\n    }\\n  },\\n  \"rho\": -0.0668,\\n  \"adjustments\": {\\n    \"home_atk\": 1.0,\\n    \"home_def\": 1.0,\\n    \"away_atk\": 1.0,\\n    \"away_def\": 1.0\\n  },\\n  \"home_advantage\": {\\n    \"home\": 1.0,\\n    \"away\": 1.0\\n  },\\n  \"confidence\": \"baseline\",\\n  \"rationale\": \"Data-driven prior only (no deep research applied).\",\\n  \"research_engine\": \"prior-baseline\",\\n  \"prior_source\": \"dixon_coles_fit@martj42:2026-06-18\",\\n  \"n_prior_matches\": {\\n    \"home\": 97,\\n    \"away\": 79\\n  }\\n}\\n```\\n', '--allowedTools', 'WebSearch', 'WebFetch']' returned non-zero exit status 1.",
+  "generated_at": "2026-06-18T07:49:49+00:00"
+}
