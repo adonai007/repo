@@ -1,35 +1,44 @@
-name: World Cup daily predictions
+name: World Cup refresh pipeline
 
-# Runs every day during the tournament: refit the prior, deep-research + predict
-# the day's matches, grade anything newly played, and commit the artifacts so the
-# dashboard / REPORT.md always reflect fresh data.
+# Refresh fixture/results, refit the prior, predict every known future match,
+# grade newly played matches, update tournament odds, and commit artifacts so
+# Render auto-deploys the dashboard from the production branch.
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC daily
+    - cron: "*/30 * * 6,7 *"
   workflow_dispatch:
     inputs:
-      date:
-        description: "Match date (YYYY-MM-DD) or 'today'"
+      from_date:
+        description: "Start date for future predictions (YYYY-MM-DD) or 'today'"
         default: "today"
       research:
         description: "Run deep research via Claude (true/false)"
-        default: "true"
+        default: "false"
+      sims:
+        description: "Monte Carlo sims per match"
+        default: "50000"
+      tournament_sims:
+        description: "Whole-tournament sims"
+        default: "20000"
+      include_started:
+        description: "Allow not-yet-scored matches after kickoff (true/false)"
+        default: "false"
 
 permissions:
   contents: write
 
 concurrency:
-  group: worldcup-daily
+  group: worldcup-refresh
   cancel-in-progress: false
 
 jobs:
-  predict:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: claude/football-prediction-framework-mmje5o
+          ref: render-deploy-2026-06-22
 
       - uses: actions/setup-python@v5
         with:
@@ -38,35 +47,51 @@ jobs:
       - name: Install footy
         run: |
           python -m pip install --upgrade pip
-          pip install -e .
+          pip install -e ".[dev]"
 
       - name: Install Claude Code
-        if: ${{ github.event.inputs.research != 'false' }}
+        if: ${{ github.event.inputs.research == 'true' }}
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Fit prior (as-of today)
-        run: footy fit --asof today
-
-      - name: Predict the day's matches
+      - name: Refresh predictions and artifacts
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
-          DATE="${{ github.event.inputs.date }}"
-          DATE="${DATE:-today}"
-          if [ "${{ github.event.inputs.research }}" = "false" ]; then
-            footy worldcup --date "$DATE" --no-research
+          FROM_DATE="${{ github.event.inputs.from_date }}"
+          FROM_DATE="${FROM_DATE:-today}"
+          RESEARCH="${{ github.event.inputs.research }}"
+          SIMS="${{ github.event.inputs.sims }}"
+          SIMS="${SIMS:-50000}"
+          TOURNAMENT_SIMS="${{ github.event.inputs.tournament_sims }}"
+          TOURNAMENT_SIMS="${TOURNAMENT_SIMS:-20000}"
+          INCLUDE_STARTED="${{ github.event.inputs.include_started }}"
+
+          CMD=(footy refresh --from-date "$FROM_DATE" --fit-prior --asof today --sims "$SIMS" --tournament-sims "$TOURNAMENT_SIMS")
+          if [ "$RESEARCH" = "true" ]; then
+            CMD+=(--research)
           else
-            footy worldcup --date "$DATE" --research
+            CMD+=(--no-research)
+          fi
+          if [ "$INCLUDE_STARTED" = "true" ]; then
+            CMD+=(--include-started)
           fi
 
-      - name: Commit & push artifacts
+          "${CMD[@]}"
+
+      - name: Test
+        run: pytest
+
+      - name: Commit and push artifacts
         run: |
           git config user.name "footy-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add predictions ratings REPORT.md data/snapshots 2>/dev/null || true
+          git add predictions ratings tournament pipeline_runs REPORT.md data/snapshots 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "no changes to commit"
           else
-            git commit -m "chore: daily World Cup predictions $(date -u +%F)"
-            for i in 1 2 3 4; do git push && break || sleep $((2**i)); done
+            git commit -m "chore: refresh World Cup data $(date -u +%F-%H%M)"
+            for i in 1 2 3 4; do
+              git pull --rebase && git push && break
+              sleep $((2**i))
+            done
           fi
