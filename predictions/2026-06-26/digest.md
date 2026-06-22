@@ -2,10 +2,10 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| Türkiye vs USA | group | 37% / 24% / 39% | 1-1 |
-| Paraguay vs Australia | group | 24% / 33% / 43% | 0-0 |
-| Norway vs France | group | 34% / 27% / 39% | 1-1 |
-| Senegal vs Iraq | group | 56% / 29% / 15% | 1-0 |
+| Türkiye vs USA | group | 33% / 24% / 43% | 1-1 |
+| Paraguay vs Australia | group | 28% / 35% / 37% | 0-0 |
+| Norway vs France | group | 33% / 26% / 40% | 1-1 |
+| Senegal vs Iraq | group | 59% / 26% / 15% | 1-0 |
 
 ---
 *Informational model output — not betting advice.*

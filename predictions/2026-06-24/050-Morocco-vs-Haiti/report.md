@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Morocco**: 2.03
-- **Haiti**: 0.41
-- **Total**: 2.45  ·  rho = -0.0619
+- **Morocco**: 2.00
+- **Haiti**: 0.39
+- **Total**: 2.39  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Morocco win | **75.5%** |
-| Draw | **18.5%** |
-| Haiti win | **6.0%** |
+| Morocco win | **75.7%** |
+| Draw | **18.7%** |
+| Haiti win | **5.6%** |
 
-*Monte Carlo (2,000 sims):* 76.6% / 17.2% / 6.2% · avg goals 2.48
+*Monte Carlo (50,000 sims):* 75.9% / 18.4% / 5.7% · avg goals 2.39
 
 ## Most likely scorelines
 
-- 2-0: 17.9%
-- 1-0: 17.1%
-- 3-0: 12.1%
-- 0-0: 9.1%
-- 1-1: 7.7%
-- 2-1: 7.4%
+- 2-0: 18.4%
+- 1-0: 17.9%
+- 3-0: 12.3%
+- 0-0: 9.7%
+- 1-1: 7.6%
+- 2-1: 7.1%
 
 ## Derived markets
 
-- Both teams to score: 29.9%
-- Over 2.5 goals: 44.3%  ·  Under 2.5: 55.7%
-- Double chance 1X: 94.0%  ·  X2: 24.5%
+- Both teams to score: 28.1%
+- Over 2.5 goals: 42.7%  ·  Under 2.5: 57.3%
+- Double chance 1X: 94.4%  ·  X2: 24.3%
 
 ## Scoreline heatmap
 

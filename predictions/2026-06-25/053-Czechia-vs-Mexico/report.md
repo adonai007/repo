@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Czechia**: 0.84
-- **Mexico**: 1.86
-- **Total**: 2.70  ·  rho = -0.0619
+- **Czechia**: 0.78
+- **Mexico**: 1.84
+- **Total**: 2.63  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Czechia win | **15.8%** |
-| Draw | **23.4%** |
-| Mexico win | **60.7%** |
+| Czechia win | **14.7%** |
+| Draw | **23.5%** |
+| Mexico win | **61.8%** |
 
-*Monte Carlo (2,000 sims):* 17.6% / 21.9% / 60.5% · avg goals 2.69
+*Monte Carlo (50,000 sims):* 14.6% / 23.5% / 61.9% · avg goals 2.63
 
 ## Most likely scorelines
 
-- 0-1: 11.8%
-- 0-2: 11.6%
+- 0-1: 12.6%
+- 0-2: 12.3%
 - 1-1: 11.2%
-- 1-2: 9.8%
-- 0-0: 7.4%
-- 0-3: 7.2%
+- 1-2: 9.6%
+- 0-0: 7.9%
+- 0-3: 7.5%
 
 ## Derived markets
 
-- Both teams to score: 48.7%
-- Over 2.5 goals: 50.6%  ·  Under 2.5: 49.4%
-- Double chance 1X: 39.3%  ·  X2: 84.2%
+- Both teams to score: 46.4%
+- Over 2.5 goals: 48.8%  ·  Under 2.5: 51.2%
+- Double chance 1X: 38.2%  ·  X2: 85.3%
 
 ## Scoreline heatmap
 

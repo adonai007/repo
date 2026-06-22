@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Mexico City Stadium"
   },
-  "base_rate": 1.0724,
+  "base_rate": 1.0762,
   "strength": {
     "home": {
-      "atk": 1.9854,
-      "def": 0.6812
+      "atk": 1.9564,
+      "def": 0.6782
     },
     "away": {
-      "atk": 2.0336,
-      "def": 0.3955
+      "atk": 2.0245,
+      "def": 0.3724
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.9854,
-      "def": 0.6812
+      "atk": 1.9564,
+      "def": 0.6782
     },
     "away": {
-      "atk": 2.0336,
-      "def": 0.3955
+      "atk": 2.0245,
+      "def": 0.3724
     }
   },
-  "rho": -0.0619,
+  "rho": -0.0673,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -38,15 +38,15 @@
   },
   "home_advantage": {
     "home": 1.0,
-    "away": 1.2509
+    "away": 1.2461
   },
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
   "n_prior_matches": {
-    "home": 89,
+    "home": 90,
     "away": 133
   },
-  "generated_at": "2026-06-16T17:57:28+00:00"
+  "generated_at": "2026-06-22T15:10:00+00:00"
 }

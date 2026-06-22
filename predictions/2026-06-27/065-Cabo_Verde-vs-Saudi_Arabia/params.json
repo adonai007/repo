@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Houston Stadium"
   },
-  "base_rate": 1.0724,
+  "base_rate": 1.0762,
   "strength": {
     "home": {
-      "atk": 1.2735,
-      "def": 0.7865
+      "atk": 1.346,
+      "def": 0.6817
     },
     "away": {
-      "atk": 1.3044,
-      "def": 0.6225
+      "atk": 1.2867,
+      "def": 0.6584
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.2735,
-      "def": 0.7865
+      "atk": 1.346,
+      "def": 0.6817
     },
     "away": {
-      "atk": 1.3044,
-      "def": 0.6225
+      "atk": 1.2867,
+      "def": 0.6584
     }
   },
-  "rho": -0.0619,
+  "rho": -0.0673,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
   "n_prior_matches": {
-    "home": 72,
-    "away": 118
+    "home": 74,
+    "away": 119
   },
-  "generated_at": "2026-06-16T17:57:32+00:00"
+  "generated_at": "2026-06-22T15:10:04+00:00"
 }

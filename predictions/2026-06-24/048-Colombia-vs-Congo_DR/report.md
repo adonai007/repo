@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Colombia**: 1.37
-- **Congo DR**: 0.61
-- **Total**: 1.98  ·  rho = -0.0619
+- **Colombia**: 1.39
+- **Congo DR**: 0.63
+- **Total**: 2.02  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Colombia win | **54.7%** |
-| Draw | **29.4%** |
+| Colombia win | **54.9%** |
+| Draw | **29.2%** |
 | Congo DR win | **15.9%** |
 
-*Monte Carlo (2,000 sims):* 54.0% / 29.9% / 16.1% · avg goals 2.02
+*Monte Carlo (50,000 sims):* 55.1% / 29.0% / 15.9% · avg goals 2.02
 
 ## Most likely scorelines
 
-- 1-0: 18.1%
-- 0-0: 14.5%
+- 1-0: 17.7%
+- 0-0: 14.0%
 - 2-0: 12.9%
-- 1-1: 12.3%
-- 2-1: 7.9%
-- 0-1: 7.7%
+- 1-1: 12.4%
+- 2-1: 8.1%
+- 0-1: 7.5%
 
 ## Derived markets
 
-- Both teams to score: 34.9%
-- Over 2.5 goals: 31.9%  ·  Under 2.5: 68.1%
-- Double chance 1X: 84.1%  ·  X2: 45.3%
+- Both teams to score: 35.8%
+- Over 2.5 goals: 32.9%  ·  Under 2.5: 67.1%
+- Double chance 1X: 84.1%  ·  X2: 45.1%
 
 ## Scoreline heatmap
 

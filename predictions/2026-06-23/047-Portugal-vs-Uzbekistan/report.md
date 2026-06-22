@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Portugal**: 1.55
-- **Uzbekistan**: 0.63
-- **Total**: 2.18  ·  rho = -0.0619
+- **Portugal**: 1.72
+- **Uzbekistan**: 0.65
+- **Total**: 2.36  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Portugal win | **58.8%** |
-| Draw | **26.7%** |
-| Uzbekistan win | **14.4%** |
+| Portugal win | **62.5%** |
+| Draw | **24.5%** |
+| Uzbekistan win | **12.9%** |
 
-*Monte Carlo (2,000 sims):* 57.0% / 27.9% / 15.2% · avg goals 2.22
+*Monte Carlo (50,000 sims):* 62.7% / 24.4% / 12.9% · avg goals 2.37
 
 ## Most likely scorelines
 
-- 1-0: 16.8%
-- 2-0: 13.5%
-- 0-0: 12.0%
-- 1-1: 11.8%
-- 2-1: 8.6%
-- 3-0: 7.0%
+- 1-0: 15.4%
+- 2-0: 13.9%
+- 1-1: 11.2%
+- 0-0: 10.1%
+- 2-1: 9.0%
+- 3-0: 7.9%
 
 ## Derived markets
 
-- Both teams to score: 37.7%
-- Over 2.5 goals: 37.3%  ·  Under 2.5: 62.7%
-- Double chance 1X: 85.6%  ·  X2: 41.2%
+- Both teams to score: 39.8%
+- Over 2.5 goals: 42.1%  ·  Under 2.5: 57.9%
+- Double chance 1X: 87.1%  ·  X2: 37.5%
 
 ## Scoreline heatmap
 

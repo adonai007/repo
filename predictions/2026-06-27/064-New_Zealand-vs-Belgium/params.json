@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "BC Place Vancouver"
   },
-  "base_rate": 1.0724,
+  "base_rate": 1.0762,
   "strength": {
     "home": {
-      "atk": 1.3823,
-      "def": 0.6827
+      "atk": 1.5027,
+      "def": 0.7773
     },
     "away": {
-      "atk": 2.7459,
-      "def": 0.4579
+      "atk": 2.6067,
+      "def": 0.4293
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.3823,
-      "def": 0.6827
+      "atk": 1.5027,
+      "def": 0.7773
     },
     "away": {
-      "atk": 2.7459,
-      "def": 0.4579
+      "atk": 2.6067,
+      "def": 0.4293
     }
   },
-  "rho": -0.0619,
+  "rho": -0.0673,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
   "n_prior_matches": {
-    "home": 49,
-    "away": 98
+    "home": 51,
+    "away": 99
   },
-  "generated_at": "2026-06-16T17:57:32+00:00"
+  "generated_at": "2026-06-22T15:10:04+00:00"
 }

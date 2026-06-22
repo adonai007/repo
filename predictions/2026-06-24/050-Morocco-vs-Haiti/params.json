@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Atlanta Stadium"
   },
-  "base_rate": 1.0724,
+  "base_rate": 1.0762,
   "strength": {
     "home": {
-      "atk": 2.1544,
-      "def": 0.2583
+      "atk": 2.1365,
+      "def": 0.2445
     },
     "away": {
-      "atk": 1.4954,
-      "def": 0.8801
+      "atk": 1.4642,
+      "def": 0.8707
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.1544,
-      "def": 0.2583
+      "atk": 2.1365,
+      "def": 0.2445
     },
     "away": {
-      "atk": 1.4954,
-      "def": 0.8801
+      "atk": 1.4642,
+      "def": 0.8707
     }
   },
-  "rho": -0.0619,
+  "rho": -0.0673,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
   "n_prior_matches": {
     "home": 111,
-    "away": 69
+    "away": 70
   },
-  "generated_at": "2026-06-16T17:57:27+00:00"
+  "generated_at": "2026-06-22T15:09:59+00:00"
 }

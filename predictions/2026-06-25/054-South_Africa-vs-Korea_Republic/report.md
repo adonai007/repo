@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **South Africa**: 0.82
-- **Korea Republic**: 1.52
-- **Total**: 2.34  ·  rho = -0.0619
+- **South Africa**: 0.80
+- **Korea Republic**: 1.42
+- **Total**: 2.23  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| South Africa win | **19.6%** |
-| Draw | **27.5%** |
-| Korea Republic win | **52.9%** |
+| South Africa win | **20.4%** |
+| Draw | **28.8%** |
+| Korea Republic win | **50.8%** |
 
-*Monte Carlo (2,000 sims):* 20.8% / 26.2% / 53.0% · avg goals 2.36
+*Monte Carlo (50,000 sims):* 20.4% / 28.7% / 50.9% · avg goals 2.23
 
 ## Most likely scorelines
 
-- 0-1: 13.9%
-- 1-1: 12.8%
-- 0-2: 11.1%
-- 0-0: 10.4%
-- 1-2: 9.1%
-- 1-0: 7.2%
+- 0-1: 14.5%
+- 1-1: 13.2%
+- 0-0: 11.6%
+- 0-2: 10.9%
+- 1-2: 8.8%
+- 1-0: 7.8%
 
 ## Derived markets
 
-- Both teams to score: 44.6%
-- Over 2.5 goals: 41.5%  ·  Under 2.5: 58.5%
-- Double chance 1X: 47.1%  ·  X2: 80.4%
+- Both teams to score: 42.8%
+- Over 2.5 goals: 38.5%  ·  Under 2.5: 61.5%
+- Double chance 1X: 49.2%  ·  X2: 79.6%
 
 ## Scoreline heatmap
 

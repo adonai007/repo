@@ -2,12 +2,12 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| Czechia vs Mexico | group | 16% / 23% / 61% | 0-1 |
-| South Africa vs Korea Republic | group | 20% / 27% / 53% | 0-1 |
-| Curaçao vs Côte d'Ivoire | group | 7% / 18% / 75% | 0-2 |
-| Ecuador vs Germany | group | 29% / 34% / 37% | 0-0 |
-| Japan vs Sweden | group | 61% / 22% / 17% | 1-1 |
-| Tunisia vs Netherlands | group | 10% / 19% / 71% | 0-2 |
+| Czechia vs Mexico | group | 15% / 24% / 62% | 0-1 |
+| South Africa vs Korea Republic | group | 20% / 29% / 51% | 0-1 |
+| Curaçao vs Côte d'Ivoire | group | 8% / 21% / 71% | 0-1 |
+| Ecuador vs Germany | group | 26% / 36% / 38% | 0-0 |
+| Japan vs Sweden | group | 69% / 18% / 13% | 2-0 |
+| Tunisia vs Netherlands | group | 7% / 15% / 77% | 0-2 |
 
 ---
 *Informational model output — not betting advice.*

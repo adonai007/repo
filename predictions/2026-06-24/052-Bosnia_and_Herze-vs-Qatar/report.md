@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Bosnia and Herzegovina**: 1.46
-- **Qatar**: 0.98
-- **Total**: 2.44  ·  rho = -0.0619
+- **Bosnia and Herzegovina**: 1.70
+- **Qatar**: 1.00
+- **Total**: 2.70  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Bosnia and Herzegovina win | **47.4%** |
-| Draw | **28.0%** |
-| Qatar win | **24.6%** |
+| Bosnia and Herzegovina win | **52.9%** |
+| Draw | **25.6%** |
+| Qatar win | **21.5%** |
 
-*Monte Carlo (2,000 sims):* 46.5% / 28.3% / 25.1% · avg goals 2.46
+*Monte Carlo (50,000 sims):* 53.2% / 25.4% / 21.5% · avg goals 2.70
 
 ## Most likely scorelines
 
-- 1-1: 13.2%
-- 1-0: 11.9%
-- 0-0: 9.5%
-- 2-0: 9.3%
-- 2-1: 9.1%
-- 0-1: 7.8%
+- 1-1: 12.2%
+- 1-0: 10.7%
+- 2-1: 9.7%
+- 2-0: 9.7%
+- 0-0: 7.5%
+- 0-1: 6.0%
 
 ## Derived markets
 
-- Both teams to score: 48.8%
-- Over 2.5 goals: 44.1%  ·  Under 2.5: 55.9%
-- Double chance 1X: 75.4%  ·  X2: 52.6%
+- Both teams to score: 52.4%
+- Over 2.5 goals: 50.6%  ·  Under 2.5: 49.4%
+- Double chance 1X: 78.5%  ·  X2: 47.1%
 
 ## Scoreline heatmap
 

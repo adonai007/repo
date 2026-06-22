@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Jordan**: 0.46
-- **Argentina**: 2.41
-- **Total**: 2.87  ·  rho = -0.0619
+- **Jordan**: 0.42
+- **Argentina**: 2.67
+- **Total**: 3.09  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Jordan win | **5.0%** |
-| Draw | **14.7%** |
-| Argentina win | **80.3%** |
+| Jordan win | **3.5%** |
+| Draw | **11.9%** |
+| Argentina win | **84.6%** |
 
-*Monte Carlo (2,000 sims):* 5.9% / 13.4% / 80.7% · avg goals 2.85
+*Monte Carlo (50,000 sims):* 3.5% / 12.0% / 84.5% · avg goals 3.09
 
 ## Most likely scorelines
 
-- 0-2: 16.4%
-- 0-1: 13.3%
-- 0-3: 13.2%
-- 0-4: 7.9%
-- 1-2: 7.6%
-- 1-1: 6.7%
+- 0-2: 16.3%
+- 0-3: 14.5%
+- 0-1: 11.8%
+- 0-4: 9.7%
+- 1-2: 6.8%
+- 1-3: 6.0%
 
 ## Derived markets
 
-- Both teams to score: 34.1%
-- Over 2.5 goals: 54.7%  ·  Under 2.5: 45.3%
-- Double chance 1X: 19.7%  ·  X2: 95.0%
+- Both teams to score: 32.1%
+- Over 2.5 goals: 59.7%  ·  Under 2.5: 40.3%
+- Double chance 1X: 15.4%  ·  X2: 96.5%
 
 ## Scoreline heatmap
 

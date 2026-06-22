@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Paraguay**: 0.75
-- **Australia**: 1.10
-- **Total**: 1.85  ·  rho = -0.0619
+- **Paraguay**: 0.80
+- **Australia**: 0.96
+- **Total**: 1.76  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Paraguay win | **23.9%** |
-| Draw | **33.2%** |
-| Australia win | **42.9%** |
+| Paraguay win | **28.0%** |
+| Draw | **35.0%** |
+| Australia win | **37.0%** |
 
-*Monte Carlo (2,000 sims):* 24.1% / 32.5% / 43.4% · avg goals 1.88
+*Monte Carlo (50,000 sims):* 27.8% / 35.2% / 37.0% · avg goals 1.76
 
 ## Most likely scorelines
 
-- 0-0: 16.5%
-- 0-1: 16.5%
-- 1-1: 13.8%
-- 1-0: 11.0%
-- 0-2: 9.5%
-- 1-2: 7.1%
+- 0-0: 18.2%
+- 0-1: 15.7%
+- 1-1: 14.1%
+- 1-0: 12.9%
+- 0-2: 8.0%
+- 1-2: 6.3%
 
 ## Derived markets
 
-- Both teams to score: 36.0%
-- Over 2.5 goals: 28.3%  ·  Under 2.5: 71.7%
-- Double chance 1X: 57.1%  ·  X2: 76.1%
+- Both teams to score: 34.7%
+- Over 2.5 goals: 25.7%  ·  Under 2.5: 74.3%
+- Double chance 1X: 63.0%  ·  X2: 72.0%
 
 ## Scoreline heatmap
 

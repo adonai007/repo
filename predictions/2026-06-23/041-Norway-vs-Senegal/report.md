@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Norway**: 1.48
-- **Senegal**: 1.10
-- **Total**: 2.58  ·  rho = -0.0619
+- **Norway**: 1.71
+- **Senegal**: 1.12
+- **Total**: 2.83  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Norway win | **45.3%** |
-| Draw | **27.5%** |
-| Senegal win | **27.3%** |
+| Norway win | **50.3%** |
+| Draw | **25.4%** |
+| Senegal win | **24.3%** |
 
-*Monte Carlo (2,000 sims):* 44.0% / 27.2% / 28.9% · avg goals 2.62
+*Monte Carlo (50,000 sims):* 50.7% / 25.1% / 24.2% · avg goals 2.83
 
 ## Most likely scorelines
 
-- 1-1: 13.1%
-- 1-0: 10.5%
-- 2-1: 9.1%
-- 0-0: 8.4%
-- 2-0: 8.3%
-- 0-1: 7.6%
+- 1-1: 12.1%
+- 2-1: 9.7%
+- 1-0: 9.3%
+- 2-0: 8.6%
+- 0-0: 6.6%
+- 1-2: 6.4%
 
 ## Derived markets
 
-- Both teams to score: 52.2%
-- Over 2.5 goals: 47.6%  ·  Under 2.5: 52.4%
-- Double chance 1X: 72.7%  ·  X2: 54.7%
+- Both teams to score: 56.0%
+- Over 2.5 goals: 53.8%  ·  Under 2.5: 46.2%
+- Double chance 1X: 75.7%  ·  X2: 49.7%
 
 ## Scoreline heatmap
 

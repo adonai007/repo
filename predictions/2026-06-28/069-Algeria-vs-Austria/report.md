@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Algeria**: 1.06
-- **Austria**: 1.06
-- **Total**: 2.11  ·  rho = -0.0619
+- **Algeria**: 1.04
+- **Austria**: 1.20
+- **Total**: 2.25  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Algeria win | **34.2%** |
-| Draw | **31.5%** |
-| Austria win | **34.3%** |
+| Algeria win | **30.8%** |
+| Draw | **30.4%** |
+| Austria win | **38.8%** |
 
-*Monte Carlo (2,000 sims):* 35.5% / 30.3% / 34.2% · avg goals 2.11
+*Monte Carlo (50,000 sims):* 30.9% / 30.2% / 38.8% · avg goals 2.25
 
 ## Most likely scorelines
 
-- 1-1: 14.3%
-- 0-0: 12.9%
-- 0-1: 11.9%
-- 1-0: 11.9%
-- 1-2: 7.1%
-- 2-1: 7.1%
+- 1-1: 14.2%
+- 0-1: 11.8%
+- 0-0: 11.5%
+- 1-0: 10.1%
+- 1-2: 8.0%
+- 0-2: 7.7%
 
 ## Derived markets
 
-- Both teams to score: 43.4%
-- Over 2.5 goals: 35.4%  ·  Under 2.5: 64.6%
-- Double chance 1X: 65.7%  ·  X2: 65.8%
+- Both teams to score: 46.2%
+- Over 2.5 goals: 39.0%  ·  Under 2.5: 61.0%
+- Double chance 1X: 61.2%  ·  X2: 69.2%
 
 ## Scoreline heatmap
 

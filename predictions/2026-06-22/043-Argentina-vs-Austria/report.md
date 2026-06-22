@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Argentina**: 1.37
-- **Austria**: 0.53
-- **Total**: 1.90  ·  rho = -0.0619
+- **Argentina**: 1.45
+- **Austria**: 0.50
+- **Total**: 1.95  ·  rho = -0.0673
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Argentina win | **56.9%** |
-| Draw | **29.4%** |
-| Austria win | **13.7%** |
+| Argentina win | **60.0%** |
+| Draw | **28.0%** |
+| Austria win | **12.1%** |
 
-*Monte Carlo (2,000 sims):* 56.1% / 30.1% / 13.7% · avg goals 1.92
+*Monte Carlo (50,000 sims):* 60.2% / 27.8% / 12.0% · avg goals 1.95
 
 ## Most likely scorelines
 
-- 1-0: 19.9%
-- 0-0: 15.7%
-- 2-0: 14.0%
-- 1-1: 11.5%
-- 2-1: 7.4%
-- 0-1: 7.3%
+- 1-0: 19.8%
+- 2-0: 14.9%
+- 0-0: 14.9%
+- 1-1: 11.1%
+- 2-1: 7.5%
+- 3-0: 7.2%
 
 ## Derived markets
 
-- Both teams to score: 31.3%
-- Over 2.5 goals: 29.5%  ·  Under 2.5: 70.5%
-- Double chance 1X: 86.3%  ·  X2: 43.1%
+- Both teams to score: 31.0%
+- Over 2.5 goals: 31.1%  ·  Under 2.5: 68.9%
+- Double chance 1X: 87.9%  ·  X2: 40.0%
 
 ## Scoreline heatmap
 

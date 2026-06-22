@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Boston Stadium"
   },
-  "base_rate": 1.0724,
+  "base_rate": 1.0762,
   "strength": {
     "home": {
-      "atk": 3.1415,
-      "def": 0.4471
+      "atk": 3.2843,
+      "def": 0.4565
     },
     "away": {
-      "atk": 2.9712,
-      "def": 0.3876
+      "atk": 3.0994,
+      "def": 0.3857
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.1415,
-      "def": 0.4471
+      "atk": 3.2843,
+      "def": 0.4565
     },
     "away": {
-      "atk": 2.9712,
-      "def": 0.3876
+      "atk": 3.0994,
+      "def": 0.3857
     }
   },
-  "rho": -0.0619,
+  "rho": -0.0673,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
   "n_prior_matches": {
-    "home": 79,
+    "home": 80,
     "away": 102
   },
-  "generated_at": "2026-06-16T17:57:31+00:00"
+  "generated_at": "2026-06-22T15:10:03+00:00"
 }
