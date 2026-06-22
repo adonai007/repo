@@ -16,7 +16,7 @@
 | Draw | **25.6%** |
 | Qatar win | **21.5%** |
 
-*Monte Carlo (50,000 sims):* 53.2% / 25.4% / 21.5% · avg goals 2.70
+*Monte Carlo (50,000 sims):* 53.2% / 25.4% / 21.4% · avg goals 2.70
 
 ## Most likely scorelines
 

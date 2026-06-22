@@ -8,25 +8,25 @@
     "stage": "group",
     "venue": "Seattle Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0763,
   "strength": {
     "home": {
-      "atk": 1.4387,
-      "def": 0.7232
+      "atk": 1.4389,
+      "def": 0.7231
     },
     "away": {
-      "atk": 1.2876,
-      "def": 1.0949
+      "atk": 1.2873,
+      "def": 1.0951
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.4387,
-      "def": 0.7232
+      "atk": 1.4389,
+      "def": 0.7231
     },
     "away": {
-      "atk": 1.2876,
-      "def": 1.0949
+      "atk": 1.2873,
+      "def": 1.0951
     }
   },
   "rho": -0.0673,
@@ -48,5 +48,5 @@
     "home": 80,
     "away": 122
   },
-  "generated_at": "2026-06-22T22:12:37+00:00"
+  "generated_at": "2026-06-22T23:01:22+00:00"
 }

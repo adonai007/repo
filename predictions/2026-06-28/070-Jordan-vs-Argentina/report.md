@@ -16,7 +16,7 @@
 | Draw | **11.9%** |
 | Argentina win | **84.6%** |
 
-*Monte Carlo (50,000 sims):* 3.5% / 12.0% / 84.6% · avg goals 3.09
+*Monte Carlo (50,000 sims):* 3.5% / 12.0% / 84.5% · avg goals 3.09
 
 ## Most likely scorelines
 

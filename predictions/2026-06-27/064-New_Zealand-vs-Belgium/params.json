@@ -8,24 +8,24 @@
     "stage": "group",
     "venue": "BC Place Vancouver"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0763,
   "strength": {
     "home": {
-      "atk": 1.5029,
-      "def": 0.7773
+      "atk": 1.5028,
+      "def": 0.7774
     },
     "away": {
-      "atk": 2.6065,
+      "atk": 2.6067,
       "def": 0.4293
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.5029,
-      "def": 0.7773
+      "atk": 1.5028,
+      "def": 0.7774
     },
     "away": {
-      "atk": 2.6065,
+      "atk": 2.6067,
       "def": 0.4293
     }
   },
@@ -48,5 +48,5 @@
     "home": 51,
     "away": 99
   },
-  "generated_at": "2026-06-22T22:12:40+00:00"
+  "generated_at": "2026-06-22T23:01:25+00:00"
 }

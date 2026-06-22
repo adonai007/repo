@@ -16,7 +16,7 @@
 | Draw | **19.8%** |
 | Ghana win | **7.4%** |
 
-*Monte Carlo (50,000 sims):* 73.0% / 19.6% / 7.4% · avg goals 2.48
+*Monte Carlo (50,000 sims):* 73.0% / 19.5% / 7.4% · avg goals 2.48
 
 ## Most likely scorelines
 

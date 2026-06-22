@@ -8,25 +8,25 @@
     "stage": "group",
     "venue": "New York/New Jersey Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0763,
   "strength": {
     "home": {
-      "atk": 1.4676,
-      "def": 0.2445
+      "atk": 1.4673,
+      "def": 0.2444
     },
     "away": {
-      "atk": 3.6386,
-      "def": 0.4677
+      "atk": 3.6383,
+      "def": 0.4676
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.4676,
-      "def": 0.2445
+      "atk": 1.4673,
+      "def": 0.2444
     },
     "away": {
-      "atk": 3.6386,
-      "def": 0.4677
+      "atk": 3.6383,
+      "def": 0.4676
     }
   },
   "rho": -0.0673,
@@ -48,5 +48,5 @@
     "home": 94,
     "away": 96
   },
-  "generated_at": "2026-06-22T22:12:38+00:00"
+  "generated_at": "2026-06-22T23:01:23+00:00"
 }

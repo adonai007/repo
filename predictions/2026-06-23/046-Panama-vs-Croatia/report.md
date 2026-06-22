@@ -12,8 +12,8 @@
 
 | Outcome | Model |
 |---|---|
-| Panama win | **15.1%** |
-| Draw | **22.0%** |
+| Panama win | **15.0%** |
+| Draw | **21.9%** |
 | Croatia win | **63.0%** |
 
 *Monte Carlo (50,000 sims):* 15.3% / 21.9% / 62.8% · avg goals 2.90
@@ -21,7 +21,7 @@
 ## Most likely scorelines
 
 - 0-2: 11.1%
-- 1-1: 10.5%
+- 1-1: 10.4%
 - 0-1: 10.4%
 - 1-2: 9.9%
 - 0-3: 7.5%
@@ -31,7 +31,7 @@
 
 - Both teams to score: 51.7%
 - Over 2.5 goals: 55.6%  ·  Under 2.5: 44.4%
-- Double chance 1X: 37.0%  ·  X2: 84.9%
+- Double chance 1X: 37.0%  ·  X2: 85.0%
 
 ## Scoreline heatmap
 
