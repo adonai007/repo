@@ -1,6 +1,7 @@
 """World Cup daily pipeline: fixture -> research -> predict -> persist."""
 
 from .pipeline import run_day, run_match
+from .refresh import refresh_predictions
 from .results_store import (
     match_slug,
     save_match_artifacts,
@@ -12,6 +13,7 @@ from .results_store import (
 __all__ = [
     "run_day",
     "run_match",
+    "refresh_predictions",
     "match_slug",
     "save_match_artifacts",
     "upsert_ledger",

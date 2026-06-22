@@ -124,6 +124,39 @@ def worldcup(
 
 
 @app.command()
+def refresh(
+    from_date: str = typer.Option("today", "--from-date", help="Predict known unplayed matches from this UTC date onward."),
+    research: bool = typer.Option(False, "--research/--no-research",
+                                  help="Run deep research via claude -p (default: prior baseline)."),
+    fit_prior_: bool = typer.Option(True, "--fit-prior/--no-fit-prior",
+                                    help="Refit the statistical prior before predicting."),
+    asof: str = typer.Option("today", "--asof", help="Prior fit cutoff date YYYY-MM-DD or 'today'."),
+    sims: int = typer.Option(50_000, "--sims", help="Monte Carlo sims per match (0 to skip)."),
+    tournament_sims: int = typer.Option(20_000, "--tournament-sims", help="Whole-tournament sims (0 to skip)."),
+    include_started: bool = typer.Option(False, "--include-started",
+                                         help="Allow predictions after kickoff if a result is not yet loaded."),
+    skip_existing: bool = typer.Option(False, "--skip-existing",
+                                       help="Reuse cached research artifacts instead of regenerating them."),
+):
+    """Refresh fixture/results, predictions, reports, tournament odds and run log."""
+    from .research.engine import ClaudeCliRunner
+    from .worldcup.refresh import refresh_predictions
+
+    runner = ClaudeCliRunner() if research else None
+    summary = refresh_predictions(
+        from_day=from_date,
+        refit_prior=fit_prior_,
+        asof=asof,
+        runner=runner,
+        refresh_existing=not skip_existing,
+        include_started=include_started,
+        n_sims=sims,
+        tournament_sims=tournament_sims,
+    )
+    typer.echo(json.dumps(summary, ensure_ascii=False, indent=2, default=str))
+
+
+@app.command()
 def research(
     home: str = typer.Option(..., "--home"),
     away: str = typer.Option(..., "--away"),

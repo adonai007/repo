@@ -34,6 +34,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PRED = ROOT / "predictions"
 LEDGER_PATH = PRED / "ledger.parquet"
 BACKTEST_PATH = PRED / "backtest_report.json"
+PIPELINE_RUN_PATH = ROOT / "pipeline_runs" / "latest.json"
 
 # Bolivia has no DST and sits at UTC-4 year-round.
 BOLIVIA_TZ = timezone(timedelta(hours=-4))
@@ -88,6 +89,11 @@ def _read_text(path: Path) -> str:
         return ""
 
 
+@st.cache_data(ttl=30)
+def _latest_run() -> dict:
+    return _read_json(PIPELINE_RUN_PATH)
+
+
 def _slugfrag(name: str) -> str:
     import re
     return re.sub(r"[^A-Za-z0-9]+", "_", str(name))[:6]
@@ -113,6 +119,23 @@ def _parse_dt(value) -> datetime | None:
         return None
 
 
+def _pipeline_run_caption(run: dict) -> str:
+    if not run:
+        return "Pipeline: _sin registro_"
+    status = str(run.get("status") or "?").upper()
+    finished = _parse_dt(run.get("finished_at"))
+    finished_label = finished.strftime("%Y-%m-%d %H:%M UTC") if finished else "sin hora"
+    predictions = run.get("predictions") or {}
+    fixture = run.get("fixture") or {}
+    selected = fixture.get("selected_for_prediction", "?")
+    predicted = predictions.get("predicted", "?")
+    errors = len(predictions.get("errors") or [])
+    return (
+        f"Pipeline: **{status}** | {finished_label} | "
+        f"predicho {predicted}/{selected} | errores {errors}"
+    )
+
+
 def _fmt_hm(total_minutes: float) -> str:
     total = int(abs(total_minutes))
     return f"{total // 60}h{total % 60:02d}m"
@@ -134,7 +157,8 @@ def _kickoff_lookup(fix: pd.DataFrame) -> dict[int, datetime]:
 # --- freshness bar ------------------------------------------------------------
 def freshness_bar() -> None:
     now_utc = datetime.now(timezone.utc)
-    c1, c2, c3 = st.columns([2, 2, 1])
+    latest_run = _latest_run()
+    c1, c2, c3, c4 = st.columns([2, 2, 3, 1])
     c1.caption(f"🕒 Ahora (UTC): **{now_utc:%Y-%m-%d %H:%M:%S}**")
     if LEDGER_PATH.exists():
         mtime = datetime.fromtimestamp(LEDGER_PATH.stat().st_mtime, tz=timezone.utc)
@@ -143,7 +167,8 @@ def freshness_bar() -> None:
                    f"(hace {age_min:.0f} min)")
     else:
         c2.caption("📒 ledger.parquet: _no encontrado_")
-    if c3.button("🔄 Actualizar"):
+    c3.caption(_pipeline_run_caption(latest_run))
+    if c4.button("🔄 Actualizar"):
         st.cache_data.clear()
         st.rerun()
 
