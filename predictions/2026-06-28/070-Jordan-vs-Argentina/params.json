@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Jordan",
+    "away": "Argentina",
+    "date": "2026-06-28",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Dallas Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 1.9089,
+      "def": 0.7581
+    },
+    "away": {
+      "atk": 2.9621,
+      "def": 0.2258
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 1.9089,
+      "def": 0.7581
+    },
+    "away": {
+      "atk": 2.9621,
+      "def": 0.2258
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 109,
+    "away": 99
+  },
+  "generated_at": "2026-06-16T17:57:35+00:00"
+}

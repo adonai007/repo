@@ -5,33 +5,33 @@
 ## Expected goals (model)
 
 - **Germany**: 1.55
-- **Côte d'Ivoire**: 0.84
-- **Total**: 2.39  ·  rho = -0.0672
+- **Côte d'Ivoire**: 0.85
+- **Total**: 2.40  ·  rho = -0.0619
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
 | Germany win | **53.1%** |
-| Draw | **27.2%** |
-| Côte d'Ivoire win | **19.6%** |
+| Draw | **27.0%** |
+| Côte d'Ivoire win | **19.8%** |
 
-*Monte Carlo (50,000 sims):* 53.2% / 26.9% / 20.0% · avg goals 2.40
+*Monte Carlo (2,000 sims):* 51.5% / 27.3% / 21.2% · avg goals 2.44
 
 ## Most likely scorelines
 
-- 1-0: 13.4%
+- 1-0: 13.3%
 - 1-1: 12.7%
-- 2-0: 11.0%
-- 0-0: 10.0%
-- 2-1: 9.2%
-- 0-1: 6.9%
+- 2-0: 10.9%
+- 0-0: 9.8%
+- 2-1: 9.3%
+- 0-1: 7.0%
 
 ## Derived markets
 
-- Both teams to score: 45.6%
-- Over 2.5 goals: 42.8%  ·  Under 2.5: 57.2%
-- Double chance 1X: 80.4%  ·  X2: 46.9%
+- Both teams to score: 45.9%
+- Over 2.5 goals: 43.1%  ·  Under 2.5: 56.9%
+- Double chance 1X: 80.2%  ·  X2: 46.9%
 
 ## Scoreline heatmap
 

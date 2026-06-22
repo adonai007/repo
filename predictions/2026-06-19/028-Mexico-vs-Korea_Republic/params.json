@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Mexico",
+    "away": "Korea Republic",
+    "date": "2026-06-19",
+    "neutral": false,
+    "stage": "group",
+    "venue": "Guadalajara Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 2.0336,
+      "def": 0.3955
+    },
+    "away": {
+      "atk": 2.0866,
+      "def": 0.5525
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 2.0336,
+      "def": 0.3955
+    },
+    "away": {
+      "atk": 2.0866,
+      "def": 0.5525
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.2509,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 133,
+    "away": 102
+  },
+  "generated_at": "2026-06-16T17:57:17+00:00"
+}

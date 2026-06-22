@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **USA**: 1.15
+- **USA**: 1.16
 - **Australia**: 1.45
-- **Total**: 2.59  ·  rho = -0.067
+- **Total**: 2.61  ·  rho = -0.0619
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| USA win | **29.1%** |
-| Draw | **27.7%** |
-| Australia win | **43.2%** |
+| USA win | **29.5%** |
+| Draw | **27.5%** |
+| Australia win | **43.0%** |
 
-*Monte Carlo (50,000 sims):* 29.1% / 27.7% / 43.2% · avg goals 2.60
+*Monte Carlo (2,000 sims):* 28.9% / 28.0% / 43.1% · avg goals 2.63
 
 ## Most likely scorelines
 
-- 1-1: 13.2%
-- 0-1: 10.0%
+- 1-1: 13.1%
+- 0-1: 9.9%
 - 1-2: 9.0%
-- 0-0: 8.3%
-- 0-2: 7.8%
-- 1-0: 7.7%
+- 0-0: 8.1%
+- 1-0: 7.8%
+- 0-2: 7.7%
 
 ## Derived markets
 
-- Both teams to score: 53.0%
-- Over 2.5 goals: 48.0%  ·  Under 2.5: 52.0%
-- Double chance 1X: 56.8%  ·  X2: 70.9%
+- Both teams to score: 53.4%
+- Over 2.5 goals: 48.5%  ·  Under 2.5: 51.5%
+- Double chance 1X: 57.0%  ·  X2: 70.5%
 
 ## Scoreline heatmap
 

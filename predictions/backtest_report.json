@@ -1,0 +1,359 @@
+{
+  "generated_at": "2026-06-16T21:11:09.436474+00:00",
+  "n_graded": 7,
+  "metrics": {
+    "model": {
+      "n": 7,
+      "accuracy": 0.2857142857142857,
+      "rps": 0.2007102186811919,
+      "log_loss": 1.2179060762305547,
+      "brier": 0.7627496531952801,
+      "beats_uniform_rps": false,
+      "beats_baserate_rps": false
+    },
+    "uniform": {
+      "n": 7,
+      "accuracy": 0.42857142857142855,
+      "rps": 0.18253968253968259,
+      "log_loss": 1.0986122886681098,
+      "brier": 0.6666666666666669
+    },
+    "baserate": {
+      "n": 7,
+      "accuracy": 0.42857142857142855,
+      "rps": 0.16187857142857145,
+      "log_loss": 1.0904080526554807,
+      "brier": 0.6595142857142857,
+      "assumption": {
+        "home": 0.45,
+        "draw": 0.27,
+        "away": 0.28
+      }
+    }
+  },
+  "expected_vs_observed": {
+    "n": 7,
+    "home": {
+      "expected": 3.3835343536488796,
+      "observed": 3,
+      "gap": -0.38353435364887956
+    },
+    "draw": {
+      "expected": 1.7782963297455558,
+      "observed": 4,
+      "gap": 2.221703670254444
+    },
+    "away": {
+      "expected": 1.8381693166055644,
+      "observed": 0,
+      "gap": -1.8381693166055644
+    }
+  },
+  "calibration": [
+    {
+      "bin": 0.1,
+      "predicted": 0.10444764926620086,
+      "empirical": 0.2857142857142857,
+      "n": 7
+    },
+    {
+      "bin": 0.30000000000000004,
+      "predicted": 0.3039084570863874,
+      "empirical": 0.42857142857142855,
+      "n": 7
+    },
+    {
+      "bin": 0.5,
+      "predicted": 0.47346394040851847,
+      "empirical": 0.2,
+      "n": 5
+    },
+    {
+      "bin": 0.9,
+      "predicted": 0.887093776744645,
+      "empirical": 0.5,
+      "n": 2
+    }
+  ],
+  "per_match": [
+    {
+      "match_number": 9,
+      "date": "2026-06-14",
+      "stage": "group",
+      "group": "Group E",
+      "home": "Côte d'Ivoire",
+      "away": "Ecuador",
+      "p_home": 0.17545474439495046,
+      "p_draw": 0.41257274469811306,
+      "p_away": 0.41197251090693654,
+      "pick": "draw",
+      "pick_prob": 0.41257274469811306,
+      "actual_score": "1-0",
+      "actual_result": "home",
+      "hit": false,
+      "rps": 0.42479811414188123,
+      "engine": "prior-baseline"
+    },
+    {
+      "match_number": 10,
+      "date": "2026-06-14",
+      "stage": "group",
+      "group": "Group E",
+      "home": "Germany",
+      "away": "Curaçao",
+      "p_home": 0.8932614073056377,
+      "p_draw": 0.07930377263590574,
+      "p_away": 0.027434820058456717,
+      "pick": "home",
+      "pick_prob": 0.8932614073056377,
+      "actual_score": "7-1",
+      "actual_result": "home",
+      "hit": true,
+      "rps": 0.006072898261006427,
+      "engine": "prior-baseline"
+    },
+    {
+      "match_number": 11,
+      "date": "2026-06-14",
+      "stage": "group",
+      "group": "Group F",
+      "home": "Netherlands",
+      "away": "Japan",
+      "p_home": 0.3049674331305925,
+      "p_draw": 0.2972920730440453,
+      "p_away": 0.39774049382536225,
+      "pick": "away",
+      "pick_prob": 0.39774049382536225,
+      "actual_score": "2-2",
+      "actual_result": "draw",
+      "hit": false,
+      "rps": 0.12560131784935266,
+      "engine": "prior-baseline"
+    },
+    {
+      "match_number": 13,
+      "date": "2026-06-15",
+      "stage": "group",
+      "group": "Group H",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "p_home": 0.13251265524604275,
+      "p_draw": 0.3211248657044191,
+      "p_away": 0.5463624790495383,
+      "pick": "away",
+      "pick_prob": 0.5463624790495383,
+      "actual_score": "1-1",
+      "actual_result": "draw",
+      "hit": false,
+      "rps": 0.15803578115675682,
+      "engine": "prior-baseline"
+    },
+    {
+      "match_number": 14,
+      "date": "2026-06-15",
+      "stage": "group",
+      "group": "Group H",
+      "home": "Spain",
+      "away": "Cabo Verde",
+      "p_home": 0.8809261461836522,
+      "p_draw": 0.09044020036346122,
+      "p_away": 0.02863365345288653,
+      "pick": "home",
+      "pick_prob": 0.8809261461836522,
+      "actual_score": "0-0",
+      "actual_result": "draw",
+      "hit": false,
+      "rps": 0.3884253805700207,
+      "engine": "prior-baseline"
+    },
+    {
+      "match_number": 16,
+      "date": "2026-06-15",
+      "stage": "group",
+      "group": "Group G",
+      "home": "Belgium",
+      "away": "Egypt",
+      "p_home": 0.5045805633445687,
+      "p_draw": 0.2980657379437285,
+      "p_away": 0.19735369871170264,
+      "pick": "home",
+      "pick_prob": 0.5045805633445687,
+      "actual_score": "1-1",
+      "actual_result": "draw",
+      "hit": false,
+      "rps": 0.1467750136501559,
+      "engine": "prior-baseline"
+    },
+    {
+      "match_number": 17,
+      "date": "2026-06-16",
+      "stage": "group",
+      "group": "Group I",
+      "home": "France",
+      "away": "Senegal",
+      "p_home": 0.49183140404343567,
+      "p_draw": 0.27949693535588294,
+      "p_away": 0.22867166060068136,
+      "pick": "home",
+      "pick_prob": 0.49183140404343567,
+      "actual_score": "3-1",
+      "actual_result": "home",
+      "hit": true,
+      "rps": 0.15526302513916954,
+      "engine": "claude-code-cli/deep-research"
+    }
+  ],
+  "diagnostics": {
+    "draw_bias": {
+      "mean_predicted_draw_prob": 0.2540423328207937,
+      "empirical_draw_frequency": 0.5714285714285714,
+      "gap_pred_minus_emp": -0.3173862386077777,
+      "note": "Negative gap => model under-predicts draws (here the sample is draw-heavy)."
+    },
+    "favorite_hit_rate": {
+      "threshold": 0.5,
+      "n_favorites": 4,
+      "hits": 1,
+      "hit_rate": 0.25
+    },
+    "confidence": {
+      "mean_predicted_prob_pooled": 0.33333333333333337,
+      "mean_empirical_pooled": 0.3333333333333333,
+      "high_conf_predicted_mean": 0.7062826489708492,
+      "high_conf_empirical_mean": 0.25,
+      "note": "On >=0.5 predictions, predicted_mean > empirical_mean => over-confident."
+    },
+    "biggest_misses": [
+      {
+        "match_number": 9,
+        "home": "Côte d'Ivoire",
+        "away": "Ecuador",
+        "date": "2026-06-14",
+        "pick": "draw",
+        "pick_prob": 0.41257274469811306,
+        "actual_result": "home",
+        "actual_score": "1-0",
+        "rps": 0.42479811414188123
+      },
+      {
+        "match_number": 14,
+        "home": "Spain",
+        "away": "Cabo Verde",
+        "date": "2026-06-15",
+        "pick": "home",
+        "pick_prob": 0.8809261461836522,
+        "actual_result": "draw",
+        "actual_score": "0-0",
+        "rps": 0.3884253805700207
+      },
+      {
+        "match_number": 13,
+        "home": "Saudi Arabia",
+        "away": "Uruguay",
+        "date": "2026-06-15",
+        "pick": "away",
+        "pick_prob": 0.5463624790495383,
+        "actual_result": "draw",
+        "actual_score": "1-1",
+        "rps": 0.15803578115675682
+      },
+      {
+        "match_number": 17,
+        "home": "France",
+        "away": "Senegal",
+        "date": "2026-06-16",
+        "pick": "home",
+        "pick_prob": 0.49183140404343567,
+        "actual_result": "home",
+        "actual_score": "3-1",
+        "rps": 0.15526302513916954
+      },
+      {
+        "match_number": 16,
+        "home": "Belgium",
+        "away": "Egypt",
+        "date": "2026-06-15",
+        "pick": "home",
+        "pick_prob": 0.5045805633445687,
+        "actual_result": "draw",
+        "actual_score": "1-1",
+        "rps": 0.1467750136501559
+      }
+    ],
+    "by_pick": {
+      "home": {
+        "n": 4,
+        "hit_rate": 0.5,
+        "mean_rps": 0.17413407940508815
+      },
+      "draw": {
+        "n": 1,
+        "hit_rate": 0.0,
+        "mean_rps": 0.42479811414188123
+      },
+      "away": {
+        "n": 2,
+        "hit_rate": 0.0,
+        "mean_rps": 0.14181854950305472
+      }
+    },
+    "by_engine": {
+      "claude-code-cli/deep-research": {
+        "n": 1,
+        "rps": 0.15526302513916954,
+        "accuracy": 1.0,
+        "log_loss": 0.7096192959246873
+      },
+      "prior-baseline": {
+        "n": 6,
+        "rps": 0.20828475093819562,
+        "accuracy": 0.16666666666666666,
+        "log_loss": 1.3026205396148658
+      }
+    },
+    "market": {
+      "n_with_market": 1,
+      "available": true,
+      "model_rps": 0.15526302513916954,
+      "market_rps": 0.06935999239598446,
+      "model_beats_market": false
+    }
+  },
+  "historical_2022": {
+    "tournament": "FIFA World Cup 2022",
+    "n": 164,
+    "skipped": 0,
+    "model": {
+      "n": 164,
+      "accuracy": 0.5609756097560976,
+      "rps": 0.2060779122909143,
+      "log_loss": 0.9783768277350732,
+      "brier": 0.5738248490380662
+    },
+    "baseline_uniform": {
+      "n": 164,
+      "accuracy": 0.49390243902439024,
+      "rps": 0.24525745257452577,
+      "log_loss": 1.0986122886681096,
+      "brier": 0.6666666666666669
+    },
+    "baseline_baserate": {
+      "n": 164,
+      "accuracy": 0.49390243902439024,
+      "rps": 0.23211629982153478,
+      "log_loss": 1.0304942468059093,
+      "brier": 0.621281975014872
+    },
+    "beats_uniform": true,
+    "beats_baserate": true
+  },
+  "historical_2022_error": null,
+  "improvements": [
+    "SAMPLE SIZE (highest priority caveat): only 7 graded matches. Every metric below has very wide error bars; treat directional, not conclusive. Re-run after each matchday to accumulate a credible sample (target >=30).",
+    "The model does NOT beat the home/draw/away base-rate baseline on mean RPS in this tiny sample. This is mostly the draw-heavy sample (4/6 draws), but it is a flag to (a) get more graded games and (b) review draw calibration before trusting skill.",
+    "DRAW CALIBRATION (rho / Dixon-Coles tau): mean predicted draw prob (0.254) vs observed draw frequency (0.571). The two drawn 0-0/1-1/2-2 games drove most of the loss. Consider tuning the Dixon-Coles low-score correction (rho) upward so close, evenly-matched fixtures get more draw mass.",
+    "ENABLE DEEP RESEARCH: 6/7 graded predictions used the plain prior-baseline engine (no LLM research). Run the daily pipeline with --research (claude -p deep research) so lineups/injuries/form sharpen the lambda inputs, especially for mismatched group games.",
+    "MARKET BLEND: compare model vs de-margined market RPS and tune the blend weight toward whichever wins out-of-sample.",
+    "FAVOURITE / HOME-ADVANTAGE TUNING: on 4 high-confidence (>=0.5) picks the hit rate was 25%. Strong-favourite calls (Germany, Spain) behaved as expected; the misses were near-coinflips. Keep an eye on home_advantage on neutral WC venues (most 2026 games are neutral) so 'home' isn't over-credited."
+  ]
+}

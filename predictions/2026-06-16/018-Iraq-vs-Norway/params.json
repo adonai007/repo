@@ -31,23 +31,89 @@
   },
   "rho": -0.0619,
   "adjustments": {
-    "home_atk": 1.0,
-    "home_def": 1.0,
-    "away_atk": 1.0,
-    "away_def": 1.0
+    "home_atk": 0.95,
+    "home_def": 0.97,
+    "away_atk": 1.05,
+    "away_def": 0.95
   },
   "home_advantage": {
     "home": 1.0,
     "away": 1.0
   },
-  "confidence": "baseline",
-  "rationale": "Data-driven prior only (no deep research applied).",
-  "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
-  "n_prior_matches": {
-    "home": 105,
-    "away": 79
+  "market_odds": {
+    "home": 13.3,
+    "draw": 6.75,
+    "away": 1.21,
+    "source": "avg(bet365, Sports Interaction, FanDuel) via CBS Sports / FOX Sports",
+    "date": "2026-06-15"
   },
-  "research_note": "research failed, using prior baseline: Command '['claude', '-p', 'You are an elite football analyst calibrating a Dixon-Coles match model for the 2026 World Cup.\\n\\nMATCH: Iraq vs Norway on 2026-06-16 (stage: group, venue: Boston Stadium, neutral: True).\\n\\nDo a focused deep-research pass on this specific match, then output a calibrated params.json.\\n\\nResearch these inputs (ordered by predictive power for international football) and cite sources:\\n 1. World Football Elo rating of each side and the gap (strongest single predictor).\\n 2. Squad market value + average age (Transfermarkt) — PELE-style.\\n 3. Recent xG / xGA (FBref/Understat); if possible split set-piece vs open-play.\\n 4. Form over the last ~9 matches (results AND performance, recency-weighted).\\n 5. Probable XI + the starters\\' club xG/xA per 90.\\n 6. Goalkeeper quality (post-shot xG faced vs conceded, save%).\\n 7. Injuries/absences — weight by player importance x replacement quality x timing.\\n 8. Rest days / travel / congestion; venue (neutral vs host advantage).\\n 9. Set pieces & discipline (corners, penalties, cards).\\n10. Style/matchup notes (e.g. counter-attack vs high line, key duels).\\n11. Closing market odds (average of books) — strong benchmark.\\n12. Stage / motivation (group vs knockout).\\n\\nSTATISTICAL PRIOR (anchor — do NOT invent strengths from scratch):\\n  base_rate = 1.0724, rho = -0.0619\\n  Iraq (home): atk=1.2664, def=0.573\\n  Norway (away): atk=3.1415, def=0.4471\\n(atk: higher = stronger attack; def: LOWER = stronger defence. These already encode long-run strength.)\\n\\nRULES:\\n- You set PARAMETERS ONLY. Never compute or state win/draw probabilities — the engine does that.\\n- Anchor `strength` to the prior. Move a value at most ~40% from the prior, and ONLY with cited evidence\\n  (form, injuries, lineup, matchup). Keep `prior_strength` unchanged for traceability.\\n- Encode injuries/absences and form as `adjustments` multipliers (0.5..1.5) on atk/def, not by overwriting strength.\\n- If you find closing odds, fill `market_odds` with EXACTLY the keys `home`, `draw`, `away`\\n  (American or decimal numbers) plus `source` and `date`. Do not key odds by team name.\\n- Every non-obvious number must have a citation. Set `confidence` to alta/media/baja.\\n\\nOUTPUT FORMAT (exactly, in this order):\\n1. A markdown dossier: TL;DR, key findings per the checklist with inline source citations, and a short rationale.\\n2. Then a single fenced ```json code block containing the params.json with these keys:\\n   schema_version, match, base_rate, strength, prior_strength, rho, adjustments, home_advantage,\\n   market_odds (optional), scenarios (optional), evidence (optional), context (optional),\\n   confidence, citations (list of URLs), rationale.\\n\\nHere is the baseline params.json to refine (keep its structure):\\n```json\\n{\\n  \"schema_version\": \"1.0\",\\n  \"match\": {\\n    \"home\": \"Iraq\",\\n    \"away\": \"Norway\",\\n    \"date\": \"2026-06-16\",\\n    \"neutral\": true,\\n    \"stage\": \"group\",\\n    \"venue\": \"Boston Stadium\"\\n  },\\n  \"base_rate\": 1.0724,\\n  \"strength\": {\\n    \"home\": {\\n      \"atk\": 1.2664,\\n      \"def\": 0.573\\n    },\\n    \"away\": {\\n      \"atk\": 3.1415,\\n      \"def\": 0.4471\\n    }\\n  },\\n  \"prior_strength\": {\\n    \"home\": {\\n      \"atk\": 1.2664,\\n      \"def\": 0.573\\n    },\\n    \"away\": {\\n      \"atk\": 3.1415,\\n      \"def\": 0.4471\\n    }\\n  },\\n  \"rho\": -0.0619,\\n  \"adjustments\": {\\n    \"home_atk\": 1.0,\\n    \"home_def\": 1.0,\\n    \"away_atk\": 1.0,\\n    \"away_def\": 1.0\\n  },\\n  \"home_advantage\": {\\n    \"home\": 1.0,\\n    \"away\": 1.0\\n  },\\n  \"confidence\": \"baseline\",\\n  \"rationale\": \"Data-driven prior only (no deep research applied).\",\\n  \"research_engine\": \"prior-baseline\",\\n  \"prior_source\": \"dixon_coles_fit@martj42:2026-06-16\",\\n  \"n_prior_matches\": {\\n    \"home\": 105,\\n    \"away\": 79\\n  }\\n}\\n```\\n', '--allowedTools', 'WebSearch', 'WebFetch']' returned non-zero exit status 1.",
-  "generated_at": "2026-06-16T08:07:04+00:00"
+  "scenarios": [
+    {
+      "name": "iraq_low_block_holds",
+      "weight": 0.25,
+      "adjustments": {
+        "home_def": 0.9,
+        "away_atk": 0.95
+      },
+      "note": "Arnold's deep block frustrates Norway; low-scoring, Norway grind a 1-0/1-1."
+    },
+    {
+      "name": "haaland_runs_riot",
+      "weight": 0.3,
+      "adjustments": {
+        "away_atk": 1.15,
+        "home_def": 1.08
+      },
+      "note": "Norway attacking form + Haaland blow the game open early; 3+ goals."
+    }
+  ],
+  "evidence": {
+    "elo": {
+      "norway": 1922,
+      "norway_rank": 11,
+      "iraq_fifa_rank": 58,
+      "iraq_espn_strength_rank": 56,
+      "gap_estimate": 260,
+      "note": "Iraq Elo not published as exact figure; gap inferred from FIFA/ESPN combined rankings."
+    },
+    "market_value": {
+      "norway_top": "Haaland EUR180m, Odegaard EUR85m",
+      "iraq": "squad << Norway; no comparable individual values"
+    },
+    "form": {
+      "norway": "8/8 WCQ, 37 GF / 5 GA; 3-0 & 4-1 vs Italy",
+      "iraq": "3/5 recent, 6 GF / 5 GA; 0-2 vs Algeria, 0-1 vs Jordan in Arab Cup; beat Bolivia 2-1 in playoff"
+    },
+    "managers": {
+      "iraq": "Graham Arnold - defensive, 0.77 GA/game over 13 matches",
+      "norway": "Stale Solbakken"
+    },
+    "kalshi_probs": {
+      "iraq": 0.07,
+      "draw": 0.13,
+      "norway": 0.82
+    }
+  },
+  "context": {
+    "venue_note": "Boston Stadium (Foxborough); neutral for both sides, no host advantage.",
+    "stage_note": "Group I (with France, Senegal). Iraq's 1st WC since 1986; Norway's 1st since 1998.",
+    "matchup_note": "Norway elite attack vs Iraq organized deep block + counter. Total goals line 2.5."
+  },
+  "confidence": "alta",
+  "citations": [
+    "https://www.eloratings.net/2026_World_Cup",
+    "https://en.wikipedia.org/wiki/World_Football_Elo_Ratings",
+    "https://global.espn.com/football/story/_/id/47015152/2026-world-cup-squad-ranking-national-teams-win-updated-again",
+    "https://www.statista.com/statistics/876023/leading-norwegian-national-football-team-players-by-market-value/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-squad-announcement-stale-solbakken",
+    "https://www.uefa.com/european-qualifiers/news/02a6-20d1592b3f90-2ef16e2c5255-1000--norway-at-the-world-cup-2026-squad-fixtures-group-and-hi/",
+    "https://worldsoccertalk.com/world-cup/iraq-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/iraq-at-the-2026-fifa-world-cup-roster-key-players-and-everything-you-need-to-know-2026-06-01",
+    "https://www.cbssports.com/soccer/news/iraq-norway-odds-prediction-time-2026-world-cup-picks-best-bets/",
+    "https://www.foxsports.com/stories/soccer/2026-world-cup-norway-iraq-odds-prediction-picks",
+    "https://www.fotmob.com/teams/5819/overview/iraq"
+  ],
+  "rationale": "Norway heavy favorites by Elo (~260-pt gap), squad value (Haaland/Odegaard vs sub-EUR50m Iraq), form (8/8 WCQ, +32 GD) and market (~1.21 dec, ~82% Kalshi). Prior already encodes this, so strength kept = prior_strength; only small evidence-based adjustments applied: Norway atk +5% / def -5% (elite scoring + stingy form), Iraq atk -5% (blunt vs quality) offset by def -3% (Arnold's disciplined low block). Neutral venue -> no host edge. Lambdas ~ Norway 1.97 / Iraq 0.55, total ~2.5, consistent with all benchmarks.",
+  "research_engine": "claude-code-cli/deep-research",
+  "generated_at": "2026-06-16T17:53:50+00:00"
 }

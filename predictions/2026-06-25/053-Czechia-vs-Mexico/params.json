@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Czechia",
+    "away": "Mexico",
+    "date": "2026-06-25",
+    "neutral": false,
+    "stage": "group",
+    "venue": "Mexico City Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 1.9854,
+      "def": 0.6812
+    },
+    "away": {
+      "atk": 2.0336,
+      "def": 0.3955
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 1.9854,
+      "def": 0.6812
+    },
+    "away": {
+      "atk": 2.0336,
+      "def": 0.3955
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.2509
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 89,
+    "away": 133
+  },
+  "generated_at": "2026-06-16T17:57:28+00:00"
+}

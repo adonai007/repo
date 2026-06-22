@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Spain**: 2.30
-- **Saudi Arabia**: 0.47
-- **Total**: 2.77  ·  rho = -0.0645
+- **Spain**: 2.48
+- **Saudi Arabia**: 0.49
+- **Total**: 2.97  ·  rho = -0.0619
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Spain win | **78.3%** |
-| Draw | **16.1%** |
-| Saudi Arabia win | **5.6%** |
+| Spain win | **80.6%** |
+| Draw | **14.3%** |
+| Saudi Arabia win | **5.1%** |
 
-*Monte Carlo (50,000 sims):* 78.5% / 16.0% / 5.6% · avg goals 2.77
+*Monte Carlo (2,000 sims):* 82.2% / 13.8% / 4.0% · avg goals 2.99
 
 ## Most likely scorelines
 
-- 2-0: 16.5%
-- 1-0: 14.0%
-- 3-0: 12.6%
-- 2-1: 7.8%
-- 1-1: 7.3%
-- 4-0: 7.2%
+- 2-0: 15.8%
+- 3-0: 13.0%
+- 1-0: 12.3%
+- 4-0: 8.1%
+- 2-1: 7.7%
+- 1-1: 6.6%
 
 ## Derived markets
 
-- Both teams to score: 34.4%
-- Over 2.5 goals: 52.3%  ·  Under 2.5: 47.7%
-- Double chance 1X: 94.4%  ·  X2: 21.7%
+- Both teams to score: 35.9%
+- Over 2.5 goals: 57.0%  ·  Under 2.5: 43.0%
+- Double chance 1X: 94.9%  ·  X2: 19.4%
 
 ## Scoreline heatmap
 

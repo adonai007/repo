@@ -90,7 +90,7 @@ def load_results(asof: str | date | None = None, cache_dir: Path | str = SNAPSHO
         req = urllib.request.Request(MARTJ42_URL, headers={"User-Agent": "footy/0.1"})
         with urllib.request.urlopen(req, timeout=60) as r:
             text = r.read().decode("utf-8")
-        snap.write_text(text)
+        snap.write_text(text, encoding="utf-8")
         df = pd.read_csv(StringIO(text))
     except Exception:
         if not snap.exists():

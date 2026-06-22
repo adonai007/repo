@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Bosnia and Herzegovina",
+    "away": "Qatar",
+    "date": "2026-06-24",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Seattle Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 1.4081,
+      "def": 0.6779
+    },
+    "away": {
+      "atk": 1.3493,
+      "def": 0.967
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 1.4081,
+      "def": 0.6779
+    },
+    "away": {
+      "atk": 1.3493,
+      "def": 0.967
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 79,
+    "away": 121
+  },
+  "generated_at": "2026-06-16T17:57:27+00:00"
+}

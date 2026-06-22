@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Switzerland",
+    "away": "Canada",
+    "date": "2026-06-24",
+    "neutral": false,
+    "stage": "group",
+    "venue": "BC Place Vancouver"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 2.5971,
+      "def": 0.4517
+    },
+    "away": {
+      "atk": 1.8,
+      "def": 0.4573
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 2.5971,
+      "def": 0.4517
+    },
+    "away": {
+      "atk": 1.8,
+      "def": 0.4573
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.2509
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 98,
+    "away": 93
+  },
+  "generated_at": "2026-06-16T17:57:27+00:00"
+}

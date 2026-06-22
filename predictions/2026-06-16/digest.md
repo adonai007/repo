@@ -2,8 +2,8 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| France vs Senegal | group | 47% / 29% / 25% | 1-1 |
-| Iraq vs Norway | group | 10% / 21% / 68% | 0-2 |
+| France vs Senegal | group | 49% / 28% / 23% | 1-1 |
+| Iraq vs Norway | group | 9% / 21% / 71% | 0-2 |
 
 ---
 *Informational model output — not betting advice.*

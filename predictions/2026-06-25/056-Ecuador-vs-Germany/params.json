@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Ecuador",
+    "away": "Germany",
+    "date": "2026-06-25",
+    "neutral": true,
+    "stage": "group",
+    "venue": "New York/New Jersey Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 1.6433,
+      "def": 0.2581
+    },
+    "away": {
+      "atk": 3.5479,
+      "def": 0.4703
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 1.6433,
+      "def": 0.2581
+    },
+    "away": {
+      "atk": 3.5479,
+      "def": 0.4703
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 93,
+    "away": 96
+  },
+  "generated_at": "2026-06-16T17:57:29+00:00"
+}

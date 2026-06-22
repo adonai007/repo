@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **France**: 2.15
+- **France**: 1.83
 - **Iraq**: 0.53
-- **Total**: 2.67  ·  rho = -0.0673
+- **Total**: 2.35  ·  rho = -0.0619
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| France win | **74.5%** |
-| Draw | **18.3%** |
-| Iraq win | **7.2%** |
+| France win | **68.4%** |
+| Draw | **22.2%** |
+| Iraq win | **9.4%** |
 
-*Monte Carlo (50,000 sims):* 74.6% / 18.2% / 7.1% · avg goals 2.68
+*Monte Carlo (2,000 sims):* 69.5% / 20.3% / 10.2% · avg goals 2.37
 
 ## Most likely scorelines
 
+- 1-0: 16.8%
 - 2-0: 15.9%
-- 1-0: 14.3%
-- 3-0: 11.4%
-- 2-1: 8.4%
-- 1-1: 8.3%
-- 0-0: 7.4%
+- 0-0: 10.1%
+- 1-1: 9.7%
+- 3-0: 9.7%
+- 2-1: 8.3%
 
 ## Derived markets
 
-- Both teams to score: 36.6%
-- Over 2.5 goals: 49.9%  ·  Under 2.5: 50.1%
-- Double chance 1X: 92.8%  ·  X2: 25.5%
+- Both teams to score: 34.9%
+- Over 2.5 goals: 41.8%  ·  Under 2.5: 58.2%
+- Double chance 1X: 90.6%  ·  X2: 31.6%
 
 ## Scoreline heatmap
 

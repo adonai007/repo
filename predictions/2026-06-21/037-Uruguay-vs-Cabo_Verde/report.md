@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Uruguay**: 1.30
+- **Uruguay**: 1.53
 - **Cabo Verde**: 0.44
-- **Total**: 1.74  ·  rho = -0.0645
+- **Total**: 1.97  ·  rho = -0.0619
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Uruguay win | **57.5%** |
-| Draw | **30.5%** |
-| Cabo Verde win | **12.0%** |
+| Uruguay win | **63.9%** |
+| Draw | **26.2%** |
+| Cabo Verde win | **9.9%** |
 
-*Monte Carlo (50,000 sims):* 57.2% / 30.6% / 12.2% · avg goals 1.75
+*Monte Carlo (2,000 sims):* 62.9% / 27.0% / 10.1% · avg goals 2.01
 
 ## Most likely scorelines
 
-- 1-0: 22.1%
-- 0-0: 18.2%
-- 2-0: 14.7%
-- 1-1: 10.8%
-- 0-1: 7.1%
-- 2-1: 6.6%
+- 1-0: 20.7%
+- 2-0: 16.3%
+- 0-0: 14.5%
+- 1-1: 10.0%
+- 3-0: 8.3%
+- 2-1: 7.2%
 
 ## Derived markets
 
-- Both teams to score: 26.7%
-- Over 2.5 goals: 25.4%  ·  Under 2.5: 74.6%
-- Double chance 1X: 88.0%  ·  X2: 42.5%
+- Both teams to score: 28.7%
+- Over 2.5 goals: 31.6%  ·  Under 2.5: 68.4%
+- Double chance 1X: 90.1%  ·  X2: 36.1%
 
 ## Scoreline heatmap
 

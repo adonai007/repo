@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "date": "2026-06-25",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Kansas City Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 1.4748,
+      "def": 0.6604
+    },
+    "away": {
+      "atk": 3.1542,
+      "def": 0.4607
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 1.4748,
+      "def": 0.6604
+    },
+    "away": {
+      "atk": 3.1542,
+      "def": 0.4607
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 110,
+    "away": 94
+  },
+  "generated_at": "2026-06-16T17:57:30+00:00"
+}

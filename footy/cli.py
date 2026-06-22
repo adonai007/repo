@@ -17,7 +17,7 @@ app = typer.Typer(add_completion=False, help="Football match-prediction framewor
 def _load_params(params_path: Path):
     from .schema import MatchParams
 
-    data = json.loads(Path(params_path).read_text())
+    data = json.loads(Path(params_path).read_text(encoding="utf-8"))
     return MatchParams.parse(data)
 
 
@@ -58,10 +58,10 @@ def predict(
         out.mkdir(parents=True, exist_ok=True)
         M = np.array(result["score_matrix"])
         score_heatmap(M, m["home"], m["away"], out / "heatmap.png")
-        (out / "report.md").write_text(match_report(result, heatmap_rel="heatmap.png"))
+        (out / "report.md").write_text(match_report(result, heatmap_rel="heatmap.png"), encoding="utf-8")
         # don't store the full matrix in the headline prediction.json
         slim = {k: v for k, v in result.items() if k != "score_matrix"}
-        (out / "prediction.json").write_text(json.dumps(slim, indent=2, ensure_ascii=False))
+        (out / "prediction.json").write_text(json.dumps(slim, indent=2, ensure_ascii=False), encoding="utf-8")
         typer.echo(f"\n  wrote: {out}/report.md, heatmap.png, prediction.json")
 
 
@@ -192,7 +192,7 @@ def tournament(
                    f"{f['semi']*100:>7.1f}%{f['advance']*100:>8.1f}%")
     if out is not None:
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(json.dumps(res, ensure_ascii=False, indent=2))
+        out.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
         typer.echo(f"\nwrote {out}")
 
 

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "England",
+    "away": "Ghana",
+    "date": "2026-06-23",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Boston Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 2.7413,
+      "def": 0.2803
+    },
+    "away": {
+      "atk": 1.4331,
+      "def": 0.681
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 2.7413,
+      "def": 0.2803
+    },
+    "away": {
+      "atk": 1.4331,
+      "def": 0.681
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 104,
+    "away": 77
+  },
+  "generated_at": "2026-06-16T17:57:25+00:00"
+}

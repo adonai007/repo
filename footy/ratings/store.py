@@ -14,12 +14,12 @@ def save_prior(prior: PriorRatings, ratings_dir: Path | str = RATINGS_DIR) -> Pa
     ratings_dir = Path(ratings_dir)
     ratings_dir.mkdir(parents=True, exist_ok=True)
     path = ratings_dir / f"{prior.asof}.json"
-    path.write_text(json.dumps(prior.to_dict(), indent=2, ensure_ascii=False))
+    path.write_text(json.dumps(prior.to_dict(), indent=2, ensure_ascii=False), encoding="utf-8")
     return path
 
 
 def load_prior(path: Path | str) -> PriorRatings:
-    return PriorRatings.from_dict(json.loads(Path(path).read_text()))
+    return PriorRatings.from_dict(json.loads(Path(path).read_text(encoding="utf-8")))
 
 
 def latest_prior(ratings_dir: Path | str = RATINGS_DIR) -> PriorRatings | None:

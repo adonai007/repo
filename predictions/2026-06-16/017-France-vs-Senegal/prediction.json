@@ -7,65 +7,91 @@
     "neutral": true
   },
   "lambda": {
-    "home": 1.4010226527360001,
-    "away": 0.950453277984,
-    "total": 2.3514759307200004
+    "home": 1.4710737853728002,
+    "away": 0.92193967964448,
+    "total": 2.39301346501728
   },
   "rho": -0.0619,
   "analytic": {
-    "p_home": 0.4658729735933914,
-    "p_draw": 0.2867428354677177,
-    "p_away": 0.24738419093889094,
-    "p_btts": 0.4701671410088262,
-    "p_over25": 0.41756366401713985,
-    "p_under25": 0.5824363359828602,
-    "p_1x": 0.7526158090611091,
-    "p_x2": 0.5341270264066087,
-    "exp_goals_home": 1.4010198814751,
-    "exp_goals_away": 0.9504532170725615,
-    "exp_total": 2.3514730985476615,
+    "p_home": 0.49183140404343567,
+    "p_draw": 0.27949693535588294,
+    "p_away": 0.22867166060068136,
+    "p_btts": 0.4715976859179797,
+    "p_over25": 0.42846457555770445,
+    "p_under25": 0.5715354244422955,
+    "p_1x": 0.7713283393993187,
+    "p_x2": 0.5081685959565643,
+    "exp_goals_home": 1.471069366240959,
+    "exp_goals_away": 0.9219396348142227,
+    "exp_total": 2.393009001055182,
     "top_scores": [
       {
         "score": "1-1",
-        "p": 0.1346562935600323
+        "p": 0.13156738468572743
       },
       {
         "score": "1-0",
-        "p": 0.12556798555242238
+        "p": 0.12671921034440836
       },
       {
         "score": "0-0",
-        "p": 0.10307788528032431
+        "p": 0.09902331076821723
       },
       {
         "score": "2-0",
-        "p": 0.09346035456057596
+        "p": 0.09884770138371825
       },
       {
         "score": "2-1",
-        "p": 0.08882970035364632
+        "p": 0.09113161814729843
       },
       {
         "score": "0-1",
-        "p": 0.08266092387045801
+        "p": 0.0765536029109839
       },
       {
         "score": "1-2",
-        "p": 0.06026203767553843
+        "p": 0.05711328396686202
       },
       {
         "score": "3-0",
-        "p": 0.043646691290701776
+        "p": 0.04847075408331554
       }
     ]
   },
   "monte_carlo": {
-    "p_home": 0.4662,
-    "p_draw": 0.28564,
-    "p_away": 0.24816,
-    "mean_goals": 2.35528,
+    "p_home": 0.49212,
+    "p_draw": 0.2769,
+    "p_away": 0.23098,
+    "mean_goals": 2.39908,
     "n_sims": 50000
   },
-  "citations": [],
-  "code_sha": "798d095"
+  "market": {
+    "implied": {
+      "home": 0.65315739868049,
+      "draw": 0.21112158341187556,
+      "away": 0.1357210179076343
+    },
+    "overround": 1.0525793650793651,
+    "blend_weight": 0.0,
+    "blended": {
+      "home": 0.49183140404343567,
+      "draw": 0.27949693535588294,
+      "away": 0.22867166060068136
+    }
+  },
+  "citations": [
+    "https://en.wikipedia.org/wiki/World_Football_Elo_Ratings",
+    "https://www.footballratings.org/",
+    "https://www.cbssports.com/soccer/news/senegal-vs-france-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-match-on-tuesday/",
+    "https://www.foxsports.com/stories/soccer/2026-world-cup-france-senegal-odds-prediction-picks",
+    "https://www.espn.com/soccer/story/_/id/48771039/france-2026-world-cup-squad-mbappe-camavinga-kolo-muani-dembele",
+    "https://www.espn.com/soccer/team/results/_/id/478/france",
+    "https://www.goal.com/en-us/team/france/fixtures-results/4pz87gsel7183b7kcadw1dwzv",
+    "https://www.lineups.com/betting/france-vs-senegal-starting-11-june-16-2026",
+    "https://www.si.com/soccer/france-predicted-lineup-vs-senegal-world-cup-6-16-26",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/senegal-world-cup-squad-announcement-pape-thiaw",
+    "https://www.aljazeera.com/sports/2026/5/30/senegals-world-cup-2026-team-preview-players-to-watch-group-squad-list"
+  ],
+  "code_sha": "8b1bf20"
 }

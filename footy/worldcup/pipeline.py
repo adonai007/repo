@@ -93,7 +93,7 @@ def write_digest(day_dir: Path, rows: list[dict], errors: list[dict]) -> Path:
         lines += ["", "## Skipped", ""] + [f"- {e['match']}: {e['error']}" for e in errors]
     lines += ["", "---", "*Informational model output — not betting advice.*"]
     path = Path(day_dir) / "digest.md"
-    path.write_text("\n".join(lines))
+    path.write_text("\n".join(lines), encoding="utf-8")
     return path
 
 
@@ -127,5 +127,5 @@ def write_root_report(root: Path, fixture: pd.DataFrame) -> Path:
             lines.append("")
 
     path = Path(root).parent / "REPORT.md"
-    path.write_text("\n".join(lines))
+    path.write_text("\n".join(lines), encoding="utf-8")
     return path

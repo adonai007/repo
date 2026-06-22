@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "New Zealand",
+    "away": "Egypt",
+    "date": "2026-06-22",
+    "neutral": true,
+    "stage": "group",
+    "venue": "BC Place Vancouver"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 1.3823,
+      "def": 0.6827
+    },
+    "away": {
+      "atk": 1.4998,
+      "def": 0.456
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 1.3823,
+      "def": 0.6827
+    },
+    "away": {
+      "atk": 1.4998,
+      "def": 0.456
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 49,
+    "away": 97
+  },
+  "generated_at": "2026-06-16T17:57:23+00:00"
+}

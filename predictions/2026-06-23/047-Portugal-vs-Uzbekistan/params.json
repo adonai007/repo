@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "date": "2026-06-23",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Houston Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 3.132,
+      "def": 0.4055
+    },
+    "away": {
+      "atk": 1.4585,
+      "def": 0.4611
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 3.132,
+      "def": 0.4055
+    },
+    "away": {
+      "atk": 1.4585,
+      "def": 0.4611
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 97,
+    "away": 85
+  },
+  "generated_at": "2026-06-16T17:57:26+00:00"
+}

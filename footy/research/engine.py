@@ -114,8 +114,8 @@ def research_match(
     cache = Path(cache_dir) if cache_dir else None
 
     if cache and not refresh and (cache / "params.json").exists():
-        params = json.loads((cache / "params.json").read_text())
-        dossier = (cache / "dossier.md").read_text() if (cache / "dossier.md").exists() else ""
+        params = json.loads((cache / "params.json").read_text(encoding="utf-8"))
+        dossier = (cache / "dossier.md").read_text(encoding="utf-8") if (cache / "dossier.md").exists() else ""
         return {"params": params, "dossier": dossier, "engine": params.get("research_engine", "cache")}
 
     params, dossier, engine = baseline, baseline["rationale"], "prior-baseline"
@@ -144,7 +144,7 @@ def research_match(
 
     if cache:
         cache.mkdir(parents=True, exist_ok=True)
-        (cache / "params.json").write_text(json.dumps(params, ensure_ascii=False, indent=2))
-        (cache / "dossier.md").write_text(dossier or "")
+        (cache / "params.json").write_text(json.dumps(params, ensure_ascii=False, indent=2), encoding="utf-8")
+        (cache / "dossier.md").write_text(dossier or "", encoding="utf-8")
 
     return {"params": params, "dossier": dossier, "engine": engine}

@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Netherlands**: 2.44
-- **Sweden**: 1.32
-- **Total**: 3.76  ·  rho = -0.0672
+- **Netherlands**: 2.49
+- **Sweden**: 1.31
+- **Total**: 3.80  ·  rho = -0.0619
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Netherlands win | **61.7%** |
-| Draw | **19.5%** |
-| Sweden win | **18.8%** |
+| Netherlands win | **62.6%** |
+| Draw | **19.1%** |
+| Sweden win | **18.3%** |
 
-*Monte Carlo (50,000 sims):* 61.8% / 19.5% / 18.7% · avg goals 3.76
+*Monte Carlo (2,000 sims):* 62.3% / 20.6% / 17.1% · avg goals 3.82
 
 ## Most likely scorelines
 
-- 2-1: 9.2%
-- 1-1: 8.0%
+- 2-1: 9.1%
+- 1-1: 7.8%
 - 3-1: 7.5%
-- 2-0: 7.0%
+- 2-0: 6.9%
 - 2-2: 6.0%
 - 3-0: 5.7%
 
 ## Derived markets
 
-- Both teams to score: 67.3%
-- Over 2.5 goals: 72.4%  ·  Under 2.5: 27.6%
-- Double chance 1X: 81.2%  ·  X2: 38.3%
+- Both teams to score: 67.5%
+- Over 2.5 goals: 73.1%  ·  Under 2.5: 26.9%
+- Double chance 1X: 81.7%  ·  X2: 37.4%
 
 ## Scoreline heatmap
 

@@ -58,16 +58,16 @@ def save_match_artifacts(day_dir: Path, slug: str, result: dict, params: dict,
 
     mdir = Path(day_dir) / slug
     mdir.mkdir(parents=True, exist_ok=True)
-    (mdir / "params.json").write_text(json.dumps(params, ensure_ascii=False, indent=2))
-    (mdir / "dossier.md").write_text(dossier or "")
+    (mdir / "params.json").write_text(json.dumps(params, ensure_ascii=False, indent=2), encoding="utf-8")
+    (mdir / "dossier.md").write_text(dossier or "", encoding="utf-8")
 
     M = np.array(result["score_matrix"])
     score_heatmap(M, result["match"]["home"], result["match"]["away"], mdir / "heatmap.png")
-    (mdir / "report.md").write_text(match_report(result, heatmap_rel="heatmap.png"))
+    (mdir / "report.md").write_text(match_report(result, heatmap_rel="heatmap.png"), encoding="utf-8")
 
     slim = {k: v for k, v in result.items() if k != "score_matrix"}
     slim["code_sha"] = code_sha()
-    (mdir / "prediction.json").write_text(json.dumps(slim, ensure_ascii=False, indent=2))
+    (mdir / "prediction.json").write_text(json.dumps(slim, ensure_ascii=False, indent=2), encoding="utf-8")
     return mdir
 
 

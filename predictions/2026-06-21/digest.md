@@ -2,9 +2,11 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| Uruguay vs Cabo Verde | group | 57% / 30% / 12% | 1-0 |
-| Spain vs Saudi Arabia | group | 78% / 16% / 6% | 2-0 |
-| Belgium vs IR Iran | group | 50% / 26% / 24% | 1-1 |
+| Ecuador vs Curaçao | group | 78% / 17% / 4% | 2-0 |
+| Tunisia vs Japan | group | 10% / 22% / 68% | 0-1 |
+| Uruguay vs Cabo Verde | group | 64% / 26% / 10% | 1-0 |
+| Spain vs Saudi Arabia | group | 81% / 14% / 5% | 2-0 |
+| Belgium vs IR Iran | group | 46% / 28% / 26% | 1-1 |
 
 ---
 *Informational model output — not betting advice.*

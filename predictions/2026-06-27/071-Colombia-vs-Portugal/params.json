@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Colombia",
+    "away": "Portugal",
+    "date": "2026-06-27",
+    "neutral": true,
+    "stage": "group",
+    "venue": "Miami Stadium"
+  },
+  "base_rate": 1.0724,
+  "strength": {
+    "home": {
+      "atk": 3.0733,
+      "def": 0.4217
+    },
+    "away": {
+      "atk": 3.132,
+      "def": 0.4055
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 3.0733,
+      "def": 0.4217
+    },
+    "away": {
+      "atk": 3.132,
+      "def": 0.4055
+    }
+  },
+  "rho": -0.0619,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
+  "n_prior_matches": {
+    "home": 94,
+    "away": 97
+  },
+  "generated_at": "2026-06-16T17:57:36+00:00"
+}

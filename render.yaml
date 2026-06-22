@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: footy-worldcup-dashboard
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: python -m pip install --upgrade pip && pip install -e ".[dashboard]"
+    startCommand: streamlit run dashboard/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false --server.fileWatcherType none
+    healthCheckPath: /_stcore/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.7
+      - key: PYTHONUTF8
+        value: "1"

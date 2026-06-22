@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Philadelphia Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0724,
   "strength": {
     "home": {
-      "atk": 3.0995,
-      "def": 0.3858
+      "atk": 2.9712,
+      "def": 0.3876
     },
     "away": {
-      "atk": 1.2656,
-      "def": 0.6432
+      "atk": 1.2664,
+      "def": 0.573
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.0995,
-      "def": 0.3858
+      "atk": 2.9712,
+      "def": 0.3876
     },
     "away": {
-      "atk": 1.2656,
-      "def": 0.6432
+      "atk": 1.2664,
+      "def": 0.573
     }
   },
-  "rho": -0.0673,
+  "rho": -0.0619,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -43,11 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-16",
   "n_prior_matches": {
     "home": 102,
-    "away": 106
+    "away": 105
   },
-  "research_note": "research failed, using prior baseline: Command '['claude', '-p', 'You are an elite football analyst calibrating a Dixon-Coles match model for the 2026 World Cup.\\n\\nMATCH: France vs Iraq on 2026-06-22 (stage: group, venue: Philadelphia Stadium, neutral: True).\\n\\nDo a focused deep-research pass on this specific match, then output a calibrated params.json.\\n\\nResearch these inputs (ordered by predictive power for international football) and cite sources:\\n 1. World Football Elo rating of each side and the gap (strongest single predictor).\\n 2. Squad market value + average age (Transfermarkt) — PELE-style.\\n 3. Recent xG / xGA (FBref/Understat); if possible split set-piece vs open-play.\\n 4. Form over the last ~9 matches (results AND performance, recency-weighted).\\n 5. Probable XI + the starters\\' club xG/xA per 90.\\n 6. Goalkeeper quality (post-shot xG faced vs conceded, save%).\\n 7. Injuries/absences — weight by player importance x replacement quality x timing.\\n 8. Rest days / travel / congestion; venue (neutral vs host advantage).\\n 9. Set pieces & discipline (corners, penalties, cards).\\n10. Style/matchup notes (e.g. counter-attack vs high line, key duels).\\n11. Closing market odds (average of books) — strong benchmark.\\n12. Stage / motivation (group vs knockout).\\n\\nSTATISTICAL PRIOR (anchor — do NOT invent strengths from scratch):\\n  base_rate = 1.0762, rho = -0.0673\\n  France (home): atk=3.0995, def=0.3858\\n  Iraq (away): atk=1.2656, def=0.6432\\n(atk: higher = stronger attack; def: LOWER = stronger defence. These already encode long-run strength.)\\n\\nRULES:\\n- You set PARAMETERS ONLY. Never compute or state win/draw probabilities — the engine does that.\\n- Anchor `strength` to the prior. Move a value at most ~40% from the prior, and ONLY with cited evidence\\n  (form, injuries, lineup, matchup). Keep `prior_strength` unchanged for traceability.\\n- Encode injuries/absences and form as `adjustments` multipliers (0.5..1.5) on atk/def, not by overwriting strength.\\n- If you find closing odds, fill `market_odds` with EXACTLY the keys `home`, `draw`, `away`\\n  (American or decimal numbers) plus `source` and `date`. Do not key odds by team name.\\n- Every non-obvious number must have a citation. Set `confidence` to alta/media/baja.\\n\\nOUTPUT FORMAT (exactly, in this order):\\n1. A markdown dossier: TL;DR, key findings per the checklist with inline source citations, and a short rationale.\\n2. Then a single fenced ```json code block containing the params.json with these keys:\\n   schema_version, match, base_rate, strength, prior_strength, rho, adjustments, home_advantage,\\n   market_odds (optional), scenarios (optional), evidence (optional), context (optional),\\n   confidence, citations (list of URLs), rationale.\\n\\nHere is the baseline params.json to refine (keep its structure):\\n```json\\n{\\n  \"schema_version\": \"1.0\",\\n  \"match\": {\\n    \"home\": \"France\",\\n    \"away\": \"Iraq\",\\n    \"date\": \"2026-06-22\",\\n    \"neutral\": true,\\n    \"stage\": \"group\",\\n    \"venue\": \"Philadelphia Stadium\"\\n  },\\n  \"base_rate\": 1.0762,\\n  \"strength\": {\\n    \"home\": {\\n      \"atk\": 3.0995,\\n      \"def\": 0.3858\\n    },\\n    \"away\": {\\n      \"atk\": 1.2656,\\n      \"def\": 0.6432\\n    }\\n  },\\n  \"prior_strength\": {\\n    \"home\": {\\n      \"atk\": 3.0995,\\n      \"def\": 0.3858\\n    },\\n    \"away\": {\\n      \"atk\": 1.2656,\\n      \"def\": 0.6432\\n    }\\n  },\\n  \"rho\": -0.0673,\\n  \"adjustments\": {\\n    \"home_atk\": 1.0,\\n    \"home_def\": 1.0,\\n    \"away_atk\": 1.0,\\n    \"away_def\": 1.0\\n  },\\n  \"home_advantage\": {\\n    \"home\": 1.0,\\n    \"away\": 1.0\\n  },\\n  \"confidence\": \"baseline\",\\n  \"rationale\": \"Data-driven prior only (no deep research applied).\",\\n  \"research_engine\": \"prior-baseline\",\\n  \"prior_source\": \"dixon_coles_fit@martj42:2026-06-22\",\\n  \"n_prior_matches\": {\\n    \"home\": 102,\\n    \"away\": 106\\n  }\\n}\\n```\\n', '--allowedTools', 'WebSearch', 'WebFetch']' returned non-zero exit status 1.",
-  "generated_at": "2026-06-22T08:12:26+00:00"
+  "generated_at": "2026-06-16T17:57:24+00:00"
 }
