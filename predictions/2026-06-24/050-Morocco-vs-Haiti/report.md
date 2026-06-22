@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Morocco win | **75.7%** |
+| Morocco win | **75.6%** |
 | Draw | **18.7%** |
 | Haiti win | **5.6%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 28.1%
 - Over 2.5 goals: 42.7%  ·  Under 2.5: 57.3%
-- Double chance 1X: 94.4%  ·  X2: 24.3%
+- Double chance 1X: 94.4%  ·  X2: 24.4%
 
 ## Scoreline heatmap
 

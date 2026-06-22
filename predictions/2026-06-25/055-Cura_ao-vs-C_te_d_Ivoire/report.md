@@ -16,7 +16,7 @@
 | Draw | **20.8%** |
 | Côte d'Ivoire win | **71.1%** |
 
-*Monte Carlo (50,000 sims):* 8.2% / 20.7% / 71.1% · avg goals 2.43
+*Monte Carlo (50,000 sims):* 8.2% / 20.7% / 71.0% · avg goals 2.43
 
 ## Most likely scorelines
 

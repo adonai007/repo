@@ -16,7 +16,7 @@
 | Draw | **24.6%** |
 | Brazil win | **58.2%** |
 
-*Monte Carlo (50,000 sims):* 17.2% / 24.5% / 58.4% · avg goals 2.64
+*Monte Carlo (50,000 sims):* 17.1% / 24.5% / 58.4% · avg goals 2.64
 
 ## Most likely scorelines
 
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 48.7%
+- Both teams to score: 48.6%
 - Over 2.5 goals: 49.0%  ·  Under 2.5: 51.0%
 - Double chance 1X: 41.8%  ·  X2: 82.8%
 

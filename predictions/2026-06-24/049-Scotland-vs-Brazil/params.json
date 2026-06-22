@@ -8,25 +8,25 @@
     "stage": "group",
     "venue": "Miami Stadium"
   },
-  "base_rate": 1.0763,
+  "base_rate": 1.0762,
   "strength": {
     "home": {
-      "atk": 2.0123,
-      "def": 0.5134
+      "atk": 2.0119,
+      "def": 0.5136
     },
     "away": {
-      "atk": 3.2081,
-      "def": 0.3975
+      "atk": 3.2082,
+      "def": 0.3974
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.0123,
-      "def": 0.5134
+      "atk": 2.0119,
+      "def": 0.5136
     },
     "away": {
-      "atk": 3.2081,
-      "def": 0.3975
+      "atk": 3.2082,
+      "def": 0.3974
     }
   },
   "rho": -0.0673,
@@ -48,5 +48,5 @@
     "home": 88,
     "away": 97
   },
-  "generated_at": "2026-06-22T23:01:21+00:00"
+  "generated_at": "2026-06-22T23:54:18+00:00"
 }
