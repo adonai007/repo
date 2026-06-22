@@ -39,6 +39,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: render-deploy-2026-06-22
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -91,7 +92,8 @@ jobs:
           else
             git commit -m "chore: refresh World Cup data $(date -u +%F-%H%M)"
             for i in 1 2 3 4; do
-              git pull --rebase && git push && break
+              git pull --rebase origin render-deploy-2026-06-22
+              git push origin HEAD:render-deploy-2026-06-22 && break
               sleep $((2**i))
             done
           fi
