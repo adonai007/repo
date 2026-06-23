@@ -5,7 +5,7 @@
 ## Expected goals (model)
 
 - **Uruguay**: 0.65
-- **Spain**: 1.46
+- **Spain**: 1.45
 - **Total**: 2.11  ·  rho = -0.0675
 
 ## 1X2 (match result)
