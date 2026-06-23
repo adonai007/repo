@@ -536,6 +536,67 @@ def _actual_block(container, row) -> None:
                        help=f"Pick del modelo: {pick} · Real: {res}")
 
 
+def _match_key(match_number, day, home: str, away: str) -> str:
+    if match_number is None or pd.isna(match_number):
+        num = ""
+    else:
+        num = str(int(match_number))
+    return "|".join([num, str(day), str(home), str(away)])
+
+
+def _whatif_options(led: pd.DataFrame) -> list[dict]:
+    if led.empty:
+        return []
+    sort_cols = [c for c in ("graded", "date", "match_number") if c in led.columns]
+    df = led.sort_values(sort_cols) if sort_cols else led
+    options = []
+    for r in df.itertuples():
+        key = _match_key(
+            getattr(r, "match_number", None),
+            getattr(r, "date", ""),
+            getattr(r, "home", ""),
+            getattr(r, "away", ""),
+        )
+        options.append(
+            {
+                "key": key,
+                "label": (
+                    f"{getattr(r, 'date', '')} - #{getattr(r, 'match_number', '')} "
+                    f"{getattr(r, 'home', '')} vs {getattr(r, 'away', '')}"
+                ),
+                "date": getattr(r, "date", ""),
+                "home": getattr(r, "home", ""),
+                "away": getattr(r, "away", ""),
+                "graded": bool(getattr(r, "graded", False)),
+            }
+        )
+    return options
+
+
+def _default_whatif_key(options: list[dict]) -> str | None:
+    for option in options:
+        if not option["graded"]:
+            return option["key"]
+    return options[-1]["key"] if options else None
+
+
+def _whatif_params_for_option(option: dict) -> dict:
+    day_dir = PRED / str(option["date"])
+    mdir = _match_dir(day_dir, option["home"])
+    if not mdir:
+        return {}
+    return _read_json(mdir / "params.json")
+
+
+def _safe_float(value, fallback: float) -> float:
+    try:
+        if value is None or pd.isna(value):
+            return fallback
+        return float(value)
+    except Exception:
+        return fallback
+
+
 def predictions_view(led: pd.DataFrame, fix: pd.DataFrame) -> None:
     st.subheader("🗓️ Predictions by date")
     if led.empty:
@@ -553,6 +614,14 @@ def predictions_view(led: pd.DataFrame, fix: pd.DataFrame) -> None:
             mdir = _match_dir(day_dir, r.home)
             pred = _read_json(mdir / "prediction.json") if mdir else {}
             params = _read_json(mdir / "params.json") if mdir else {}
+            match_key = _match_key(
+                getattr(r, "match_number", None),
+                getattr(r, "date", ""),
+                getattr(r, "home", ""),
+                getattr(r, "away", ""),
+            )
+            if st.button("Usar este partido en what-if", key=f"use_whatif_{match_key}"):
+                st.session_state["whatif_selected_match"] = match_key
 
             # Kickoff lead-time badge (kickoff_utc - generated_at).
             mn = getattr(r, "match_number", None)
@@ -583,25 +652,69 @@ def predictions_view(led: pd.DataFrame, fix: pd.DataFrame) -> None:
 
 
 # --- live what-if -------------------------------------------------------------
-def whatif() -> None:
+def whatif(led: pd.DataFrame) -> None:
     st.subheader("🎛️ Live what-if")
-    st.caption("Move the sliders to see the score matrix and 1X2 update instantly.")
+    st.caption("Choose a prediction as the base, then move sliders to update 1X2 instantly.")
+    options = _whatif_options(led)
+    labels = {option["key"]: option["label"] for option in options}
+    option_by_key = {option["key"]: option for option in options}
+    default_key = _default_whatif_key(options)
+    if default_key and st.session_state.get("whatif_selected_match") not in option_by_key:
+        st.session_state["whatif_selected_match"] = default_key
+
+    selected_key = None
+    selected_params = {}
+    if options:
+        selected_key = st.selectbox(
+            "Partido base",
+            [option["key"] for option in options],
+            format_func=lambda key: labels.get(key, key),
+            key="whatif_selected_match",
+        )
+        selected_params = _whatif_params_for_option(option_by_key[selected_key])
+
+    match = selected_params.get("match") or {}
+    strength = selected_params.get("strength") or {}
+    home_strength = strength.get("home") or {}
+    away_strength = strength.get("away") or {}
+    widget_suffix = selected_key or "manual"
+
     c = st.columns(4)
-    home = c[0].text_input("Home", "Brazil")
-    away = c[0].text_input("Away", "Morocco")
-    base = c[0].slider("Base rate", 0.8, 2.0, 1.30, 0.01)
-    rho = c[0].slider("rho (Dixon-Coles)", -0.20, 0.0, -0.10, 0.01)
-    atk_h = c[1].slider("Home attack", 0.3, 3.0, 1.45, 0.01)
-    def_h = c[1].slider("Home defence", 0.1, 3.0, 0.86, 0.01)
-    atk_a = c[2].slider("Away attack", 0.3, 3.0, 0.88, 0.01)
-    def_a = c[2].slider("Away defence", 0.1, 3.0, 0.63, 0.01)
+    home = c[0].text_input("Home", str(match.get("home") or "Home"), key=f"wi_home_{widget_suffix}")
+    away = c[0].text_input("Away", str(match.get("away") or "Away"), key=f"wi_away_{widget_suffix}")
+    base = c[0].slider(
+        "Base rate", 0.5, 2.5, _safe_float(selected_params.get("base_rate"), 1.30), 0.01,
+        key=f"wi_base_{widget_suffix}",
+    )
+    rho = c[0].slider(
+        "rho (Dixon-Coles)", -0.30, 0.10, _safe_float(selected_params.get("rho"), -0.10), 0.01,
+        key=f"wi_rho_{widget_suffix}",
+    )
+    atk_h = c[1].slider(
+        "Home attack", 0.1, 4.5, _safe_float(home_strength.get("atk"), 1.45), 0.01,
+        key=f"wi_atk_h_{widget_suffix}",
+    )
+    def_h = c[1].slider(
+        "Home defence", 0.1, 4.5, _safe_float(home_strength.get("def"), 0.86), 0.01,
+        key=f"wi_def_h_{widget_suffix}",
+    )
+    atk_a = c[2].slider(
+        "Away attack", 0.1, 4.5, _safe_float(away_strength.get("atk"), 0.88), 0.01,
+        key=f"wi_atk_a_{widget_suffix}",
+    )
+    def_a = c[2].slider(
+        "Away defence", 0.1, 4.5, _safe_float(away_strength.get("def"), 0.63), 0.01,
+        key=f"wi_def_a_{widget_suffix}",
+    )
 
     params = {
-        "match": {"home": home, "away": away, "stage": "group", "neutral": True},
-        "base_rate": base, "rho": rho,
+        "match": {"home": home, "away": away, "stage": match.get("stage", "group"), "neutral": True},
+        "base_rate": base,
+        "rho": rho,
         "strength": {"home": {"atk": atk_h, "def": def_h},
                      "away": {"atk": atk_a, "def": def_a}},
-        "adjustments": {}, "home_advantage": {},
+        "adjustments": {},
+        "home_advantage": {},
     }
     out = predict(MatchParams.parse(params), run_mc=False)
     a = out["analytic"]
@@ -636,4 +749,4 @@ backtest_view()
 st.divider()
 predictions_view(led, fix)
 st.divider()
-whatif()
+whatif(led)
