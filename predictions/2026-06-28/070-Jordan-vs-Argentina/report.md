@@ -13,7 +13,7 @@
 | Outcome | Model |
 |---|---|
 | Jordan win | **3.0%** |
-| Draw | **11.1%** |
+| Draw | **11.0%** |
 | Argentina win | **86.0%** |
 
 *Monte Carlo (50,000 sims):* 3.0% / 11.2% / 85.8% · avg goals 3.12
