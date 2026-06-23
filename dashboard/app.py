@@ -115,16 +115,16 @@ st.markdown(
             <div class="innova-brandmark">IA</div>
             <div class="innova-brandcopy">
                 <div class="innova-brandname">InnovaAI</div>
-                <div class="innova-brandsub">Empresa desarrolladora del software</div>
+                <div class="innova-brandsub">Soluciones con inteligencia artificial para convertir datos en decisiones</div>
             </div>
         </div>
-        <div class="innova-brandproduct">Plataforma de prediccion deportiva</div>
+        <div class="innova-brandproduct">Analitica predictiva impulsada por IA</div>
     </div>
     """,
     unsafe_allow_html=True,
 )
 st.title("footy - World Cup 2026 predictions")
-st.caption(f"Software desarrollado por {BRAND_NAME}. Dixon-Coles + Monte Carlo, "
+st.caption(f"Software desarrollado por {BRAND_NAME}, empresa creadora de soluciones con inteligencia artificial. Dixon-Coles + Monte Carlo, "
            "calibrated by automated deep research. Informational model output - not betting advice.")
 
 
@@ -916,7 +916,7 @@ def whatif(led: pd.DataFrame) -> None:
 
 # --- page assembly ------------------------------------------------------------
 st.sidebar.markdown(f"### {BRAND_NAME}")
-st.sidebar.caption("Empresa desarrolladora del software")
+st.sidebar.caption("Soluciones con inteligencia artificial para decisiones basadas en datos")
 st.sidebar.divider()
 st.sidebar.caption("Data refreshes automatically every 30 s (ledger ttl=30).")
 if st.sidebar.button("Refresh data"):
@@ -938,6 +938,6 @@ predictions_view(led, fix)
 st.divider()
 whatif(led)
 st.markdown(
-    f'<div class="innova-footer">{BRAND_NAME} | Software de pronosticos deportivos y analitica predictiva.</div>',
+    f'<div class="innova-footer">{BRAND_NAME} | Soluciones con inteligencia artificial, analitica predictiva y automatizacion para decisiones basadas en datos.</div>',
     unsafe_allow_html=True,
 )
