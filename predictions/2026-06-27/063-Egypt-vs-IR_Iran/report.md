@@ -6,7 +6,7 @@
 
 - **Egypt**: 0.85
 - **IR Iran**: 0.99
-- **Total**: 1.84  ·  rho = -0.0673
+- **Total**: 1.84  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
@@ -14,13 +14,13 @@
 |---|---|
 | Egypt win | **29.1%** |
 | Draw | **34.1%** |
-| IR Iran win | **36.8%** |
+| IR Iran win | **36.7%** |
 
-*Monte Carlo (50,000 sims):* 29.1% / 34.1% / 36.8% · avg goals 1.85
+*Monte Carlo (50,000 sims):* 29.1% / 34.2% / 36.7% · avg goals 1.84
 
 ## Most likely scorelines
 
-- 0-0: 16.7%
+- 0-0: 16.8%
 - 0-1: 14.8%
 - 1-1: 14.3%
 - 1-0: 12.6%
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 37.0%
-- Over 2.5 goals: 28.1%  ·  Under 2.5: 71.9%
-- Double chance 1X: 63.2%  ·  X2: 70.9%
+- Both teams to score: 36.9%
+- Over 2.5 goals: 28.0%  ·  Under 2.5: 72.0%
+- Double chance 1X: 63.3%  ·  X2: 70.9%
 
 ## Scoreline heatmap
 

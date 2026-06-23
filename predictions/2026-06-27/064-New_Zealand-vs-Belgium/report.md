@@ -6,7 +6,7 @@
 
 - **New Zealand**: 0.69
 - **Belgium**: 2.18
-- **Total**: 2.87  ·  rho = -0.0673
+- **Total**: 2.87  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
@@ -14,9 +14,9 @@
 |---|---|
 | New Zealand win | **9.9%** |
 | Draw | **19.2%** |
-| Belgium win | **70.9%** |
+| Belgium win | **71.0%** |
 
-*Monte Carlo (50,000 sims):* 10.0% / 19.1% / 70.9% · avg goals 2.88
+*Monte Carlo (50,000 sims):* 10.0% / 19.0% / 71.0% · avg goals 2.88
 
 ## Most likely scorelines
 
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 45.0%
+- Both teams to score: 44.9%
 - Over 2.5 goals: 54.8%  ·  Under 2.5: 45.2%
-- Double chance 1X: 29.1%  ·  X2: 90.1%
+- Double chance 1X: 29.0%  ·  X2: 90.1%
 
 ## Scoreline heatmap
 

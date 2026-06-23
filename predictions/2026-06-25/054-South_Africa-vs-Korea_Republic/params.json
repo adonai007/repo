@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Monterrey Stadium"
   },
-  "base_rate": 1.0764,
+  "base_rate": 1.0768,
   "strength": {
     "home": {
-      "atk": 1.3938,
-      "def": 0.6609
+      "atk": 1.3952,
+      "def": 0.6606
     },
     "away": {
-      "atk": 2.0017,
-      "def": 0.536
+      "atk": 1.994,
+      "def": 0.5375
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.3938,
-      "def": 0.6609
+      "atk": 1.3952,
+      "def": 0.6606
     },
     "away": {
-      "atk": 2.0017,
-      "def": 0.536
+      "atk": 1.994,
+      "def": 0.5375
     }
   },
-  "rho": -0.0673,
+  "rho": -0.0675,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 98,
     "away": 101
   },
-  "generated_at": "2026-06-23T09:06:37+00:00"
+  "generated_at": "2026-06-23T10:41:41+00:00"
 }

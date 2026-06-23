@@ -6,17 +6,17 @@
 
 - **Scotland**: 0.86
 - **Brazil**: 1.77
-- **Total**: 2.63  ·  rho = -0.0673
+- **Total**: 2.63  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Scotland win | **17.2%** |
+| Scotland win | **17.1%** |
 | Draw | **24.6%** |
-| Brazil win | **58.2%** |
+| Brazil win | **58.3%** |
 
-*Monte Carlo (50,000 sims):* 17.2% / 24.5% / 58.4% · avg goals 2.64
+*Monte Carlo (50,000 sims):* 17.0% / 24.5% / 58.5% · avg goals 2.64
 
 ## Most likely scorelines
 
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 48.7%
-- Over 2.5 goals: 49.0%  ·  Under 2.5: 51.0%
-- Double chance 1X: 41.8%  ·  X2: 82.8%
+- Both teams to score: 48.6%
+- Over 2.5 goals: 48.9%  ·  Under 2.5: 51.1%
+- Double chance 1X: 41.7%  ·  X2: 82.9%
 
 ## Scoreline heatmap
 

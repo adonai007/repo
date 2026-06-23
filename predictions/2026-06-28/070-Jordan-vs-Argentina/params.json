@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.0764,
+  "base_rate": 1.0768,
   "strength": {
     "home": {
-      "atk": 1.8671,
-      "def": 0.7958
+      "atk": 1.8576,
+      "def": 0.8007
     },
     "away": {
-      "atk": 3.1215,
-      "def": 0.2073
+      "atk": 3.176,
+      "def": 0.1928
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.8671,
-      "def": 0.7958
+      "atk": 1.8576,
+      "def": 0.8007
     },
     "away": {
-      "atk": 3.1215,
-      "def": 0.2073
+      "atk": 3.176,
+      "def": 0.1928
     }
   },
-  "rho": -0.0673,
+  "rho": -0.0675,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-23",
   "n_prior_matches": {
-    "home": 110,
-    "away": 99
+    "home": 111,
+    "away": 100
   },
-  "generated_at": "2026-06-23T09:06:42+00:00"
+  "generated_at": "2026-06-23T10:41:45+00:00"
 }

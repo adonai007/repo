@@ -6,7 +6,7 @@
 
 - **Panama**: 0.53
 - **England**: 2.42
-- **Total**: 2.95  ·  rho = -0.0673
+- **Total**: 2.95  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

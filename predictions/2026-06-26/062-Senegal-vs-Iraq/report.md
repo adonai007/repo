@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Senegal**: 1.58
-- **Iraq**: 0.66
-- **Total**: 2.24  ·  rho = -0.0673
+- **Senegal**: 1.68
+- **Iraq**: 0.69
+- **Total**: 2.36  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Senegal win | **59.0%** |
-| Draw | **26.4%** |
-| Iraq win | **14.6%** |
+| Senegal win | **60.5%** |
+| Draw | **25.3%** |
+| Iraq win | **14.3%** |
 
-*Monte Carlo (50,000 sims):* 59.0% / 26.1% / 14.8% · avg goals 2.25
+*Monte Carlo (50,000 sims):* 60.6% / 25.1% / 14.3% · avg goals 2.37
 
 ## Most likely scorelines
 
-- 1-0: 16.1%
-- 2-0: 13.3%
-- 1-1: 11.8%
-- 0-0: 11.4%
-- 2-1: 8.8%
-- 3-0: 7.0%
+- 1-0: 15.0%
+- 2-0: 13.2%
+- 1-1: 11.6%
+- 0-0: 10.1%
+- 2-1: 9.1%
+- 3-0: 7.4%
 
 ## Derived markets
 
-- Both teams to score: 39.1%
-- Over 2.5 goals: 38.9%  ·  Under 2.5: 61.1%
-- Double chance 1X: 85.4%  ·  X2: 41.0%
+- Both teams to score: 41.1%
+- Over 2.5 goals: 42.1%  ·  Under 2.5: 57.9%
+- Double chance 1X: 85.7%  ·  X2: 39.5%
 
 ## Scoreline heatmap
 

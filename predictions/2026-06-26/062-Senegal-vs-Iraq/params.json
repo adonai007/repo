@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Toronto Stadium"
   },
-  "base_rate": 1.0764,
+  "base_rate": 1.0768,
   "strength": {
     "home": {
-      "atk": 2.2876,
-      "def": 0.4836
+      "atk": 2.3398,
+      "def": 0.5175
     },
     "away": {
-      "atk": 1.2655,
-      "def": 0.6432
+      "atk": 1.2333,
+      "def": 0.6651
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.2876,
-      "def": 0.4836
+      "atk": 2.3398,
+      "def": 0.5175
     },
     "away": {
-      "atk": 1.2655,
-      "def": 0.6432
+      "atk": 1.2333,
+      "def": 0.6651
     }
   },
-  "rho": -0.0673,
+  "rho": -0.0675,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-23",
   "n_prior_matches": {
-    "home": 104,
-    "away": 106
+    "home": 105,
+    "away": 107
   },
-  "generated_at": "2026-06-23T09:06:39+00:00"
+  "generated_at": "2026-06-23T10:41:43+00:00"
 }

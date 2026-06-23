@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "BC Place Vancouver"
   },
-  "base_rate": 1.0764,
+  "base_rate": 1.0768,
   "strength": {
     "home": {
-      "atk": 2.7153,
-      "def": 0.4601
+      "atk": 2.7138,
+      "def": 0.4593
     },
     "away": {
-      "atk": 2.0283,
-      "def": 0.4334
+      "atk": 2.0326,
+      "def": 0.4323
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.7153,
-      "def": 0.4601
+      "atk": 2.7138,
+      "def": 0.4593
     },
     "away": {
-      "atk": 2.0283,
-      "def": 0.4334
+      "atk": 2.0326,
+      "def": 0.4323
     }
   },
-  "rho": -0.0673,
+  "rho": -0.0675,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -38,7 +38,7 @@
   },
   "home_advantage": {
     "home": 1.0,
-    "away": 1.2458
+    "away": 1.2445
   },
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
@@ -48,5 +48,5 @@
     "home": 97,
     "away": 94
   },
-  "generated_at": "2026-06-23T09:06:37+00:00"
+  "generated_at": "2026-06-23T10:41:40+00:00"
 }

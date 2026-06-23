@@ -4,19 +4,19 @@
 
 ## Expected goals (model)
 
-- **Cabo Verde**: 0.95
+- **Cabo Verde**: 0.96
 - **Saudi Arabia**: 0.94
-- **Total**: 1.90  ·  rho = -0.0673
+- **Total**: 1.90  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Cabo Verde win | **33.4%** |
+| Cabo Verde win | **33.5%** |
 | Draw | **33.7%** |
-| Saudi Arabia win | **32.9%** |
+| Saudi Arabia win | **32.8%** |
 
-*Monte Carlo (50,000 sims):* 33.6% / 33.7% / 32.7% · avg goals 1.89
+*Monte Carlo (50,000 sims):* 33.7% / 33.7% / 32.6% · avg goals 1.89
 
 ## Most likely scorelines
 
@@ -24,14 +24,14 @@
 - 1-1: 14.4%
 - 1-0: 13.4%
 - 0-1: 13.2%
-- 2-0: 6.8%
-- 0-2: 6.7%
+- 2-0: 6.9%
+- 0-2: 6.6%
 
 ## Derived markets
 
-- Both teams to score: 38.5%
-- Over 2.5 goals: 29.6%  ·  Under 2.5: 70.4%
-- Double chance 1X: 67.1%  ·  X2: 66.6%
+- Both teams to score: 38.4%
+- Over 2.5 goals: 29.5%  ·  Under 2.5: 70.5%
+- Double chance 1X: 67.2%  ·  X2: 66.5%
 
 ## Scoreline heatmap
 

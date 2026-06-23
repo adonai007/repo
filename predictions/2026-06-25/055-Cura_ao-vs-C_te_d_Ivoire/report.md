@@ -6,7 +6,7 @@
 
 - **Curaçao**: 0.50
 - **Côte d'Ivoire**: 1.93
-- **Total**: 2.43  ·  rho = -0.0673
+- **Total**: 2.43  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
@@ -16,11 +16,11 @@
 | Draw | **20.8%** |
 | Côte d'Ivoire win | **71.1%** |
 
-*Monte Carlo (50,000 sims):* 8.2% / 20.7% / 71.0% · avg goals 2.43
+*Monte Carlo (50,000 sims):* 8.2% / 20.8% / 71.0% · avg goals 2.42
 
 ## Most likely scorelines
 
-- 0-1: 16.4%
+- 0-1: 16.5%
 - 0-2: 16.4%
 - 0-3: 10.5%
 - 0-0: 9.4%
