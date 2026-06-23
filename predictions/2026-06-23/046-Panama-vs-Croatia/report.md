@@ -13,7 +13,7 @@
 | Outcome | Model |
 |---|---|
 | Panama win | **15.1%** |
-| Draw | **22.0%** |
+| Draw | **21.9%** |
 | Croatia win | **63.0%** |
 
 *Monte Carlo (50,000 sims):* 15.3% / 21.9% / 62.8% · avg goals 2.90

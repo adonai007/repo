@@ -16,7 +16,7 @@
 | Draw | **35.5%** |
 | Germany win | **38.3%** |
 
-*Monte Carlo (50,000 sims):* 26.1% / 35.8% / 38.1% · avg goals 1.69
+*Monte Carlo (50,000 sims):* 26.2% / 35.7% / 38.1% · avg goals 1.69
 
 ## Most likely scorelines
 

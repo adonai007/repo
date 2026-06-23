@@ -8,24 +8,24 @@
     "stage": "group",
     "venue": "San Francisco Bay Area Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0764,
   "strength": {
     "home": {
-      "atk": 1.8673,
-      "def": 0.7956
+      "atk": 1.8671,
+      "def": 0.7958
     },
     "away": {
-      "atk": 2.2463,
+      "atk": 2.2472,
       "def": 0.4958
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.8673,
-      "def": 0.7956
+      "atk": 1.8671,
+      "def": 0.7958
     },
     "away": {
-      "atk": 2.2463,
+      "atk": 2.2472,
       "def": 0.4958
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-23",
   "n_prior_matches": {
     "home": 110,
     "away": 107
   },
-  "generated_at": "2026-06-22T23:54:17+00:00"
+  "generated_at": "2026-06-23T00:38:24+00:00"
 }

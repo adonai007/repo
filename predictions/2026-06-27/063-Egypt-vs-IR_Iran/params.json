@@ -8,25 +8,25 @@
     "stage": "group",
     "venue": "Seattle Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0764,
   "strength": {
     "home": {
-      "atk": 1.6027,
-      "def": 0.4555
+      "atk": 1.6026,
+      "def": 0.4556
     },
     "away": {
-      "atk": 2.0252,
-      "def": 0.4931
+      "atk": 2.0249,
+      "def": 0.4933
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.6027,
-      "def": 0.4555
+      "atk": 1.6026,
+      "def": 0.4556
     },
     "away": {
-      "atk": 2.0252,
-      "def": 0.4931
+      "atk": 2.0249,
+      "def": 0.4933
     }
   },
   "rho": -0.0673,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-23",
   "n_prior_matches": {
     "home": 98,
     "away": 85
   },
-  "generated_at": "2026-06-22T23:54:22+00:00"
+  "generated_at": "2026-06-23T00:38:30+00:00"
 }

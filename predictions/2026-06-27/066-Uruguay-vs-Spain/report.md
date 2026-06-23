@@ -16,7 +16,7 @@
 | Draw | **28.2%** |
 | Spain win | **55.9%** |
 
-*Monte Carlo (50,000 sims):* 15.6% / 28.4% / 56.0% · avg goals 2.11
+*Monte Carlo (50,000 sims):* 15.6% / 28.4% / 56.0% · avg goals 2.12
 
 ## Most likely scorelines
 

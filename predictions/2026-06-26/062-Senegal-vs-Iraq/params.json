@@ -8,24 +8,24 @@
     "stage": "group",
     "venue": "Toronto Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0764,
   "strength": {
     "home": {
-      "atk": 2.288,
-      "def": 0.4835
+      "atk": 2.2876,
+      "def": 0.4836
     },
     "away": {
-      "atk": 1.2656,
+      "atk": 1.2655,
       "def": 0.6432
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.288,
-      "def": 0.4835
+      "atk": 2.2876,
+      "def": 0.4836
     },
     "away": {
-      "atk": 1.2656,
+      "atk": 1.2655,
       "def": 0.6432
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-23",
   "n_prior_matches": {
     "home": 104,
     "away": 106
   },
-  "generated_at": "2026-06-22T23:54:21+00:00"
+  "generated_at": "2026-06-23T00:38:30+00:00"
 }

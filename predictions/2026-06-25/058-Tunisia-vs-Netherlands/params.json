@@ -8,24 +8,24 @@
     "stage": "group",
     "venue": "Kansas City Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0764,
   "strength": {
     "home": {
-      "atk": 1.4292,
-      "def": 0.7172
+      "atk": 1.4289,
+      "def": 0.7167
     },
     "away": {
-      "atk": 3.3337,
+      "atk": 3.3333,
       "def": 0.45
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.4292,
-      "def": 0.7172
+      "atk": 1.4289,
+      "def": 0.7167
     },
     "away": {
-      "atk": 3.3337,
+      "atk": 3.3333,
       "def": 0.45
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-23",
   "n_prior_matches": {
-    "home": 110,
+    "home": 109,
     "away": 95
   },
-  "generated_at": "2026-06-22T23:54:20+00:00"
+  "generated_at": "2026-06-23T00:38:29+00:00"
 }

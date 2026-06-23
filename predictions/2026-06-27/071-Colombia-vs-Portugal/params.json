@@ -8,24 +8,24 @@
     "stage": "group",
     "venue": "Miami Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0764,
   "strength": {
     "home": {
-      "atk": 3.2183,
+      "atk": 3.2177,
       "def": 0.4254
     },
     "away": {
-      "atk": 3.1011,
+      "atk": 3.1009,
       "def": 0.4147
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2183,
+      "atk": 3.2177,
       "def": 0.4254
     },
     "away": {
-      "atk": 3.1011,
+      "atk": 3.1009,
       "def": 0.4147
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-23",
   "n_prior_matches": {
     "home": 94,
     "away": 97
   },
-  "generated_at": "2026-06-22T23:54:24+00:00"
+  "generated_at": "2026-06-23T00:38:33+00:00"
 }

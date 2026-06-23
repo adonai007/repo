@@ -8,24 +8,24 @@
     "stage": "group",
     "venue": "Philadelphia Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0764,
   "strength": {
     "home": {
-      "atk": 2.4501,
+      "atk": 2.4502,
       "def": 0.5264
     },
     "away": {
-      "atk": 1.4227,
+      "atk": 1.4226,
       "def": 0.6317
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.4501,
+      "atk": 2.4502,
       "def": 0.5264
     },
     "away": {
-      "atk": 1.4227,
+      "atk": 1.4226,
       "def": 0.6317
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-22",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-23",
   "n_prior_matches": {
     "home": 99,
     "away": 78
   },
-  "generated_at": "2026-06-22T23:54:23+00:00"
+  "generated_at": "2026-06-23T00:38:32+00:00"
 }
