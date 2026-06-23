@@ -13,10 +13,10 @@
 | Outcome | Model |
 |---|---|
 | Portugal win | **62.5%** |
-| Draw | **24.5%** |
+| Draw | **24.6%** |
 | Uzbekistan win | **12.9%** |
 
-*Monte Carlo (50,000 sims):* 62.7% / 24.4% / 12.9% · avg goals 2.37
+*Monte Carlo (50,000 sims):* 62.7% / 24.4% / 12.9% · avg goals 2.36
 
 ## Most likely scorelines
 

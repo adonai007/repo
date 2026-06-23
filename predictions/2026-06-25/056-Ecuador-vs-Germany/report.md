@@ -16,7 +16,7 @@
 | Draw | **35.5%** |
 | Germany win | **38.3%** |
 
-*Monte Carlo (50,000 sims):* 26.2% / 35.7% / 38.1% · avg goals 1.69
+*Monte Carlo (50,000 sims):* 26.1% / 35.8% / 38.1% · avg goals 1.69
 
 ## Most likely scorelines
 
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 33.1%
+- Both teams to score: 33.0%
 - Over 2.5 goals: 24.2%  ·  Under 2.5: 75.8%
 - Double chance 1X: 61.7%  ·  X2: 73.9%
 

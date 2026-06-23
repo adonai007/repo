@@ -4,15 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **33**
-- Mean RPS: **0.149**  ·  log-loss: 0.840  ·  Brier: 0.499
-- Hit rate (argmax): **64%**
+- Matches graded: **34**
+- Mean RPS: **0.148**  ·  log-loss: 0.831  ·  Brier: 0.492
+- Hit rate (argmax): **65%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 44 | 2026-06-23 | Jordan vs Algeria | 18% / 23% / 58% | 1-1 |
 | 45 | 2026-06-23 | England vs Ghana | 73% / 20% / 7% | 2-0 |
 | 46 | 2026-06-23 | Panama vs Croatia | 15% / 22% / 63% | 0-2 |
 | 47 | 2026-06-23 | Portugal vs Uzbekistan | 63% / 25% / 13% | 1-0 |
@@ -32,3 +31,4 @@ Auto-generated. *Informational model output — not betting advice.*
 | 61 | 2026-06-26 | Norway vs France | 33% / 26% / 40% | 1-1 |
 | 62 | 2026-06-26 | Senegal vs Iraq | 59% / 26% / 15% | 1-0 |
 | 63 | 2026-06-27 | Egypt vs IR Iran | 29% / 34% / 37% | 0-0 |
+| 64 | 2026-06-27 | New Zealand vs Belgium | 10% / 19% / 71% | 0-2 |

@@ -14,7 +14,7 @@
 |---|---|
 | South Africa win | **20.4%** |
 | Draw | **28.8%** |
-| Korea Republic win | **50.9%** |
+| Korea Republic win | **50.8%** |
 
 *Monte Carlo (50,000 sims):* 20.4% / 28.7% / 50.9% · avg goals 2.23
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 42.8%
 - Over 2.5 goals: 38.5%  ·  Under 2.5: 61.5%
-- Double chance 1X: 49.1%  ·  X2: 79.6%
+- Double chance 1X: 49.2%  ·  X2: 79.6%
 
 ## Scoreline heatmap
 

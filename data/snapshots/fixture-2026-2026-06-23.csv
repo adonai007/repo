@@ -42,7 +42,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 41,2,2026-06-23 00:00:00+00:00,2026-06-23,New York/New Jersey Stadium,Group I,Norway,Senegal,3.0,2.0,Norway,True,True,group
 42,2,2026-06-22 21:00:00+00:00,2026-06-22,Philadelphia Stadium,Group I,France,Iraq,3.0,0.0,France,True,True,group
 43,2,2026-06-22 17:00:00+00:00,2026-06-22,Dallas Stadium,Group J,Argentina,Austria,2.0,0.0,Argentina,True,True,group
-44,2,2026-06-23 03:00:00+00:00,2026-06-23,San Francisco Bay Area Stadium,Group J,Jordan,Algeria,,,,True,False,group
+44,2,2026-06-23 03:00:00+00:00,2026-06-23,San Francisco Bay Area Stadium,Group J,Jordan,Algeria,1.0,2.0,Algeria,True,True,group
 45,2,2026-06-23 20:00:00+00:00,2026-06-23,Boston Stadium,Group L,England,Ghana,,,,True,False,group
 46,2,2026-06-23 23:00:00+00:00,2026-06-23,Toronto Stadium,Group L,Panama,Croatia,,,,True,False,group
 47,2,2026-06-23 17:00:00+00:00,2026-06-23,Houston Stadium,Group K,Portugal,Uzbekistan,,,,True,False,group

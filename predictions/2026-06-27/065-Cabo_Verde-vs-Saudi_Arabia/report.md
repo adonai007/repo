@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 38.5%
+- Both teams to score: 38.4%
 - Over 2.5 goals: 29.6%  ·  Under 2.5: 70.4%
 - Double chance 1X: 67.1%  ·  X2: 66.6%
 

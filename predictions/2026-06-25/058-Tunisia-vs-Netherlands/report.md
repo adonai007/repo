@@ -13,14 +13,14 @@
 | Outcome | Model |
 |---|---|
 | Tunisia win | **7.3%** |
-| Draw | **15.2%** |
+| Draw | **15.3%** |
 | Netherlands win | **77.4%** |
 
 *Monte Carlo (50,000 sims):* 7.4% / 15.1% / 77.5% · avg goals 3.26
 
 ## Most likely scorelines
 
-- 0-2: 12.6%
+- 0-2: 12.7%
 - 0-3: 10.8%
 - 0-1: 9.4%
 - 1-2: 8.8%
