@@ -36,16 +36,96 @@ LEDGER_PATH = PRED / "ledger.parquet"
 BACKTEST_PATH = PRED / "backtest_report.json"
 PIPELINE_RUN_PATH = ROOT / "pipeline_runs" / "latest.json"
 RATINGS = ROOT / "ratings"
+BRAND_NAME = "InnovaAI"
 
 # Bolivia has no DST and sits at UTC-4 year-round.
 BOLIVIA_TZ = timezone(timedelta(hours=-4))
 # A prediction made this far ahead of kickoff counts as "comfortably ahead".
 LEAD_OK_MIN = 60
 
-st.set_page_config(page_title="footy — World Cup 2026", layout="wide")
-st.title("⚽ footy — World Cup 2026 predictions")
-st.caption("Dixon-Coles + Monte Carlo, calibrated by automated deep research. "
-           "Informational model output — not betting advice.")
+st.set_page_config(page_title=f"{BRAND_NAME} | footy World Cup 2026", layout="wide")
+st.markdown(
+    """
+    <style>
+    .innova-brandbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 0.25rem 0 1.1rem;
+        padding: 0.85rem 1rem;
+        border: 1px solid rgba(125, 143, 164, 0.28);
+        border-left: 4px solid #18b8a7;
+        border-radius: 8px;
+        background: rgba(22, 28, 36, 0.04);
+    }
+    .innova-brandmark {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.35rem;
+        height: 2.35rem;
+        border-radius: 7px;
+        background: #101820;
+        color: #35e1cf;
+        font-weight: 800;
+        letter-spacing: 0;
+    }
+    .innova-brandcopy {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+    }
+    .innova-brandname {
+        font-size: 1.05rem;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+    .innova-brandsub {
+        color: rgba(125, 143, 164, 0.95);
+        font-size: 0.85rem;
+        line-height: 1.35;
+    }
+    .innova-brandproduct {
+        margin-left: auto;
+        color: rgba(125, 143, 164, 0.95);
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+    .innova-footer {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(125, 143, 164, 0.28);
+        color: rgba(125, 143, 164, 0.95);
+        font-size: 0.84rem;
+    }
+    @media (max-width: 760px) {
+        .innova-brandbar {
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        .innova-brandproduct {
+            margin-left: 0;
+            white-space: normal;
+        }
+    }
+    </style>
+    <div class="innova-brandbar">
+        <div style="display:flex; align-items:center; gap:0.75rem; min-width:0;">
+            <div class="innova-brandmark">IA</div>
+            <div class="innova-brandcopy">
+                <div class="innova-brandname">InnovaAI</div>
+                <div class="innova-brandsub">Empresa desarrolladora del software</div>
+            </div>
+        </div>
+        <div class="innova-brandproduct">Plataforma de prediccion deportiva</div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+st.title("footy - World Cup 2026 predictions")
+st.caption(f"Software desarrollado por {BRAND_NAME}. Dixon-Coles + Monte Carlo, "
+           "calibrated by automated deep research. Informational model output - not betting advice.")
 
 
 # --- cached loaders -----------------------------------------------------------
@@ -835,6 +915,9 @@ def whatif(led: pd.DataFrame) -> None:
 
 
 # --- page assembly ------------------------------------------------------------
+st.sidebar.markdown(f"### {BRAND_NAME}")
+st.sidebar.caption("Empresa desarrolladora del software")
+st.sidebar.divider()
 st.sidebar.caption("Data refreshes automatically every 30 s (ledger ttl=30).")
 if st.sidebar.button("Refresh data"):
     st.cache_data.clear()
@@ -854,3 +937,7 @@ st.divider()
 predictions_view(led, fix)
 st.divider()
 whatif(led)
+st.markdown(
+    f'<div class="innova-footer">{BRAND_NAME} | Software de pronosticos deportivos y analitica predictiva.</div>',
+    unsafe_allow_html=True,
+)
