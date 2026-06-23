@@ -16,7 +16,7 @@
 | Draw | **30.4%** |
 | Austria win | **38.8%** |
 
-*Monte Carlo (50,000 sims):* 30.9% / 30.2% / 38.8% · avg goals 2.25
+*Monte Carlo (50,000 sims):* 30.9% / 30.2% / 38.9% · avg goals 2.25
 
 ## Most likely scorelines
 
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 46.2%
+- Both teams to score: 46.3%
 - Over 2.5 goals: 39.0%  ·  Under 2.5: 61.0%
 - Double chance 1X: 61.2%  ·  X2: 69.2%
 

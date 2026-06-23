@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Panama win | **15.0%** |
+| Panama win | **15.1%** |
 | Draw | **21.9%** |
 | Croatia win | **63.0%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 51.7%
 - Over 2.5 goals: 55.6%  ·  Under 2.5: 44.4%
-- Double chance 1X: 37.0%  ·  X2: 85.0%
+- Double chance 1X: 37.0%  ·  X2: 84.9%
 
 ## Scoreline heatmap
 

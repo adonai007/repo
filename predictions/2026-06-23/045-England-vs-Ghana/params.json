@@ -8,10 +8,10 @@
     "stage": "group",
     "venue": "Boston Stadium"
   },
-  "base_rate": 1.0762,
+  "base_rate": 1.0764,
   "strength": {
     "home": {
-      "atk": 2.9328,
+      "atk": 2.9323,
       "def": 0.3166
     },
     "away": {
@@ -21,7 +21,7 @@
   },
   "prior_strength": {
     "home": {
-      "atk": 2.9328,
+      "atk": 2.9323,
       "def": 0.3166
     },
     "away": {
@@ -48,5 +48,5 @@
     "home": 104,
     "away": 78
   },
-  "generated_at": "2026-06-23T06:23:27+00:00"
+  "generated_at": "2026-06-23T07:46:29+00:00"
 }
