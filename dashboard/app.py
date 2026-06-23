@@ -35,6 +35,7 @@ PRED = ROOT / "predictions"
 LEDGER_PATH = PRED / "ledger.parquet"
 BACKTEST_PATH = PRED / "backtest_report.json"
 PIPELINE_RUN_PATH = ROOT / "pipeline_runs" / "latest.json"
+RATINGS = ROOT / "ratings"
 
 # Bolivia has no DST and sits at UTC-4 year-round.
 BOLIVIA_TZ = timezone(timedelta(hours=-4))
@@ -92,6 +93,29 @@ def _read_text(path: Path) -> str:
 @st.cache_data(ttl=30)
 def _latest_run() -> dict:
     return _read_json(PIPELINE_RUN_PATH)
+
+
+@st.cache_data(ttl=60)
+def _latest_prior_payload() -> dict:
+    snaps = sorted(RATINGS.glob("*.json"))
+    return _read_json(snaps[-1]) if snaps else {}
+
+
+@st.cache_data(ttl=60)
+def _prediction_strengths() -> dict:
+    strengths: dict[str, dict[str, float]] = {}
+    for path in sorted(PRED.glob("*/*/params.json")):
+        params = _read_json(path)
+        match = params.get("match") or {}
+        strength = params.get("strength") or {}
+        for side in ("home", "away"):
+            name = match.get(side)
+            side_strength = strength.get(side) or {}
+            atk = side_strength.get("atk")
+            deff = side_strength.get("def")
+            if name and isinstance(atk, (int, float)) and isinstance(deff, (int, float)):
+                strengths[str(name)] = {"atk": float(atk), "def": float(deff)}
+    return strengths
 
 
 def _slugfrag(name: str) -> str:
@@ -597,6 +621,50 @@ def _safe_float(value, fallback: float) -> float:
         return fallback
 
 
+def _bounded_float(value, fallback: float, lo: float, hi: float) -> float:
+    return min(max(_safe_float(value, fallback), lo), hi)
+
+
+def _country_options(led: pd.DataFrame, selected_params: dict) -> list[str]:
+    names: set[str] = set(_prediction_strengths().keys())
+    if not led.empty:
+        for col in ("home", "away"):
+            if col in led.columns:
+                names.update(str(v) for v in led[col].dropna().unique() if str(v).strip())
+    match = selected_params.get("match") or {}
+    names.update(str(match.get(side)) for side in ("home", "away") if match.get(side))
+    if not names:
+        prior = _latest_prior_payload()
+        names.update((prior.get("teams") or {}).keys())
+    return sorted(names)
+
+
+def _option_index(options: list[str], preferred: str | None, fallback: str | None = None) -> int:
+    if not options:
+        return 0
+    for candidate in (preferred, fallback):
+        if candidate in options:
+            return options.index(candidate)
+    return 0
+
+
+def _strength_for_country(country: str, selected_params: dict, selected_side: str) -> dict:
+    match = selected_params.get("match") or {}
+    strength = selected_params.get("strength") or {}
+    for side in (selected_side, "home", "away"):
+        if country == match.get(side):
+            side_strength = strength.get(side) or {}
+            if "atk" in side_strength and "def" in side_strength:
+                return side_strength
+    prediction_strength = _prediction_strengths().get(country)
+    if prediction_strength:
+        return prediction_strength
+    prior_strength = (_latest_prior_payload().get("teams") or {}).get(country)
+    if prior_strength:
+        return prior_strength
+    return {}
+
+
 def predictions_view(led: pd.DataFrame, fix: pd.DataFrame) -> None:
     st.subheader("🗓️ Predictions by date")
     if led.empty:
@@ -654,7 +722,7 @@ def predictions_view(led: pd.DataFrame, fix: pd.DataFrame) -> None:
 # --- live what-if -------------------------------------------------------------
 def whatif(led: pd.DataFrame) -> None:
     st.subheader("🎛️ Live what-if")
-    st.caption("Choose a prediction as the base, then move sliders to update 1X2 instantly.")
+    st.caption("Choose countries, then move sliders to update 1X2 instantly.")
     options = _whatif_options(led)
     labels = {option["key"]: option["label"] for option in options}
     option_by_key = {option["key"]: option for option in options}
@@ -674,36 +742,72 @@ def whatif(led: pd.DataFrame) -> None:
         selected_params = _whatif_params_for_option(option_by_key[selected_key])
 
     match = selected_params.get("match") or {}
-    strength = selected_params.get("strength") or {}
-    home_strength = strength.get("home") or {}
-    away_strength = strength.get("away") or {}
-    widget_suffix = selected_key or "manual"
+    countries = _country_options(led, selected_params)
+    if not countries:
+        st.info("No countries available for what-if.")
+        return
+    base_suffix = selected_key or "manual"
 
     c = st.columns(4)
-    home = c[0].text_input("Home", str(match.get("home") or "Home"), key=f"wi_home_{widget_suffix}")
-    away = c[0].text_input("Away", str(match.get("away") or "Away"), key=f"wi_away_{widget_suffix}")
+    home = c[0].selectbox(
+        "Home",
+        countries,
+        index=_option_index(countries, str(match.get("home") or ""), "Brazil"),
+        key=f"wi_home_country_{base_suffix}",
+    )
+    away = c[0].selectbox(
+        "Away",
+        countries,
+        index=_option_index(countries, str(match.get("away") or ""), "Morocco"),
+        key=f"wi_away_country_{base_suffix}",
+    )
+    if home == away:
+        c[0].warning("Home and Away are the same country.")
+
+    home_strength = _strength_for_country(home, selected_params, "home")
+    away_strength = _strength_for_country(away, selected_params, "away")
+    prior = _latest_prior_payload()
+    widget_suffix = f"{base_suffix}_{_slugfrag(home)}_{_slugfrag(away)}"
     base = c[0].slider(
-        "Base rate", 0.5, 2.5, _safe_float(selected_params.get("base_rate"), 1.30), 0.01,
+        "Base rate",
+        0.8,
+        2.0,
+        _bounded_float(
+            selected_params.get("base_rate"),
+            _safe_float(prior.get("base_rate"), 1.30),
+            0.8,
+            2.0,
+        ),
+        0.01,
         key=f"wi_base_{widget_suffix}",
     )
     rho = c[0].slider(
-        "rho (Dixon-Coles)", -0.30, 0.10, _safe_float(selected_params.get("rho"), -0.10), 0.01,
+        "rho (Dixon-Coles)",
+        -0.20,
+        0.20,
+        _bounded_float(
+            selected_params.get("rho"),
+            _safe_float(prior.get("rho"), -0.10),
+            -0.20,
+            0.20,
+        ),
+        0.01,
         key=f"wi_rho_{widget_suffix}",
     )
     atk_h = c[1].slider(
-        "Home attack", 0.1, 4.5, _safe_float(home_strength.get("atk"), 1.45), 0.01,
+        "Home attack", 0.1, 6.0, _bounded_float(home_strength.get("atk"), 1.45, 0.1, 6.0), 0.01,
         key=f"wi_atk_h_{widget_suffix}",
     )
     def_h = c[1].slider(
-        "Home defence", 0.1, 4.5, _safe_float(home_strength.get("def"), 0.86), 0.01,
+        "Home defence", 0.1, 6.0, _bounded_float(home_strength.get("def"), 0.86, 0.1, 6.0), 0.01,
         key=f"wi_def_h_{widget_suffix}",
     )
     atk_a = c[2].slider(
-        "Away attack", 0.1, 4.5, _safe_float(away_strength.get("atk"), 0.88), 0.01,
+        "Away attack", 0.1, 6.0, _bounded_float(away_strength.get("atk"), 0.88, 0.1, 6.0), 0.01,
         key=f"wi_atk_a_{widget_suffix}",
     )
     def_a = c[2].slider(
-        "Away defence", 0.1, 4.5, _safe_float(away_strength.get("def"), 0.63), 0.01,
+        "Away defence", 0.1, 6.0, _bounded_float(away_strength.get("def"), 0.63, 0.1, 6.0), 0.01,
         key=f"wi_def_a_{widget_suffix}",
     )
 
