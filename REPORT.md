@@ -4,9 +4,9 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **38**
-- Mean RPS: **0.146**  ·  log-loss: 0.826  ·  Brier: 0.490
-- Hit rate (argmax): **66%**
+- Matches graded: **40**
+- Mean RPS: **0.149**  ·  log-loss: 0.826  ·  Brier: 0.489
+- Hit rate (argmax): **68%**
 
 ## Upcoming predictions
 
@@ -14,8 +14,6 @@ Auto-generated. *Informational model output — not betting advice.*
 |--|--|--|--|--|
 | 49 | 2026-06-24 | Scotland vs Brazil | 17% / 25% / 58% | 0-1 |
 | 50 | 2026-06-24 | Morocco vs Haiti | 75% / 19% / 6% | 2-0 |
-| 51 | 2026-06-24 | Switzerland vs Canada | 36% / 29% / 35% | 1-1 |
-| 52 | 2026-06-24 | Bosnia and Herzegovina vs Qatar | 54% / 25% / 21% | 1-1 |
 | 53 | 2026-06-25 | Czechia vs Mexico | 15% / 24% / 62% | 0-1 |
 | 54 | 2026-06-25 | South Africa vs Korea Republic | 21% / 29% / 51% | 0-1 |
 | 55 | 2026-06-25 | Curaçao vs Côte d'Ivoire | 8% / 21% / 71% | 0-1 |
@@ -32,3 +30,5 @@ Auto-generated. *Informational model output — not betting advice.*
 | 66 | 2026-06-27 | Uruguay vs Spain | 16% / 28% / 56% | 0-1 |
 | 67 | 2026-06-27 | Panama vs England | 6% / 17% / 77% | 0-2 |
 | 68 | 2026-06-27 | Croatia vs Ghana | 53% / 28% / 18% | 1-0 |
+| 69 | 2026-06-28 | Algeria vs Austria | 32% / 30% / 38% | 1-1 |
+| 70 | 2026-06-28 | Jordan vs Argentina | 3% / 11% / 86% | 0-2 |
