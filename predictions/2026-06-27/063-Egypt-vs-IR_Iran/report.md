@@ -16,7 +16,7 @@
 | Draw | **34.4%** |
 | IR Iran win | **35.9%** |
 
-*Monte Carlo (50,000 sims):* 29.6% / 34.5% / 35.9% · avg goals 1.83
+*Monte Carlo (50,000 sims):* 29.7% / 34.5% / 35.9% · avg goals 1.83
 
 ## Most likely scorelines
 

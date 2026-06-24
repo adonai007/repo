@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Switzerland win | **36.4%** |
+| Switzerland win | **36.3%** |
 | Draw | **28.7%** |
 | Canada win | **35.0%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 52.0%
 - Over 2.5 goals: 45.9%  ·  Under 2.5: 54.1%
-- Double chance 1X: 65.0%  ·  X2: 63.6%
+- Double chance 1X: 65.0%  ·  X2: 63.7%
 
 ## Scoreline heatmap
 

@@ -16,7 +16,7 @@
 | Draw | **18.7%** |
 | Sweden win | **13.0%** |
 
-*Monte Carlo (50,000 sims):* 68.4% / 18.7% / 12.8% · avg goals 3.35
+*Monte Carlo (50,000 sims):* 68.4% / 18.8% / 12.8% · avg goals 3.35
 
 ## Most likely scorelines
 
