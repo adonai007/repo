@@ -44,7 +44,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 43,2,2026-06-22 17:00:00+00:00,2026-06-22,Dallas Stadium,Group J,Argentina,Austria,2.0,0.0,Argentina,True,True,group
 44,2,2026-06-23 03:00:00+00:00,2026-06-23,San Francisco Bay Area Stadium,Group J,Jordan,Algeria,1.0,2.0,Algeria,True,True,group
 45,2,2026-06-23 20:00:00+00:00,2026-06-23,Boston Stadium,Group L,England,Ghana,0.0,0.0,Draw,True,True,group
-46,2,2026-06-23 23:00:00+00:00,2026-06-23,Toronto Stadium,Group L,Panama,Croatia,,,,True,False,group
+46,2,2026-06-23 23:00:00+00:00,2026-06-23,Toronto Stadium,Group L,Panama,Croatia,0.0,1.0,Croatia,True,True,group
 47,2,2026-06-23 17:00:00+00:00,2026-06-23,Houston Stadium,Group K,Portugal,Uzbekistan,5.0,0.0,Portugal,True,True,group
 48,2,2026-06-24 02:00:00+00:00,2026-06-24,Guadalajara Stadium,Group K,Colombia,Congo DR,,,,True,False,group
 49,3,2026-06-24 22:00:00+00:00,2026-06-24,Miami Stadium,Group C,Scotland,Brazil,,,,True,False,group
