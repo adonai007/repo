@@ -6,17 +6,17 @@
 
 - **Norway**: 1.36
 - **France**: 1.65
-- **Total**: 3.01  ·  rho = -0.0675
+- **Total**: 3.01  ·  rho = -0.0676
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Norway win | **30.9%** |
+| Norway win | **30.7%** |
 | Draw | **25.5%** |
-| France win | **43.6%** |
+| France win | **43.8%** |
 
-*Monte Carlo (50,000 sims):* 30.9% / 25.5% / 43.6% · avg goals 3.01
+*Monte Carlo (50,000 sims):* 30.7% / 25.5% / 43.8% · avg goals 3.02
 
 ## Most likely scorelines
 
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 60.7%
-- Over 2.5 goals: 57.8%  ·  Under 2.5: 42.2%
-- Double chance 1X: 56.4%  ·  X2: 69.1%
+- Both teams to score: 60.8%
+- Over 2.5 goals: 57.9%  ·  Under 2.5: 42.1%
+- Double chance 1X: 56.2%  ·  X2: 69.3%
 
 ## Scoreline heatmap
 

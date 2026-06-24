@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Croatia**: 1.67
-- **Ghana**: 0.80
-- **Total**: 2.48  ·  rho = -0.0675
+- **Croatia**: 1.46
+- **Ghana**: 0.75
+- **Total**: 2.21  ·  rho = -0.0676
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Croatia win | **57.3%** |
-| Draw | **25.6%** |
-| Ghana win | **17.0%** |
+| Croatia win | **53.3%** |
+| Draw | **28.3%** |
+| Ghana win | **18.4%** |
 
-*Monte Carlo (50,000 sims):* 57.5% / 25.6% / 17.0% · avg goals 2.48
+*Monte Carlo (50,000 sims):* 53.2% / 28.5% / 18.3% · avg goals 2.21
 
 ## Most likely scorelines
 
-- 1-0: 13.3%
-- 1-1: 12.1%
-- 2-0: 11.8%
-- 2-1: 9.5%
-- 0-0: 9.2%
-- 3-0: 6.6%
+- 1-0: 15.2%
+- 1-1: 12.8%
+- 0-0: 11.8%
+- 2-0: 11.7%
+- 2-1: 8.8%
+- 0-1: 7.4%
 
 ## Derived markets
 
-- Both teams to score: 45.6%
-- Over 2.5 goals: 45.0%  ·  Under 2.5: 55.0%
-- Double chance 1X: 83.0%  ·  X2: 42.7%
+- Both teams to score: 41.3%
+- Over 2.5 goals: 38.0%  ·  Under 2.5: 62.0%
+- Double chance 1X: 81.6%  ·  X2: 46.7%
 
 ## Scoreline heatmap
 

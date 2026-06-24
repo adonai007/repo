@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Los Angeles Stadium"
   },
-  "base_rate": 1.0768,
+  "base_rate": 1.0753,
   "strength": {
     "home": {
-      "atk": 2.3254,
-      "def": 0.5682
+      "atk": 2.3384,
+      "def": 0.565
     },
     "away": {
-      "atk": 2.2879,
-      "def": 0.6022
+      "atk": 2.2921,
+      "def": 0.6009
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.3254,
-      "def": 0.5682
+      "atk": 2.3384,
+      "def": 0.565
     },
     "away": {
-      "atk": 2.2879,
-      "def": 0.6022
+      "atk": 2.2921,
+      "def": 0.6009
     }
   },
-  "rho": -0.0675,
+  "rho": -0.0676,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -38,7 +38,7 @@
   },
   "home_advantage": {
     "home": 1.0,
-    "away": 1.2445
+    "away": 1.2465
   },
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
@@ -48,5 +48,5 @@
     "home": 93,
     "away": 122
   },
-  "generated_at": "2026-06-24T06:20:47+00:00"
+  "generated_at": "2026-06-24T07:45:16+00:00"
 }

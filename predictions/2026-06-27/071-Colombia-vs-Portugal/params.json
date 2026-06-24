@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Miami Stadium"
   },
-  "base_rate": 1.0768,
+  "base_rate": 1.0753,
   "strength": {
     "home": {
-      "atk": 3.2322,
-      "def": 0.4236
+      "atk": 3.1597,
+      "def": 0.4077
     },
     "away": {
-      "atk": 3.1076,
-      "def": 0.414
+      "atk": 3.3737,
+      "def": 0.3972
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2322,
-      "def": 0.4236
+      "atk": 3.1597,
+      "def": 0.4077
     },
     "away": {
-      "atk": 3.1076,
-      "def": 0.414
+      "atk": 3.3737,
+      "def": 0.3972
     }
   },
-  "rho": -0.0675,
+  "rho": -0.0676,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-24",
   "n_prior_matches": {
-    "home": 93,
-    "away": 97
+    "home": 94,
+    "away": 98
   },
-  "generated_at": "2026-06-24T06:20:50+00:00"
+  "generated_at": "2026-06-24T07:45:19+00:00"
 }

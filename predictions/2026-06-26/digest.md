@@ -5,7 +5,7 @@
 | Türkiye vs USA | group | 33% / 24% / 43% | 1-1 |
 | Paraguay vs Australia | group | 28% / 35% / 37% | 0-0 |
 | Norway vs France | group | 31% / 25% / 44% | 1-1 |
-| Senegal vs Iraq | group | 60% / 25% / 14% | 1-0 |
+| Senegal vs Iraq | group | 61% / 25% / 14% | 1-0 |
 
 ---
 *Informational model output — not betting advice.*

@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Atlanta Stadium"
   },
-  "base_rate": 1.0768,
+  "base_rate": 1.0753,
   "strength": {
     "home": {
-      "atk": 1.3643,
-      "def": 0.4015
+      "atk": 1.3296,
+      "def": 0.387
     },
     "away": {
-      "atk": 1.4483,
-      "def": 0.5145
+      "atk": 1.3995,
+      "def": 0.6231
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.3643,
-      "def": 0.4015
+      "atk": 1.3296,
+      "def": 0.387
     },
     "away": {
-      "atk": 1.4483,
-      "def": 0.5145
+      "atk": 1.3995,
+      "def": 0.6231
     }
   },
-  "rho": -0.0675,
+  "rho": -0.0676,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-24",
   "n_prior_matches": {
-    "home": 83,
-    "away": 86
+    "home": 84,
+    "away": 87
   },
-  "generated_at": "2026-06-24T06:20:50+00:00"
+  "generated_at": "2026-06-24T07:45:19+00:00"
 }

@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Kansas City Stadium"
   },
-  "base_rate": 1.0768,
+  "base_rate": 1.0753,
   "strength": {
     "home": {
-      "atk": 2.2501,
-      "def": 0.4956
+      "atk": 2.25,
+      "def": 0.4964
     },
     "away": {
-      "atk": 2.221,
-      "def": 0.4465
+      "atk": 2.2368,
+      "def": 0.4456
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.2501,
-      "def": 0.4956
+      "atk": 2.25,
+      "def": 0.4964
     },
     "away": {
-      "atk": 2.221,
-      "def": 0.4465
+      "atk": 2.2368,
+      "def": 0.4456
     }
   },
-  "rho": -0.0675,
+  "rho": -0.0676,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 108,
     "away": 89
   },
-  "generated_at": "2026-06-24T06:20:50+00:00"
+  "generated_at": "2026-06-24T07:45:19+00:00"
 }

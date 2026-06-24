@@ -6,17 +6,17 @@
 
 - **Türkiye**: 1.51
 - **USA**: 1.74
-- **Total**: 3.25  ·  rho = -0.0675
+- **Total**: 3.25  ·  rho = -0.0676
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Türkiye win | **32.8%** |
-| Draw | **24.4%** |
-| USA win | **42.7%** |
+| Türkiye win | **33.0%** |
+| Draw | **24.5%** |
+| USA win | **42.5%** |
 
-*Monte Carlo (50,000 sims):* 32.9% / 24.3% / 42.8% · avg goals 3.26
+*Monte Carlo (50,000 sims):* 33.1% / 24.3% / 42.6% · avg goals 3.26
 
 ## Most likely scorelines
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 64.9%
 - Over 2.5 goals: 63.0%  ·  Under 2.5: 37.0%
-- Double chance 1X: 57.3%  ·  X2: 67.2%
+- Double chance 1X: 57.5%  ·  X2: 67.0%
 
 ## Scoreline heatmap
 

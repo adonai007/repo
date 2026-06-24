@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.0768,
+  "base_rate": 1.0753,
   "strength": {
     "home": {
-      "atk": 2.7942,
-      "def": 0.3393
+      "atk": 2.802,
+      "def": 0.3409
     },
     "away": {
-      "atk": 2.6249,
-      "def": 0.7961
+      "atk": 2.638,
+      "def": 0.792
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.7942,
-      "def": 0.3393
+      "atk": 2.802,
+      "def": 0.3409
     },
     "away": {
-      "atk": 2.6249,
-      "def": 0.7961
+      "atk": 2.638,
+      "def": 0.792
     }
   },
-  "rho": -0.0675,
+  "rho": -0.0676,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 104,
     "away": 96
   },
-  "generated_at": "2026-06-24T06:20:46+00:00"
+  "generated_at": "2026-06-24T07:45:15+00:00"
 }

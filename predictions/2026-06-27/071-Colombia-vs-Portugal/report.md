@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Colombia**: 1.44
-- **Portugal**: 1.42
-- **Total**: 2.86  ·  rho = -0.0675
+- **Colombia**: 1.35
+- **Portugal**: 1.48
+- **Total**: 2.83  ·  rho = -0.0676
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Colombia win | **37.2%** |
-| Draw | **26.6%** |
-| Portugal win | **36.2%** |
+| Colombia win | **33.7%** |
+| Draw | **26.7%** |
+| Portugal win | **39.6%** |
 
-*Monte Carlo (50,000 sims):* 37.3% / 26.5% / 36.1% · avg goals 2.86
+*Monte Carlo (50,000 sims):* 33.8% / 26.6% / 39.6% · avg goals 2.83
 
 ## Most likely scorelines
 
-- 1-1: 12.5%
-- 2-1: 8.4%
-- 1-2: 8.3%
-- 1-0: 7.5%
-- 0-1: 7.3%
-- 0-0: 6.5%
+- 1-1: 12.6%
+- 1-2: 8.7%
+- 2-1: 8.0%
+- 0-1: 7.9%
+- 1-0: 7.2%
+- 0-0: 6.7%
 
 ## Derived markets
 
-- Both teams to score: 58.6%
-- Over 2.5 goals: 54.4%  ·  Under 2.5: 45.6%
-- Double chance 1X: 63.8%  ·  X2: 62.8%
+- Both teams to score: 58.0%
+- Over 2.5 goals: 53.7%  ·  Under 2.5: 46.3%
+- Double chance 1X: 60.4%  ·  X2: 66.3%
 
 ## Scoreline heatmap
 

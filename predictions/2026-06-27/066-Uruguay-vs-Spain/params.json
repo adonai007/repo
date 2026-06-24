@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Guadalajara Stadium"
   },
-  "base_rate": 1.0768,
+  "base_rate": 1.0753,
   "strength": {
     "home": {
-      "atk": 1.882,
-      "def": 0.3781
+      "atk": 1.8811,
+      "def": 0.3797
     },
     "away": {
-      "atk": 3.5732,
-      "def": 0.3221
+      "atk": 3.593,
+      "def": 0.3202
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.882,
-      "def": 0.3781
+      "atk": 1.8811,
+      "def": 0.3797
     },
     "away": {
-      "atk": 3.5732,
-      "def": 0.3221
+      "atk": 3.593,
+      "def": 0.3202
     }
   },
-  "rho": -0.0675,
+  "rho": -0.0676,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 91,
     "away": 100
   },
-  "generated_at": "2026-06-24T06:20:49+00:00"
+  "generated_at": "2026-06-24T07:45:18+00:00"
 }
