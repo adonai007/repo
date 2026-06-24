@@ -14,7 +14,7 @@
 |---|---|
 | Uruguay win | **15.6%** |
 | Draw | **28.1%** |
-| Spain win | **56.3%** |
+| Spain win | **56.2%** |
 
 *Monte Carlo (50,000 sims):* 15.4% / 28.3% / 56.3% · avg goals 2.12
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 37.5%
 - Over 2.5 goals: 35.4%  ·  Under 2.5: 64.6%
-- Double chance 1X: 43.7%  ·  X2: 84.4%
+- Double chance 1X: 43.8%  ·  X2: 84.4%
 
 ## Scoreline heatmap
 

@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Scotland win | **17.4%** |
+| Scotland win | **17.3%** |
 | Draw | **24.6%** |
 | Brazil win | **58.0%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 48.9%
 - Over 2.5 goals: 49.1%  ·  Under 2.5: 50.9%
-- Double chance 1X: 42.0%  ·  X2: 82.6%
+- Double chance 1X: 42.0%  ·  X2: 82.7%
 
 ## Scoreline heatmap
 

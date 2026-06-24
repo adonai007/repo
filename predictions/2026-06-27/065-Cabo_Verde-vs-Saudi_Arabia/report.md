@@ -16,7 +16,7 @@
 | Draw | **33.7%** |
 | Saudi Arabia win | **32.7%** |
 
-*Monte Carlo (50,000 sims):* 33.8% / 33.7% / 32.5% · avg goals 1.89
+*Monte Carlo (50,000 sims):* 33.8% / 33.8% / 32.5% · avg goals 1.89
 
 ## Most likely scorelines
 
