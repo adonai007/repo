@@ -5,7 +5,7 @@
 ## Expected goals (model)
 
 - **Panama**: 0.53
-- **England**: 2.42
+- **England**: 2.41
 - **Total**: 2.95  ·  rho = -0.0675
 
 ## 1X2 (match result)
@@ -13,8 +13,8 @@
 | Outcome | Model |
 |---|---|
 | Panama win | **5.9%** |
-| Draw | **15.4%** |
-| England win | **78.7%** |
+| Draw | **15.5%** |
+| England win | **78.6%** |
 
 *Monte Carlo (50,000 sims):* 5.9% / 15.5% / 78.6% · avg goals 2.95
 
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 38.2%
-- Over 2.5 goals: 56.6%  ·  Under 2.5: 43.4%
-- Double chance 1X: 21.3%  ·  X2: 94.1%
+- Both teams to score: 38.1%
+- Over 2.5 goals: 56.5%  ·  Under 2.5: 43.5%
+- Double chance 1X: 21.4%  ·  X2: 94.1%
 
 ## Scoreline heatmap
 

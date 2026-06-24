@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Cabo Verde win | **33.5%** |
+| Cabo Verde win | **33.6%** |
 | Draw | **33.7%** |
 | Saudi Arabia win | **32.8%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 38.4%
 - Over 2.5 goals: 29.5%  ·  Under 2.5: 70.5%
-- Double chance 1X: 67.2%  ·  X2: 66.5%
+- Double chance 1X: 67.2%  ·  X2: 66.4%
 
 ## Scoreline heatmap
 

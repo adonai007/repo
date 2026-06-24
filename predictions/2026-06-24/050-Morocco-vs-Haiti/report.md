@@ -16,7 +16,7 @@
 | Draw | **18.8%** |
 | Haiti win | **5.6%** |
 
-*Monte Carlo (50,000 sims):* 75.8% / 18.5% / 5.7% · avg goals 2.39
+*Monte Carlo (50,000 sims):* 75.8% / 18.5% / 5.7% · avg goals 2.38
 
 ## Most likely scorelines
 

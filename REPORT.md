@@ -23,7 +23,7 @@ Auto-generated. *Informational model output — not betting advice.*
 | 55 | 2026-06-25 | Curaçao vs Côte d'Ivoire | 8% / 21% / 71% | 0-1 |
 | 56 | 2026-06-25 | Ecuador vs Germany | 26% / 36% / 38% | 0-0 |
 | 57 | 2026-06-25 | Japan vs Sweden | 69% / 19% / 13% | 2-0 |
-| 58 | 2026-06-25 | Tunisia vs Netherlands | 7% / 15% / 78% | 0-2 |
+| 58 | 2026-06-25 | Tunisia vs Netherlands | 7% / 15% / 77% | 0-2 |
 | 59 | 2026-06-26 | Türkiye vs USA | 33% / 24% / 43% | 1-1 |
 | 60 | 2026-06-26 | Paraguay vs Australia | 28% / 35% / 37% | 0-0 |
 | 61 | 2026-06-26 | Norway vs France | 31% / 25% / 44% | 1-1 |

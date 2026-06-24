@@ -21,7 +21,7 @@
 ## Most likely scorelines
 
 - 1-0: 17.8%
-- 0-0: 14.1%
+- 0-0: 14.0%
 - 2-0: 13.0%
 - 1-1: 12.3%
 - 2-1: 8.1%
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 35.6%
+- Both teams to score: 35.7%
 - Over 2.5 goals: 32.9%  ·  Under 2.5: 67.1%
 - Double chance 1X: 84.2%  ·  X2: 44.9%
 

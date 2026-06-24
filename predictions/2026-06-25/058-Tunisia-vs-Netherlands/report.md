@@ -16,7 +16,7 @@
 | Draw | **15.2%** |
 | Netherlands win | **77.5%** |
 
-*Monte Carlo (50,000 sims):* 7.4% / 15.0% / 77.6% · avg goals 3.27
+*Monte Carlo (50,000 sims):* 7.3% / 15.0% / 77.6% · avg goals 3.27
 
 ## Most likely scorelines
 
@@ -25,7 +25,7 @@
 - 0-1: 9.4%
 - 1-2: 8.7%
 - 1-3: 7.5%
-- 1-1: 7.2%
+- 1-1: 7.3%
 
 ## Derived markets
 
