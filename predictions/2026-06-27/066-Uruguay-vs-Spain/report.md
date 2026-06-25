@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **Uruguay**: 0.65
-- **Spain**: 1.47
-- **Total**: 2.11  ·  rho = -0.0675
+- **Uruguay**: 0.66
+- **Spain**: 1.44
+- **Total**: 2.10  ·  rho = -0.065
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Uruguay win | **15.6%** |
-| Draw | **28.1%** |
-| Spain win | **56.3%** |
+| Uruguay win | **16.2%** |
+| Draw | **28.4%** |
+| Spain win | **55.4%** |
 
-*Monte Carlo (50,000 sims):* 15.4% / 28.3% / 56.3% · avg goals 2.12
+*Monte Carlo (50,000 sims):* 16.0% / 28.6% / 55.3% · avg goals 2.10
 
 ## Most likely scorelines
 
 - 0-1: 16.9%
-- 0-2: 13.0%
-- 0-0: 12.8%
-- 1-1: 12.2%
+- 0-0: 13.0%
+- 0-2: 12.7%
+- 1-1: 12.4%
 - 1-2: 8.4%
-- 1-0: 7.0%
+- 1-0: 7.3%
 
 ## Derived markets
 
-- Both teams to score: 37.4%
-- Over 2.5 goals: 35.4%  ·  Under 2.5: 64.6%
-- Double chance 1X: 43.7%  ·  X2: 84.4%
+- Both teams to score: 37.6%
+- Over 2.5 goals: 35.1%  ·  Under 2.5: 64.9%
+- Double chance 1X: 44.6%  ·  X2: 83.8%
 
 ## Scoreline heatmap
 
