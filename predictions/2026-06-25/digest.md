@@ -2,8 +2,6 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| Czechia vs Mexico | group | 15% / 24% / 62% | 0-1 |
-| South Africa vs Korea Republic | group | 21% / 29% / 51% | 0-1 |
 | Curaçao vs Côte d'Ivoire | group | 8% / 21% / 71% | 0-1 |
 | Ecuador vs Germany | group | 26% / 35% / 39% | 0-0 |
 | Japan vs Sweden | group | 68% / 19% / 13% | 2-0 |
