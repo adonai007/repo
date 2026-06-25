@@ -13,7 +13,7 @@
 | Outcome | Model |
 |---|---|
 | Uruguay win | **16.0%** |
-| Draw | **28.3%** |
+| Draw | **28.2%** |
 | Spain win | **55.8%** |
 
 *Monte Carlo (50,000 sims):* 15.7% / 28.4% / 55.8% · avg goals 2.11
