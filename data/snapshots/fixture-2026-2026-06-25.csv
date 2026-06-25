@@ -51,8 +51,8 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 50,3,2026-06-24 22:00:00+00:00,2026-06-24,Atlanta Stadium,Group C,Morocco,Haiti,4.0,2.0,Morocco,True,True,group
 51,3,2026-06-24 19:00:00+00:00,2026-06-24,BC Place Vancouver,Group B,Switzerland,Canada,2.0,1.0,Switzerland,True,True,group
 52,3,2026-06-24 19:00:00+00:00,2026-06-24,Seattle Stadium,Group B,Bosnia and Herzegovina,Qatar,3.0,1.0,Bosnia and Herzegovina,True,True,group
-53,3,2026-06-25 01:00:00+00:00,2026-06-25,Mexico City Stadium,Group A,Czechia,Mexico,,,,True,False,group
-54,3,2026-06-25 01:00:00+00:00,2026-06-25,Monterrey Stadium,Group A,South Africa,Korea Republic,,,,True,False,group
+53,3,2026-06-25 01:00:00+00:00,2026-06-25,Mexico City Stadium,Group A,Czechia,Mexico,0.0,3.0,Mexico,True,True,group
+54,3,2026-06-25 01:00:00+00:00,2026-06-25,Monterrey Stadium,Group A,South Africa,Korea Republic,1.0,0.0,South Africa,True,True,group
 55,3,2026-06-25 20:00:00+00:00,2026-06-25,Philadelphia Stadium,Group E,Curaçao,Côte d'Ivoire,,,,True,False,group
 56,3,2026-06-25 20:00:00+00:00,2026-06-25,New York/New Jersey Stadium,Group E,Ecuador,Germany,,,,True,False,group
 57,3,2026-06-25 23:00:00+00:00,2026-06-25,Dallas Stadium,Group F,Japan,Sweden,,,,True,False,group

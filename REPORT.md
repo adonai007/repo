@@ -4,16 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **42**
-- Mean RPS: **0.145**  ·  log-loss: 0.806  ·  Brier: 0.475
-- Hit rate (argmax): **69%**
+- Matches graded: **44**
+- Mean RPS: **0.150**  ·  log-loss: 0.816  ·  Brier: 0.480
+- Hit rate (argmax): **68%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 53 | 2026-06-25 | Czechia vs Mexico | 15% / 24% / 62% | 0-1 |
-| 54 | 2026-06-25 | South Africa vs Korea Republic | 21% / 29% / 51% | 0-1 |
 | 55 | 2026-06-25 | Curaçao vs Côte d'Ivoire | 8% / 21% / 71% | 0-1 |
 | 56 | 2026-06-25 | Ecuador vs Germany | 26% / 35% / 39% | 0-0 |
 | 57 | 2026-06-25 | Japan vs Sweden | 68% / 19% / 13% | 2-0 |
