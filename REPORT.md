@@ -4,16 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **40**
-- Mean RPS: **0.149**  ·  log-loss: 0.826  ·  Brier: 0.489
-- Hit rate (argmax): **68%**
+- Matches graded: **42**
+- Mean RPS: **0.145**  ·  log-loss: 0.806  ·  Brier: 0.475
+- Hit rate (argmax): **69%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 49 | 2026-06-24 | Scotland vs Brazil | 17% / 25% / 58% | 0-1 |
-| 50 | 2026-06-24 | Morocco vs Haiti | 75% / 19% / 6% | 2-0 |
 | 53 | 2026-06-25 | Czechia vs Mexico | 15% / 24% / 62% | 0-1 |
 | 54 | 2026-06-25 | South Africa vs Korea Republic | 21% / 29% / 51% | 0-1 |
 | 55 | 2026-06-25 | Curaçao vs Côte d'Ivoire | 8% / 21% / 71% | 0-1 |
@@ -32,3 +30,5 @@ Auto-generated. *Informational model output — not betting advice.*
 | 68 | 2026-06-27 | Croatia vs Ghana | 53% / 28% / 18% | 1-0 |
 | 69 | 2026-06-28 | Algeria vs Austria | 32% / 30% / 38% | 1-1 |
 | 70 | 2026-06-28 | Jordan vs Argentina | 3% / 11% / 86% | 0-2 |
+| 71 | 2026-06-27 | Colombia vs Portugal | 34% / 27% / 40% | 1-1 |
+| 72 | 2026-06-27 | Congo DR vs Uzbekistan | 40% / 38% / 22% | 0-0 |
