@@ -8,25 +8,25 @@
     "stage": "group",
     "venue": "Philadelphia Stadium"
   },
-  "base_rate": 1.0754,
+  "base_rate": 1.0758,
   "strength": {
     "home": {
-      "atk": 1.1159,
-      "def": 1.0583
+      "atk": 1.1122,
+      "def": 1.0612
     },
     "away": {
-      "atk": 1.6921,
-      "def": 0.4182
+      "atk": 1.6906,
+      "def": 0.4185
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.1159,
-      "def": 1.0583
+      "atk": 1.1122,
+      "def": 1.0612
     },
     "away": {
-      "atk": 1.6921,
-      "def": 0.4182
+      "atk": 1.6906,
+      "def": 0.4185
     }
   },
   "rho": -0.065,
@@ -48,5 +48,5 @@
     "home": 61,
     "away": 91
   },
-  "generated_at": "2026-06-25T07:45:42+00:00"
+  "generated_at": "2026-06-25T09:05:24+00:00"
 }

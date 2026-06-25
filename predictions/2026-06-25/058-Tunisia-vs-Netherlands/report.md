@@ -5,18 +5,18 @@
 ## Expected goals (model)
 
 - **Tunisia**: 0.69
-- **Netherlands**: 2.54
-- **Total**: 3.23  ·  rho = -0.065
+- **Netherlands**: 2.55
+- **Total**: 3.24  ·  rho = -0.065
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Tunisia win | **7.5%** |
-| Draw | **15.5%** |
-| Netherlands win | **77.0%** |
+| Tunisia win | **7.4%** |
+| Draw | **15.4%** |
+| Netherlands win | **77.2%** |
 
-*Monte Carlo (50,000 sims):* 7.6% / 15.3% / 77.1% · avg goals 3.23
+*Monte Carlo (50,000 sims):* 7.5% / 15.2% / 77.3% · avg goals 3.24
 
 ## Most likely scorelines
 
@@ -25,13 +25,13 @@
 - 0-1: 9.6%
 - 1-2: 8.8%
 - 1-3: 7.5%
-- 1-1: 7.4%
+- 1-1: 7.3%
 
 ## Derived markets
 
-- Both teams to score: 46.4%
-- Over 2.5 goals: 62.6%  ·  Under 2.5: 37.4%
-- Double chance 1X: 23.0%  ·  X2: 92.5%
+- Both teams to score: 46.3%
+- Over 2.5 goals: 62.8%  ·  Under 2.5: 37.2%
+- Double chance 1X: 22.8%  ·  X2: 92.6%
 
 ## Scoreline heatmap
 

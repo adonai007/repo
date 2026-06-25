@@ -8,25 +8,25 @@
     "stage": "group",
     "venue": "Boston Stadium"
   },
-  "base_rate": 1.0754,
+  "base_rate": 1.0758,
   "strength": {
     "home": {
-      "atk": 3.352,
-      "def": 0.4858
+      "atk": 3.3685,
+      "def": 0.4836
     },
     "away": {
-      "atk": 3.1697,
-      "def": 0.3735
+      "atk": 3.1752,
+      "def": 0.3727
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.352,
-      "def": 0.4858
+      "atk": 3.3685,
+      "def": 0.4836
     },
     "away": {
-      "atk": 3.1697,
-      "def": 0.3735
+      "atk": 3.1752,
+      "def": 0.3727
     }
   },
   "rho": -0.065,
@@ -48,5 +48,5 @@
     "home": 81,
     "away": 103
   },
-  "generated_at": "2026-06-25T07:45:45+00:00"
+  "generated_at": "2026-06-25T09:05:26+00:00"
 }

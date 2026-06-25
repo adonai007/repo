@@ -14,7 +14,7 @@
 |---|---|
 | Egypt win | **30.1%** |
 | Draw | **34.3%** |
-| IR Iran win | **35.6%** |
+| IR Iran win | **35.5%** |
 
 *Monte Carlo (50,000 sims):* 30.2% / 34.4% / 35.4% · avg goals 1.82
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 36.5%
 - Over 2.5 goals: 27.5%  ·  Under 2.5: 72.5%
-- Double chance 1X: 64.4%  ·  X2: 69.9%
+- Double chance 1X: 64.5%  ·  X2: 69.9%
 
 ## Scoreline heatmap
 

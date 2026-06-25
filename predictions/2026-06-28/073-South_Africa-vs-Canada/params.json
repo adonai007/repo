@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Congo DR",
-    "away": "Uzbekistan",
-    "date": "2026-06-27",
-    "neutral": true,
-    "stage": "group",
-    "venue": "Atlanta Stadium"
+    "home": "South Africa",
+    "away": "Canada",
+    "date": "2026-06-28",
+    "neutral": false,
+    "stage": "round_of_32",
+    "venue": "Los Angeles Stadium"
   },
   "base_rate": 1.0758,
   "strength": {
     "home": {
-      "atk": 1.3356,
-      "def": 0.3855
+      "atk": 1.4143,
+      "def": 0.6101
     },
     "away": {
-      "atk": 1.3905,
-      "def": 0.6242
+      "atk": 2.0052,
+      "def": 0.4514
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.3356,
-      "def": 0.3855
+      "atk": 1.4143,
+      "def": 0.6101
     },
     "away": {
-      "atk": 1.3905,
-      "def": 0.6242
+      "atk": 2.0052,
+      "def": 0.4514
     }
   },
   "rho": -0.065,
@@ -38,15 +38,15 @@
   },
   "home_advantage": {
     "home": 1.0,
-    "away": 1.0
+    "away": 1.2471
   },
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-25",
   "n_prior_matches": {
-    "home": 84,
-    "away": 87
+    "home": 99,
+    "away": 95
   },
   "generated_at": "2026-06-25T09:05:29+00:00"
 }
