@@ -6,7 +6,7 @@
 
 - **Curaçao**: 0.50
 - **Côte d'Ivoire**: 1.92
-- **Total**: 2.42  ·  rho = -0.0676
+- **Total**: 2.42  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

@@ -6,7 +6,7 @@
 
 - **South Africa**: 0.81
 - **Korea Republic**: 1.42
-- **Total**: 2.23  ·  rho = -0.0676
+- **Total**: 2.23  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

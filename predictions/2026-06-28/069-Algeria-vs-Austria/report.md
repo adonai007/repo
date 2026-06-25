@@ -6,7 +6,7 @@
 
 - **Algeria**: 1.08
 - **Austria**: 1.19
-- **Total**: 2.27  ·  rho = -0.0676
+- **Total**: 2.27  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

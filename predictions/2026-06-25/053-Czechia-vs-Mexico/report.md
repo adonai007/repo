@@ -6,7 +6,7 @@
 
 - **Czechia**: 0.79
 - **Mexico**: 1.84
-- **Total**: 2.63  ·  rho = -0.0676
+- **Total**: 2.63  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
@@ -30,7 +30,7 @@
 ## Derived markets
 
 - Both teams to score: 46.6%
-- Over 2.5 goals: 49.0%  ·  Under 2.5: 51.0%
+- Over 2.5 goals: 48.9%  ·  Under 2.5: 51.1%
 - Double chance 1X: 38.3%  ·  X2: 85.3%
 
 ## Scoreline heatmap

@@ -6,7 +6,7 @@
 
 - **Colombia**: 1.35
 - **Portugal**: 1.48
-- **Total**: 2.83  ·  rho = -0.0676
+- **Total**: 2.83  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

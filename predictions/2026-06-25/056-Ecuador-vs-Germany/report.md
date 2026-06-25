@@ -6,7 +6,7 @@
 
 - **Ecuador**: 0.74
 - **Germany**: 0.97
-- **Total**: 1.70  ·  rho = -0.0676
+- **Total**: 1.70  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
@@ -14,14 +14,14 @@
 |---|---|
 | Ecuador win | **25.8%** |
 | Draw | **35.4%** |
-| Germany win | **38.8%** |
+| Germany win | **38.7%** |
 
-*Monte Carlo (50,000 sims):* 25.8% / 35.6% / 38.5% · avg goals 1.70
+*Monte Carlo (50,000 sims):* 25.9% / 35.6% / 38.5% · avg goals 1.70
 
 ## Most likely scorelines
 
 - 0-0: 19.1%
-- 0-1: 16.7%
+- 0-1: 16.8%
 - 1-1: 13.8%
 - 1-0: 12.5%
 - 0-2: 8.5%
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 33.2%
-- Over 2.5 goals: 24.4%  ·  Under 2.5: 75.6%
-- Double chance 1X: 61.2%  ·  X2: 74.2%
+- Both teams to score: 33.1%
+- Over 2.5 goals: 24.3%  ·  Under 2.5: 75.7%
+- Double chance 1X: 61.3%  ·  X2: 74.2%
 
 ## Scoreline heatmap
 

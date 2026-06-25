@@ -6,7 +6,7 @@
 
 - **New Zealand**: 0.69
 - **Belgium**: 2.21
-- **Total**: 2.90  ·  rho = -0.0676
+- **Total**: 2.90  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

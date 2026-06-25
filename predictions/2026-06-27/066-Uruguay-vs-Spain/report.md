@@ -6,7 +6,7 @@
 
 - **Uruguay**: 0.65
 - **Spain**: 1.47
-- **Total**: 2.11  ·  rho = -0.0676
+- **Total**: 2.11  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 37.5%
+- Both teams to score: 37.4%
 - Over 2.5 goals: 35.4%  ·  Under 2.5: 64.6%
 - Double chance 1X: 43.7%  ·  X2: 84.4%
 

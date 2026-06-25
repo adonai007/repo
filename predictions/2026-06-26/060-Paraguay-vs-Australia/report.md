@@ -6,7 +6,7 @@
 
 - **Paraguay**: 0.80
 - **Australia**: 0.95
-- **Total**: 1.76  ·  rho = -0.0676
+- **Total**: 1.76  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

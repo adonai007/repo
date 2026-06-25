@@ -6,13 +6,13 @@
 
 - **Norway**: 1.36
 - **France**: 1.65
-- **Total**: 3.01  ·  rho = -0.0676
+- **Total**: 3.01  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Norway win | **30.7%** |
+| Norway win | **30.8%** |
 | Draw | **25.5%** |
 | France win | **43.8%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 60.8%
 - Over 2.5 goals: 57.9%  ·  Under 2.5: 42.1%
-- Double chance 1X: 56.2%  ·  X2: 69.3%
+- Double chance 1X: 56.2%  ·  X2: 69.2%
 
 ## Scoreline heatmap
 

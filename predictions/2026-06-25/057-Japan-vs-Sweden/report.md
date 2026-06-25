@@ -6,7 +6,7 @@
 
 - **Japan**: 2.39
 - **Sweden**: 0.97
-- **Total**: 3.35  ·  rho = -0.0676
+- **Total**: 3.35  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
@@ -16,7 +16,7 @@
 | Draw | **18.7%** |
 | Sweden win | **13.0%** |
 
-*Monte Carlo (50,000 sims):* 68.4% / 18.8% / 12.8% · avg goals 3.35
+*Monte Carlo (50,000 sims):* 68.4% / 18.7% / 12.8% · avg goals 3.35
 
 ## Most likely scorelines
 

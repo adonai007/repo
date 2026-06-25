@@ -6,7 +6,7 @@
 
 - **Jordan**: 0.38
 - **Argentina**: 2.75
-- **Total**: 3.14  ·  rho = -0.0676
+- **Total**: 3.14  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

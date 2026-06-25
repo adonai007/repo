@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.0753,
+  "base_rate": 1.0752,
   "strength": {
     "home": {
-      "atk": 2.802,
+      "atk": 2.8024,
       "def": 0.3409
     },
     "away": {
-      "atk": 2.638,
-      "def": 0.792
+      "atk": 2.6381,
+      "def": 0.7921
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.802,
+      "atk": 2.8024,
       "def": 0.3409
     },
     "away": {
-      "atk": 2.638,
-      "def": 0.792
+      "atk": 2.6381,
+      "def": 0.7921
     }
   },
-  "rho": -0.0676,
+  "rho": -0.0675,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-24",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-25",
   "n_prior_matches": {
     "home": 104,
     "away": 96
   },
-  "generated_at": "2026-06-24T23:52:32+00:00"
+  "generated_at": "2026-06-25T00:38:15+00:00"
 }

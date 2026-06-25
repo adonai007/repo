@@ -6,7 +6,7 @@
 
 - **Egypt**: 0.85
 - **IR Iran**: 0.97
-- **Total**: 1.82  ·  rho = -0.0676
+- **Total**: 1.82  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
@@ -16,7 +16,7 @@
 | Draw | **34.4%** |
 | IR Iran win | **35.9%** |
 
-*Monte Carlo (50,000 sims):* 29.7% / 34.5% / 35.9% · avg goals 1.83
+*Monte Carlo (50,000 sims):* 29.7% / 34.4% / 35.9% · avg goals 1.83
 
 ## Most likely scorelines
 

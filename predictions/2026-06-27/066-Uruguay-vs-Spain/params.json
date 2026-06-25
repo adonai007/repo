@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Guadalajara Stadium"
   },
-  "base_rate": 1.0753,
+  "base_rate": 1.0752,
   "strength": {
     "home": {
-      "atk": 1.8811,
-      "def": 0.3797
+      "atk": 1.8801,
+      "def": 0.3798
     },
     "away": {
       "atk": 3.593,
-      "def": 0.3202
+      "def": 0.3201
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.8811,
-      "def": 0.3797
+      "atk": 1.8801,
+      "def": 0.3798
     },
     "away": {
       "atk": 3.593,
-      "def": 0.3202
+      "def": 0.3201
     }
   },
-  "rho": -0.0676,
+  "rho": -0.0675,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-24",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-25",
   "n_prior_matches": {
-    "home": 91,
-    "away": 100
+    "home": 90,
+    "away": 99
   },
-  "generated_at": "2026-06-24T23:52:34+00:00"
+  "generated_at": "2026-06-25T00:38:18+00:00"
 }

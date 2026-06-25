@@ -6,7 +6,7 @@
 
 - **Congo DR**: 0.89
 - **Uzbekistan**: 0.58
-- **Total**: 1.47  ·  rho = -0.0676
+- **Total**: 1.47  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

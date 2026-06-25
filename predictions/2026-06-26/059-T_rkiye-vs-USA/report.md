@@ -6,7 +6,7 @@
 
 - **Türkiye**: 1.51
 - **USA**: 1.74
-- **Total**: 3.25  ·  rho = -0.0676
+- **Total**: 3.25  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

@@ -6,7 +6,7 @@
 
 - **Croatia**: 1.46
 - **Ghana**: 0.75
-- **Total**: 2.21  ·  rho = -0.0676
+- **Total**: 2.21  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

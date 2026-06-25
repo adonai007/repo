@@ -6,7 +6,7 @@
 
 - **Senegal**: 1.68
 - **Iraq**: 0.69
-- **Total**: 2.37  ·  rho = -0.0676
+- **Total**: 2.37  ·  rho = -0.0675
 
 ## 1X2 (match result)
 

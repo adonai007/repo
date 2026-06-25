@@ -6,7 +6,7 @@
 
 - **Tunisia**: 0.69
 - **Netherlands**: 2.57
-- **Total**: 3.26  ·  rho = -0.0676
+- **Total**: 3.26  ·  rho = -0.0675
 
 ## 1X2 (match result)
 
