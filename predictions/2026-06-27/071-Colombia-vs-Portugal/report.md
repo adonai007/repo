@@ -14,7 +14,7 @@
 |---|---|
 | Colombia win | **34.3%** |
 | Draw | **26.7%** |
-| Portugal win | **38.9%** |
+| Portugal win | **39.0%** |
 
 *Monte Carlo (50,000 sims):* 34.5% / 26.5% / 39.0% · avg goals 2.83
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 58.0%
 - Over 2.5 goals: 53.7%  ·  Under 2.5: 46.3%
-- Double chance 1X: 61.1%  ·  X2: 65.7%
+- Double chance 1X: 61.0%  ·  X2: 65.7%
 
 ## Scoreline heatmap
 
