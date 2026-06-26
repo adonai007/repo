@@ -59,8 +59,8 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 58,3,2026-06-25 23:00:00+00:00,2026-06-25,Kansas City Stadium,Group F,Tunisia,Netherlands,1.0,3.0,Netherlands,True,True,group
 59,3,2026-06-26 02:00:00+00:00,2026-06-26,Los Angeles Stadium,Group D,Türkiye,USA,3.0,2.0,Türkiye,True,True,group
 60,3,2026-06-26 02:00:00+00:00,2026-06-26,San Francisco Bay Area Stadium,Group D,Paraguay,Australia,0.0,0.0,Draw,True,True,group
-61,3,2026-06-26 19:00:00+00:00,2026-06-26,Boston Stadium,Group I,Norway,France,,,,True,False,group
-62,3,2026-06-26 19:00:00+00:00,2026-06-26,Toronto Stadium,Group I,Senegal,Iraq,,,,True,False,group
+61,3,2026-06-26 19:00:00+00:00,2026-06-26,Boston Stadium,Group I,Norway,France,1.0,4.0,France,True,True,group
+62,3,2026-06-26 19:00:00+00:00,2026-06-26,Toronto Stadium,Group I,Senegal,Iraq,5.0,0.0,Senegal,True,True,group
 63,3,2026-06-27 03:00:00+00:00,2026-06-27,Seattle Stadium,Group G,Egypt,IR Iran,,,,True,False,group
 64,3,2026-06-27 03:00:00+00:00,2026-06-27,BC Place Vancouver,Group G,New Zealand,Belgium,,,,True,False,group
 65,3,2026-06-27 00:00:00+00:00,2026-06-27,Houston Stadium,Group H,Cabo Verde,Saudi Arabia,,,,True,False,group

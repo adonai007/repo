@@ -4,16 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **50**
-- Mean RPS: **0.154**  ·  log-loss: 0.834  ·  Brier: 0.493
-- Hit rate (argmax): **64%**
+- Matches graded: **52**
+- Mean RPS: **0.154**  ·  log-loss: 0.827  ·  Brier: 0.487
+- Hit rate (argmax): **65%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 61 | 2026-06-26 | Norway vs France | 31% / 26% / 44% | 1-1 |
-| 62 | 2026-06-26 | Senegal vs Iraq | 61% / 25% / 14% | 1-0 |
 | 63 | 2026-06-27 | Egypt vs IR Iran | 30% / 34% / 35% | 0-0 |
 | 64 | 2026-06-27 | New Zealand vs Belgium | 10% / 19% / 71% | 0-2 |
 | 65 | 2026-06-27 | Cabo Verde vs Saudi Arabia | 34% / 34% / 32% | 0-0 |
