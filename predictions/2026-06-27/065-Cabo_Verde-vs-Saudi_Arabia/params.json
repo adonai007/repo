@@ -8,24 +8,24 @@
     "stage": "group",
     "venue": "Houston Stadium"
   },
-  "base_rate": 1.0752,
+  "base_rate": 1.0751,
   "strength": {
     "home": {
-      "atk": 1.3529,
-      "def": 0.6796
+      "atk": 1.3528,
+      "def": 0.6797
     },
     "away": {
-      "atk": 1.2686,
+      "atk": 1.2689,
       "def": 0.6609
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.3529,
-      "def": 0.6796
+      "atk": 1.3528,
+      "def": 0.6797
     },
     "away": {
-      "atk": 1.2686,
+      "atk": 1.2689,
       "def": 0.6609
     }
   },
@@ -48,5 +48,5 @@
     "home": 74,
     "away": 118
   },
-  "generated_at": "2026-06-26T09:05:06+00:00"
+  "generated_at": "2026-06-26T10:33:02+00:00"
 }
