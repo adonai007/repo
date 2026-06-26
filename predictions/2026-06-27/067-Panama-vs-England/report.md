@@ -5,7 +5,7 @@
 ## Expected goals (model)
 
 - **Panama**: 0.50
-- **England**: 2.20
+- **England**: 2.21
 - **Total**: 2.71  ·  rho = -0.068
 
 ## 1X2 (match result)
