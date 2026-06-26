@@ -4,16 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **48**
-- Mean RPS: **0.151**  ·  log-loss: 0.824  ·  Brier: 0.486
-- Hit rate (argmax): **67%**
+- Matches graded: **50**
+- Mean RPS: **0.154**  ·  log-loss: 0.834  ·  Brier: 0.493
+- Hit rate (argmax): **64%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 59 | 2026-06-26 | Türkiye vs USA | 33% / 24% / 43% | 1-1 |
-| 60 | 2026-06-26 | Paraguay vs Australia | 29% / 35% / 36% | 0-0 |
 | 61 | 2026-06-26 | Norway vs France | 31% / 25% / 44% | 1-1 |
 | 62 | 2026-06-26 | Senegal vs Iraq | 61% / 25% / 14% | 1-0 |
 | 63 | 2026-06-27 | Egypt vs IR Iran | 30% / 34% / 36% | 0-0 |
