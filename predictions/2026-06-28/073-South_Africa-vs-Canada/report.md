@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| South Africa win | **14.6%** |
+| South Africa win | **14.7%** |
 | Draw | **25.7%** |
 | Canada win | **59.7%** |
 
@@ -31,12 +31,12 @@
 
 - Both teams to score: 40.8%
 - Over 2.5 goals: 41.1%  ·  Under 2.5: 58.9%
-- Double chance 1X: 40.3%  ·  X2: 85.4%
+- Double chance 1X: 40.3%  ·  X2: 85.3%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **South Africa advances**: 24.5%
-- **Canada advances**: 75.5%
+- **South Africa advances**: 24.6%
+- **Canada advances**: 75.4%
 
 ## Scoreline heatmap
 

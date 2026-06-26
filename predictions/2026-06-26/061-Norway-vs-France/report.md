@@ -22,15 +22,15 @@
 
 - 1-1: 11.8%
 - 1-2: 9.2%
-- 0-1: 7.5%
 - 2-1: 7.5%
+- 0-1: 7.5%
 - 0-2: 6.8%
 - 2-2: 6.2%
 
 ## Derived markets
 
 - Both teams to score: 60.6%
-- Over 2.5 goals: 57.7%  ·  Under 2.5: 42.3%
+- Over 2.5 goals: 57.8%  ·  Under 2.5: 42.2%
 - Double chance 1X: 56.1%  ·  X2: 69.3%
 
 ## Scoreline heatmap
