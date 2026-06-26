@@ -73,20 +73,20 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 72,3,2026-06-27 23:30:00+00:00,2026-06-27,Atlanta Stadium,Group K,Congo DR,Uzbekistan,,,,True,False,group
 73,4,2026-06-28 19:00:00+00:00,2026-06-28,Los Angeles Stadium,,South Africa,Canada,,,,True,False,round_of_32
 74,4,2026-06-29 20:30:00+00:00,2026-06-29,Boston Stadium,,Germany,3ABCDF,,,,False,False,round_of_32
-75,4,2026-06-30 01:00:00+00:00,2026-06-30,Monterrey Stadium,,1F,Morocco,,,,False,False,round_of_32
-76,4,2026-06-29 17:00:00+00:00,2026-06-29,Houston Stadium,,Brazil,2F,,,,False,False,round_of_32
+75,4,2026-06-30 01:00:00+00:00,2026-06-30,Monterrey Stadium,,Netherlands,Morocco,,,,True,False,round_of_32
+76,4,2026-06-29 17:00:00+00:00,2026-06-29,Houston Stadium,,Brazil,Japan,,,,True,False,round_of_32
 77,4,2026-06-30 21:00:00+00:00,2026-06-30,New York/New Jersey Stadium,,1I,3CDFGH,,,,False,False,round_of_32
-78,4,2026-06-30 17:00:00+00:00,2026-06-30,Dallas Stadium,,2E,2I,,,,False,False,round_of_32
+78,4,2026-06-30 17:00:00+00:00,2026-06-30,Dallas Stadium,,Côte d'Ivoire,2I,,,,False,False,round_of_32
 79,4,2026-07-01 01:00:00+00:00,2026-07-01,Mexico City Stadium,,Mexico,3CEFHI,,,,False,False,round_of_32
 80,4,2026-07-01 16:00:00+00:00,2026-07-01,Atlanta Stadium,,1L,3EHIJK,,,,False,False,round_of_32
-81,4,2026-07-02 00:00:00+00:00,2026-07-02,San Francisco Bay Area Stadium,,USA,3BEFIJ,,,,False,False,round_of_32
+81,4,2026-07-02 00:00:00+00:00,2026-07-02,San Francisco Bay Area Stadium,,USA,Bosnia and Herzegovina,,,,True,False,round_of_32
 82,4,2026-07-01 20:00:00+00:00,2026-07-01,Seattle Stadium,,1G,3AEHIJ,,,,False,False,round_of_32
 83,4,2026-07-02 23:00:00+00:00,2026-07-02,Toronto Stadium,,2K,2L,,,,False,False,round_of_32
 84,4,2026-07-02 19:00:00+00:00,2026-07-02,Los Angeles Stadium,,1H,2J,,,,False,False,round_of_32
 85,4,2026-07-03 03:00:00+00:00,2026-07-03,BC Place Vancouver,,Switzerland,3EFGIJ,,,,False,False,round_of_32
 86,4,2026-07-03 22:00:00+00:00,2026-07-03,Miami Stadium,,Argentina,2H,,,,False,False,round_of_32
 87,4,2026-07-04 01:30:00+00:00,2026-07-04,Kansas City Stadium,,1K,3DEIJL,,,,False,False,round_of_32
-88,4,2026-07-03 18:00:00+00:00,2026-07-03,Dallas Stadium,,2D,2G,,,,False,False,round_of_32
+88,4,2026-07-03 18:00:00+00:00,2026-07-03,Dallas Stadium,,Australia,2G,,,,False,False,round_of_32
 89,5,2026-07-04 21:00:00+00:00,2026-07-04,Philadelphia Stadium,,To be announced,To be announced,,,,False,False,round_of_16
 90,5,2026-07-04 17:00:00+00:00,2026-07-04,Houston Stadium,,To be announced,To be announced,,,,False,False,round_of_16
 91,5,2026-07-05 20:00:00+00:00,2026-07-05,New York/New Jersey Stadium,,To be announced,To be announced,,,,False,False,round_of_16

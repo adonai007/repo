@@ -2,7 +2,7 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| Norway vs France | group | 31% / 25% / 44% | 1-1 |
+| Norway vs France | group | 31% / 26% / 44% | 1-1 |
 | Senegal vs Iraq | group | 61% / 25% / 14% | 1-0 |
 
 ---

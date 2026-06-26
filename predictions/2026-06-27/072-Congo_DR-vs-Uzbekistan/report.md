@@ -5,18 +5,18 @@
 ## Expected goals (model)
 
 - **Congo DR**: 0.90
-- **Uzbekistan**: 0.58
-- **Total**: 1.47  ·  rho = -0.065
+- **Uzbekistan**: 0.57
+- **Total**: 1.47  ·  rho = -0.068
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Congo DR win | **40.4%** |
-| Draw | **37.9%** |
-| Uzbekistan win | **21.6%** |
+| Congo DR win | **40.5%** |
+| Draw | **38.0%** |
+| Uzbekistan win | **21.5%** |
 
-*Monte Carlo (50,000 sims):* 40.4% / 38.1% / 21.5% · avg goals 1.48
+*Monte Carlo (50,000 sims):* 40.5% / 38.2% / 21.3% · avg goals 1.47
 
 ## Most likely scorelines
 
@@ -30,8 +30,8 @@
 ## Derived markets
 
 - Both teams to score: 26.7%
-- Over 2.5 goals: 18.5%  ·  Under 2.5: 81.5%
-- Double chance 1X: 78.4%  ·  X2: 59.6%
+- Over 2.5 goals: 18.4%  ·  Under 2.5: 81.6%
+- Double chance 1X: 78.5%  ·  X2: 59.5%
 
 ## Scoreline heatmap
 

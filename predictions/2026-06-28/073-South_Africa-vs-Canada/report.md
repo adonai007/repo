@@ -6,17 +6,17 @@
 
 - **South Africa**: 0.69
 - **Canada**: 1.64
-- **Total**: 2.33  ·  rho = -0.065
+- **Total**: 2.32  ·  rho = -0.068
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| South Africa win | **14.7%** |
-| Draw | **25.7%** |
-| Canada win | **59.7%** |
+| South Africa win | **14.6%** |
+| Draw | **25.8%** |
+| Canada win | **59.6%** |
 
-*Monte Carlo (50,000 sims):* 14.6% / 25.6% / 59.8% · avg goals 2.33
+*Monte Carlo (50,000 sims):* 14.6% / 25.7% / 59.7% · avg goals 2.33
 
 ## Most likely scorelines
 
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 40.8%
-- Over 2.5 goals: 41.1%  ·  Under 2.5: 58.9%
-- Double chance 1X: 40.3%  ·  X2: 85.3%
+- Both teams to score: 40.7%
+- Over 2.5 goals: 41.0%  ·  Under 2.5: 59.0%
+- Double chance 1X: 40.4%  ·  X2: 85.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 

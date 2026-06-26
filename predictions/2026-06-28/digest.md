@@ -3,7 +3,7 @@
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
 | Algeria vs Austria | group | 32% / 30% / 38% | 1-1 |
-| Jordan vs Argentina | group | 3% / 11% / 86% | 0-2 |
+| Jordan vs Argentina | group | 3% / 11% / 87% | 0-2 |
 | South Africa vs Canada | round_of_32 | 15% / 26% / 60% | 0-1 |
 
 ---

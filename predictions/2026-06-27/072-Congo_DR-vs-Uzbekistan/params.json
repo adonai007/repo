@@ -8,28 +8,28 @@
     "stage": "group",
     "venue": "Atlanta Stadium"
   },
-  "base_rate": 1.0758,
+  "base_rate": 1.0752,
   "strength": {
     "home": {
-      "atk": 1.3357,
-      "def": 0.3856
+      "atk": 1.3367,
+      "def": 0.3852
     },
     "away": {
-      "atk": 1.3905,
-      "def": 0.6243
+      "atk": 1.3875,
+      "def": 0.6246
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.3357,
-      "def": 0.3856
+      "atk": 1.3367,
+      "def": 0.3852
     },
     "away": {
-      "atk": 1.3905,
-      "def": 0.6243
+      "atk": 1.3875,
+      "def": 0.6246
     }
   },
-  "rho": -0.065,
+  "rho": -0.068,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 84,
     "away": 87
   },
-  "generated_at": "2026-06-26T07:46:58+00:00"
+  "generated_at": "2026-06-26T09:05:07+00:00"
 }
