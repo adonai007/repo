@@ -16,7 +16,7 @@
 | Draw | **30.0%** |
 | Japan win | **31.5%** |
 
-*Monte Carlo (50,000 sims):* 38.6% / 29.9% / 31.5% · avg goals 2.32
+*Monte Carlo (50,000 sims):* 38.6% / 29.9% / 31.6% · avg goals 2.32
 
 ## Most likely scorelines
 
@@ -25,7 +25,7 @@
 - 0-0: 10.8%
 - 0-1: 9.8%
 - 2-1: 8.1%
-- 2-0: 7.5%
+- 2-0: 7.4%
 
 ## Derived markets
 

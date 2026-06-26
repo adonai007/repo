@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Netherlands win | **32.3%** |
+| Netherlands win | **32.4%** |
 | Draw | **31.8%** |
 | Morocco win | **35.9%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 43.1%
 - Over 2.5 goals: 35.0%  ·  Under 2.5: 65.0%
-- Double chance 1X: 64.1%  ·  X2: 67.7%
+- Double chance 1X: 64.1%  ·  X2: 67.6%
 
 ## Knockout advancement (incl. extra time + penalties)
 

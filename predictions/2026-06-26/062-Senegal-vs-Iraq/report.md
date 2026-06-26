@@ -12,11 +12,11 @@
 
 | Outcome | Model |
 |---|---|
-| Senegal win | **61.3%** |
+| Senegal win | **61.2%** |
 | Draw | **25.0%** |
 | Iraq win | **13.8%** |
 
-*Monte Carlo (50,000 sims):* 61.5% / 24.7% / 13.8% · avg goals 2.38
+*Monte Carlo (50,000 sims):* 61.4% / 24.7% / 13.8% · avg goals 2.38
 
 ## Most likely scorelines
 
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 40.8%
+- Both teams to score: 40.9%
 - Over 2.5 goals: 42.3%  ·  Under 2.5: 57.7%
-- Double chance 1X: 86.2%  ·  X2: 38.7%
+- Double chance 1X: 86.2%  ·  X2: 38.8%
 
 ## Scoreline heatmap
 
