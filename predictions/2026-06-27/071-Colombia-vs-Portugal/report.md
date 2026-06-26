@@ -16,7 +16,7 @@
 | Draw | **26.6%** |
 | Portugal win | **39.0%** |
 
-*Monte Carlo (50,000 sims):* 34.6% / 26.4% / 39.0% · avg goals 2.83
+*Monte Carlo (50,000 sims):* 34.6% / 26.5% / 39.0% · avg goals 2.83
 
 ## Most likely scorelines
 
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 58.0%
+- Both teams to score: 57.9%
 - Over 2.5 goals: 53.7%  ·  Under 2.5: 46.3%
 - Double chance 1X: 61.0%  ·  X2: 65.6%
 

@@ -16,7 +16,7 @@
 | Draw | **30.3%** |
 | Austria win | **37.5%** |
 
-*Monte Carlo (50,000 sims):* 32.4% / 30.0% / 37.5% · avg goals 2.27
+*Monte Carlo (50,000 sims):* 32.4% / 30.1% / 37.5% · avg goals 2.27
 
 ## Most likely scorelines
 
