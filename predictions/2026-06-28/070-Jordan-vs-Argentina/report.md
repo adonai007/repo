@@ -6,13 +6,13 @@
 
 - **Jordan**: 0.38
 - **Argentina**: 2.77
-- **Total**: 3.15  ·  rho = -0.065
+- **Total**: 3.16  ·  rho = -0.065
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Jordan win | **2.8%** |
+| Jordan win | **2.9%** |
 | Draw | **10.7%** |
 | Argentina win | **86.4%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 30.0%
 - Over 2.5 goals: 61.1%  ·  Under 2.5: 38.9%
-- Double chance 1X: 13.6%  ·  X2: 97.2%
+- Double chance 1X: 13.6%  ·  X2: 97.1%
 
 ## Scoreline heatmap
 

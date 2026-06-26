@@ -55,8 +55,8 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 54,3,2026-06-25 01:00:00+00:00,2026-06-25,Monterrey Stadium,Group A,South Africa,Korea Republic,1.0,0.0,South Africa,True,True,group
 55,3,2026-06-25 20:00:00+00:00,2026-06-25,Philadelphia Stadium,Group E,Curaçao,Côte d'Ivoire,0.0,2.0,Côte d'Ivoire,True,True,group
 56,3,2026-06-25 20:00:00+00:00,2026-06-25,New York/New Jersey Stadium,Group E,Ecuador,Germany,2.0,1.0,Ecuador,True,True,group
-57,3,2026-06-25 23:00:00+00:00,2026-06-25,Dallas Stadium,Group F,Japan,Sweden,,,,True,False,group
-58,3,2026-06-25 23:00:00+00:00,2026-06-25,Kansas City Stadium,Group F,Tunisia,Netherlands,,,,True,False,group
+57,3,2026-06-25 23:00:00+00:00,2026-06-25,Dallas Stadium,Group F,Japan,Sweden,1.0,1.0,Draw,True,True,group
+58,3,2026-06-25 23:00:00+00:00,2026-06-25,Kansas City Stadium,Group F,Tunisia,Netherlands,1.0,3.0,Netherlands,True,True,group
 59,3,2026-06-26 02:00:00+00:00,2026-06-26,Los Angeles Stadium,Group D,Türkiye,USA,,,,True,False,group
 60,3,2026-06-26 02:00:00+00:00,2026-06-26,San Francisco Bay Area Stadium,Group D,Paraguay,Australia,,,,True,False,group
 61,3,2026-06-26 19:00:00+00:00,2026-06-26,Boston Stadium,Group I,Norway,France,,,,True,False,group

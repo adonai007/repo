@@ -8,15 +8,15 @@
     "stage": "group",
     "venue": "San Francisco Bay Area Stadium"
   },
-  "base_rate": 1.0758,
+  "base_rate": 1.0759,
   "strength": {
     "home": {
       "atk": 1.8273,
       "def": 0.4487
     },
     "away": {
-      "atk": 1.9635,
-      "def": 0.41
+      "atk": 1.9637,
+      "def": 0.4099
     }
   },
   "prior_strength": {
@@ -25,8 +25,8 @@
       "def": 0.4487
     },
     "away": {
-      "atk": 1.9635,
-      "def": 0.41
+      "atk": 1.9637,
+      "def": 0.4099
     }
   },
   "rho": -0.065,
@@ -48,5 +48,5 @@
     "home": 80,
     "away": 77
   },
-  "generated_at": "2026-06-26T00:39:27+00:00"
+  "generated_at": "2026-06-26T01:43:27+00:00"
 }

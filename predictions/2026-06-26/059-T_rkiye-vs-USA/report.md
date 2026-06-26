@@ -16,7 +16,7 @@
 | Draw | **24.4%** |
 | USA win | **42.9%** |
 
-*Monte Carlo (50,000 sims):* 32.8% / 24.2% / 43.0% · avg goals 3.25
+*Monte Carlo (50,000 sims):* 32.7% / 24.2% / 43.0% · avg goals 3.25
 
 ## Most likely scorelines
 

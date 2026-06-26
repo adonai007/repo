@@ -4,16 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **46**
-- Mean RPS: **0.152**  ·  log-loss: 0.817  ·  Brier: 0.480
+- Matches graded: **48**
+- Mean RPS: **0.151**  ·  log-loss: 0.824  ·  Brier: 0.486
 - Hit rate (argmax): **67%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 57 | 2026-06-25 | Japan vs Sweden | 68% / 19% / 13% | 2-0 |
-| 58 | 2026-06-25 | Tunisia vs Netherlands | 7% / 15% / 77% | 0-2 |
 | 59 | 2026-06-26 | Türkiye vs USA | 33% / 24% / 43% | 1-1 |
 | 60 | 2026-06-26 | Paraguay vs Australia | 29% / 35% / 36% | 0-0 |
 | 61 | 2026-06-26 | Norway vs France | 31% / 25% / 44% | 1-1 |

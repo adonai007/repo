@@ -8,24 +8,24 @@
     "stage": "round_of_32",
     "venue": "Los Angeles Stadium"
   },
-  "base_rate": 1.0758,
+  "base_rate": 1.0759,
   "strength": {
     "home": {
-      "atk": 1.4141,
+      "atk": 1.4144,
       "def": 0.6101
     },
     "away": {
-      "atk": 2.005,
+      "atk": 2.0053,
       "def": 0.4515
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.4141,
+      "atk": 1.4144,
       "def": 0.6101
     },
     "away": {
-      "atk": 2.005,
+      "atk": 2.0053,
       "def": 0.4515
     }
   },
@@ -48,5 +48,5 @@
     "home": 99,
     "away": 95
   },
-  "generated_at": "2026-06-26T00:39:30+00:00"
+  "generated_at": "2026-06-26T01:43:30+00:00"
 }

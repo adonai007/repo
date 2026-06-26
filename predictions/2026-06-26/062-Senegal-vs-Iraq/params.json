@@ -8,10 +8,10 @@
     "stage": "group",
     "venue": "Toronto Stadium"
   },
-  "base_rate": 1.0758,
+  "base_rate": 1.0759,
   "strength": {
     "home": {
-      "atk": 2.3488,
+      "atk": 2.3485,
       "def": 0.5163
     },
     "away": {
@@ -21,7 +21,7 @@
   },
   "prior_strength": {
     "home": {
-      "atk": 2.3488,
+      "atk": 2.3485,
       "def": 0.5163
     },
     "away": {
@@ -48,5 +48,5 @@
     "home": 104,
     "away": 107
   },
-  "generated_at": "2026-06-26T00:39:27+00:00"
+  "generated_at": "2026-06-26T01:43:28+00:00"
 }
