@@ -14,7 +14,7 @@
 |---|---|
 | Brazil win | **38.5%** |
 | Draw | **30.0%** |
-| Japan win | **31.6%** |
+| Japan win | **31.5%** |
 
 *Monte Carlo (50,000 sims):* 38.5% / 29.9% / 31.6% · avg goals 2.32
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 47.8%
 - Over 2.5 goals: 40.8%  ·  Under 2.5: 59.2%
-- Double chance 1X: 68.4%  ·  X2: 61.5%
+- Double chance 1X: 68.5%  ·  X2: 61.5%
 
 ## Knockout advancement (incl. extra time + penalties)
 
