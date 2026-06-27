@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Germany",
+    "away": "Paraguay",
+    "date": "2026-06-29",
+    "neutral": true,
+    "stage": "round_of_32",
+    "venue": "Boston Stadium"
+  },
+  "base_rate": 1.0752,
+  "strength": {
+    "home": {
+      "atk": 3.6834,
+      "def": 0.4934
+    },
+    "away": {
+      "atk": 1.7282,
+      "def": 0.4222
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 3.6834,
+      "def": 0.4934
+    },
+    "away": {
+      "atk": 1.7282,
+      "def": 0.4222
+    }
+  },
+  "rho": -0.068,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-27",
+  "n_prior_matches": {
+    "home": 95,
+    "away": 81
+  },
+  "generated_at": "2026-06-27T06:12:30+00:00"
+}
