@@ -4,8 +4,8 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **52**
-- Mean RPS: **0.154**  ·  log-loss: 0.827  ·  Brier: 0.487
+- Matches graded: **54**
+- Mean RPS: **0.152**  ·  log-loss: 0.828  ·  Brier: 0.487
 - Hit rate (argmax): **65%**
 
 ## Upcoming predictions
@@ -14,8 +14,6 @@ Auto-generated. *Informational model output — not betting advice.*
 |--|--|--|--|--|
 | 63 | 2026-06-27 | Egypt vs IR Iran | 30% / 34% / 35% | 0-0 |
 | 64 | 2026-06-27 | New Zealand vs Belgium | 10% / 19% / 71% | 0-2 |
-| 65 | 2026-06-27 | Cabo Verde vs Saudi Arabia | 34% / 34% / 32% | 0-0 |
-| 66 | 2026-06-27 | Uruguay vs Spain | 16% / 28% / 56% | 0-1 |
 | 67 | 2026-06-27 | Panama vs England | 6% / 17% / 76% | 0-2 |
 | 68 | 2026-06-27 | Croatia vs Ghana | 53% / 28% / 19% | 1-0 |
 | 69 | 2026-06-28 | Algeria vs Austria | 32% / 30% / 38% | 1-1 |

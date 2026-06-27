@@ -63,8 +63,8 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 62,3,2026-06-26 19:00:00+00:00,2026-06-26,Toronto Stadium,Group I,Senegal,Iraq,5.0,0.0,Senegal,True,True,group
 63,3,2026-06-27 03:00:00+00:00,2026-06-27,Seattle Stadium,Group G,Egypt,IR Iran,,,,True,False,group
 64,3,2026-06-27 03:00:00+00:00,2026-06-27,BC Place Vancouver,Group G,New Zealand,Belgium,,,,True,False,group
-65,3,2026-06-27 00:00:00+00:00,2026-06-27,Houston Stadium,Group H,Cabo Verde,Saudi Arabia,,,,True,False,group
-66,3,2026-06-27 00:00:00+00:00,2026-06-27,Guadalajara Stadium,Group H,Uruguay,Spain,,,,True,False,group
+65,3,2026-06-27 00:00:00+00:00,2026-06-27,Houston Stadium,Group H,Cabo Verde,Saudi Arabia,0.0,0.0,Draw,True,True,group
+66,3,2026-06-27 00:00:00+00:00,2026-06-27,Guadalajara Stadium,Group H,Uruguay,Spain,0.0,1.0,Spain,True,True,group
 67,3,2026-06-27 21:00:00+00:00,2026-06-27,New York/New Jersey Stadium,Group L,Panama,England,,,,True,False,group
 68,3,2026-06-27 21:00:00+00:00,2026-06-27,Philadelphia Stadium,Group L,Croatia,Ghana,,,,True,False,group
 69,3,2026-06-28 02:00:00+00:00,2026-06-28,Kansas City Stadium,Group J,Algeria,Austria,,,,True,False,group
