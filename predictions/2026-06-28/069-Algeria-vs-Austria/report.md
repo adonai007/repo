@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Algeria win | **32.0%** |
+| Algeria win | **32.1%** |
 | Draw | **30.4%** |
 | Austria win | **37.6%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 46.8%
 - Over 2.5 goals: 39.5%  ·  Under 2.5: 60.5%
-- Double chance 1X: 62.4%  ·  X2: 68.0%
+- Double chance 1X: 62.4%  ·  X2: 67.9%
 
 ## Scoreline heatmap
 
