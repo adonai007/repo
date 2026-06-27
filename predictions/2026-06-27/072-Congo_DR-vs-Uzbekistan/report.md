@@ -16,7 +16,7 @@
 | Draw | **38.0%** |
 | Uzbekistan win | **21.5%** |
 
-*Monte Carlo (50,000 sims):* 40.5% / 38.2% / 21.3% · avg goals 1.47
+*Monte Carlo (50,000 sims):* 40.5% / 38.2% / 21.3% · avg goals 1.48
 
 ## Most likely scorelines
 

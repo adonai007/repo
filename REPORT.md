@@ -24,5 +24,5 @@ Auto-generated. *Informational model output — not betting advice.*
 | 72 | 2026-06-27 | Congo DR vs Uzbekistan | 40% / 38% / 22% | 0-0 |
 | 73 | 2026-06-28 | South Africa vs Canada | 15% / 26% / 60% | 0-1 |
 | 75 | 2026-06-30 | Netherlands vs Morocco | 32% / 32% / 36% | 1-1 |
-| 76 | 2026-06-29 | Brazil vs Japan | 39% / 30% / 32% | 1-1 |
+| 76 | 2026-06-29 | Brazil vs Japan | 38% / 30% / 32% | 1-1 |
 | 81 | 2026-07-02 | USA vs Bosnia and Herzegovina | 64% / 20% / 16% | 2-1 |

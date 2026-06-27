@@ -16,7 +16,7 @@
 | Draw | **10.6%** |
 | Argentina win | **86.6%** |
 
-*Monte Carlo (50,000 sims):* 2.7% / 10.9% / 86.4% · avg goals 3.16
+*Monte Carlo (50,000 sims):* 2.8% / 10.9% / 86.4% · avg goals 3.16
 
 ## Most likely scorelines
 
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 29.8%
+- Both teams to score: 29.9%
 - Over 2.5 goals: 61.2%  ·  Under 2.5: 38.8%
 - Double chance 1X: 13.4%  ·  X2: 97.2%
 
