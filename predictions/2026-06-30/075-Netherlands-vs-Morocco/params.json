@@ -8,24 +8,24 @@
     "stage": "round_of_32",
     "venue": "Monterrey Stadium"
   },
-  "base_rate": 1.0777,
+  "base_rate": 1.0776,
   "strength": {
     "home": {
-      "atk": 3.3245,
-      "def": 0.4518
+      "atk": 3.3231,
+      "def": 0.452
     },
     "away": {
-      "atk": 2.2375,
+      "atk": 2.2374,
       "def": 0.2789
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.3245,
-      "def": 0.4518
+      "atk": 3.3231,
+      "def": 0.452
     },
     "away": {
-      "atk": 2.2375,
+      "atk": 2.2374,
       "def": 0.2789
     }
   },
@@ -48,5 +48,5 @@
     "home": 96,
     "away": 111
   },
-  "generated_at": "2026-06-28T15:01:48+00:00"
+  "generated_at": "2026-06-28T15:55:29+00:00"
 }
