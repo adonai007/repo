@@ -13,7 +13,7 @@
 | Outcome | Model |
 |---|---|
 | USA win | **63.6%** |
-| Draw | **20.5%** |
+| Draw | **20.4%** |
 | Bosnia and Herzegovina win | **15.9%** |
 
 *Monte Carlo (50,000 sims):* 63.8% / 20.4% / 15.8% · avg goals 3.28

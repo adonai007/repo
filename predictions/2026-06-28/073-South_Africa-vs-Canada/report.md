@@ -6,7 +6,7 @@
 
 - **South Africa**: 0.69
 - **Canada**: 1.64
-- **Total**: 2.32  ·  rho = -0.068
+- **Total**: 2.33  ·  rho = -0.068
 
 ## 1X2 (match result)
 
@@ -30,7 +30,7 @@
 ## Derived markets
 
 - Both teams to score: 40.7%
-- Over 2.5 goals: 41.0%  ·  Under 2.5: 59.0%
+- Over 2.5 goals: 41.1%  ·  Under 2.5: 58.9%
 - Double chance 1X: 40.4%  ·  X2: 85.4%
 
 ## Knockout advancement (incl. extra time + penalties)

@@ -16,7 +16,7 @@
 | Draw | **36.8%** |
 | Egypt win | **24.4%** |
 
-*Monte Carlo (50,000 sims):* 38.8% / 36.9% / 24.3% · avg goals 1.59
+*Monte Carlo (50,000 sims):* 38.9% / 36.9% / 24.3% · avg goals 1.59
 
 ## Most likely scorelines
 
@@ -24,13 +24,13 @@
 - 1-0: 18.0%
 - 1-1: 13.4%
 - 0-1: 12.8%
-- 2-0: 8.6%
+- 2-0: 8.7%
 - 2-1: 5.8%
 
 ## Derived markets
 
-- Both teams to score: 30.0%
-- Over 2.5 goals: 21.2%  ·  Under 2.5: 78.8%
+- Both teams to score: 30.1%
+- Over 2.5 goals: 21.3%  ·  Under 2.5: 78.7%
 - Double chance 1X: 75.6%  ·  X2: 61.2%
 
 ## Knockout advancement (incl. extra time + penalties)

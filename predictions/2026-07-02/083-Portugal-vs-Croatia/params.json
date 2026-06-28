@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Portugal",
+    "away": "Croatia",
+    "date": "2026-07-02",
+    "neutral": true,
+    "stage": "round_of_32",
+    "venue": "Toronto Stadium"
+  },
+  "base_rate": 1.0752,
+  "strength": {
+    "home": {
+      "atk": 3.3537,
+      "def": 0.3974
+    },
+    "away": {
+      "atk": 2.3848,
+      "def": 0.5005
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 3.3537,
+      "def": 0.3974
+    },
+    "away": {
+      "atk": 2.3848,
+      "def": 0.5005
+    }
+  },
+  "rho": -0.068,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-28",
+  "n_prior_matches": {
+    "home": 97,
+    "away": 99
+  },
+  "generated_at": "2026-06-28T03:06:35+00:00"
+}
