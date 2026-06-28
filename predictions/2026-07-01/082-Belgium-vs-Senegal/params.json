@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Seattle Stadium"
   },
-  "base_rate": 1.0752,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 2.624,
-      "def": 0.428
+      "atk": 2.8055,
+      "def": 0.4333
     },
     "away": {
-      "atk": 2.3482,
-      "def": 0.5153
+      "atk": 2.5498,
+      "def": 0.4904
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.624,
-      "def": 0.428
+      "atk": 2.8055,
+      "def": 0.4333
     },
     "away": {
-      "atk": 2.3482,
-      "def": 0.5153
+      "atk": 2.5498,
+      "def": 0.4904
     }
   },
-  "rho": -0.068,
+  "rho": -0.0709,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-28",
   "n_prior_matches": {
-    "home": 97,
-    "away": 103
+    "home": 98,
+    "away": 104
   },
-  "generated_at": "2026-06-28T06:48:32+00:00"
+  "generated_at": "2026-06-28T08:08:21+00:00"
 }

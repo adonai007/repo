@@ -12,19 +12,19 @@ Auto-generated. *Informational model output — not betting advice.*
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 73 | 2026-06-28 | South Africa vs Canada | 15% / 26% / 60% | 0-1 |
-| 74 | 2026-06-29 | Germany vs Paraguay | 54% / 26% / 20% | 1-1 |
+| 73 | 2026-06-28 | South Africa vs Canada | 15% / 26% / 59% | 0-1 |
+| 74 | 2026-06-29 | Germany vs Paraguay | 55% / 26% / 19% | 1-1 |
 | 75 | 2026-06-30 | Netherlands vs Morocco | 32% / 32% / 36% | 1-1 |
-| 76 | 2026-06-29 | Brazil vs Japan | 38% / 30% / 32% | 1-1 |
-| 77 | 2026-06-30 | France vs Sweden | 70% / 17% / 13% | 2-1 |
-| 78 | 2026-06-30 | Côte d'Ivoire vs Norway | 22% / 28% / 50% | 0-1 |
+| 76 | 2026-06-29 | Brazil vs Japan | 39% / 30% / 31% | 1-1 |
+| 77 | 2026-06-30 | France vs Sweden | 73% / 16% / 11% | 2-1 |
+| 78 | 2026-06-30 | Côte d'Ivoire vs Norway | 26% / 29% / 46% | 1-1 |
 | 79 | 2026-07-01 | Mexico vs Ecuador | 32% / 42% / 27% | 0-0 |
-| 80 | 2026-07-01 | England vs Congo DR | 54% / 33% / 13% | 1-0 |
-| 81 | 2026-07-02 | USA vs Bosnia and Herzegovina | 64% / 20% / 16% | 2-1 |
-| 82 | 2026-07-01 | Belgium vs Senegal | 45% / 28% / 27% | 1-1 |
+| 80 | 2026-07-01 | England vs Congo DR | 53% / 33% / 14% | 1-0 |
+| 81 | 2026-07-02 | USA vs Bosnia and Herzegovina | 63% / 21% / 16% | 2-1 |
+| 82 | 2026-07-01 | Belgium vs Senegal | 43% / 27% / 30% | 1-1 |
 | 83 | 2026-07-02 | Portugal vs Croatia | 55% / 25% / 20% | 1-1 |
-| 84 | 2026-07-02 | Spain vs Austria | 59% / 25% / 16% | 1-0 |
-| 85 | 2026-07-03 | Switzerland vs Algeria | 45% / 28% / 27% | 1-1 |
-| 86 | 2026-07-03 | Argentina vs Cabo Verde | 84% / 13% / 3% | 2-0 |
-| 87 | 2026-07-04 | Colombia vs Ghana | 68% / 21% / 10% | 2-0 |
-| 88 | 2026-07-03 | Australia vs Egypt | 39% / 37% / 24% | 0-0 |
+| 84 | 2026-07-02 | Spain vs Austria | 63% / 23% / 14% | 2-0 |
+| 85 | 2026-07-03 | Switzerland vs Algeria | 47% / 26% / 27% | 1-1 |
+| 86 | 2026-07-03 | Argentina vs Cabo Verde | 82% / 15% / 3% | 2-0 |
+| 87 | 2026-07-04 | Colombia vs Ghana | 68% / 22% / 10% | 1-0 |
+| 88 | 2026-07-03 | Australia vs Egypt | 38% / 37% / 25% | 0-0 |

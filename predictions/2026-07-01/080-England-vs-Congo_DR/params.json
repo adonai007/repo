@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Atlanta Stadium"
   },
-  "base_rate": 1.0752,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 2.8022,
-      "def": 0.3022
+      "atk": 2.7738,
+      "def": 0.2861
     },
     "away": {
-      "atk": 1.3365,
-      "def": 0.3852
+      "atk": 1.4766,
+      "def": 0.3937
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.8022,
-      "def": 0.3022
+      "atk": 2.7738,
+      "def": 0.2861
     },
     "away": {
-      "atk": 1.3365,
-      "def": 0.3852
+      "atk": 1.4766,
+      "def": 0.3937
     }
   },
-  "rho": -0.068,
+  "rho": -0.0709,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-28",
   "n_prior_matches": {
-    "home": 103,
-    "away": 84
+    "home": 104,
+    "away": 85
   },
-  "generated_at": "2026-06-28T06:48:32+00:00"
+  "generated_at": "2026-06-28T08:08:21+00:00"
 }

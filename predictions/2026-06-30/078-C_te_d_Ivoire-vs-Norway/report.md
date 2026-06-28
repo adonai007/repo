@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Côte d'Ivoire**: 0.88
-- **Norway**: 1.46
-- **Total**: 2.34  ·  rho = -0.068
+- **Côte d'Ivoire**: 1.00
+- **Norway**: 1.42
+- **Total**: 2.42  ·  rho = -0.0709
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Côte d'Ivoire win | **21.8%** |
-| Draw | **28.3%** |
-| Norway win | **50.0%** |
+| Côte d'Ivoire win | **25.5%** |
+| Draw | **28.5%** |
+| Norway win | **45.9%** |
 
-*Monte Carlo (50,000 sims):* 21.7% / 28.3% / 50.0% · avg goals 2.35
+*Monte Carlo (50,000 sims):* 25.6% / 28.4% / 46.0% · avg goals 2.43
 
 ## Most likely scorelines
 
-- 0-1: 13.3%
-- 1-1: 13.2%
-- 0-0: 10.5%
-- 0-2: 10.3%
+- 1-1: 13.5%
+- 0-1: 11.7%
+- 0-0: 9.8%
+- 0-2: 9.0%
 - 1-2: 9.0%
-- 1-0: 7.6%
+- 1-0: 8.0%
 
 ## Derived markets
 
-- Both teams to score: 45.7%
-- Over 2.5 goals: 41.4%  ·  Under 2.5: 58.6%
-- Double chance 1X: 50.0%  ·  X2: 78.2%
+- Both teams to score: 48.9%
+- Over 2.5 goals: 43.6%  ·  Under 2.5: 56.4%
+- Double chance 1X: 54.1%  ·  X2: 74.5%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Côte d'Ivoire advances**: 33.9%
-- **Norway advances**: 66.1%
+- **Côte d'Ivoire advances**: 38.4%
+- **Norway advances**: 61.6%
 
 ## Scoreline heatmap
 

@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Kansas City Stadium"
   },
-  "base_rate": 1.0752,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 3.1911,
-      "def": 0.4063
+      "atk": 2.9963,
+      "def": 0.3694
     },
     "away": {
-      "atk": 1.3997,
-      "def": 0.5655
+      "atk": 1.4273,
+      "def": 0.5801
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.1911,
-      "def": 0.4063
+      "atk": 2.9963,
+      "def": 0.3694
     },
     "away": {
-      "atk": 1.3997,
-      "def": 0.5655
+      "atk": 1.4273,
+      "def": 0.5801
     }
   },
-  "rho": -0.068,
+  "rho": -0.0709,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-28",
   "n_prior_matches": {
-    "home": 93,
-    "away": 79
+    "home": 94,
+    "away": 80
   },
-  "generated_at": "2026-06-28T06:48:34+00:00"
+  "generated_at": "2026-06-28T08:08:22+00:00"
 }

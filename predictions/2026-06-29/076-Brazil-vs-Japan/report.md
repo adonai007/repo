@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Brazil**: 1.23
+- **Brazil**: 1.24
 - **Japan**: 1.09
-- **Total**: 2.32  ·  rho = -0.068
+- **Total**: 2.33  ·  rho = -0.0709
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Brazil win | **38.5%** |
-| Draw | **30.0%** |
-| Japan win | **31.6%** |
+| Brazil win | **38.8%** |
+| Draw | **29.9%** |
+| Japan win | **31.3%** |
 
-*Monte Carlo (50,000 sims):* 38.5% / 29.9% / 31.6% · avg goals 2.32
+*Monte Carlo (50,000 sims):* 38.8% / 29.8% / 31.4% · avg goals 2.33
 
 ## Most likely scorelines
 
 - 1-1: 14.1%
-- 1-0: 11.2%
-- 0-0: 10.8%
-- 0-1: 9.8%
-- 2-1: 8.1%
-- 2-0: 7.4%
+- 1-0: 11.1%
+- 0-0: 10.7%
+- 0-1: 9.7%
+- 2-1: 8.2%
+- 2-0: 7.5%
 
 ## Derived markets
 
-- Both teams to score: 47.8%
-- Over 2.5 goals: 40.8%  ·  Under 2.5: 59.2%
-- Double chance 1X: 68.4%  ·  X2: 61.5%
+- Both teams to score: 48.1%
+- Over 2.5 goals: 41.2%  ·  Under 2.5: 58.8%
+- Double chance 1X: 68.7%  ·  X2: 61.2%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Brazil advances**: 54.0%
-- **Japan advances**: 46.0%
+- **Brazil advances**: 54.3%
+- **Japan advances**: 45.7%
 
 ## Scoreline heatmap
 

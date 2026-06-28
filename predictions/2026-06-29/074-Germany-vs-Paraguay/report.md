@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Germany**: 1.67
+- **Germany**: 1.70
 - **Paraguay**: 0.92
-- **Total**: 2.59  ·  rho = -0.068
+- **Total**: 2.61  ·  rho = -0.0709
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Germany win | **54.4%** |
-| Draw | **25.8%** |
-| Paraguay win | **19.8%** |
+| Germany win | **55.0%** |
+| Draw | **25.6%** |
+| Paraguay win | **19.4%** |
 
-*Monte Carlo (50,000 sims):* 54.6% / 25.8% / 19.7% · avg goals 2.59
+*Monte Carlo (50,000 sims):* 55.3% / 25.5% / 19.2% · avg goals 2.62
 
 ## Most likely scorelines
 
-- 1-1: 12.3%
-- 1-0: 11.8%
-- 2-0: 10.5%
-- 2-1: 9.6%
-- 0-0: 8.3%
-- 0-1: 6.1%
+- 1-1: 12.2%
+- 1-0: 11.6%
+- 2-0: 10.6%
+- 2-1: 9.7%
+- 0-0: 8.1%
+- 3-0: 6.0%
 
 ## Derived markets
 
-- Both teams to score: 49.5%
-- Over 2.5 goals: 47.9%  ·  Under 2.5: 52.1%
-- Double chance 1X: 80.2%  ·  X2: 45.6%
+- Both teams to score: 49.8%
+- Over 2.5 goals: 48.5%  ·  Under 2.5: 51.5%
+- Double chance 1X: 80.6%  ·  X2: 45.0%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Germany advances**: 69.6%
-- **Paraguay advances**: 30.4%
+- **Germany advances**: 70.2%
+- **Paraguay advances**: 29.8%
 
 ## Scoreline heatmap
 

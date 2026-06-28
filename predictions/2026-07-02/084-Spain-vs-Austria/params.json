@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Los Angeles Stadium"
   },
-  "base_rate": 1.0752,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 3.583,
-      "def": 0.319
+      "atk": 3.5502,
+      "def": 0.3057
     },
     "away": {
-      "atk": 2.2367,
-      "def": 0.4435
+      "atk": 2.3432,
+      "def": 0.4946
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.583,
-      "def": 0.319
+      "atk": 3.5502,
+      "def": 0.3057
     },
     "away": {
-      "atk": 2.2367,
-      "def": 0.4435
+      "atk": 2.3432,
+      "def": 0.4946
     }
   },
-  "rho": -0.068,
+  "rho": -0.0709,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-28",
   "n_prior_matches": {
-    "home": 99,
-    "away": 89
+    "home": 100,
+    "away": 90
   },
-  "generated_at": "2026-06-28T06:48:33+00:00"
+  "generated_at": "2026-06-28T08:08:22+00:00"
 }

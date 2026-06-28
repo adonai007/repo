@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Netherlands**: 1.02
-- **Morocco**: 1.08
-- **Total**: 2.10  ·  rho = -0.068
+- **Netherlands**: 1.00
+- **Morocco**: 1.09
+- **Total**: 2.09  ·  rho = -0.0709
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Netherlands win | **32.3%** |
-| Draw | **31.8%** |
-| Morocco win | **35.9%** |
+| Netherlands win | **31.7%** |
+| Draw | **31.9%** |
+| Morocco win | **36.4%** |
 
-*Monte Carlo (50,000 sims):* 32.3% / 31.9% / 35.8% · avg goals 2.10
+*Monte Carlo (50,000 sims):* 31.7% / 32.0% / 36.3% · avg goals 2.09
 
 ## Most likely scorelines
 
 - 1-1: 14.4%
-- 0-0: 13.2%
-- 0-1: 12.4%
-- 1-0: 11.5%
+- 0-0: 13.3%
+- 0-1: 12.5%
+- 1-0: 11.4%
+- 0-2: 7.3%
 - 1-2: 7.3%
-- 0-2: 7.2%
 
 ## Derived markets
 
-- Both teams to score: 43.1%
-- Over 2.5 goals: 35.0%  ·  Under 2.5: 65.0%
-- Double chance 1X: 64.1%  ·  X2: 67.7%
+- Both teams to score: 42.9%
+- Over 2.5 goals: 34.7%  ·  Under 2.5: 65.3%
+- Double chance 1X: 63.6%  ·  X2: 68.3%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Netherlands advances**: 48.0%
-- **Morocco advances**: 52.0%
+- **Netherlands advances**: 47.3%
+- **Morocco advances**: 52.7%
 
 ## Scoreline heatmap
 

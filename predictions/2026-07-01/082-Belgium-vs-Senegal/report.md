@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Belgium**: 1.45
-- **Senegal**: 1.08
-- **Total**: 2.53  ·  rho = -0.068
+- **Belgium**: 1.48
+- **Senegal**: 1.19
+- **Total**: 2.67  ·  rho = -0.0709
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Belgium win | **44.8%** |
-| Draw | **27.9%** |
-| Senegal win | **27.3%** |
+| Belgium win | **43.0%** |
+| Draw | **27.4%** |
+| Senegal win | **29.6%** |
 
-*Monte Carlo (50,000 sims):* 45.0% / 27.7% / 27.3% · avg goals 2.53
+*Monte Carlo (50,000 sims):* 43.0% / 27.3% / 29.8% · avg goals 2.68
 
 ## Most likely scorelines
 
-- 1-1: 13.3%
-- 1-0: 10.7%
-- 2-1: 9.1%
-- 0-0: 8.8%
-- 2-0: 8.4%
-- 0-1: 7.7%
+- 1-1: 13.0%
+- 1-0: 9.4%
+- 2-1: 9.0%
+- 0-0: 7.8%
+- 2-0: 7.6%
+- 0-1: 7.4%
 
 ## Derived markets
 
-- Both teams to score: 51.5%
-- Over 2.5 goals: 46.5%  ·  Under 2.5: 53.5%
-- Double chance 1X: 72.7%  ·  X2: 55.2%
+- Both teams to score: 54.7%
+- Over 2.5 goals: 50.0%  ·  Under 2.5: 50.0%
+- Double chance 1X: 70.4%  ·  X2: 57.0%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Belgium advances**: 60.0%
-- **Senegal advances**: 40.0%
+- **Belgium advances**: 57.7%
+- **Senegal advances**: 42.3%
 
 ## Scoreline heatmap
 

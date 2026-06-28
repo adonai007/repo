@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Portugal**: 1.80
-- **Croatia**: 1.02
-- **Total**: 2.82  ·  rho = -0.068
+- **Portugal**: 1.76
+- **Croatia**: 0.96
+- **Total**: 2.71  ·  rho = -0.0709
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Portugal win | **55.1%** |
-| Draw | **24.5%** |
-| Croatia win | **20.4%** |
+| Portugal win | **55.4%** |
+| Draw | **25.0%** |
+| Croatia win | **19.6%** |
 
-*Monte Carlo (50,000 sims):* 55.3% / 24.2% / 20.5% · avg goals 2.83
+*Monte Carlo (50,000 sims):* 55.7% / 24.7% / 19.6% · avg goals 2.72
 
 ## Most likely scorelines
 
-- 1-1: 11.7%
-- 1-0: 10.0%
-- 2-1: 9.9%
-- 2-0: 9.7%
-- 0-0: 6.7%
-- 3-1: 5.9%
+- 1-1: 11.9%
+- 1-0: 10.9%
+- 2-0: 10.2%
+- 2-1: 9.8%
+- 0-0: 7.4%
+- 3-0: 6.0%
 
 ## Derived markets
 
-- Both teams to score: 54.1%
-- Over 2.5 goals: 53.6%  ·  Under 2.5: 46.4%
-- Double chance 1X: 79.6%  ·  X2: 44.9%
+- Both teams to score: 51.8%
+- Over 2.5 goals: 51.0%  ·  Under 2.5: 49.0%
+- Double chance 1X: 80.4%  ·  X2: 44.6%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Portugal advances**: 69.5%
-- **Croatia advances**: 30.5%
+- **Portugal advances**: 70.2%
+- **Croatia advances**: 29.8%
 
 ## Scoreline heatmap
 

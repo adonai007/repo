@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "New York/New Jersey Stadium"
   },
-  "base_rate": 1.0752,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 3.1783,
-      "def": 0.3722
+      "atk": 3.3419,
+      "def": 0.3624
     },
     "away": {
-      "atk": 2.6354,
-      "def": 0.7553
+      "atk": 2.6202,
+      "def": 0.7542
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.1783,
-      "def": 0.3722
+      "atk": 3.3419,
+      "def": 0.3624
     },
     "away": {
-      "atk": 2.6354,
-      "def": 0.7553
+      "atk": 2.6202,
+      "def": 0.7542
     }
   },
-  "rho": -0.068,
+  "rho": -0.0709,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-28",
   "n_prior_matches": {
-    "home": 102,
+    "home": 103,
     "away": 96
   },
-  "generated_at": "2026-06-28T06:48:31+00:00"
+  "generated_at": "2026-06-28T08:08:20+00:00"
 }

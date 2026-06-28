@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **England**: 1.16
-- **Congo DR**: 0.43
-- **Total**: 1.59  ·  rho = -0.068
+- **England**: 1.18
+- **Congo DR**: 0.46
+- **Total**: 1.63  ·  rho = -0.0709
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| England win | **53.6%** |
-| Draw | **33.3%** |
-| Congo DR win | **13.1%** |
+| England win | **53.4%** |
+| Draw | **33.0%** |
+| Congo DR win | **13.6%** |
 
-*Monte Carlo (50,000 sims):* 53.6% / 33.3% / 13.2% · avg goals 1.60
+*Monte Carlo (50,000 sims):* 53.5% / 33.1% / 13.4% · avg goals 1.63
 
 ## Most likely scorelines
 
-- 1-0: 22.9%
-- 0-0: 21.0%
-- 2-0: 13.7%
-- 1-1: 10.9%
-- 0-1: 8.1%
-- 2-1: 5.9%
+- 1-0: 22.3%
+- 0-0: 20.3%
+- 2-0: 13.5%
+- 1-1: 11.2%
+- 0-1: 8.2%
+- 2-1: 6.2%
 
 ## Derived markets
 
-- Both teams to score: 24.9%
-- Over 2.5 goals: 21.5%  ·  Under 2.5: 78.5%
-- Double chance 1X: 86.9%  ·  X2: 46.4%
+- Both teams to score: 26.0%
+- Over 2.5 goals: 22.5%  ·  Under 2.5: 77.5%
+- Double chance 1X: 86.4%  ·  X2: 46.6%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **England advances**: 73.4%
-- **Congo DR advances**: 26.6%
+- **England advances**: 73.0%
+- **Congo DR advances**: 27.0%
 
 ## Scoreline heatmap
 

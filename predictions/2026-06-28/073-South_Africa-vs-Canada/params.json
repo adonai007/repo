@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Los Angeles Stadium"
   },
-  "base_rate": 1.0752,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 1.4145,
-      "def": 0.6101
+      "atk": 1.4293,
+      "def": 0.6055
     },
     "away": {
-      "atk": 2.001,
-      "def": 0.4509
+      "atk": 1.9915,
+      "def": 0.4517
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.4145,
-      "def": 0.6101
+      "atk": 1.4293,
+      "def": 0.6055
     },
     "away": {
-      "atk": 2.001,
-      "def": 0.4509
+      "atk": 1.9915,
+      "def": 0.4517
     }
   },
-  "rho": -0.068,
+  "rho": -0.0709,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -38,7 +38,7 @@
   },
   "home_advantage": {
     "home": 1.0,
-    "away": 1.2485
+    "away": 1.2453
   },
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
@@ -48,5 +48,5 @@
     "home": 99,
     "away": 95
   },
-  "generated_at": "2026-06-28T06:48:29+00:00"
+  "generated_at": "2026-06-28T08:08:17+00:00"
 }

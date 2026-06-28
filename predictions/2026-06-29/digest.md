@@ -2,8 +2,8 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| Germany vs Paraguay | round_of_32 | 54% / 26% / 20% | 1-1 |
-| Brazil vs Japan | round_of_32 | 38% / 30% / 32% | 1-1 |
+| Germany vs Paraguay | round_of_32 | 55% / 26% / 19% | 1-1 |
+| Brazil vs Japan | round_of_32 | 39% / 30% / 31% | 1-1 |
 
 ---
 *Informational model output — not betting advice.*

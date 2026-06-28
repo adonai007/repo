@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.0752,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 1.8815,
-      "def": 0.3857
+      "atk": 1.8525,
+      "def": 0.3875
     },
     "away": {
-      "atk": 1.605,
-      "def": 0.4538
+      "atk": 1.6155,
+      "def": 0.449
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.8815,
-      "def": 0.3857
+      "atk": 1.8525,
+      "def": 0.3875
     },
     "away": {
-      "atk": 1.605,
-      "def": 0.4538
+      "atk": 1.6155,
+      "def": 0.449
     }
   },
-  "rho": -0.068,
+  "rho": -0.0709,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -46,7 +46,7 @@
   "prior_source": "dixon_coles_fit@martj42:2026-06-28",
   "n_prior_matches": {
     "home": 78,
-    "away": 97
+    "away": 98
   },
-  "generated_at": "2026-06-28T06:48:34+00:00"
+  "generated_at": "2026-06-28T08:08:23+00:00"
 }
