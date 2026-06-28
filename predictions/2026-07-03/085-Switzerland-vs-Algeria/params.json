@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Argentina",
-    "away": "Cabo Verde",
+    "home": "Switzerland",
+    "away": "Algeria",
     "date": "2026-07-03",
     "neutral": true,
     "stage": "round_of_32",
-    "venue": "Miami Stadium"
+    "venue": "BC Place Vancouver"
   },
   "base_rate": 1.0752,
   "strength": {
     "home": {
-      "atk": 3.2114,
-      "def": 0.1919
+      "atk": 2.7755,
+      "def": 0.4518
     },
     "away": {
-      "atk": 1.3528,
-      "def": 0.6798
+      "atk": 2.2606,
+      "def": 0.4944
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2114,
-      "def": 0.1919
+      "atk": 2.7755,
+      "def": 0.4518
     },
     "away": {
-      "atk": 1.3528,
-      "def": 0.6798
+      "atk": 2.2606,
+      "def": 0.4944
     }
   },
   "rho": -0.068,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-06-28",
   "n_prior_matches": {
-    "home": 99,
-    "away": 74
+    "home": 97,
+    "away": 108
   },
   "generated_at": "2026-06-28T05:02:12+00:00"
 }

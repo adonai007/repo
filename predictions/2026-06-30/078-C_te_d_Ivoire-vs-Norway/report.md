@@ -20,7 +20,7 @@
 
 ## Most likely scorelines
 
-- 0-1: 13.2%
+- 0-1: 13.3%
 - 1-1: 13.2%
 - 0-0: 10.5%
 - 0-2: 10.3%
@@ -30,7 +30,7 @@
 ## Derived markets
 
 - Both teams to score: 45.7%
-- Over 2.5 goals: 41.5%  ·  Under 2.5: 58.5%
+- Over 2.5 goals: 41.4%  ·  Under 2.5: 58.6%
 - Double chance 1X: 50.0%  ·  X2: 78.2%
 
 ## Knockout advancement (incl. extra time + penalties)

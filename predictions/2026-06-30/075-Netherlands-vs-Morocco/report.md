@@ -16,7 +16,7 @@
 | Draw | **31.8%** |
 | Morocco win | **35.9%** |
 
-*Monte Carlo (50,000 sims):* 32.2% / 31.9% / 35.9% · avg goals 2.10
+*Monte Carlo (50,000 sims):* 32.3% / 31.9% / 35.8% · avg goals 2.10
 
 ## Most likely scorelines
 
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Netherlands advances**: 47.9%
-- **Morocco advances**: 52.1%
+- **Netherlands advances**: 48.0%
+- **Morocco advances**: 52.0%
 
 ## Scoreline heatmap
 

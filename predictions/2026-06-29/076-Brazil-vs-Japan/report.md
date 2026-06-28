@@ -16,7 +16,7 @@
 | Draw | **30.0%** |
 | Japan win | **31.6%** |
 
-*Monte Carlo (50,000 sims):* 38.6% / 29.9% / 31.6% · avg goals 2.32
+*Monte Carlo (50,000 sims):* 38.5% / 29.9% / 31.6% · avg goals 2.32
 
 ## Most likely scorelines
 

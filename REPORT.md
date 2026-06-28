@@ -4,16 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **60**
-- Mean RPS: **0.148**  ·  log-loss: 0.820  ·  Brier: 0.481
+- Matches graded: **62**
+- Mean RPS: **0.145**  ·  log-loss: 0.816  ·  Brier: 0.478
 - Hit rate (argmax): **65%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 69 | 2026-06-28 | Algeria vs Austria | 32% / 30% / 38% | 1-1 |
-| 70 | 2026-06-28 | Jordan vs Argentina | 3% / 11% / 87% | 0-2 |
 | 73 | 2026-06-28 | South Africa vs Canada | 15% / 26% / 60% | 0-1 |
 | 74 | 2026-06-29 | Germany vs Paraguay | 54% / 26% / 20% | 1-1 |
 | 75 | 2026-06-30 | Netherlands vs Morocco | 32% / 32% / 36% | 1-1 |
@@ -25,6 +23,8 @@ Auto-generated. *Informational model output — not betting advice.*
 | 81 | 2026-07-02 | USA vs Bosnia and Herzegovina | 64% / 20% / 16% | 2-1 |
 | 82 | 2026-07-01 | Belgium vs Senegal | 45% / 28% / 27% | 1-1 |
 | 83 | 2026-07-02 | Portugal vs Croatia | 55% / 25% / 20% | 1-1 |
+| 84 | 2026-07-02 | Spain vs Austria | 59% / 25% / 16% | 1-0 |
+| 85 | 2026-07-03 | Switzerland vs Algeria | 45% / 28% / 27% | 1-1 |
 | 86 | 2026-07-03 | Argentina vs Cabo Verde | 84% / 13% / 3% | 2-0 |
 | 87 | 2026-07-04 | Colombia vs Ghana | 68% / 21% / 10% | 2-0 |
 | 88 | 2026-07-03 | Australia vs Egypt | 39% / 37% / 24% | 0-0 |

@@ -16,7 +16,7 @@
 | Draw | **25.8%** |
 | Paraguay win | **19.8%** |
 
-*Monte Carlo (50,000 sims):* 54.5% / 25.8% / 19.7% · avg goals 2.59
+*Monte Carlo (50,000 sims):* 54.6% / 25.8% / 19.7% · avg goals 2.59
 
 ## Most likely scorelines
 
