@@ -8,25 +8,25 @@
     "stage": "round_of_32",
     "venue": "New York/New Jersey Stadium"
   },
-  "base_rate": 1.0776,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 3.3407,
-      "def": 0.3625
+      "atk": 3.3419,
+      "def": 0.3624
     },
     "away": {
-      "atk": 2.6192,
-      "def": 0.7545
+      "atk": 2.6202,
+      "def": 0.7542
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.3407,
-      "def": 0.3625
+      "atk": 3.3419,
+      "def": 0.3624
     },
     "away": {
-      "atk": 2.6192,
-      "def": 0.7545
+      "atk": 2.6202,
+      "def": 0.7542
     }
   },
   "rho": -0.0709,
@@ -48,5 +48,5 @@
     "home": 103,
     "away": 96
   },
-  "generated_at": "2026-06-28T14:11:41+00:00"
+  "generated_at": "2026-06-28T15:01:48+00:00"
 }
