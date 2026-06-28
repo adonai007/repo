@@ -16,7 +16,7 @@
 | Draw | **25.6%** |
 | Paraguay win | **19.4%** |
 
-*Monte Carlo (50,000 sims):* 55.3% / 25.5% / 19.2% · avg goals 2.62
+*Monte Carlo (50,000 sims):* 55.2% / 25.5% / 19.2% · avg goals 2.62
 
 ## Most likely scorelines
 
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Germany advances**: 70.2%
-- **Paraguay advances**: 29.8%
+- **Germany advances**: 70.1%
+- **Paraguay advances**: 29.9%
 
 ## Scoreline heatmap
 
