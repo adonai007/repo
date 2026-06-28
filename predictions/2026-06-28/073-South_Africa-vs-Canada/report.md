@@ -13,7 +13,7 @@
 | Outcome | Model |
 |---|---|
 | South Africa win | **15.1%** |
-| Draw | **26.2%** |
+| Draw | **26.1%** |
 | Canada win | **58.8%** |
 
 *Monte Carlo (50,000 sims):* 15.1% / 26.0% / 58.9% · avg goals 2.32

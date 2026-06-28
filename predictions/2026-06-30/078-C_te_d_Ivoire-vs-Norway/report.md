@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Côte d'Ivoire win | **25.6%** |
+| Côte d'Ivoire win | **25.5%** |
 | Draw | **28.5%** |
 | Norway win | **45.9%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 48.9%
 - Over 2.5 goals: 43.6%  ·  Under 2.5: 56.4%
-- Double chance 1X: 54.1%  ·  X2: 74.4%
+- Double chance 1X: 54.1%  ·  X2: 74.5%
 
 ## Knockout advancement (incl. extra time + penalties)
 
