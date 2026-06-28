@@ -14,7 +14,7 @@
 |---|---|
 | France win | **72.5%** |
 | Draw | **16.2%** |
-| Sweden win | **11.3%** |
+| Sweden win | **11.2%** |
 
 *Monte Carlo (50,000 sims):* 72.7% / 16.1% / 11.2% · avg goals 3.74
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 60.3%
 - Over 2.5 goals: 72.1%  ·  Under 2.5: 27.9%
-- Double chance 1X: 88.7%  ·  X2: 27.5%
+- Double chance 1X: 88.8%  ·  X2: 27.5%
 
 ## Knockout advancement (incl. extra time + penalties)
 

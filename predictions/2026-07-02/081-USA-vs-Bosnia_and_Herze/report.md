@@ -16,7 +16,7 @@
 | Draw | **20.6%** |
 | Bosnia and Herzegovina win | **16.0%** |
 
-*Monte Carlo (50,000 sims):* 63.6% / 20.6% / 15.9% · avg goals 3.28
+*Monte Carlo (50,000 sims):* 63.6% / 20.5% / 15.8% · avg goals 3.28
 
 ## Most likely scorelines
 

@@ -16,11 +16,11 @@
 | Draw | **27.4%** |
 | Senegal win | **29.6%** |
 
-*Monte Carlo (50,000 sims):* 43.0% / 27.3% / 29.8% · avg goals 2.68
+*Monte Carlo (50,000 sims):* 42.9% / 27.3% / 29.8% · avg goals 2.68
 
 ## Most likely scorelines
 
-- 1-1: 13.0%
+- 1-1: 13.1%
 - 1-0: 9.4%
 - 2-1: 9.0%
 - 0-0: 7.8%
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Belgium advances**: 57.7%
-- **Senegal advances**: 42.3%
+- **Belgium advances**: 57.6%
+- **Senegal advances**: 42.4%
 
 ## Scoreline heatmap
 
