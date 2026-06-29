@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| France win | **72.5%** |
+| France win | **72.6%** |
 | Draw | **16.2%** |
 | Sweden win | **11.3%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 60.3%
 - Over 2.5 goals: 72.1%  ·  Under 2.5: 27.9%
-- Double chance 1X: 88.7%  ·  X2: 27.5%
+- Double chance 1X: 88.7%  ·  X2: 27.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 
