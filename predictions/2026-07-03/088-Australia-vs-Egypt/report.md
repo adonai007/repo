@@ -16,7 +16,7 @@
 | Draw | **37.1%** |
 | Egypt win | **25.0%** |
 
-*Monte Carlo (50,000 sims):* 37.9% / 37.1% / 24.9% · avg goals 1.57
+*Monte Carlo (50,000 sims):* 37.9% / 37.1% / 25.0% · avg goals 1.57
 
 ## Most likely scorelines
 
