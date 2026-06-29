@@ -11,22 +11,22 @@
   "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 3.2317,
+      "atk": 3.2308,
       "def": 0.3638
     },
     "away": {
-      "atk": 2.4411,
-      "def": 0.5046
+      "atk": 2.4406,
+      "def": 0.5047
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2317,
+      "atk": 3.2308,
       "def": 0.3638
     },
     "away": {
-      "atk": 2.4411,
-      "def": 0.5046
+      "atk": 2.4406,
+      "def": 0.5047
     }
   },
   "rho": -0.0709,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-28",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-29",
   "n_prior_matches": {
     "home": 98,
     "away": 100
   },
-  "generated_at": "2026-06-28T23:51:35+00:00"
+  "generated_at": "2026-06-29T00:38:37+00:00"
 }

@@ -16,7 +16,7 @@
 | Draw | **26.4%** |
 | Algeria win | **26.5%** |
 
-*Monte Carlo (50,000 sims):* 47.3% / 26.4% / 26.3% · avg goals 2.77
+*Monte Carlo (50,000 sims):* 47.3% / 26.4% / 26.4% · avg goals 2.77
 
 ## Most likely scorelines
 

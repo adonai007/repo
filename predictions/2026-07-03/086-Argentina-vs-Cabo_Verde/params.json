@@ -15,7 +15,7 @@
       "def": 0.2094
     },
     "away": {
-      "atk": 1.3025,
+      "atk": 1.3023,
       "def": 0.6464
     }
   },
@@ -25,7 +25,7 @@
       "def": 0.2094
     },
     "away": {
-      "atk": 1.3025,
+      "atk": 1.3023,
       "def": 0.6464
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-28",
+  "prior_source": "dixon_coles_fit@martj42:2026-06-29",
   "n_prior_matches": {
     "home": 100,
     "away": 75
   },
-  "generated_at": "2026-06-28T23:51:36+00:00"
+  "generated_at": "2026-06-29T00:38:38+00:00"
 }

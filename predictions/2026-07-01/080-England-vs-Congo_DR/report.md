@@ -16,7 +16,7 @@
 | Draw | **33.0%** |
 | Congo DR win | **13.6%** |
 
-*Monte Carlo (50,000 sims):* 53.5% / 33.1% / 13.4% · avg goals 1.63
+*Monte Carlo (50,000 sims):* 53.5% / 33.1% / 13.5% · avg goals 1.63
 
 ## Most likely scorelines
 
