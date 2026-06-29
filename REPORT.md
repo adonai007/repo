@@ -4,15 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **64**
-- Mean RPS: **0.146**  ·  log-loss: 0.813  ·  Brier: 0.476
-- Hit rate (argmax): **66%**
+- Matches graded: **65**
+- Mean RPS: **0.146**  ·  log-loss: 0.822  ·  Brier: 0.482
+- Hit rate (argmax): **65%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 74 | 2026-06-29 | Germany vs Paraguay | 55% / 26% / 19% | 1-1 |
 | 75 | 2026-06-30 | Netherlands vs Morocco | 32% / 32% / 36% | 1-1 |
 | 77 | 2026-06-30 | France vs Sweden | 73% / 16% / 11% | 2-1 |
 | 78 | 2026-06-30 | Côte d'Ivoire vs Norway | 26% / 28% / 46% | 1-1 |
