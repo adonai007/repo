@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Mexico City Stadium"
   },
-  "base_rate": 1.0777,
+  "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 2.1081,
-      "def": 0.3561
+      "atk": 2.1114,
+      "def": 0.3564
     },
     "away": {
-      "atk": 1.5874,
+      "atk": 1.589,
       "def": 0.245
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.1081,
-      "def": 0.3561
+      "atk": 2.1114,
+      "def": 0.3564
     },
     "away": {
-      "atk": 1.5874,
+      "atk": 1.589,
       "def": 0.245
     }
   },
-  "rho": -0.0709,
+  "rho": -0.0696,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.2452,
+    "home": 1.2458,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -48,5 +48,5 @@
     "home": 132,
     "away": 95
   },
-  "generated_at": "2026-06-29T05:05:02+00:00"
+  "generated_at": "2026-06-29T07:07:20+00:00"
 }

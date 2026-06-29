@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Boston Stadium"
   },
-  "base_rate": 1.0777,
+  "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 3.6952,
-      "def": 0.4922
+      "atk": 3.6966,
+      "def": 0.4919
     },
     "away": {
-      "atk": 1.7267,
-      "def": 0.4265
+      "atk": 1.7268,
+      "def": 0.4263
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.6952,
-      "def": 0.4922
+      "atk": 3.6966,
+      "def": 0.4919
     },
     "away": {
-      "atk": 1.7267,
-      "def": 0.4265
+      "atk": 1.7268,
+      "def": 0.4263
     }
   },
-  "rho": -0.0709,
+  "rho": -0.0696,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 95,
     "away": 81
   },
-  "generated_at": "2026-06-29T05:04:59+00:00"
+  "generated_at": "2026-06-29T07:07:17+00:00"
 }

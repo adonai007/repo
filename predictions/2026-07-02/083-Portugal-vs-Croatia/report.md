@@ -6,7 +6,7 @@
 
 - **Portugal**: 1.76
 - **Croatia**: 0.96
-- **Total**: 2.71  ·  rho = -0.0709
+- **Total**: 2.71  ·  rho = -0.0696
 
 ## 1X2 (match result)
 
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 51.8%
+- Both teams to score: 51.7%
 - Over 2.5 goals: 51.0%  ·  Under 2.5: 49.0%
 - Double chance 1X: 80.4%  ·  X2: 44.6%
 

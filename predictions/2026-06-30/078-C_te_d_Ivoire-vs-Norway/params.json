@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.0777,
+  "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 1.7047,
-      "def": 0.3976
+      "atk": 1.7042,
+      "def": 0.3979
     },
     "away": {
-      "atk": 3.3238,
-      "def": 0.5437
+      "atk": 3.3256,
+      "def": 0.5436
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.7047,
-      "def": 0.3976
+      "atk": 1.7042,
+      "def": 0.3979
     },
     "away": {
-      "atk": 3.3238,
-      "def": 0.5437
+      "atk": 3.3256,
+      "def": 0.5436
     }
   },
-  "rho": -0.0709,
+  "rho": -0.0696,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 92,
     "away": 82
   },
-  "generated_at": "2026-06-29T05:05:01+00:00"
+  "generated_at": "2026-06-29T07:07:20+00:00"
 }

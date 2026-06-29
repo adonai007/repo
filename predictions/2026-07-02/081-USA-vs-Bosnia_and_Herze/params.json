@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "San Francisco Bay Area Stadium"
   },
-  "base_rate": 1.0777,
+  "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 2.3097,
-      "def": 0.6377
+      "atk": 2.313,
+      "def": 0.6379
     },
     "away": {
-      "atk": 1.5238,
+      "atk": 1.5266,
       "def": 0.7181
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.3097,
-      "def": 0.6377
+      "atk": 2.313,
+      "def": 0.6379
     },
     "away": {
-      "atk": 1.5238,
+      "atk": 1.5266,
       "def": 0.7181
     }
   },
-  "rho": -0.0709,
+  "rho": -0.0696,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.2452,
+    "home": 1.2458,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -48,5 +48,5 @@
     "home": 123,
     "away": 81
   },
-  "generated_at": "2026-06-29T05:05:02+00:00"
+  "generated_at": "2026-06-29T07:07:20+00:00"
 }

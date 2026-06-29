@@ -6,7 +6,7 @@
 
 - **France**: 2.72
 - **Sweden**: 1.02
-- **Total**: 3.74  ·  rho = -0.0709
+- **Total**: 3.74  ·  rho = -0.0696
 
 ## 1X2 (match result)
 

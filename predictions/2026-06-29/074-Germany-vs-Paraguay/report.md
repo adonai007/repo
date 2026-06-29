@@ -6,7 +6,7 @@
 
 - **Germany**: 1.70
 - **Paraguay**: 0.92
-- **Total**: 2.61  ·  rho = -0.0709
+- **Total**: 2.61  ·  rho = -0.0696
 
 ## 1X2 (match result)
 
@@ -16,12 +16,12 @@
 | Draw | **25.6%** |
 | Paraguay win | **19.4%** |
 
-*Monte Carlo (50,000 sims):* 55.2% / 25.5% / 19.2% · avg goals 2.62
+*Monte Carlo (50,000 sims):* 55.3% / 25.5% / 19.2% · avg goals 2.62
 
 ## Most likely scorelines
 
 - 1-1: 12.2%
-- 1-0: 11.6%
+- 1-0: 11.7%
 - 2-0: 10.6%
 - 2-1: 9.7%
 - 0-0: 8.1%
