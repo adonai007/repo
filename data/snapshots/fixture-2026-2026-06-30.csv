@@ -73,7 +73,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 72,3,2026-06-27 23:30:00+00:00,2026-06-27,Atlanta Stadium,Group K,Congo DR,Uzbekistan,3.0,1.0,Congo DR,True,True,group
 73,4,2026-06-28 19:00:00+00:00,2026-06-28,Los Angeles Stadium,,South Africa,Canada,0.0,1.0,Canada,True,True,round_of_32
 74,4,2026-06-29 20:30:00+00:00,2026-06-29,Boston Stadium,,Germany,Paraguay,1.0,1.0,Paraguay,True,True,round_of_32
-75,4,2026-06-30 01:00:00+00:00,2026-06-30,Monterrey Stadium,,Netherlands,Morocco,,,,True,False,round_of_32
+75,4,2026-06-30 01:00:00+00:00,2026-06-30,Monterrey Stadium,,Netherlands,Morocco,1.0,1.0,Morocco,True,True,round_of_32
 76,4,2026-06-29 17:00:00+00:00,2026-06-29,Houston Stadium,,Brazil,Japan,2.0,1.0,Brazil,True,True,round_of_32
 77,4,2026-06-30 21:00:00+00:00,2026-06-30,New York/New Jersey Stadium,,France,Sweden,,,,True,False,round_of_32
 78,4,2026-06-30 17:00:00+00:00,2026-06-30,Dallas Stadium,,Côte d'Ivoire,Norway,,,,True,False,round_of_32
@@ -88,7 +88,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 87,4,2026-07-04 01:30:00+00:00,2026-07-04,Kansas City Stadium,,Colombia,Ghana,,,,True,False,round_of_32
 88,4,2026-07-03 18:00:00+00:00,2026-07-03,Dallas Stadium,,Australia,Egypt,,,,True,False,round_of_32
 89,5,2026-07-04 21:00:00+00:00,2026-07-04,Philadelphia Stadium,,Paraguay,To be announced,,,,False,False,round_of_16
-90,5,2026-07-04 17:00:00+00:00,2026-07-04,Houston Stadium,,Canada,To be announced,,,,False,False,round_of_16
+90,5,2026-07-04 17:00:00+00:00,2026-07-04,Houston Stadium,,Canada,Morocco,,,,True,False,round_of_16
 91,5,2026-07-05 20:00:00+00:00,2026-07-05,New York/New Jersey Stadium,,Brazil,To be announced,,,,False,False,round_of_16
 92,5,2026-07-06 00:00:00+00:00,2026-07-06,Mexico City Stadium,,To be announced,To be announced,,,,False,False,round_of_16
 93,5,2026-07-06 19:00:00+00:00,2026-07-06,Dallas Stadium,,To be announced,To be announced,,,,False,False,round_of_16
