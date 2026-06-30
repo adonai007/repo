@@ -11,25 +11,25 @@
   "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 3.5503,
-      "def": 0.3058
+      "atk": 3.5491,
+      "def": 0.306
     },
     "away": {
-      "atk": 2.3435,
-      "def": 0.4946
+      "atk": 2.3413,
+      "def": 0.495
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.5503,
-      "def": 0.3058
+      "atk": 3.5491,
+      "def": 0.306
     },
     "away": {
-      "atk": 2.3435,
-      "def": 0.4946
+      "atk": 2.3413,
+      "def": 0.495
     }
   },
-  "rho": -0.0696,
+  "rho": -0.0726,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 100,
     "away": 90
   },
-  "generated_at": "2026-06-30T06:26:29+00:00"
+  "generated_at": "2026-06-30T07:48:37+00:00"
 }

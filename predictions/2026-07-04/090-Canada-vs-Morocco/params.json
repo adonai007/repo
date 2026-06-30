@@ -11,25 +11,25 @@
   "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 1.9738,
-      "def": 0.4329
+      "atk": 1.9739,
+      "def": 0.4326
     },
     "away": {
-      "atk": 2.2353,
-      "def": 0.2793
+      "atk": 2.2335,
+      "def": 0.2788
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.9738,
-      "def": 0.4329
+      "atk": 1.9739,
+      "def": 0.4326
     },
     "away": {
-      "atk": 2.2353,
-      "def": 0.2793
+      "atk": 2.2335,
+      "def": 0.2788
     }
   },
-  "rho": -0.0696,
+  "rho": -0.0726,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.2458,
+    "home": 1.2463,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -46,7 +46,7 @@
   "prior_source": "dixon_coles_fit@martj42:2026-06-30",
   "n_prior_matches": {
     "home": 96,
-    "away": 111
+    "away": 112
   },
-  "generated_at": "2026-06-30T06:26:31+00:00"
+  "generated_at": "2026-06-30T07:48:38+00:00"
 }

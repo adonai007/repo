@@ -4,34 +4,34 @@
 
 ## Expected goals (model)
 
-- **France**: 2.71
+- **France**: 2.72
 - **Sweden**: 1.02
-- **Total**: 3.74  ·  rho = -0.0696
+- **Total**: 3.74  ·  rho = -0.0726
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| France win | **72.5%** |
+| France win | **72.6%** |
 | Draw | **16.2%** |
-| Sweden win | **11.3%** |
+| Sweden win | **11.2%** |
 
-*Monte Carlo (50,000 sims):* 72.7% / 16.1% / 11.2% · avg goals 3.74
+*Monte Carlo (50,000 sims):* 72.8% / 16.1% / 11.1% · avg goals 3.74
 
 ## Most likely scorelines
 
 - 2-1: 9.0%
 - 2-0: 8.8%
 - 3-1: 8.1%
-- 3-0: 7.9%
+- 3-0: 8.0%
 - 1-1: 7.1%
 - 1-0: 6.0%
 
 ## Derived markets
 
-- Both teams to score: 60.3%
+- Both teams to score: 60.2%
 - Over 2.5 goals: 72.1%  ·  Under 2.5: 27.9%
-- Double chance 1X: 88.7%  ·  X2: 27.5%
+- Double chance 1X: 88.8%  ·  X2: 27.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 

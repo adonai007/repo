@@ -11,25 +11,25 @@
   "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 2.1113,
-      "def": 0.3564
+      "atk": 2.1134,
+      "def": 0.3561
     },
     "away": {
-      "atk": 1.589,
-      "def": 0.2451
+      "atk": 1.5943,
+      "def": 0.2445
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.1113,
-      "def": 0.3564
+      "atk": 2.1134,
+      "def": 0.3561
     },
     "away": {
-      "atk": 1.589,
-      "def": 0.2451
+      "atk": 1.5943,
+      "def": 0.2445
     }
   },
-  "rho": -0.0696,
+  "rho": -0.0726,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.2458,
+    "home": 1.2463,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -48,5 +48,5 @@
     "home": 132,
     "away": 95
   },
-  "generated_at": "2026-06-30T06:26:28+00:00"
+  "generated_at": "2026-06-30T07:48:36+00:00"
 }
