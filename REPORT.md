@@ -13,7 +13,7 @@ Auto-generated. *Informational model output — not betting advice.*
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
 | 77 | 2026-06-30 | France vs Sweden | 73% / 16% / 11% | 2-1 |
-| 78 | 2026-06-30 | Côte d'Ivoire vs Norway | 26% / 29% / 46% | 1-1 |
+| 78 | 2026-06-30 | Côte d'Ivoire vs Norway | 25% / 29% / 46% | 1-1 |
 | 79 | 2026-07-01 | Mexico vs Ecuador | 32% / 42% / 27% | 0-0 |
 | 80 | 2026-07-01 | England vs Congo DR | 53% / 33% / 14% | 1-0 |
 | 81 | 2026-07-02 | USA vs Bosnia and Herzegovina | 64% / 20% / 16% | 2-1 |
