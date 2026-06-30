@@ -12,9 +12,9 @@
 
 | Outcome | Model |
 |---|---|
-| Mexico win | **31.8%** |
+| Mexico win | **31.9%** |
 | Draw | **41.5%** |
-| Ecuador win | **26.7%** |
+| Ecuador win | **26.6%** |
 
 *Monte Carlo (50,000 sims):* 31.9% / 41.9% / 26.2% · avg goals 1.31
 
@@ -25,13 +25,13 @@
 - 0-1: 15.8%
 - 1-1: 12.3%
 - 2-0: 6.5%
-- 0-2: 5.1%
+- 0-2: 5.0%
 
 ## Derived markets
 
 - Both teams to score: 23.7%
 - Over 2.5 goals: 14.4%  ·  Under 2.5: 85.6%
-- Double chance 1X: 73.3%  ·  X2: 68.2%
+- Double chance 1X: 73.4%  ·  X2: 68.1%
 
 ## Knockout advancement (incl. extra time + penalties)
 

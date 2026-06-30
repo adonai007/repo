@@ -4,7 +4,7 @@
 
 ## Expected goals (model)
 
-- **France**: 2.72
+- **France**: 2.71
 - **Sweden**: 1.02
 - **Total**: 3.74  ·  rho = -0.0696
 

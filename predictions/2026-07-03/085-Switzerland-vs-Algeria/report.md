@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Switzerland win | **47.3%** |
+| Switzerland win | **47.2%** |
 | Draw | **26.3%** |
 | Algeria win | **26.4%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 55.7%
 - Over 2.5 goals: 52.3%  ·  Under 2.5: 47.7%
-- Double chance 1X: 73.6%  ·  X2: 52.7%
+- Double chance 1X: 73.6%  ·  X2: 52.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 

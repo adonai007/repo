@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| USA win | **63.4%** |
+| USA win | **63.5%** |
 | Draw | **20.5%** |
 | Bosnia and Herzegovina win | **16.0%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 58.6%
 - Over 2.5 goals: 63.6%  ·  Under 2.5: 36.4%
-- Double chance 1X: 84.0%  ·  X2: 36.6%
+- Double chance 1X: 84.0%  ·  X2: 36.5%
 
 ## Knockout advancement (incl. extra time + penalties)
 
