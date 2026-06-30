@@ -14,9 +14,9 @@
 |---|---|
 | Côte d'Ivoire win | **25.5%** |
 | Draw | **28.5%** |
-| Norway win | **46.0%** |
+| Norway win | **45.9%** |
 
-*Monte Carlo (50,000 sims):* 25.6% / 28.4% / 46.1% · avg goals 2.43
+*Monte Carlo (50,000 sims):* 25.6% / 28.4% / 46.0% · avg goals 2.43
 
 ## Most likely scorelines
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 48.9%
 - Over 2.5 goals: 43.7%  ·  Under 2.5: 56.3%
-- Double chance 1X: 54.0%  ·  X2: 74.5%
+- Double chance 1X: 54.1%  ·  X2: 74.5%
 
 ## Knockout advancement (incl. extra time + penalties)
 

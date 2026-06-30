@@ -12,11 +12,11 @@
 
 | Outcome | Model |
 |---|---|
-| Spain win | **63.1%** |
+| Spain win | **63.2%** |
 | Draw | **23.0%** |
 | Austria win | **13.9%** |
 
-*Monte Carlo (50,000 sims):* 63.4% / 22.6% / 14.0% · avg goals 2.67
+*Monte Carlo (50,000 sims):* 63.5% / 22.6% / 14.0% · avg goals 2.67
 
 ## Most likely scorelines
 
@@ -30,8 +30,8 @@
 ## Derived markets
 
 - Both teams to score: 46.4%
-- Over 2.5 goals: 49.7%  ·  Under 2.5: 50.3%
-- Double chance 1X: 86.1%  ·  X2: 36.9%
+- Over 2.5 goals: 49.8%  ·  Under 2.5: 50.2%
+- Double chance 1X: 86.1%  ·  X2: 36.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 
