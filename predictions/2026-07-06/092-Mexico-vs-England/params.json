@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Paraguay",
-    "away": "France",
-    "date": "2026-07-04",
-    "neutral": true,
+    "home": "Mexico",
+    "away": "England",
+    "date": "2026-07-06",
+    "neutral": false,
     "stage": "round_of_16",
-    "venue": "Philadelphia Stadium"
+    "venue": "Mexico City Stadium"
   },
   "base_rate": 1.0771,
   "strength": {
     "home": {
-      "atk": 1.7305,
-      "def": 0.4094
+      "atk": 2.189,
+      "def": 0.3429
     },
     "away": {
-      "atk": 3.3552,
-      "def": 0.3426
+      "atk": 2.7716,
+      "def": 0.2862
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.7305,
-      "def": 0.4094
+      "atk": 2.189,
+      "def": 0.3429
     },
     "away": {
-      "atk": 3.3552,
-      "def": 0.3426
+      "atk": 2.7716,
+      "def": 0.2862
     }
   },
   "rho": -0.0729,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.0,
+    "home": 1.2475,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-01",
   "n_prior_matches": {
-    "home": 82,
-    "away": 103
+    "home": 133,
+    "away": 104
   },
-  "generated_at": "2026-07-01T19:10:04+00:00"
+  "generated_at": "2026-07-01T19:10:05+00:00"
 }
