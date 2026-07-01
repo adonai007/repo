@@ -12,11 +12,11 @@
 
 | Outcome | Model |
 |---|---|
-| Brazil win | **52.3%** |
+| Brazil win | **52.4%** |
 | Draw | **23.0%** |
-| Norway win | **24.7%** |
+| Norway win | **24.6%** |
 
-*Monte Carlo (50,000 sims):* 52.5% / 23.1% / 24.4% · avg goals 3.34
+*Monte Carlo (50,000 sims):* 52.6% / 23.1% / 24.4% · avg goals 3.34
 
 ## Most likely scorelines
 
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 64.5%
+- Both teams to score: 64.4%
 - Over 2.5 goals: 64.9%  ·  Under 2.5: 35.1%
-- Double chance 1X: 75.3%  ·  X2: 47.7%
+- Double chance 1X: 75.4%  ·  X2: 47.6%
 
 ## Knockout advancement (incl. extra time + penalties)
 

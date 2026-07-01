@@ -16,7 +16,7 @@
 | Draw | **27.4%** |
 | Senegal win | **29.6%** |
 
-*Monte Carlo (50,000 sims):* 42.9% / 27.3% / 29.8% · avg goals 2.68
+*Monte Carlo (50,000 sims):* 42.9% / 27.4% / 29.8% · avg goals 2.68
 
 ## Most likely scorelines
 

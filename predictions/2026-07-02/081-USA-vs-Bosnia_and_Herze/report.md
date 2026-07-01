@@ -14,9 +14,9 @@
 |---|---|
 | USA win | **63.7%** |
 | Draw | **20.5%** |
-| Bosnia and Herzegovina win | **15.9%** |
+| Bosnia and Herzegovina win | **15.8%** |
 
-*Monte Carlo (50,000 sims):* 63.8% / 20.5% / 15.7% · avg goals 3.29
+*Monte Carlo (50,000 sims):* 63.8% / 20.5% / 15.6% · avg goals 3.29
 
 ## Most likely scorelines
 
@@ -29,14 +29,14 @@
 
 ## Derived markets
 
-- Both teams to score: 58.7%
+- Both teams to score: 58.6%
 - Over 2.5 goals: 63.8%  ·  Under 2.5: 36.2%
-- Double chance 1X: 84.1%  ·  X2: 36.3%
+- Double chance 1X: 84.2%  ·  X2: 36.3%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **USA advances**: 76.5%
-- **Bosnia and Herzegovina advances**: 23.5%
+- **USA advances**: 76.6%
+- **Bosnia and Herzegovina advances**: 23.4%
 
 ## Scoreline heatmap
 

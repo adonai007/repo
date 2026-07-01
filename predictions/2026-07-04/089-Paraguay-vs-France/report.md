@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Paraguay win | **16.3%** |
+| Paraguay win | **16.4%** |
 | Draw | **28.2%** |
 | France win | **55.4%** |
 
@@ -30,8 +30,8 @@
 ## Derived markets
 
 - Both teams to score: 38.8%
-- Over 2.5 goals: 36.4%  ·  Under 2.5: 63.6%
-- Double chance 1X: 44.6%  ·  X2: 83.7%
+- Over 2.5 goals: 36.3%  ·  Under 2.5: 63.7%
+- Double chance 1X: 44.6%  ·  X2: 83.6%
 
 ## Knockout advancement (incl. extra time + penalties)
 

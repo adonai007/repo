@@ -8,24 +8,24 @@
     "stage": "round_of_32",
     "venue": "Toronto Stadium"
   },
-  "base_rate": 1.0773,
+  "base_rate": 1.0772,
   "strength": {
     "home": {
-      "atk": 3.2282,
+      "atk": 3.2277,
       "def": 0.364
     },
     "away": {
-      "atk": 2.44,
+      "atk": 2.4391,
       "def": 0.5044
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2282,
+      "atk": 3.2277,
       "def": 0.364
     },
     "away": {
-      "atk": 2.44,
+      "atk": 2.4391,
       "def": 0.5044
     }
   },
@@ -48,5 +48,5 @@
     "home": 97,
     "away": 99
   },
-  "generated_at": "2026-07-01T05:02:21+00:00"
+  "generated_at": "2026-07-01T06:55:41+00:00"
 }

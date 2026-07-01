@@ -16,14 +16,14 @@
 | Draw | **26.4%** |
 | Algeria win | **26.5%** |
 
-*Monte Carlo (50,000 sims):* 47.3% / 26.3% / 26.4% · avg goals 2.78
+*Monte Carlo (50,000 sims):* 47.2% / 26.4% / 26.4% · avg goals 2.77
 
 ## Most likely scorelines
 
 - 1-1: 12.5%
 - 2-1: 9.4%
 - 1-0: 9.3%
-- 2-0: 8.2%
+- 2-0: 8.1%
 - 0-0: 7.1%
 - 1-2: 6.8%
 
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Switzerland advances**: 61.7%
-- **Algeria advances**: 38.3%
+- **Switzerland advances**: 61.6%
+- **Algeria advances**: 38.4%
 
 ## Scoreline heatmap
 

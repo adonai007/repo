@@ -13,7 +13,7 @@
 | Outcome | Model |
 |---|---|
 | Canada win | **24.5%** |
-| Draw | **34.4%** |
+| Draw | **34.5%** |
 | Morocco win | **41.0%** |
 
 *Monte Carlo (50,000 sims):* 24.5% / 34.7% / 40.8% · avg goals 1.78

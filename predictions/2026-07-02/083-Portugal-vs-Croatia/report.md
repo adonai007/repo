@@ -16,7 +16,7 @@
 | Draw | **25.1%** |
 | Croatia win | **19.6%** |
 
-*Monte Carlo (50,000 sims):* 55.6% / 24.7% / 19.6% · avg goals 2.71
+*Monte Carlo (50,000 sims):* 55.6% / 24.8% / 19.6% · avg goals 2.71
 
 ## Most likely scorelines
 

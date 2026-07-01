@@ -4,7 +4,7 @@
 
 ## Expected goals (model)
 
-- **England**: 1.18
+- **England**: 1.17
 - **Congo DR**: 0.46
 - **Total**: 1.63  ·  rho = -0.0726
 
@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| England win | **53.4%** |
+| England win | **53.3%** |
 | Draw | **33.1%** |
 | Congo DR win | **13.6%** |
 
@@ -20,7 +20,7 @@
 
 ## Most likely scorelines
 
-- 1-0: 22.3%
+- 1-0: 22.2%
 - 0-0: 20.3%
 - 2-0: 13.5%
 - 1-1: 11.2%
@@ -31,7 +31,7 @@
 
 - Both teams to score: 26.0%
 - Over 2.5 goals: 22.5%  ·  Under 2.5: 77.5%
-- Double chance 1X: 86.4%  ·  X2: 46.6%
+- Double chance 1X: 86.4%  ·  X2: 46.7%
 
 ## Knockout advancement (incl. extra time + penalties)
 

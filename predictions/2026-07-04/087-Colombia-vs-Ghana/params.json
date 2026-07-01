@@ -8,10 +8,10 @@
     "stage": "round_of_32",
     "venue": "Kansas City Stadium"
   },
-  "base_rate": 1.0773,
+  "base_rate": 1.0772,
   "strength": {
     "home": {
-      "atk": 3.0116,
+      "atk": 3.0123,
       "def": 0.3679
     },
     "away": {
@@ -21,7 +21,7 @@
   },
   "prior_strength": {
     "home": {
-      "atk": 3.0116,
+      "atk": 3.0123,
       "def": 0.3679
     },
     "away": {
@@ -48,5 +48,5 @@
     "home": 94,
     "away": 80
   },
-  "generated_at": "2026-07-01T05:02:22+00:00"
+  "generated_at": "2026-07-01T06:55:42+00:00"
 }

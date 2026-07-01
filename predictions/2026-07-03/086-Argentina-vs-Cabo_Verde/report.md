@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Argentina win | **81.9%** |
+| Argentina win | **82.0%** |
 | Draw | **14.8%** |
 | Cabo Verde win | **3.2%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 23.0%
 - Over 2.5 goals: 46.5%  ·  Under 2.5: 53.5%
-- Double chance 1X: 96.8%  ·  X2: 18.1%
+- Double chance 1X: 96.8%  ·  X2: 18.0%
 
 ## Knockout advancement (incl. extra time + penalties)
 

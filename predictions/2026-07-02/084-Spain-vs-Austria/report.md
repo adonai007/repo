@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Spain win | **63.1%** |
+| Spain win | **63.2%** |
 | Draw | **23.0%** |
 | Austria win | **13.9%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 46.4%
 - Over 2.5 goals: 49.8%  ·  Under 2.5: 50.2%
-- Double chance 1X: 86.1%  ·  X2: 36.9%
+- Double chance 1X: 86.1%  ·  X2: 36.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 
