@@ -14,7 +14,7 @@
 |---|---|
 | Argentina win | **81.9%** |
 | Draw | **14.8%** |
-| Cabo Verde win | **3.3%** |
+| Cabo Verde win | **3.2%** |
 
 *Monte Carlo (50,000 sims):* 82.1% / 14.7% / 3.2% · avg goals 2.54
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 23.0%
 - Over 2.5 goals: 46.5%  ·  Under 2.5: 53.5%
-- Double chance 1X: 96.7%  ·  X2: 18.1%
+- Double chance 1X: 96.8%  ·  X2: 18.1%
 
 ## Knockout advancement (incl. extra time + penalties)
 

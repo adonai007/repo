@@ -8,24 +8,24 @@
     "stage": "round_of_32",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.0772,
+  "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 1.8526,
-      "def": 0.3872
+      "atk": 1.8523,
+      "def": 0.3873
     },
     "away": {
-      "atk": 1.6149,
+      "atk": 1.6145,
       "def": 0.4491
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.8526,
-      "def": 0.3872
+      "atk": 1.8523,
+      "def": 0.3873
     },
     "away": {
-      "atk": 1.6149,
+      "atk": 1.6145,
       "def": 0.4491
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-30",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-01",
   "n_prior_matches": {
     "home": 78,
     "away": 98
   },
-  "generated_at": "2026-06-30T23:31:14+00:00"
+  "generated_at": "2026-07-01T00:39:11+00:00"
 }

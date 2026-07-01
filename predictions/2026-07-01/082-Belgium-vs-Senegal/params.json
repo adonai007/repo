@@ -8,24 +8,24 @@
     "stage": "round_of_32",
     "venue": "Seattle Stadium"
   },
-  "base_rate": 1.0772,
+  "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 2.8035,
-      "def": 0.4336
+      "atk": 2.8031,
+      "def": 0.4337
     },
     "away": {
-      "atk": 2.5475,
+      "atk": 2.5473,
       "def": 0.4903
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.8035,
-      "def": 0.4336
+      "atk": 2.8031,
+      "def": 0.4337
     },
     "away": {
-      "atk": 2.5475,
+      "atk": 2.5473,
       "def": 0.4903
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-30",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-01",
   "n_prior_matches": {
     "home": 98,
     "away": 104
   },
-  "generated_at": "2026-06-30T23:31:13+00:00"
+  "generated_at": "2026-07-01T00:39:09+00:00"
 }

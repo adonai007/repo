@@ -8,25 +8,25 @@
     "stage": "round_of_32",
     "venue": "Kansas City Stadium"
   },
-  "base_rate": 1.0772,
+  "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 3.0123,
+      "atk": 3.0116,
       "def": 0.3679
     },
     "away": {
-      "atk": 1.425,
-      "def": 0.581
+      "atk": 1.4248,
+      "def": 0.5811
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.0123,
+      "atk": 3.0116,
       "def": 0.3679
     },
     "away": {
-      "atk": 1.425,
-      "def": 0.581
+      "atk": 1.4248,
+      "def": 0.5811
     }
   },
   "rho": -0.0726,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-06-30",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-01",
   "n_prior_matches": {
     "home": 94,
     "away": 80
   },
-  "generated_at": "2026-06-30T23:31:14+00:00"
+  "generated_at": "2026-07-01T00:39:11+00:00"
 }

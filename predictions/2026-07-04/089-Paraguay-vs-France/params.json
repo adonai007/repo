@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Mexico",
-    "away": "Ecuador",
-    "date": "2026-07-01",
-    "neutral": false,
-    "stage": "round_of_32",
-    "venue": "Mexico City Stadium"
+    "home": "Paraguay",
+    "away": "France",
+    "date": "2026-07-04",
+    "neutral": true,
+    "stage": "round_of_16",
+    "venue": "Philadelphia Stadium"
   },
   "base_rate": 1.0773,
   "strength": {
     "home": {
-      "atk": 2.1131,
-      "def": 0.3561
+      "atk": 1.7367,
+      "def": 0.4088
     },
     "away": {
-      "atk": 1.594,
-      "def": 0.2445
+      "atk": 3.3382,
+      "def": 0.3627
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.1131,
-      "def": 0.3561
+      "atk": 1.7367,
+      "def": 0.4088
     },
     "away": {
-      "atk": 1.594,
-      "def": 0.2445
+      "atk": 3.3382,
+      "def": 0.3627
     }
   },
   "rho": -0.0726,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.2464,
+    "home": 1.0,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-01",
   "n_prior_matches": {
-    "home": 132,
-    "away": 95
+    "home": 82,
+    "away": 102
   },
-  "generated_at": "2026-07-01T00:39:07+00:00"
+  "generated_at": "2026-07-01T00:39:11+00:00"
 }
