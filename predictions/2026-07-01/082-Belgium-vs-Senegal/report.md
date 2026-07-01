@@ -6,7 +6,7 @@
 
 - **Belgium**: 1.48
 - **Senegal**: 1.19
-- **Total**: 2.67  ·  rho = -0.0729
+- **Total**: 2.67  ·  rho = -0.0728
 
 ## 1X2 (match result)
 

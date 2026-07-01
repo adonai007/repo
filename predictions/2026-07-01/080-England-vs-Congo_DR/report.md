@@ -6,17 +6,17 @@
 
 - **England**: 1.18
 - **Congo DR**: 0.45
-- **Total**: 1.63  ·  rho = -0.0729
+- **Total**: 1.63  ·  rho = -0.0728
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
 | England win | **53.4%** |
-| Draw | **33.1%** |
+| Draw | **33.0%** |
 | Congo DR win | **13.5%** |
 
-*Monte Carlo (50,000 sims):* 53.4% / 33.1% / 13.4% · avg goals 1.63
+*Monte Carlo (50,000 sims):* 53.5% / 33.1% / 13.4% · avg goals 1.63
 
 ## Most likely scorelines
 

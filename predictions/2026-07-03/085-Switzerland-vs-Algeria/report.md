@@ -6,7 +6,7 @@
 
 - **Switzerland**: 1.61
 - **Algeria**: 1.16
-- **Total**: 2.77  ·  rho = -0.0729
+- **Total**: 2.77  ·  rho = -0.0728
 
 ## 1X2 (match result)
 
@@ -16,7 +16,7 @@
 | Draw | **26.4%** |
 | Algeria win | **26.5%** |
 
-*Monte Carlo (50,000 sims):* 47.3% / 26.3% / 26.4% · avg goals 2.78
+*Monte Carlo (50,000 sims):* 47.4% / 26.3% / 26.4% · avg goals 2.78
 
 ## Most likely scorelines
 

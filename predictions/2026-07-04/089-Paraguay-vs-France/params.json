@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "Philadelphia Stadium"
   },
-  "base_rate": 1.0771,
+  "base_rate": 1.077,
   "strength": {
     "home": {
-      "atk": 1.7305,
+      "atk": 1.7304,
       "def": 0.4094
     },
     "away": {
-      "atk": 3.3552,
-      "def": 0.3426
+      "atk": 3.3551,
+      "def": 0.3425
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.7305,
+      "atk": 1.7304,
       "def": 0.4094
     },
     "away": {
-      "atk": 3.3552,
-      "def": 0.3426
+      "atk": 3.3551,
+      "def": 0.3425
     }
   },
-  "rho": -0.0729,
+  "rho": -0.0728,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 82,
     "away": 103
   },
-  "generated_at": "2026-07-01T09:46:22+00:00"
+  "generated_at": "2026-07-01T11:05:17+00:00"
 }
