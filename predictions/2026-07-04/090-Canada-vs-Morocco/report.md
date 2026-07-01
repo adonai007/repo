@@ -6,37 +6,37 @@
 
 - **Canada**: 0.74
 - **Morocco**: 1.04
-- **Total**: 1.78  ·  rho = -0.0726
+- **Total**: 1.78  ·  rho = -0.0729
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Canada win | **24.5%** |
+| Canada win | **24.6%** |
 | Draw | **34.5%** |
-| Morocco win | **41.0%** |
+| Morocco win | **40.9%** |
 
-*Monte Carlo (50,000 sims):* 24.5% / 34.7% / 40.8% · avg goals 1.78
+*Monte Carlo (50,000 sims):* 24.6% / 34.7% / 40.7% · avg goals 1.78
 
 ## Most likely scorelines
 
-- 0-0: 17.8%
+- 0-0: 17.9%
 - 0-1: 16.6%
 - 1-1: 13.9%
-- 1-0: 11.5%
+- 1-0: 11.6%
 - 0-2: 9.1%
 - 1-2: 6.7%
 
 ## Derived markets
 
 - Both teams to score: 34.7%
-- Over 2.5 goals: 26.4%  ·  Under 2.5: 73.6%
-- Double chance 1X: 59.0%  ·  X2: 75.5%
+- Over 2.5 goals: 26.3%  ·  Under 2.5: 73.7%
+- Double chance 1X: 59.1%  ·  X2: 75.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Canada advances**: 40.4%
-- **Morocco advances**: 59.6%
+- **Canada advances**: 40.5%
+- **Morocco advances**: 59.5%
 
 ## Scoreline heatmap
 

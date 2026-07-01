@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "Philadelphia Stadium"
   },
-  "base_rate": 1.0772,
+  "base_rate": 1.0771,
   "strength": {
     "home": {
-      "atk": 1.7372,
-      "def": 0.4087
+      "atk": 1.7305,
+      "def": 0.4094
     },
     "away": {
-      "atk": 3.3376,
-      "def": 0.3628
+      "atk": 3.3552,
+      "def": 0.3426
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.7372,
-      "def": 0.4087
+      "atk": 1.7305,
+      "def": 0.4094
     },
     "away": {
-      "atk": 3.3376,
-      "def": 0.3628
+      "atk": 3.3552,
+      "def": 0.3426
     }
   },
-  "rho": -0.0726,
+  "rho": -0.0729,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -46,7 +46,7 @@
   "prior_source": "dixon_coles_fit@martj42:2026-07-01",
   "n_prior_matches": {
     "home": 82,
-    "away": 102
+    "away": 103
   },
-  "generated_at": "2026-07-01T06:55:42+00:00"
+  "generated_at": "2026-07-01T08:25:49+00:00"
 }

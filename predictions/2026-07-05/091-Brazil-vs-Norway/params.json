@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "New York/New Jersey Stadium"
   },
-  "base_rate": 1.0772,
+  "base_rate": 1.0771,
   "strength": {
     "home": {
-      "atk": 3.4203,
-      "def": 0.373
+      "atk": 3.4118,
+      "def": 0.3738
     },
     "away": {
-      "atk": 3.3195,
-      "def": 0.5446
+      "atk": 3.366,
+      "def": 0.5449
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.4203,
-      "def": 0.373
+      "atk": 3.4118,
+      "def": 0.3738
     },
     "away": {
-      "atk": 3.3195,
-      "def": 0.5446
+      "atk": 3.366,
+      "def": 0.5449
     }
   },
-  "rho": -0.0726,
+  "rho": -0.0729,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -46,7 +46,7 @@
   "prior_source": "dixon_coles_fit@martj42:2026-07-01",
   "n_prior_matches": {
     "home": 98,
-    "away": 82
+    "away": 83
   },
-  "generated_at": "2026-07-01T06:55:43+00:00"
+  "generated_at": "2026-07-01T08:25:49+00:00"
 }

@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Paraguay**: 0.68
-- **France**: 1.47
-- **Total**: 2.15  ·  rho = -0.0726
+- **Paraguay**: 0.64
+- **France**: 1.48
+- **Total**: 2.12  ·  rho = -0.0729
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Paraguay win | **16.4%** |
-| Draw | **28.2%** |
-| France win | **55.4%** |
+| Paraguay win | **15.2%** |
+| Draw | **28.0%** |
+| France win | **56.8%** |
 
-*Monte Carlo (50,000 sims):* 16.1% / 28.3% / 55.5% · avg goals 2.16
+*Monte Carlo (50,000 sims):* 14.9% / 28.2% / 56.8% · avg goals 2.12
 
 ## Most likely scorelines
 
-- 0-1: 16.3%
-- 0-2: 12.6%
-- 0-0: 12.5%
-- 1-1: 12.5%
-- 1-2: 8.6%
-- 1-0: 7.1%
+- 0-1: 17.0%
+- 0-2: 13.2%
+- 0-0: 12.9%
+- 1-1: 12.2%
+- 1-2: 8.4%
+- 1-0: 6.9%
 
 ## Derived markets
 
-- Both teams to score: 38.8%
-- Over 2.5 goals: 36.3%  ·  Under 2.5: 63.7%
-- Double chance 1X: 44.6%  ·  X2: 83.6%
+- Both teams to score: 37.3%
+- Over 2.5 goals: 35.5%  ·  Under 2.5: 64.5%
+- Double chance 1X: 43.2%  ·  X2: 84.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Paraguay advances**: 27.7%
-- **France advances**: 72.3%
+- **Paraguay advances**: 26.3%
+- **France advances**: 73.7%
 
 ## Scoreline heatmap
 

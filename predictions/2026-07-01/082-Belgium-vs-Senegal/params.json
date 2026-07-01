@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Seattle Stadium"
   },
-  "base_rate": 1.0772,
+  "base_rate": 1.0771,
   "strength": {
     "home": {
-      "atk": 2.8022,
-      "def": 0.4338
+      "atk": 2.8099,
+      "def": 0.4329
     },
     "away": {
-      "atk": 2.5478,
-      "def": 0.4903
+      "atk": 2.5488,
+      "def": 0.4898
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.8022,
-      "def": 0.4338
+      "atk": 2.8099,
+      "def": 0.4329
     },
     "away": {
-      "atk": 2.5478,
-      "def": 0.4903
+      "atk": 2.5488,
+      "def": 0.4898
     }
   },
-  "rho": -0.0726,
+  "rho": -0.0729,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 98,
     "away": 104
   },
-  "generated_at": "2026-07-01T06:55:40+00:00"
+  "generated_at": "2026-07-01T08:25:47+00:00"
 }
