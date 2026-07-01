@@ -6,7 +6,7 @@
 
 - **Brazil**: 2.00
 - **Norway**: 1.36
-- **Total**: 3.36  ·  rho = -0.0729
+- **Total**: 3.36  ·  rho = -0.0728
 
 ## 1X2 (match result)
 
@@ -16,7 +16,7 @@
 | Draw | **23.0%** |
 | Norway win | **25.2%** |
 
-*Monte Carlo (50,000 sims):* 52.0% / 23.0% / 24.9% · avg goals 3.36
+*Monte Carlo (50,000 sims):* 52.0% / 23.1% / 24.9% · avg goals 3.36
 
 ## Most likely scorelines
 
