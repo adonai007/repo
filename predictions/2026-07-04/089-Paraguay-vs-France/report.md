@@ -6,7 +6,7 @@
 
 - **Paraguay**: 0.64
 - **France**: 1.48
-- **Total**: 2.12  ·  rho = -0.0728
+- **Total**: 2.12  ·  rho = -0.0729
 
 ## 1X2 (match result)
 

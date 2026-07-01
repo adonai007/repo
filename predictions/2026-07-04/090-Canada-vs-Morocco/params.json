@@ -8,10 +8,10 @@
     "stage": "round_of_16",
     "venue": "Houston Stadium"
   },
-  "base_rate": 1.077,
+  "base_rate": 1.0771,
   "strength": {
     "home": {
-      "atk": 1.9736,
+      "atk": 1.9734,
       "def": 0.4321
     },
     "away": {
@@ -21,7 +21,7 @@
   },
   "prior_strength": {
     "home": {
-      "atk": 1.9736,
+      "atk": 1.9734,
       "def": 0.4321
     },
     "away": {
@@ -29,7 +29,7 @@
       "def": 0.2791
     }
   },
-  "rho": -0.0728,
+  "rho": -0.0729,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 96,
     "away": 112
   },
-  "generated_at": "2026-07-01T23:29:32+00:00"
+  "generated_at": "2026-07-01T23:58:03+00:00"
 }

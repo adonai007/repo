@@ -6,17 +6,17 @@
 
 - **USA**: 2.24
 - **Bosnia and Herzegovina**: 1.05
-- **Total**: 3.29  ·  rho = -0.0728
+- **Total**: 3.29  ·  rho = -0.0729
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| USA win | **63.7%** |
+| USA win | **63.8%** |
 | Draw | **20.4%** |
 | Bosnia and Herzegovina win | **15.8%** |
 
-*Monte Carlo (50,000 sims):* 63.9% / 20.5% / 15.6% · avg goals 3.29
+*Monte Carlo (50,000 sims):* 63.9% / 20.6% / 15.6% · avg goals 3.29
 
 ## Most likely scorelines
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 58.6%
 - Over 2.5 goals: 63.8%  ·  Under 2.5: 36.2%
-- Double chance 1X: 84.2%  ·  X2: 36.3%
+- Double chance 1X: 84.2%  ·  X2: 36.2%
 
 ## Knockout advancement (incl. extra time + penalties)
 

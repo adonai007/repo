@@ -6,7 +6,7 @@
 
 - **Portugal**: 1.75
 - **Croatia**: 0.96
-- **Total**: 2.71  ·  rho = -0.0728
+- **Total**: 2.71  ·  rho = -0.0729
 
 ## 1X2 (match result)
 
@@ -16,7 +16,7 @@
 | Draw | **25.1%** |
 | Croatia win | **19.6%** |
 
-*Monte Carlo (50,000 sims):* 55.6% / 24.8% / 19.7% · avg goals 2.71
+*Monte Carlo (50,000 sims):* 55.6% / 24.8% / 19.7% · avg goals 2.72
 
 ## Most likely scorelines
 
