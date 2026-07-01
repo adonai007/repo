@@ -4,15 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **68**
-- Mean RPS: **0.145**  ·  log-loss: 0.818  ·  Brier: 0.479
-- Hit rate (argmax): **65%**
+- Matches graded: **69**
+- Mean RPS: **0.146**  ·  log-loss: 0.823  ·  Brier: 0.483
+- Hit rate (argmax): **64%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 79 | 2026-07-01 | Mexico vs Ecuador | 32% / 42% / 27% | 0-0 |
 | 80 | 2026-07-01 | England vs Congo DR | 53% / 33% / 14% | 1-0 |
 | 81 | 2026-07-02 | USA vs Bosnia and Herzegovina | 64% / 20% / 16% | 2-1 |
 | 82 | 2026-07-01 | Belgium vs Senegal | 43% / 27% / 30% | 1-1 |
