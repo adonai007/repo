@@ -6,7 +6,7 @@
 
 - **Argentina**: 2.23
 - **Cabo Verde**: 0.29
-- **Total**: 2.53  ·  rho = -0.0728
+- **Total**: 2.53  ·  rho = -0.0729
 
 ## 1X2 (match result)
 

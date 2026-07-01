@@ -6,7 +6,7 @@
 
 - **Spain**: 1.89
 - **Austria**: 0.77
-- **Total**: 2.67  ·  rho = -0.0728
+- **Total**: 2.67  ·  rho = -0.0729
 
 ## 1X2 (match result)
 
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Spain advances**: 77.6%
-- **Austria advances**: 22.4%
+- **Spain advances**: 77.7%
+- **Austria advances**: 22.3%
 
 ## Scoreline heatmap
 
