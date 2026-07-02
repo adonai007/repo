@@ -6,7 +6,7 @@
 
 - **Canada**: 0.74
 - **Morocco**: 1.04
-- **Total**: 1.78  ·  rho = -0.0729
+- **Total**: 1.78  ·  rho = -0.0728
 
 ## 1X2 (match result)
 

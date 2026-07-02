@@ -4,9 +4,9 @@
 
 ## Expected goals (model)
 
-- **Switzerland**: 1.61
+- **Switzerland**: 1.62
 - **Algeria**: 1.16
-- **Total**: 2.77  ·  rho = -0.0729
+- **Total**: 2.77  ·  rho = -0.0728
 
 ## 1X2 (match result)
 

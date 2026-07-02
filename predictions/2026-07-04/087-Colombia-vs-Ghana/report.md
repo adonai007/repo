@@ -6,7 +6,7 @@
 
 - **Colombia**: 1.88
 - **Ghana**: 0.57
-- **Total**: 2.44  ·  rho = -0.0729
+- **Total**: 2.44  ·  rho = -0.0728
 
 ## 1X2 (match result)
 

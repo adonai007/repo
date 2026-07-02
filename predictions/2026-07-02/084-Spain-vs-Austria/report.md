@@ -6,7 +6,7 @@
 
 - **Spain**: 1.89
 - **Austria**: 0.77
-- **Total**: 2.67  ·  rho = -0.0729
+- **Total**: 2.67  ·  rho = -0.0728
 
 ## 1X2 (match result)
 

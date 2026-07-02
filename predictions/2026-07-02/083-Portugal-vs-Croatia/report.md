@@ -6,7 +6,7 @@
 
 - **Portugal**: 1.75
 - **Croatia**: 0.96
-- **Total**: 2.71  ·  rho = -0.0729
+- **Total**: 2.71  ·  rho = -0.0728
 
 ## 1X2 (match result)
 

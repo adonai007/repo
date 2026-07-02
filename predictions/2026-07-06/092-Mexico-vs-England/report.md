@@ -6,13 +6,13 @@
 
 - **Mexico**: 0.84
 - **England**: 1.02
-- **Total**: 1.87  ·  rho = -0.0729
+- **Total**: 1.87  ·  rho = -0.0728
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Mexico win | **28.1%** |
+| Mexico win | **28.2%** |
 | Draw | **33.9%** |
 | England win | **37.9%** |
 
@@ -20,7 +20,7 @@
 
 ## Most likely scorelines
 
-- 0-0: 16.5%
+- 0-0: 16.4%
 - 0-1: 14.9%
 - 1-1: 14.3%
 - 1-0: 12.1%
@@ -31,7 +31,7 @@
 
 - Both teams to score: 37.4%
 - Over 2.5 goals: 28.7%  ·  Under 2.5: 71.3%
-- Double chance 1X: 62.1%  ·  X2: 71.9%
+- Double chance 1X: 62.1%  ·  X2: 71.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 
