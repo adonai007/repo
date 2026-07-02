@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Spain advances**: 77.8%
-- **Austria advances**: 22.2%
+- **Spain advances**: 77.7%
+- **Austria advances**: 22.3%
 
 ## Scoreline heatmap
 
