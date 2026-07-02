@@ -8,28 +8,28 @@
     "stage": "round_of_32",
     "venue": "Miami Stadium"
   },
-  "base_rate": 1.0771,
+  "base_rate": 1.0779,
   "strength": {
     "home": {
-      "atk": 3.2045,
+      "atk": 3.2056,
       "def": 0.2088
     },
     "away": {
-      "atk": 1.3019,
+      "atk": 1.3025,
       "def": 0.647
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2045,
+      "atk": 3.2056,
       "def": 0.2088
     },
     "away": {
-      "atk": 1.3019,
+      "atk": 1.3025,
       "def": 0.647
     }
   },
-  "rho": -0.0728,
+  "rho": -0.0727,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 99,
     "away": 75
   },
-  "generated_at": "2026-07-02T06:45:03+00:00"
+  "generated_at": "2026-07-02T08:03:34+00:00"
 }

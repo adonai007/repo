@@ -6,7 +6,7 @@
 
 - **Canada**: 0.74
 - **Morocco**: 1.04
-- **Total**: 1.78  ·  rho = -0.0728
+- **Total**: 1.78  ·  rho = -0.0727
 
 ## 1X2 (match result)
 
@@ -30,13 +30,13 @@
 ## Derived markets
 
 - Both teams to score: 34.7%
-- Over 2.5 goals: 26.3%  ·  Under 2.5: 73.7%
+- Over 2.5 goals: 26.4%  ·  Under 2.5: 73.6%
 - Double chance 1X: 59.1%  ·  X2: 75.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Canada advances**: 40.5%
-- **Morocco advances**: 59.5%
+- **Canada advances**: 40.6%
+- **Morocco advances**: 59.4%
 
 ## Scoreline heatmap
 

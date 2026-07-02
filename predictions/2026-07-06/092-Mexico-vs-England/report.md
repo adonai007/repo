@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Mexico**: 0.84
-- **England**: 1.02
-- **Total**: 1.87  ·  rho = -0.0728
+- **Mexico**: 0.89
+- **England**: 1.04
+- **Total**: 1.93  ·  rho = -0.0727
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Mexico win | **28.2%** |
-| Draw | **33.9%** |
-| England win | **37.9%** |
+| Mexico win | **29.2%** |
+| Draw | **33.4%** |
+| England win | **37.5%** |
 
-*Monte Carlo (50,000 sims):* 28.1% / 34.0% / 37.9% · avg goals 1.87
+*Monte Carlo (50,000 sims):* 29.4% / 33.3% / 37.3% · avg goals 1.93
 
 ## Most likely scorelines
 
-- 0-0: 16.5%
-- 0-1: 14.9%
-- 1-1: 14.3%
-- 1-0: 12.1%
-- 0-2: 8.1%
-- 1-2: 6.8%
+- 0-0: 15.5%
+- 1-1: 14.4%
+- 0-1: 14.2%
+- 1-0: 11.9%
+- 0-2: 7.9%
+- 1-2: 7.0%
 
 ## Derived markets
 
-- Both teams to score: 37.4%
-- Over 2.5 goals: 28.7%  ·  Under 2.5: 71.3%
-- Double chance 1X: 62.1%  ·  X2: 71.8%
+- Both teams to score: 39.0%
+- Over 2.5 goals: 30.4%  ·  Under 2.5: 69.6%
+- Double chance 1X: 62.5%  ·  X2: 70.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Mexico advances**: 44.3%
-- **England advances**: 55.7%
+- **Mexico advances**: 45.2%
+- **England advances**: 54.8%
 
 ## Scoreline heatmap
 

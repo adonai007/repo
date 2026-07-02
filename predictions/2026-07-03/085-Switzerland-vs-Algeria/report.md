@@ -4,19 +4,19 @@
 
 ## Expected goals (model)
 
-- **Switzerland**: 1.61
+- **Switzerland**: 1.62
 - **Algeria**: 1.16
-- **Total**: 2.77  ·  rho = -0.0728
+- **Total**: 2.78  ·  rho = -0.0727
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Switzerland win | **47.1%** |
+| Switzerland win | **47.2%** |
 | Draw | **26.4%** |
 | Algeria win | **26.5%** |
 
-*Monte Carlo (50,000 sims):* 47.3% / 26.3% / 26.4% · avg goals 2.78
+*Monte Carlo (50,000 sims):* 47.4% / 26.2% / 26.3% · avg goals 2.78
 
 ## Most likely scorelines
 
@@ -30,8 +30,8 @@
 ## Derived markets
 
 - Both teams to score: 55.8%
-- Over 2.5 goals: 52.4%  ·  Under 2.5: 47.6%
-- Double chance 1X: 73.5%  ·  X2: 52.9%
+- Over 2.5 goals: 52.5%  ·  Under 2.5: 47.5%
+- Double chance 1X: 73.5%  ·  X2: 52.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 

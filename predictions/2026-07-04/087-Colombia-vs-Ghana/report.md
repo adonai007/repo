@@ -4,23 +4,23 @@
 
 ## Expected goals (model)
 
-- **Colombia**: 1.88
-- **Ghana**: 0.57
-- **Total**: 2.44  ·  rho = -0.0728
+- **Colombia**: 1.87
+- **Ghana**: 0.56
+- **Total**: 2.44  ·  rho = -0.0727
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Colombia win | **68.3%** |
+| Colombia win | **68.2%** |
 | Draw | **22.0%** |
 | Ghana win | **9.7%** |
 
-*Monte Carlo (50,000 sims):* 68.5% / 21.7% / 9.8% · avg goals 2.45
+*Monte Carlo (50,000 sims):* 68.4% / 21.7% / 9.9% · avg goals 2.44
 
 ## Most likely scorelines
 
-- 1-0: 15.6%
+- 1-0: 15.7%
 - 2-0: 15.3%
 - 1-1: 9.9%
 - 3-0: 9.6%
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 37.3%
-- Over 2.5 goals: 44.2%  ·  Under 2.5: 55.8%
-- Double chance 1X: 90.3%  ·  X2: 31.7%
+- Both teams to score: 37.2%
+- Over 2.5 goals: 44.0%  ·  Under 2.5: 56.0%
+- Double chance 1X: 90.3%  ·  X2: 31.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 

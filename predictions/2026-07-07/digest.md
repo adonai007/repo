@@ -2,7 +2,7 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| USA vs Belgium | round_of_16 | 26% / 24% / 50% | 1-1 |
+| USA vs Belgium | round_of_16 | 28% / 24% / 49% | 1-1 |
 
 ---
 *Informational model output — not betting advice.*

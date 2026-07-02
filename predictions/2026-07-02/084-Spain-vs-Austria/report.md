@@ -4,19 +4,19 @@
 
 ## Expected goals (model)
 
-- **Spain**: 1.89
+- **Spain**: 1.90
 - **Austria**: 0.77
-- **Total**: 2.67  ·  rho = -0.0728
+- **Total**: 2.67  ·  rho = -0.0727
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Spain win | **63.2%** |
-| Draw | **23.0%** |
+| Spain win | **63.3%** |
+| Draw | **22.9%** |
 | Austria win | **13.8%** |
 
-*Monte Carlo (50,000 sims):* 63.5% / 22.6% / 13.9% · avg goals 2.67
+*Monte Carlo (50,000 sims):* 63.6% / 22.6% / 13.8% · avg goals 2.67
 
 ## Most likely scorelines
 
@@ -29,14 +29,14 @@
 
 ## Derived markets
 
-- Both teams to score: 46.4%
-- Over 2.5 goals: 49.8%  ·  Under 2.5: 50.2%
-- Double chance 1X: 86.2%  ·  X2: 36.8%
+- Both teams to score: 46.5%
+- Over 2.5 goals: 49.9%  ·  Under 2.5: 50.1%
+- Double chance 1X: 86.2%  ·  X2: 36.7%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Spain advances**: 77.7%
-- **Austria advances**: 22.3%
+- **Spain advances**: 77.8%
+- **Austria advances**: 22.2%
 
 ## Scoreline heatmap
 
