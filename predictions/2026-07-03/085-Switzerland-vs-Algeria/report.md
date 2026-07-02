@@ -4,7 +4,7 @@
 
 ## Expected goals (model)
 
-- **Switzerland**: 1.62
+- **Switzerland**: 1.61
 - **Algeria**: 1.16
 - **Total**: 2.77  ·  rho = -0.0728
 

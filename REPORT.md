@@ -15,7 +15,7 @@ Auto-generated. *Informational model output — not betting advice.*
 | 81 | 2026-07-02 | USA vs Bosnia and Herzegovina | 64% / 20% / 16% | 2-1 |
 | 83 | 2026-07-02 | Portugal vs Croatia | 55% / 25% / 20% | 1-1 |
 | 84 | 2026-07-02 | Spain vs Austria | 63% / 23% / 14% | 2-0 |
-| 85 | 2026-07-03 | Switzerland vs Algeria | 47% / 26% / 26% | 1-1 |
+| 85 | 2026-07-03 | Switzerland vs Algeria | 47% / 26% / 27% | 1-1 |
 | 86 | 2026-07-03 | Argentina vs Cabo Verde | 82% / 15% / 3% | 2-0 |
 | 87 | 2026-07-04 | Colombia vs Ghana | 68% / 22% / 10% | 1-0 |
 | 88 | 2026-07-03 | Australia vs Egypt | 38% / 37% / 25% | 0-0 |
