@@ -79,7 +79,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 78,4,2026-06-30 17:00:00+00:00,2026-06-30,Dallas Stadium,,Côte d'Ivoire,Norway,1.0,2.0,Norway,True,True,round_of_32
 79,4,2026-07-01 02:00:00+00:00,2026-07-01,Mexico City Stadium,,Mexico,Ecuador,2.0,0.0,Mexico,True,True,round_of_32
 80,4,2026-07-01 16:00:00+00:00,2026-07-01,Atlanta Stadium,,England,Congo DR,2.0,1.0,England,True,True,round_of_32
-81,4,2026-07-02 00:00:00+00:00,2026-07-02,San Francisco Bay Area Stadium,,USA,Bosnia and Herzegovina,,,,True,False,round_of_32
+81,4,2026-07-02 00:00:00+00:00,2026-07-02,San Francisco Bay Area Stadium,,USA,Bosnia and Herzegovina,2.0,0.0,USA,True,True,round_of_32
 82,4,2026-07-01 20:00:00+00:00,2026-07-01,Seattle Stadium,,Belgium,Senegal,3.0,2.0,Belgium,True,True,round_of_32
 83,4,2026-07-02 23:00:00+00:00,2026-07-02,Toronto Stadium,,Portugal,Croatia,,,,True,False,round_of_32
 84,4,2026-07-02 19:00:00+00:00,2026-07-02,Los Angeles Stadium,,Spain,Austria,,,,True,False,round_of_32
@@ -92,7 +92,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 91,5,2026-07-05 20:00:00+00:00,2026-07-05,New York/New Jersey Stadium,,Brazil,Norway,,,,True,False,round_of_16
 92,5,2026-07-06 00:00:00+00:00,2026-07-06,Mexico City Stadium,,Mexico,England,,,,True,False,round_of_16
 93,5,2026-07-06 19:00:00+00:00,2026-07-06,Dallas Stadium,,To be announced,To be announced,,,,False,False,round_of_16
-94,5,2026-07-07 00:00:00+00:00,2026-07-07,Seattle Stadium,,To be announced,Belgium,,,,False,False,round_of_16
+94,5,2026-07-07 00:00:00+00:00,2026-07-07,Seattle Stadium,,USA,Belgium,,,,True,False,round_of_16
 95,5,2026-07-07 16:00:00+00:00,2026-07-07,Atlanta Stadium,,To be announced,To be announced,,,,False,False,round_of_16
 96,5,2026-07-07 20:00:00+00:00,2026-07-07,BC Place Vancouver,,To be announced,To be announced,,,,False,False,round_of_16
 97,6,2026-07-09 20:00:00+00:00,2026-07-09,Boston Stadium,,To be announced,To be announced,,,,False,False,quarter

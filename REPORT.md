@@ -4,15 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **71**
-- Mean RPS: **0.147**  ·  log-loss: 0.821  ·  Brier: 0.481
+- Matches graded: **72**
+- Mean RPS: **0.146**  ·  log-loss: 0.815  ·  Brier: 0.477
 - Hit rate (argmax): **65%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 81 | 2026-07-02 | USA vs Bosnia and Herzegovina | 64% / 20% / 16% | 2-1 |
 | 83 | 2026-07-02 | Portugal vs Croatia | 55% / 25% / 20% | 1-1 |
 | 84 | 2026-07-02 | Spain vs Austria | 63% / 23% / 14% | 2-0 |
 | 85 | 2026-07-03 | Switzerland vs Algeria | 47% / 26% / 27% | 1-1 |
@@ -23,3 +22,4 @@ Auto-generated. *Informational model output — not betting advice.*
 | 90 | 2026-07-04 | Canada vs Morocco | 25% / 34% / 41% | 0-0 |
 | 91 | 2026-07-05 | Brazil vs Norway | 52% / 23% / 25% | 1-1 |
 | 92 | 2026-07-06 | Mexico vs England | 28% / 34% / 38% | 0-0 |
+| 94 | 2026-07-07 | USA vs Belgium | 26% / 24% / 50% | 1-1 |

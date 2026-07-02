@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Australia",
-    "away": "Egypt",
-    "date": "2026-07-03",
-    "neutral": true,
-    "stage": "round_of_32",
-    "venue": "Dallas Stadium"
+    "home": "USA",
+    "away": "Belgium",
+    "date": "2026-07-07",
+    "neutral": false,
+    "stage": "round_of_16",
+    "venue": "Seattle Stadium"
   },
   "base_rate": 1.0771,
   "strength": {
     "home": {
-      "atk": 1.8526,
-      "def": 0.3869
+      "atk": 2.3194,
+      "def": 0.6367
     },
     "away": {
-      "atk": 1.6131,
-      "def": 0.4493
+      "atk": 2.8083,
+      "def": 0.4329
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.8526,
-      "def": 0.3869
+      "atk": 2.3194,
+      "def": 0.6367
     },
     "away": {
-      "atk": 1.6131,
-      "def": 0.4493
+      "atk": 2.8083,
+      "def": 0.4329
     }
   },
   "rho": -0.0728,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.0,
+    "home": 1.2475,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-02",
   "n_prior_matches": {
-    "home": 78,
-    "away": 98
+    "home": 123,
+    "away": 97
   },
-  "generated_at": "2026-07-02T03:45:25+00:00"
+  "generated_at": "2026-07-02T03:45:27+00:00"
 }
