@@ -5,8 +5,8 @@
 ## Expected goals (model)
 
 - **Paraguay**: 0.64
-- **France**: 1.47
-- **Total**: 2.11  ·  rho = -0.0727
+- **France**: 1.48
+- **Total**: 2.12  ·  rho = -0.0727
 
 ## 1X2 (match result)
 
@@ -16,7 +16,7 @@
 | Draw | **28.1%** |
 | France win | **56.6%** |
 
-*Monte Carlo (50,000 sims):* 15.1% / 28.3% / 56.6% · avg goals 2.12
+*Monte Carlo (50,000 sims):* 15.0% / 28.3% / 56.6% · avg goals 2.12
 
 ## Most likely scorelines
 
