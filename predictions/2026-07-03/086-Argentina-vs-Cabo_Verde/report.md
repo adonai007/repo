@@ -16,12 +16,12 @@
 | Draw | **14.9%** |
 | Cabo Verde win | **3.3%** |
 
-*Monte Carlo (50,000 sims):* 82.1% / 14.8% / 3.2% · avg goals 2.53
+*Monte Carlo (50,000 sims):* 82.0% / 14.8% / 3.2% · avg goals 2.53
 
 ## Most likely scorelines
 
 - 2-0: 19.9%
-- 1-0: 17.4%
+- 1-0: 17.5%
 - 3-0: 14.9%
 - 0-0: 8.4%
 - 4-0: 8.3%
