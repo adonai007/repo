@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Colombia win | **68.3%** |
+| Colombia win | **68.2%** |
 | Draw | **22.0%** |
 | Ghana win | **9.7%** |
 
@@ -30,8 +30,8 @@
 ## Derived markets
 
 - Both teams to score: 37.2%
-- Over 2.5 goals: 44.1%  ·  Under 2.5: 55.9%
-- Double chance 1X: 90.3%  ·  X2: 31.7%
+- Over 2.5 goals: 44.0%  ·  Under 2.5: 56.0%
+- Double chance 1X: 90.3%  ·  X2: 31.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 
