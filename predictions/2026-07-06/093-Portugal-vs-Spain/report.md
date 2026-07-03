@@ -30,7 +30,7 @@
 ## Derived markets
 
 - Both teams to score: 50.2%
-- Over 2.5 goals: 44.6%  ·  Under 2.5: 55.4%
+- Over 2.5 goals: 44.5%  ·  Under 2.5: 55.5%
 - Double chance 1X: 56.5%  ·  X2: 72.2%
 
 ## Knockout advancement (incl. extra time + penalties)

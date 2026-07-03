@@ -16,7 +16,7 @@
 | Draw | **28.1%** |
 | France win | **56.6%** |
 
-*Monte Carlo (50,000 sims):* 15.0% / 28.3% / 56.7% · avg goals 2.12
+*Monte Carlo (50,000 sims):* 15.0% / 28.3% / 56.6% · avg goals 2.12
 
 ## Most likely scorelines
 
