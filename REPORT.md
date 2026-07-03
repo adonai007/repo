@@ -4,9 +4,9 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **75**
-- Mean RPS: **0.145**  ·  log-loss: 0.807  ·  Brier: 0.470
-- Hit rate (argmax): **67%**
+- Matches graded: **76**
+- Mean RPS: **0.144**  ·  log-loss: 0.809  ·  Brier: 0.472
+- Hit rate (argmax): **66%**
 
 ## Upcoming predictions
 
@@ -14,7 +14,6 @@ Auto-generated. *Informational model output — not betting advice.*
 |--|--|--|--|--|
 | 86 | 2026-07-03 | Argentina vs Cabo Verde | 82% / 15% / 3% | 2-0 |
 | 87 | 2026-07-04 | Colombia vs Ghana | 68% / 22% / 10% | 1-0 |
-| 88 | 2026-07-03 | Australia vs Egypt | 38% / 37% / 25% | 0-0 |
 | 89 | 2026-07-04 | Paraguay vs France | 15% / 28% / 57% | 0-1 |
 | 90 | 2026-07-04 | Canada vs Morocco | 25% / 35% / 41% | 0-0 |
 | 91 | 2026-07-05 | Brazil vs Norway | 52% / 23% / 25% | 1-1 |
