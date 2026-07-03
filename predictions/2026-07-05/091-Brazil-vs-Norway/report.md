@@ -6,17 +6,17 @@
 
 - **Brazil**: 2.00
 - **Norway**: 1.35
-- **Total**: 3.35  ·  rho = -0.0727
+- **Total**: 3.35  ·  rho = -0.0724
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Brazil win | **51.8%** |
+| Brazil win | **51.7%** |
 | Draw | **23.0%** |
-| Norway win | **25.1%** |
+| Norway win | **25.2%** |
 
-*Monte Carlo (50,000 sims):* 52.0% / 23.1% / 24.9% · avg goals 3.35
+*Monte Carlo (50,000 sims):* 51.9% / 23.1% / 25.0% · avg goals 3.35
 
 ## Most likely scorelines
 
@@ -31,12 +31,12 @@
 
 - Both teams to score: 64.8%
 - Over 2.5 goals: 65.1%  ·  Under 2.5: 34.9%
-- Double chance 1X: 74.9%  ·  X2: 48.2%
+- Double chance 1X: 74.8%  ·  X2: 48.3%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Brazil advances**: 65.0%
-- **Norway advances**: 35.0%
+- **Brazil advances**: 64.8%
+- **Norway advances**: 35.2%
 
 ## Scoreline heatmap
 

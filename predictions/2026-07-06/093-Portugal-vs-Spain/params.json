@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.078,
+  "base_rate": 1.0777,
   "strength": {
     "home": {
-      "atk": 3.2328,
-      "def": 0.3635
+      "atk": 3.2627,
+      "def": 0.363
     },
     "away": {
-      "atk": 3.5553,
-      "def": 0.3057
+      "atk": 3.6528,
+      "def": 0.2887
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2328,
-      "def": 0.3635
+      "atk": 3.2627,
+      "def": 0.363
     },
     "away": {
-      "atk": 3.5553,
-      "def": 0.3057
+      "atk": 3.6528,
+      "def": 0.2887
     }
   },
-  "rho": -0.0727,
+  "rho": -0.0724,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-03",
   "n_prior_matches": {
-    "home": 97,
-    "away": 99
+    "home": 98,
+    "away": 100
   },
-  "generated_at": "2026-07-03T04:45:12+00:00"
+  "generated_at": "2026-07-03T06:12:46+00:00"
 }

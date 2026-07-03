@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Argentina**: 2.24
+- **Argentina**: 2.22
 - **Cabo Verde**: 0.29
-- **Total**: 2.53  ·  rho = -0.0727
+- **Total**: 2.51  ·  rho = -0.0724
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Argentina win | **81.8%** |
-| Draw | **14.9%** |
+| Argentina win | **81.6%** |
+| Draw | **15.1%** |
 | Cabo Verde win | **3.3%** |
 
-*Monte Carlo (50,000 sims):* 82.1% / 14.8% / 3.2% · avg goals 2.53
+*Monte Carlo (50,000 sims):* 81.8% / 14.9% / 3.3% · avg goals 2.52
 
 ## Most likely scorelines
 
 - 2-0: 19.9%
-- 1-0: 17.4%
-- 3-0: 14.9%
-- 0-0: 8.4%
-- 4-0: 8.3%
-- 2-1: 5.8%
+- 1-0: 17.6%
+- 3-0: 14.8%
+- 0-0: 8.5%
+- 4-0: 8.2%
+- 2-1: 5.9%
 
 ## Derived markets
 
 - Both teams to score: 23.1%
-- Over 2.5 goals: 46.4%  ·  Under 2.5: 53.6%
-- Double chance 1X: 96.7%  ·  X2: 18.2%
+- Over 2.5 goals: 46.0%  ·  Under 2.5: 54.0%
+- Double chance 1X: 96.7%  ·  X2: 18.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Argentina advances**: 92.6%
-- **Cabo Verde advances**: 7.4%
+- **Argentina advances**: 92.5%
+- **Cabo Verde advances**: 7.5%
 
 ## Scoreline heatmap
 
