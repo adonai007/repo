@@ -83,7 +83,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 82,4,2026-07-01 20:00:00+00:00,2026-07-01,Seattle Stadium,,Belgium,Senegal,3.0,2.0,Belgium,True,True,round_of_32
 83,4,2026-07-02 23:00:00+00:00,2026-07-02,Toronto Stadium,,Portugal,Croatia,2.0,1.0,Portugal,True,True,round_of_32
 84,4,2026-07-02 19:00:00+00:00,2026-07-02,Los Angeles Stadium,,Spain,Austria,3.0,0.0,Spain,True,True,round_of_32
-85,4,2026-07-03 03:00:00+00:00,2026-07-03,BC Place Vancouver,,Switzerland,Algeria,,,,True,False,round_of_32
+85,4,2026-07-03 03:00:00+00:00,2026-07-03,BC Place Vancouver,,Switzerland,Algeria,2.0,0.0,Switzerland,True,True,round_of_32
 86,4,2026-07-03 22:00:00+00:00,2026-07-03,Miami Stadium,,Argentina,Cabo Verde,,,,True,False,round_of_32
 87,4,2026-07-04 01:30:00+00:00,2026-07-04,Kansas City Stadium,,Colombia,Ghana,,,,True,False,round_of_32
 88,4,2026-07-03 18:00:00+00:00,2026-07-03,Dallas Stadium,,Australia,Egypt,,,,True,False,round_of_32
@@ -94,7 +94,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 93,5,2026-07-06 19:00:00+00:00,2026-07-06,Dallas Stadium,,Portugal,Spain,,,,True,False,round_of_16
 94,5,2026-07-07 00:00:00+00:00,2026-07-07,Seattle Stadium,,USA,Belgium,,,,True,False,round_of_16
 95,5,2026-07-07 16:00:00+00:00,2026-07-07,Atlanta Stadium,,To be announced,To be announced,,,,False,False,round_of_16
-96,5,2026-07-07 20:00:00+00:00,2026-07-07,BC Place Vancouver,,To be announced,To be announced,,,,False,False,round_of_16
+96,5,2026-07-07 20:00:00+00:00,2026-07-07,BC Place Vancouver,,Switzerland,To be announced,,,,False,False,round_of_16
 97,6,2026-07-09 20:00:00+00:00,2026-07-09,Boston Stadium,,To be announced,To be announced,,,,False,False,quarter
 98,6,2026-07-10 19:00:00+00:00,2026-07-10,Los Angeles Stadium,,To be announced,To be announced,,,,False,False,quarter
 99,6,2026-07-11 21:00:00+00:00,2026-07-11,Miami Stadium,,To be announced,To be announced,,,,False,False,quarter

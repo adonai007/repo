@@ -4,15 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **74**
-- Mean RPS: **0.145**  ·  log-loss: 0.808  ·  Brier: 0.471
-- Hit rate (argmax): **66%**
+- Matches graded: **75**
+- Mean RPS: **0.145**  ·  log-loss: 0.807  ·  Brier: 0.470
+- Hit rate (argmax): **67%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 85 | 2026-07-03 | Switzerland vs Algeria | 47% / 26% / 26% | 1-1 |
 | 86 | 2026-07-03 | Argentina vs Cabo Verde | 82% / 15% / 3% | 2-0 |
 | 87 | 2026-07-04 | Colombia vs Ghana | 68% / 22% / 10% | 1-0 |
 | 88 | 2026-07-03 | Australia vs Egypt | 38% / 37% / 25% | 0-0 |
