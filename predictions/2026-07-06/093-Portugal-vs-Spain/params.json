@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Paraguay",
-    "away": "France",
-    "date": "2026-07-04",
+    "home": "Portugal",
+    "away": "Spain",
+    "date": "2026-07-06",
     "neutral": true,
     "stage": "round_of_16",
-    "venue": "Philadelphia Stadium"
+    "venue": "Dallas Stadium"
   },
   "base_rate": 1.078,
   "strength": {
     "home": {
-      "atk": 1.738,
-      "def": 0.4095
+      "atk": 3.2333,
+      "def": 0.3635
     },
     "away": {
-      "atk": 3.3422,
-      "def": 0.3415
+      "atk": 3.5553,
+      "def": 0.3057
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.738,
-      "def": 0.4095
+      "atk": 3.2333,
+      "def": 0.3635
     },
     "away": {
-      "atk": 3.3422,
-      "def": 0.3415
+      "atk": 3.5553,
+      "def": 0.3057
     }
   },
   "rho": -0.0727,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-03",
   "n_prior_matches": {
-    "home": 82,
-    "away": 103
+    "home": 97,
+    "away": 99
   },
-  "generated_at": "2026-07-03T03:03:44+00:00"
+  "generated_at": "2026-07-03T03:03:45+00:00"
 }

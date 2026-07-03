@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| USA win | **27.6%** |
+| USA win | **27.5%** |
 | Draw | **23.6%** |
 | Belgium win | **48.8%** |
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 65.0%
 - Over 2.5 goals: 64.4%  ·  Under 2.5: 35.6%
-- Double chance 1X: 51.2%  ·  X2: 72.4%
+- Double chance 1X: 51.2%  ·  X2: 72.5%
 
 ## Knockout advancement (incl. extra time + penalties)
 
