@@ -3,7 +3,6 @@
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
 | Argentina vs Cabo Verde | round_of_32 | 82% / 15% / 3% | 2-0 |
-| Australia vs Egypt | round_of_32 | 38% / 37% / 25% | 0-0 |
 
 ---
 *Informational model output — not betting advice.*
