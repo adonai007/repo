@@ -14,14 +14,14 @@
 |---|---|
 | Australia win | **38.0%** |
 | Draw | **37.2%** |
-| Egypt win | **24.7%** |
+| Egypt win | **24.8%** |
 
-*Monte Carlo (50,000 sims):* 38.1% / 37.3% / 24.6% · avg goals 1.57
+*Monte Carlo (50,000 sims):* 38.1% / 37.3% / 24.7% · avg goals 1.57
 
 ## Most likely scorelines
 
 - 0-0: 21.8%
-- 1-0: 17.9%
+- 1-0: 17.8%
 - 1-1: 13.4%
 - 0-1: 13.0%
 - 2-0: 8.4%
@@ -31,7 +31,7 @@
 
 - Both teams to score: 29.8%
 - Over 2.5 goals: 20.8%  ·  Under 2.5: 79.2%
-- Double chance 1X: 75.3%  ·  X2: 62.0%
+- Double chance 1X: 75.2%  ·  X2: 62.0%
 
 ## Knockout advancement (incl. extra time + penalties)
 

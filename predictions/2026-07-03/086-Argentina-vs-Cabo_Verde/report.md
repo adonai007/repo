@@ -6,14 +6,14 @@
 
 - **Argentina**: 2.22
 - **Cabo Verde**: 0.29
-- **Total**: 2.51  ·  rho = -0.0724
+- **Total**: 2.52  ·  rho = -0.0724
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
 | Argentina win | **81.6%** |
-| Draw | **15.1%** |
+| Draw | **15.0%** |
 | Cabo Verde win | **3.3%** |
 
 *Monte Carlo (50,000 sims):* 81.8% / 14.9% / 3.3% · avg goals 2.52
