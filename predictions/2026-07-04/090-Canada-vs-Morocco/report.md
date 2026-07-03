@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| Canada win | **24.6%** |
+| Canada win | **24.7%** |
 | Draw | **34.5%** |
 | Morocco win | **40.9%** |
 
@@ -29,9 +29,9 @@
 
 ## Derived markets
 
-- Both teams to score: 34.7%
+- Both teams to score: 34.8%
 - Over 2.5 goals: 26.4%  ·  Under 2.5: 73.6%
-- Double chance 1X: 59.1%  ·  X2: 75.4%
+- Double chance 1X: 59.1%  ·  X2: 75.3%
 
 ## Knockout advancement (incl. extra time + penalties)
 

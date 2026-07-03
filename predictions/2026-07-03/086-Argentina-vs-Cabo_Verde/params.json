@@ -8,25 +8,25 @@
     "stage": "round_of_32",
     "venue": "Miami Stadium"
   },
-  "base_rate": 1.0779,
+  "base_rate": 1.078,
   "strength": {
     "home": {
-      "atk": 3.2056,
-      "def": 0.2088
+      "atk": 3.2052,
+      "def": 0.2089
     },
     "away": {
-      "atk": 1.3025,
-      "def": 0.647
+      "atk": 1.3024,
+      "def": 0.6471
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2056,
-      "def": 0.2088
+      "atk": 3.2052,
+      "def": 0.2089
     },
     "away": {
-      "atk": 1.3025,
-      "def": 0.647
+      "atk": 1.3024,
+      "def": 0.6471
     }
   },
   "rho": -0.0727,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-07-02",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-03",
   "n_prior_matches": {
     "home": 99,
     "away": 75
   },
-  "generated_at": "2026-07-02T23:49:42+00:00"
+  "generated_at": "2026-07-03T00:31:45+00:00"
 }

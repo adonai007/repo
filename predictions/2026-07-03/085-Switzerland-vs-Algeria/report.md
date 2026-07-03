@@ -13,10 +13,10 @@
 | Outcome | Model |
 |---|---|
 | Switzerland win | **47.2%** |
-| Draw | **26.4%** |
+| Draw | **26.3%** |
 | Algeria win | **26.5%** |
 
-*Monte Carlo (50,000 sims):* 47.4% / 26.2% / 26.3% · avg goals 2.78
+*Monte Carlo (50,000 sims):* 47.5% / 26.2% / 26.3% · avg goals 2.78
 
 ## Most likely scorelines
 

@@ -8,24 +8,24 @@
     "stage": "round_of_16",
     "venue": "Philadelphia Stadium"
   },
-  "base_rate": 1.0779,
+  "base_rate": 1.078,
   "strength": {
     "home": {
-      "atk": 1.7386,
-      "def": 0.4094
+      "atk": 1.7383,
+      "def": 0.4095
     },
     "away": {
-      "atk": 3.3428,
+      "atk": 3.3416,
       "def": 0.3415
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.7386,
-      "def": 0.4094
+      "atk": 1.7383,
+      "def": 0.4095
     },
     "away": {
-      "atk": 3.3428,
+      "atk": 3.3416,
       "def": 0.3415
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-07-02",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-03",
   "n_prior_matches": {
     "home": 82,
     "away": 103
   },
-  "generated_at": "2026-07-02T23:49:42+00:00"
+  "generated_at": "2026-07-03T00:31:45+00:00"
 }
