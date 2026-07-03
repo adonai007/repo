@@ -14,9 +14,9 @@
 |---|---|
 | USA win | **27.6%** |
 | Draw | **23.6%** |
-| Belgium win | **48.7%** |
+| Belgium win | **48.8%** |
 
-*Monte Carlo (50,000 sims):* 27.8% / 23.5% / 48.7% · avg goals 3.32
+*Monte Carlo (50,000 sims):* 27.7% / 23.5% / 48.8% · avg goals 3.32
 
 ## Most likely scorelines
 
@@ -31,12 +31,12 @@
 
 - Both teams to score: 65.0%
 - Over 2.5 goals: 64.4%  ·  Under 2.5: 35.6%
-- Double chance 1X: 51.3%  ·  X2: 72.4%
+- Double chance 1X: 51.2%  ·  X2: 72.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **USA advances**: 38.2%
-- **Belgium advances**: 61.8%
+- **USA advances**: 38.1%
+- **Belgium advances**: 61.9%
 
 ## Scoreline heatmap
 

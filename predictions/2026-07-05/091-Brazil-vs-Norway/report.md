@@ -16,7 +16,7 @@
 | Draw | **23.0%** |
 | Norway win | **25.2%** |
 
-*Monte Carlo (50,000 sims):* 52.0% / 23.1% / 25.0% · avg goals 3.35
+*Monte Carlo (50,000 sims):* 51.9% / 23.1% / 25.0% · avg goals 3.35
 
 ## Most likely scorelines
 
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Brazil advances**: 64.9%
-- **Norway advances**: 35.1%
+- **Brazil advances**: 64.8%
+- **Norway advances**: 35.2%
 
 ## Scoreline heatmap
 
