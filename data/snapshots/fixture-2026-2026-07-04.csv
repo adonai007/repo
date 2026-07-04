@@ -88,14 +88,14 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 87,4,2026-07-04 01:30:00+00:00,2026-07-04,Kansas City Stadium,,Colombia,Ghana,1.0,0.0,Colombia,True,True,round_of_32
 88,4,2026-07-03 18:00:00+00:00,2026-07-03,Dallas Stadium,,Australia,Egypt,1.0,1.0,Egypt,True,True,round_of_32
 89,5,2026-07-04 21:00:00+00:00,2026-07-04,Philadelphia Stadium,,Paraguay,France,,,,True,False,round_of_16
-90,5,2026-07-04 17:00:00+00:00,2026-07-04,Houston Stadium,,Canada,Morocco,,,,True,False,round_of_16
+90,5,2026-07-04 17:00:00+00:00,2026-07-04,Houston Stadium,,Canada,Morocco,0.0,3.0,Morocco,True,True,round_of_16
 91,5,2026-07-05 20:00:00+00:00,2026-07-05,New York/New Jersey Stadium,,Brazil,Norway,,,,True,False,round_of_16
 92,5,2026-07-06 00:00:00+00:00,2026-07-06,Mexico City Stadium,,Mexico,England,,,,True,False,round_of_16
 93,5,2026-07-06 19:00:00+00:00,2026-07-06,Dallas Stadium,,Portugal,Spain,,,,True,False,round_of_16
 94,5,2026-07-07 00:00:00+00:00,2026-07-07,Seattle Stadium,,USA,Belgium,,,,True,False,round_of_16
 95,5,2026-07-07 16:00:00+00:00,2026-07-07,Atlanta Stadium,,Argentina,Egypt,,,,True,False,round_of_16
 96,5,2026-07-07 20:00:00+00:00,2026-07-07,BC Place Vancouver,,Switzerland,Colombia,,,,True,False,round_of_16
-97,6,2026-07-09 20:00:00+00:00,2026-07-09,Boston Stadium,,To be announced,To be announced,,,,False,False,quarter
+97,6,2026-07-09 20:00:00+00:00,2026-07-09,Boston Stadium,,To be announced,Morocco,,,,False,False,quarter
 98,6,2026-07-10 19:00:00+00:00,2026-07-10,Los Angeles Stadium,,To be announced,To be announced,,,,False,False,quarter
 99,6,2026-07-11 21:00:00+00:00,2026-07-11,Miami Stadium,,To be announced,To be announced,,,,False,False,quarter
 100,6,2026-07-12 01:00:00+00:00,2026-07-12,Kansas City Stadium,,To be announced,To be announced,,,,False,False,quarter
