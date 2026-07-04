@@ -6,7 +6,7 @@
 
 - **Mexico**: 0.89
 - **England**: 1.05
-- **Total**: 1.94  ·  rho = -0.0724
+- **Total**: 1.93  ·  rho = -0.0724
 
 ## 1X2 (match result)
 
