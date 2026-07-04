@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Paraguay",
-    "away": "France",
-    "date": "2026-07-04",
+    "home": "Switzerland",
+    "away": "Colombia",
+    "date": "2026-07-07",
     "neutral": true,
     "stage": "round_of_16",
-    "venue": "Philadelphia Stadium"
+    "venue": "BC Place Vancouver"
   },
   "base_rate": 1.0778,
   "strength": {
     "home": {
-      "atk": 1.74,
-      "def": 0.4091
+      "atk": 2.808,
+      "def": 0.4277
     },
     "away": {
-      "atk": 3.3473,
-      "def": 0.3405
+      "atk": 3.006,
+      "def": 0.3674
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.74,
-      "def": 0.4091
+      "atk": 2.808,
+      "def": 0.4277
     },
     "away": {
-      "atk": 3.3473,
-      "def": 0.3405
+      "atk": 3.006,
+      "def": 0.3674
     }
   },
   "rho": -0.0724,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-04",
   "n_prior_matches": {
-    "home": 82,
-    "away": 103
+    "home": 97,
+    "away": 93
   },
-  "generated_at": "2026-07-04T04:43:27+00:00"
+  "generated_at": "2026-07-04T04:43:30+00:00"
 }
