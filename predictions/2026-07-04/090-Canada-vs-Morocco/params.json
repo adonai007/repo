@@ -12,20 +12,20 @@
   "strength": {
     "home": {
       "atk": 1.9798,
-      "def": 0.4326
+      "def": 0.4325
     },
     "away": {
-      "atk": 2.221,
+      "atk": 2.2207,
       "def": 0.2788
     }
   },
   "prior_strength": {
     "home": {
       "atk": 1.9798,
-      "def": 0.4326
+      "def": 0.4325
     },
     "away": {
-      "atk": 2.221,
+      "atk": 2.2207,
       "def": 0.2788
     }
   },
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.2462,
+    "home": 1.2463,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -48,5 +48,5 @@
     "home": 96,
     "away": 112
   },
-  "generated_at": "2026-07-04T15:24:32+00:00"
+  "generated_at": "2026-07-04T15:49:46+00:00"
 }
