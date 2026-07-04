@@ -3,6 +3,7 @@
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
 | USA vs Belgium | round_of_16 | 28% / 24% / 49% | 1-1 |
+| Argentina vs Egypt | round_of_16 | 67% / 26% / 8% | 1-0 |
 
 ---
 *Informational model output — not betting advice.*

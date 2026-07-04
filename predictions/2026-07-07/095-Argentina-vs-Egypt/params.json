@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Paraguay",
-    "away": "France",
-    "date": "2026-07-04",
+    "home": "Argentina",
+    "away": "Egypt",
+    "date": "2026-07-07",
     "neutral": true,
     "stage": "round_of_16",
-    "venue": "Philadelphia Stadium"
+    "venue": "Atlanta Stadium"
   },
   "base_rate": 1.0778,
   "strength": {
     "home": {
-      "atk": 1.74,
-      "def": 0.4091
+      "atk": 3.1933,
+      "def": 0.2094
     },
     "away": {
-      "atk": 3.3473,
-      "def": 0.3405
+      "atk": 1.6052,
+      "def": 0.4478
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.74,
-      "def": 0.4091
+      "atk": 3.1933,
+      "def": 0.2094
     },
     "away": {
-      "atk": 3.3473,
-      "def": 0.3405
+      "atk": 1.6052,
+      "def": 0.4478
     }
   },
   "rho": -0.0724,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-04",
   "n_prior_matches": {
-    "home": 82,
-    "away": 103
+    "home": 99,
+    "away": 98
   },
-  "generated_at": "2026-07-04T01:34:05+00:00"
+  "generated_at": "2026-07-04T01:34:07+00:00"
 }
