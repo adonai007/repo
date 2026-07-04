@@ -8,25 +8,25 @@
     "stage": "round_of_16",
     "venue": "Houston Stadium"
   },
-  "base_rate": 1.0777,
+  "base_rate": 1.0778,
   "strength": {
     "home": {
-      "atk": 1.9848,
+      "atk": 1.9849,
       "def": 0.4322
     },
     "away": {
-      "atk": 2.2206,
-      "def": 0.279
+      "atk": 2.2203,
+      "def": 0.2791
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 1.9848,
+      "atk": 1.9849,
       "def": 0.4322
     },
     "away": {
-      "atk": 2.2206,
-      "def": 0.279
+      "atk": 2.2203,
+      "def": 0.2791
     }
   },
   "rho": -0.0724,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-07-03",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-04",
   "n_prior_matches": {
     "home": 96,
     "away": 112
   },
-  "generated_at": "2026-07-03T23:50:11+00:00"
+  "generated_at": "2026-07-04T00:30:44+00:00"
 }

@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Brazil advances**: 64.8%
-- **Norway advances**: 35.2%
+- **Brazil advances**: 64.9%
+- **Norway advances**: 35.1%
 
 ## Scoreline heatmap
 
