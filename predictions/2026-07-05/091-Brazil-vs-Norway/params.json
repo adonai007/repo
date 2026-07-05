@@ -8,25 +8,25 @@
     "stage": "round_of_16",
     "venue": "New York/New Jersey Stadium"
   },
-  "base_rate": 1.0786,
+  "base_rate": 1.0787,
   "strength": {
     "home": {
-      "atk": 3.3956,
+      "atk": 3.3947,
       "def": 0.3744
     },
     "away": {
-      "atk": 3.3629,
-      "def": 0.5436
+      "atk": 3.3623,
+      "def": 0.5437
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.3956,
+      "atk": 3.3947,
       "def": 0.3744
     },
     "away": {
-      "atk": 3.3629,
-      "def": 0.5436
+      "atk": 3.3623,
+      "def": 0.5437
     }
   },
   "rho": -0.0724,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-07-04",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-05",
   "n_prior_matches": {
     "home": 97,
     "away": 83
   },
-  "generated_at": "2026-07-04T23:48:22+00:00"
+  "generated_at": "2026-07-05T00:32:06+00:00"
 }

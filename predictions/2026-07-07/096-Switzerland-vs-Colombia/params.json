@@ -8,24 +8,24 @@
     "stage": "round_of_16",
     "venue": "BC Place Vancouver"
   },
-  "base_rate": 1.0786,
+  "base_rate": 1.0787,
   "strength": {
     "home": {
-      "atk": 2.8052,
-      "def": 0.4277
+      "atk": 2.8046,
+      "def": 0.4278
     },
     "away": {
-      "atk": 2.9022,
+      "atk": 2.9017,
       "def": 0.3541
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.8052,
-      "def": 0.4277
+      "atk": 2.8046,
+      "def": 0.4278
     },
     "away": {
-      "atk": 2.9022,
+      "atk": 2.9017,
       "def": 0.3541
     }
   },
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-07-04",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-05",
   "n_prior_matches": {
     "home": 97,
     "away": 94
   },
-  "generated_at": "2026-07-04T23:48:24+00:00"
+  "generated_at": "2026-07-05T00:32:07+00:00"
 }

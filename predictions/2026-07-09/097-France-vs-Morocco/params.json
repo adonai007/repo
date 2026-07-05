@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Portugal",
-    "away": "Spain",
-    "date": "2026-07-06",
+    "home": "France",
+    "away": "Morocco",
+    "date": "2026-07-09",
     "neutral": true,
-    "stage": "round_of_16",
-    "venue": "Dallas Stadium"
+    "stage": "quarter",
+    "venue": "Boston Stadium"
   },
   "base_rate": 1.0787,
   "strength": {
     "home": {
-      "atk": 3.2623,
-      "def": 0.3641
+      "atk": 3.3446,
+      "def": 0.3409
     },
     "away": {
-      "atk": 3.6417,
-      "def": 0.2883
+      "atk": 2.2202,
+      "def": 0.2789
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2623,
-      "def": 0.3641
+      "atk": 3.3446,
+      "def": 0.3409
     },
     "away": {
-      "atk": 3.6417,
-      "def": 0.2883
+      "atk": 2.2202,
+      "def": 0.2789
     }
   },
   "rho": -0.0724,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-05",
   "n_prior_matches": {
-    "home": 98,
-    "away": 100
+    "home": 103,
+    "away": 112
   },
-  "generated_at": "2026-07-05T00:32:07+00:00"
+  "generated_at": "2026-07-05T00:32:08+00:00"
 }

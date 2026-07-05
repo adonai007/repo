@@ -16,7 +16,7 @@
 | Draw | **29.1%** |
 | Colombia win | **41.9%** |
 
-*Monte Carlo (50,000 sims):* 29.2% / 28.9% / 41.8% · avg goals 2.41
+*Monte Carlo (50,000 sims):* 29.2% / 28.9% / 41.9% · avg goals 2.41
 
 ## Most likely scorelines
 
