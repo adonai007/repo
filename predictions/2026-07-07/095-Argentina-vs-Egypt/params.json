@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "Atlanta Stadium"
   },
-  "base_rate": 1.0787,
+  "base_rate": 1.0785,
   "strength": {
     "home": {
-      "atk": 3.2518,
-      "def": 0.2556
+      "atk": 3.2425,
+      "def": 0.2565
     },
     "away": {
-      "atk": 1.6195,
-      "def": 0.448
+      "atk": 1.6245,
+      "def": 0.4471
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2518,
-      "def": 0.2556
+      "atk": 3.2425,
+      "def": 0.2565
     },
     "away": {
-      "atk": 1.6195,
-      "def": 0.448
+      "atk": 1.6245,
+      "def": 0.4471
     }
   },
-  "rho": -0.0724,
+  "rho": -0.0715,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 100,
     "away": 99
   },
-  "generated_at": "2026-07-05T06:18:44+00:00"
+  "generated_at": "2026-07-05T07:37:43+00:00"
 }

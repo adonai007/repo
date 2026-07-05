@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "Mexico City Stadium"
   },
-  "base_rate": 1.0787,
+  "base_rate": 1.0785,
   "strength": {
     "home": {
-      "atk": 2.1966,
-      "def": 0.3427
+      "atk": 2.1856,
+      "def": 0.3441
     },
     "away": {
-      "atk": 2.836,
-      "def": 0.3002
+      "atk": 2.8321,
+      "def": 0.3004
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.1966,
-      "def": 0.3427
+      "atk": 2.1856,
+      "def": 0.3441
     },
     "away": {
-      "atk": 2.836,
-      "def": 0.3002
+      "atk": 2.8321,
+      "def": 0.3004
     }
   },
-  "rho": -0.0724,
+  "rho": -0.0715,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.2463,
+    "home": 1.2462,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -48,5 +48,5 @@
     "home": 132,
     "away": 104
   },
-  "generated_at": "2026-07-05T06:18:43+00:00"
+  "generated_at": "2026-07-05T07:37:43+00:00"
 }

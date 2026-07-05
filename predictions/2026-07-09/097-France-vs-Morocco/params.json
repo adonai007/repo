@@ -8,28 +8,28 @@
     "stage": "quarter",
     "venue": "Boston Stadium"
   },
-  "base_rate": 1.0787,
+  "base_rate": 1.0785,
   "strength": {
     "home": {
-      "atk": 3.3446,
-      "def": 0.3409
+      "atk": 3.3056,
+      "def": 0.3293
     },
     "away": {
-      "atk": 2.2202,
-      "def": 0.2789
+      "atk": 2.3083,
+      "def": 0.2661
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.3446,
-      "def": 0.3409
+      "atk": 3.3056,
+      "def": 0.3293
     },
     "away": {
-      "atk": 2.2202,
-      "def": 0.2789
+      "atk": 2.3083,
+      "def": 0.2661
     }
   },
-  "rho": -0.0724,
+  "rho": -0.0715,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-05",
   "n_prior_matches": {
-    "home": 103,
-    "away": 112
+    "home": 104,
+    "away": 113
   },
-  "generated_at": "2026-07-05T06:18:45+00:00"
+  "generated_at": "2026-07-05T07:37:44+00:00"
 }

@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "Seattle Stadium"
   },
-  "base_rate": 1.0787,
+  "base_rate": 1.0785,
   "strength": {
     "home": {
-      "atk": 2.3003,
-      "def": 0.6096
+      "atk": 2.288,
+      "def": 0.6128
     },
     "away": {
-      "atk": 2.9089,
-      "def": 0.453
+      "atk": 2.9078,
+      "def": 0.4537
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.3003,
-      "def": 0.6096
+      "atk": 2.288,
+      "def": 0.6128
     },
     "away": {
-      "atk": 2.9089,
-      "def": 0.453
+      "atk": 2.9078,
+      "def": 0.4537
     }
   },
-  "rho": -0.0724,
+  "rho": -0.0715,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -37,7 +37,7 @@
     "away_def": 1.0
   },
   "home_advantage": {
-    "home": 1.2463,
+    "home": 1.2462,
     "away": 1.0
   },
   "confidence": "baseline",
@@ -48,5 +48,5 @@
     "home": 124,
     "away": 98
   },
-  "generated_at": "2026-07-05T06:18:44+00:00"
+  "generated_at": "2026-07-05T07:37:43+00:00"
 }

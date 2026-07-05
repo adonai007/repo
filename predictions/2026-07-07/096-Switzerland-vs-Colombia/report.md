@@ -6,13 +6,13 @@
 
 - **Switzerland**: 1.07
 - **Colombia**: 1.34
-- **Total**: 2.41  ·  rho = -0.0724
+- **Total**: 2.41  ·  rho = -0.0715
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Switzerland win | **29.0%** |
+| Switzerland win | **28.9%** |
 | Draw | **29.1%** |
 | Colombia win | **41.9%** |
 
@@ -25,13 +25,13 @@
 - 0-0: 9.9%
 - 1-0: 8.7%
 - 1-2: 8.6%
-- 0-2: 8.0%
+- 0-2: 8.1%
 
 ## Derived markets
 
 - Both teams to score: 49.4%
-- Over 2.5 goals: 43.3%  ·  Under 2.5: 56.7%
-- Double chance 1X: 58.1%  ·  X2: 71.0%
+- Over 2.5 goals: 43.2%  ·  Under 2.5: 56.8%
+- Double chance 1X: 58.1%  ·  X2: 71.1%
 
 ## Knockout advancement (incl. extra time + penalties)
 

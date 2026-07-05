@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Argentina**: 1.57
+- **Argentina**: 1.56
 - **Egypt**: 0.45
-- **Total**: 2.02  ·  rho = -0.0724
+- **Total**: 2.01  ·  rho = -0.0715
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Argentina win | **64.7%** |
-| Draw | **25.7%** |
-| Egypt win | **9.5%** |
+| Argentina win | **64.5%** |
+| Draw | **25.9%** |
+| Egypt win | **9.7%** |
 
-*Monte Carlo (50,000 sims):* 64.6% / 25.8% / 9.6% · avg goals 2.03
+*Monte Carlo (50,000 sims):* 64.3% / 25.9% / 9.8% · avg goals 2.02
 
 ## Most likely scorelines
 
 - 1-0: 20.2%
-- 2-0: 16.4%
+- 2-0: 16.3%
 - 0-0: 14.0%
-- 1-1: 10.0%
-- 3-0: 8.6%
+- 1-1: 10.1%
+- 3-0: 8.5%
 - 2-1: 7.3%
 
 ## Derived markets
 
-- Both teams to score: 29.2%
-- Over 2.5 goals: 32.8%  ·  Under 2.5: 67.2%
-- Double chance 1X: 90.5%  ·  X2: 35.3%
+- Both teams to score: 29.3%
+- Over 2.5 goals: 32.7%  ·  Under 2.5: 67.3%
+- Double chance 1X: 90.3%  ·  X2: 35.5%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Argentina advances**: 81.2%
-- **Egypt advances**: 18.8%
+- **Argentina advances**: 81.0%
+- **Egypt advances**: 19.0%
 
 ## Scoreline heatmap
 
