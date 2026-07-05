@@ -4,15 +4,14 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **80**
-- Mean RPS: **0.142**  ·  log-loss: 0.794  ·  Brier: 0.461
-- Hit rate (argmax): **68%**
+- Matches graded: **81**
+- Mean RPS: **0.145**  ·  log-loss: 0.801  ·  Brier: 0.466
+- Hit rate (argmax): **67%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 91 | 2026-07-05 | Brazil vs Norway | 52% / 23% / 25% | 1-1 |
 | 92 | 2026-07-06 | Mexico vs England | 29% / 33% / 38% | 0-0 |
 | 93 | 2026-07-06 | Portugal vs Spain | 26% / 28% / 46% | 1-1 |
 | 94 | 2026-07-07 | USA vs Belgium | 27% / 24% / 49% | 1-1 |
