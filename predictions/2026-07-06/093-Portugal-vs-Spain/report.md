@@ -12,11 +12,11 @@
 
 | Outcome | Model |
 |---|---|
-| Portugal win | **25.9%** |
+| Portugal win | **25.8%** |
 | Draw | **28.5%** |
 | Spain win | **45.7%** |
 
-*Monte Carlo (50,000 sims):* 26.0% / 28.2% / 45.8% · avg goals 2.45
+*Monte Carlo (50,000 sims):* 26.0% / 28.1% / 45.8% · avg goals 2.45
 
 ## Most likely scorelines
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 49.4%
 - Over 2.5 goals: 44.2%  ·  Under 2.5: 55.8%
-- Double chance 1X: 54.3%  ·  X2: 74.1%
+- Double chance 1X: 54.3%  ·  X2: 74.2%
 
 ## Knockout advancement (incl. extra time + penalties)
 
