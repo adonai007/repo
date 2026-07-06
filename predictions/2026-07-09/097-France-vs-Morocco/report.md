@@ -16,7 +16,7 @@
 | Draw | **35.0%** |
 | Morocco win | **28.9%** |
 
-*Monte Carlo (50,000 sims):* 36.3% / 35.0% / 28.8% · avg goals 1.77
+*Monte Carlo (50,000 sims):* 36.2% / 35.0% / 28.8% · avg goals 1.77
 
 ## Most likely scorelines
 
