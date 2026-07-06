@@ -16,7 +16,7 @@
 | Draw | **23.6%** |
 | Belgium win | **49.2%** |
 
-*Monte Carlo (50,000 sims):* 27.3% / 23.5% / 49.2% · avg goals 3.32
+*Monte Carlo (50,000 sims):* 27.3% / 23.5% / 49.1% · avg goals 3.32
 
 ## Most likely scorelines
 
