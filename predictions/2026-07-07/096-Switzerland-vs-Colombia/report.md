@@ -6,7 +6,7 @@
 
 - **Switzerland**: 1.08
 - **Colombia**: 1.32
-- **Total**: 2.41  ·  rho = -0.0715
+- **Total**: 2.40  ·  rho = -0.0715
 
 ## 1X2 (match result)
 
@@ -16,13 +16,13 @@
 | Draw | **29.2%** |
 | Colombia win | **41.2%** |
 
-*Monte Carlo (50,000 sims):* 29.8% / 29.0% / 41.2% · avg goals 2.41
+*Monte Carlo (50,000 sims):* 29.7% / 29.0% / 41.2% · avg goals 2.41
 
 ## Most likely scorelines
 
 - 1-1: 13.8%
 - 0-1: 11.0%
-- 0-0: 9.9%
+- 0-0: 10.0%
 - 1-0: 8.8%
 - 1-2: 8.5%
 - 0-2: 7.9%
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Switzerland advances**: 43.4%
-- **Colombia advances**: 56.6%
+- **Switzerland advances**: 43.3%
+- **Colombia advances**: 56.7%
 
 ## Scoreline heatmap
 

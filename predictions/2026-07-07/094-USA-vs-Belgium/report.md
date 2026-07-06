@@ -5,7 +5,7 @@
 ## Expected goals (model)
 
 - **USA**: 1.38
-- **Belgium**: 1.93
+- **Belgium**: 1.92
 - **Total**: 3.31  ·  rho = -0.0715
 
 ## 1X2 (match result)
@@ -13,7 +13,7 @@
 | Outcome | Model |
 |---|---|
 | USA win | **26.9%** |
-| Draw | **23.5%** |
+| Draw | **23.6%** |
 | Belgium win | **49.6%** |
 
 *Monte Carlo (50,000 sims):* 26.9% / 23.5% / 49.6% · avg goals 3.31
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **USA advances**: 37.2%
-- **Belgium advances**: 62.8%
+- **USA advances**: 37.3%
+- **Belgium advances**: 62.7%
 
 ## Scoreline heatmap
 
