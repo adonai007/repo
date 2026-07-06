@@ -6,17 +6,17 @@
 
 - **USA**: 1.38
 - **Belgium**: 1.92
-- **Total**: 3.31  ·  rho = -0.0715
+- **Total**: 3.31  ·  rho = -0.0714
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| USA win | **26.9%** |
+| USA win | **27.0%** |
 | Draw | **23.6%** |
-| Belgium win | **49.6%** |
+| Belgium win | **49.4%** |
 
-*Monte Carlo (50,000 sims):* 26.9% / 23.5% / 49.6% · avg goals 3.31
+*Monte Carlo (50,000 sims):* 27.1% / 23.5% / 49.4% · avg goals 3.31
 
 ## Most likely scorelines
 
@@ -25,18 +25,18 @@
 - 0-2: 6.8%
 - 2-1: 6.7%
 - 2-2: 6.5%
-- 0-1: 6.4%
+- 0-1: 6.3%
 
 ## Derived markets
 
-- Both teams to score: 64.6%
+- Both teams to score: 64.7%
 - Over 2.5 goals: 64.2%  ·  Under 2.5: 35.8%
-- Double chance 1X: 50.4%  ·  X2: 73.1%
+- Double chance 1X: 50.6%  ·  X2: 73.0%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **USA advances**: 37.3%
-- **Belgium advances**: 62.7%
+- **USA advances**: 37.4%
+- **Belgium advances**: 62.6%
 
 ## Scoreline heatmap
 

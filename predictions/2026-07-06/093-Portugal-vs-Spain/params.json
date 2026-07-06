@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.0787,
+  "base_rate": 1.079,
   "strength": {
     "home": {
-      "atk": 3.2602,
-      "def": 0.3637
+      "atk": 3.2595,
+      "def": 0.3639
     },
     "away": {
-      "atk": 3.6524,
-      "def": 0.2878
+      "atk": 3.6487,
+      "def": 0.288
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.2602,
-      "def": 0.3637
+      "atk": 3.2595,
+      "def": 0.3639
     },
     "away": {
-      "atk": 3.6524,
-      "def": 0.2878
+      "atk": 3.6487,
+      "def": 0.288
     }
   },
-  "rho": -0.0715,
+  "rho": -0.0714,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 98,
     "away": 100
   },
-  "generated_at": "2026-07-06T15:04:27+00:00"
+  "generated_at": "2026-07-06T16:33:20+00:00"
 }
