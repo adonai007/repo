@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Norway**: 1.09
-- **England**: 1.66
-- **Total**: 2.75  ·  rho = -0.0715
+- **Norway**: 1.21
+- **England**: 1.58
+- **Total**: 2.80  ·  rho = -0.0715
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Norway win | **24.1%** |
-| Draw | **26.0%** |
-| England win | **49.8%** |
+| Norway win | **28.4%** |
+| Draw | **26.5%** |
+| England win | **45.1%** |
 
-*Monte Carlo (50,000 sims):* 24.2% / 26.0% / 49.8% · avg goals 2.75
+*Monte Carlo (50,000 sims):* 28.3% / 26.3% / 45.4% · avg goals 2.80
 
 ## Most likely scorelines
 
-- 1-1: 12.4%
-- 0-1: 9.8%
-- 1-2: 9.6%
-- 0-2: 8.8%
-- 0-0: 7.2%
-- 2-1: 6.3%
+- 1-1: 12.6%
+- 1-2: 9.3%
+- 0-1: 8.8%
+- 0-2: 7.7%
+- 2-1: 7.1%
+- 0-0: 6.9%
 
 ## Derived markets
 
-- Both teams to score: 54.6%
-- Over 2.5 goals: 51.9%  ·  Under 2.5: 48.1%
-- Double chance 1X: 50.2%  ·  X2: 75.9%
+- Both teams to score: 56.7%
+- Over 2.5 goals: 53.0%  ·  Under 2.5: 47.0%
+- Double chance 1X: 54.9%  ·  X2: 71.6%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Norway advances**: 35.4%
-- **England advances**: 64.6%
+- **Norway advances**: 40.5%
+- **England advances**: 59.5%
 
 ## Scoreline heatmap
 

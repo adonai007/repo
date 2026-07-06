@@ -12,11 +12,11 @@
 
 | Outcome | Model |
 |---|---|
-| Argentina win | **64.5%** |
+| Argentina win | **64.3%** |
 | Draw | **25.9%** |
-| Egypt win | **9.7%** |
+| Egypt win | **9.8%** |
 
-*Monte Carlo (50,000 sims):* 64.3% / 25.9% / 9.8% · avg goals 2.02
+*Monte Carlo (50,000 sims):* 64.1% / 26.0% / 9.9% · avg goals 2.02
 
 ## Most likely scorelines
 
@@ -25,18 +25,18 @@
 - 0-0: 14.0%
 - 1-1: 10.1%
 - 3-0: 8.5%
-- 2-1: 7.3%
+- 2-1: 7.4%
 
 ## Derived markets
 
-- Both teams to score: 29.3%
+- Both teams to score: 29.4%
 - Over 2.5 goals: 32.7%  ·  Under 2.5: 67.3%
-- Double chance 1X: 90.3%  ·  X2: 35.5%
+- Double chance 1X: 90.2%  ·  X2: 35.7%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Argentina advances**: 81.0%
-- **Egypt advances**: 19.0%
+- **Argentina advances**: 80.8%
+- **Egypt advances**: 19.2%
 
 ## Scoreline heatmap
 

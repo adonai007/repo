@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **France**: 0.95
+- **France**: 0.96
 - **Morocco**: 0.82
-- **Total**: 1.77  ·  rho = -0.0715
+- **Total**: 1.78  ·  rho = -0.0715
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| France win | **36.0%** |
-| Draw | **35.0%** |
-| Morocco win | **28.9%** |
+| France win | **36.4%** |
+| Draw | **34.9%** |
+| Morocco win | **28.7%** |
 
-*Monte Carlo (50,000 sims):* 36.2% / 35.0% / 28.8% · avg goals 1.77
+*Monte Carlo (50,000 sims):* 36.5% / 34.9% / 28.6% · avg goals 1.78
 
 ## Most likely scorelines
 
-- 0-0: 18.0%
-- 1-0: 15.2%
+- 0-0: 17.9%
+- 1-0: 15.3%
 - 1-1: 14.2%
-- 0-1: 13.0%
-- 2-0: 7.7%
-- 2-1: 6.3%
+- 0-1: 12.9%
+- 2-0: 7.8%
+- 2-1: 6.4%
 
 ## Derived markets
 
-- Both teams to score: 35.2%
-- Over 2.5 goals: 26.1%  ·  Under 2.5: 73.9%
-- Double chance 1X: 71.1%  ·  X2: 64.0%
+- Both teams to score: 35.4%
+- Over 2.5 goals: 26.3%  ·  Under 2.5: 73.7%
+- Double chance 1X: 71.3%  ·  X2: 63.6%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **France advances**: 54.1%
-- **Morocco advances**: 45.9%
+- **France advances**: 54.5%
+- **Morocco advances**: 45.5%
 
 ## Scoreline heatmap
 
