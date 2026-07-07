@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **Spain**: 1.78
-- **Belgium**: 0.90
-- **Total**: 2.68  ·  rho = -0.0714
+- **Spain**: 1.73
+- **Belgium**: 0.88
+- **Total**: 2.61  ·  rho = -0.0694
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Spain win | **57.2%** |
-| Draw | **24.7%** |
-| Belgium win | **18.1%** |
+| Spain win | **56.6%** |
+| Draw | **25.2%** |
+| Belgium win | **18.2%** |
 
-*Monte Carlo (50,000 sims):* 57.4% / 24.4% / 18.2% · avg goals 2.69
+*Monte Carlo (50,000 sims):* 56.8% / 25.1% / 18.1% · avg goals 2.61
 
 ## Most likely scorelines
 
-- 1-1: 11.8%
-- 1-0: 11.4%
-- 2-0: 10.8%
-- 2-1: 9.8%
-- 0-0: 7.6%
-- 3-0: 6.4%
+- 1-1: 12.0%
+- 1-0: 11.9%
+- 2-0: 11.0%
+- 2-1: 9.7%
+- 0-0: 8.1%
+- 3-0: 6.3%
 
 ## Derived markets
 
-- Both teams to score: 50.3%
-- Over 2.5 goals: 50.2%  ·  Under 2.5: 49.8%
-- Double chance 1X: 81.9%  ·  X2: 42.8%
+- Both teams to score: 48.9%
+- Over 2.5 goals: 48.4%  ·  Under 2.5: 51.6%
+- Double chance 1X: 81.8%  ·  X2: 43.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Spain advances**: 72.1%
-- **Belgium advances**: 27.9%
+- **Spain advances**: 71.7%
+- **Belgium advances**: 28.3%
 
 ## Scoreline heatmap
 

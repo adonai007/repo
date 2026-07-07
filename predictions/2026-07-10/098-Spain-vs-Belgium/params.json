@@ -8,28 +8,28 @@
     "stage": "quarter",
     "venue": "Los Angeles Stadium"
   },
-  "base_rate": 1.079,
+  "base_rate": 1.0786,
   "strength": {
     "home": {
-      "atk": 3.6485,
-      "def": 0.288
+      "atk": 3.6209,
+      "def": 0.2684
     },
     "away": {
-      "atk": 2.9101,
-      "def": 0.452
+      "atk": 3.043,
+      "def": 0.4423
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.6485,
-      "def": 0.288
+      "atk": 3.6209,
+      "def": 0.2684
     },
     "away": {
-      "atk": 2.9101,
-      "def": 0.452
+      "atk": 3.043,
+      "def": 0.4423
     }
   },
-  "rho": -0.0714,
+  "rho": -0.0694,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-07",
   "n_prior_matches": {
-    "home": 100,
-    "away": 97
+    "home": 101,
+    "away": 98
   },
-  "generated_at": "2026-07-07T07:44:58+00:00"
+  "generated_at": "2026-07-07T09:05:56+00:00"
 }

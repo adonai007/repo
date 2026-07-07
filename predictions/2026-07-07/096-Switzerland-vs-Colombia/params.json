@@ -8,28 +8,28 @@
     "stage": "round_of_16",
     "venue": "BC Place Vancouver"
   },
-  "base_rate": 1.079,
+  "base_rate": 1.0786,
   "strength": {
     "home": {
-      "atk": 2.7933,
-      "def": 0.4268
+      "atk": 2.7981,
+      "def": 0.427
     },
     "away": {
-      "atk": 2.8798,
-      "def": 0.3572
+      "atk": 2.876,
+      "def": 0.3585
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.7933,
-      "def": 0.4268
+      "atk": 2.7981,
+      "def": 0.427
     },
     "away": {
-      "atk": 2.8798,
-      "def": 0.3572
+      "atk": 2.876,
+      "def": 0.3585
     }
   },
-  "rho": -0.0714,
+  "rho": -0.0694,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 97,
     "away": 94
   },
-  "generated_at": "2026-07-07T07:44:58+00:00"
+  "generated_at": "2026-07-07T09:05:56+00:00"
 }
