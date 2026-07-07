@@ -93,12 +93,12 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 92,5,2026-07-06 00:00:00+00:00,2026-07-06,Mexico City Stadium,,Mexico,England,2.0,3.0,England,True,True,round_of_16
 93,5,2026-07-06 19:00:00+00:00,2026-07-06,Dallas Stadium,,Portugal,Spain,0.0,1.0,Spain,True,True,round_of_16
 94,5,2026-07-07 00:00:00+00:00,2026-07-07,Seattle Stadium,,USA,Belgium,1.0,4.0,Belgium,True,True,round_of_16
-95,5,2026-07-07 16:00:00+00:00,2026-07-07,Atlanta Stadium,,Argentina,Egypt,,,,True,False,round_of_16
+95,5,2026-07-07 16:00:00+00:00,2026-07-07,Atlanta Stadium,,Argentina,Egypt,3.0,2.0,Argentina,True,True,round_of_16
 96,5,2026-07-07 20:00:00+00:00,2026-07-07,BC Place Vancouver,,Switzerland,Colombia,,,,True,False,round_of_16
 97,6,2026-07-09 20:00:00+00:00,2026-07-09,Boston Stadium,,France,Morocco,,,,True,False,quarter
 98,6,2026-07-10 19:00:00+00:00,2026-07-10,Los Angeles Stadium,,Spain,Belgium,,,,True,False,quarter
 99,6,2026-07-11 21:00:00+00:00,2026-07-11,Miami Stadium,,Norway,England,,,,True,False,quarter
-100,6,2026-07-12 01:00:00+00:00,2026-07-12,Kansas City Stadium,,To be announced,To be announced,,,,False,False,quarter
+100,6,2026-07-12 01:00:00+00:00,2026-07-12,Kansas City Stadium,,Argentina,To be announced,,,,False,False,quarter
 101,7,2026-07-14 19:00:00+00:00,2026-07-14,Dallas Stadium,,To be announced,To be announced,,,,False,False,semi
 102,7,2026-07-15 19:00:00+00:00,2026-07-15,Atlanta Stadium,,To be announced,To be announced,,,,False,False,semi
 103,8,2026-07-18 21:00:00+00:00,2026-07-18,Miami Stadium,,To be announced,To be announced,,,,False,False,final
