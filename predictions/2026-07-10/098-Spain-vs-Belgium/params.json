@@ -8,28 +8,28 @@
     "stage": "quarter",
     "venue": "Los Angeles Stadium"
   },
-  "base_rate": 1.0786,
+  "base_rate": 1.0788,
   "strength": {
     "home": {
-      "atk": 3.6209,
-      "def": 0.2684
+      "atk": 3.6231,
+      "def": 0.2687
     },
     "away": {
-      "atk": 3.043,
-      "def": 0.4423
+      "atk": 3.0358,
+      "def": 0.4415
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.6209,
-      "def": 0.2684
+      "atk": 3.6231,
+      "def": 0.2687
     },
     "away": {
-      "atk": 3.043,
-      "def": 0.4423
+      "atk": 3.0358,
+      "def": 0.4415
     }
   },
-  "rho": -0.0694,
+  "rho": -0.0704,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 101,
     "away": 98
   },
-  "generated_at": "2026-07-07T22:48:11+00:00"
+  "generated_at": "2026-07-07T23:20:41+00:00"
 }

@@ -8,28 +8,28 @@
     "stage": "quarter",
     "venue": "Miami Stadium"
   },
-  "base_rate": 1.0786,
+  "base_rate": 1.0788,
   "strength": {
     "home": {
-      "atk": 3.4338,
-      "def": 0.5175
+      "atk": 3.4376,
+      "def": 0.5181
     },
     "away": {
-      "atk": 2.9759,
-      "def": 0.328
+      "atk": 2.9753,
+      "def": 0.3281
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.4338,
-      "def": 0.5175
+      "atk": 3.4376,
+      "def": 0.5181
     },
     "away": {
-      "atk": 2.9759,
-      "def": 0.328
+      "atk": 2.9753,
+      "def": 0.3281
     }
   },
-  "rho": -0.0694,
+  "rho": -0.0704,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -48,5 +48,5 @@
     "home": 84,
     "away": 104
   },
-  "generated_at": "2026-07-07T22:48:12+00:00"
+  "generated_at": "2026-07-07T23:20:41+00:00"
 }
