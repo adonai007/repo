@@ -12,7 +12,7 @@
 
 | Outcome | Model |
 |---|---|
-| France win | **36.2%** |
+| France win | **36.3%** |
 | Draw | **35.0%** |
 | Morocco win | **28.8%** |
 
@@ -31,12 +31,12 @@
 
 - Both teams to score: 35.3%
 - Over 2.5 goals: 26.2%  ·  Under 2.5: 73.8%
-- Double chance 1X: 71.2%  ·  X2: 63.8%
+- Double chance 1X: 71.2%  ·  X2: 63.7%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **France advances**: 54.3%
-- **Morocco advances**: 45.7%
+- **France advances**: 54.4%
+- **Morocco advances**: 45.6%
 
 ## Scoreline heatmap
 
