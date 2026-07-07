@@ -8,24 +8,24 @@
     "stage": "quarter",
     "venue": "Boston Stadium"
   },
-  "base_rate": 1.0786,
+  "base_rate": 1.0787,
   "strength": {
     "home": {
-      "atk": 3.3309,
+      "atk": 3.3311,
       "def": 0.3277
     },
     "away": {
-      "atk": 2.3055,
+      "atk": 2.3054,
       "def": 0.2667
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.3309,
+      "atk": 3.3311,
       "def": 0.3277
     },
     "away": {
-      "atk": 2.3055,
+      "atk": 2.3054,
       "def": 0.2667
     }
   },
@@ -48,5 +48,5 @@
     "home": 103,
     "away": 113
   },
-  "generated_at": "2026-07-07T20:35:21+00:00"
+  "generated_at": "2026-07-07T21:30:44+00:00"
 }
