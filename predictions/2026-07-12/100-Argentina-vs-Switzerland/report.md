@@ -13,10 +13,10 @@
 | Outcome | Model |
 |---|---|
 | Argentina win | **49.4%** |
-| Draw | **28.6%** |
+| Draw | **28.5%** |
 | Switzerland win | **22.0%** |
 
-*Monte Carlo (50,000 sims):* 49.4% / 28.5% / 22.1% · avg goals 2.33
+*Monte Carlo (50,000 sims):* 49.5% / 28.4% / 22.1% · avg goals 2.32
 
 ## Most likely scorelines
 
@@ -30,7 +30,7 @@
 ## Derived markets
 
 - Both teams to score: 45.5%
-- Over 2.5 goals: 40.9%  ·  Under 2.5: 59.1%
+- Over 2.5 goals: 41.0%  ·  Under 2.5: 59.0%
 - Double chance 1X: 78.0%  ·  X2: 50.6%
 
 ## Knockout advancement (incl. extra time + penalties)
