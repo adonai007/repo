@@ -16,7 +16,7 @@
 | Draw | **34.9%** |
 | Morocco win | **28.7%** |
 
-*Monte Carlo (50,000 sims):* 36.6% / 34.8% / 28.6% · avg goals 1.77
+*Monte Carlo (50,000 sims):* 36.6% / 34.9% / 28.6% · avg goals 1.77
 
 ## Most likely scorelines
 
@@ -29,7 +29,7 @@
 
 ## Derived markets
 
-- Both teams to score: 35.3%
+- Both teams to score: 35.4%
 - Over 2.5 goals: 26.3%  ·  Under 2.5: 73.7%
 - Double chance 1X: 71.3%  ·  X2: 63.6%
 
