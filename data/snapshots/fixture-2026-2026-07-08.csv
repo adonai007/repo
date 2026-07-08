@@ -90,7 +90,7 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 89,5,2026-07-04 21:00:00+00:00,2026-07-04,Philadelphia Stadium,,Paraguay,France,0.0,1.0,France,True,True,round_of_16
 90,5,2026-07-04 17:00:00+00:00,2026-07-04,Houston Stadium,,Canada,Morocco,0.0,3.0,Morocco,True,True,round_of_16
 91,5,2026-07-05 20:00:00+00:00,2026-07-05,New York/New Jersey Stadium,,Brazil,Norway,1.0,2.0,Norway,True,True,round_of_16
-92,5,2026-07-06 00:00:00+00:00,2026-07-06,Mexico City Stadium,,Mexico,England,2.0,3.0,England,True,True,round_of_16
+92,5,2026-07-06 01:00:00+00:00,2026-07-06,Mexico City Stadium,,Mexico,England,2.0,3.0,England,True,True,round_of_16
 93,5,2026-07-06 19:00:00+00:00,2026-07-06,Dallas Stadium,,Portugal,Spain,0.0,1.0,Spain,True,True,round_of_16
 94,5,2026-07-07 00:00:00+00:00,2026-07-07,Seattle Stadium,,USA,Belgium,1.0,4.0,Belgium,True,True,round_of_16
 95,5,2026-07-07 16:00:00+00:00,2026-07-07,Atlanta Stadium,,Argentina,Egypt,3.0,2.0,Argentina,True,True,round_of_16
