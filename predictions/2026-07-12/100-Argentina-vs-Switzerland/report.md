@@ -30,13 +30,13 @@
 ## Derived markets
 
 - Both teams to score: 45.5%
-- Over 2.5 goals: 41.0%  ·  Under 2.5: 59.0%
+- Over 2.5 goals: 40.9%  ·  Under 2.5: 59.1%
 - Double chance 1X: 78.0%  ·  X2: 50.6%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Argentina advances**: 65.6%
-- **Switzerland advances**: 34.4%
+- **Argentina advances**: 65.7%
+- **Switzerland advances**: 34.3%
 
 ## Scoreline heatmap
 
