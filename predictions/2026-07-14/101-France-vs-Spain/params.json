@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "Norway",
-    "away": "England",
-    "date": "2026-07-11",
+    "home": "France",
+    "away": "Spain",
+    "date": "2026-07-14",
     "neutral": true,
-    "stage": "quarter",
-    "venue": "Miami Stadium"
+    "stage": "semi",
+    "venue": "Dallas Stadium"
   },
   "base_rate": 1.0788,
   "strength": {
     "home": {
-      "atk": 3.4468,
-      "def": 0.5166
+      "atk": 3.4112,
+      "def": 0.3128
     },
     "away": {
-      "atk": 2.9806,
-      "def": 0.3275
+      "atk": 3.632,
+      "def": 0.268
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.4468,
-      "def": 0.5166
+      "atk": 3.4112,
+      "def": 0.3128
     },
     "away": {
-      "atk": 2.9806,
-      "def": 0.3275
+      "atk": 3.632,
+      "def": 0.268
     }
   },
   "rho": -0.0704,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-10",
   "n_prior_matches": {
-    "home": 84,
-    "away": 104
+    "home": 103,
+    "away": 101
   },
-  "generated_at": "2026-07-10T21:48:06+00:00"
+  "generated_at": "2026-07-10T21:48:07+00:00"
 }
