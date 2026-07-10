@@ -8,24 +8,24 @@
     "stage": "quarter",
     "venue": "Kansas City Stadium"
   },
-  "base_rate": 1.0789,
+  "base_rate": 1.0788,
   "strength": {
     "home": {
-      "atk": 3.3445,
+      "atk": 3.344,
       "def": 0.2997
     },
     "away": {
-      "atk": 2.7153,
+      "atk": 2.7158,
       "def": 0.4
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.3445,
+      "atk": 3.344,
       "def": 0.2997
     },
     "away": {
-      "atk": 2.7153,
+      "atk": 2.7158,
       "def": 0.4
     }
   },
@@ -48,5 +48,5 @@
     "home": 101,
     "away": 98
   },
-  "generated_at": "2026-07-10T01:34:27+00:00"
+  "generated_at": "2026-07-10T03:04:26+00:00"
 }

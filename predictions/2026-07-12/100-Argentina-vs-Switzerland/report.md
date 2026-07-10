@@ -16,7 +16,7 @@
 | Draw | **28.5%** |
 | Switzerland win | **22.0%** |
 
-*Monte Carlo (50,000 sims):* 49.5% / 28.4% / 22.1% · avg goals 2.32
+*Monte Carlo (50,000 sims):* 49.5% / 28.5% / 22.1% · avg goals 2.32
 
 ## Most likely scorelines
 
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Argentina advances**: 65.7%
-- **Switzerland advances**: 34.3%
+- **Argentina advances**: 65.6%
+- **Switzerland advances**: 34.4%
 
 ## Scoreline heatmap
 
