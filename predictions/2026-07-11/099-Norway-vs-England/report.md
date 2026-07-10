@@ -14,9 +14,9 @@
 |---|---|
 | Norway win | **27.2%** |
 | Draw | **25.8%** |
-| England win | **47.0%** |
+| England win | **46.9%** |
 
-*Monte Carlo (50,000 sims):* 27.1% / 25.7% / 47.2% · avg goals 2.89
+*Monte Carlo (50,000 sims):* 27.2% / 25.6% / 47.2% · avg goals 2.89
 
 ## Most likely scorelines
 
@@ -31,7 +31,7 @@
 
 - Both teams to score: 57.8%
 - Over 2.5 goals: 54.9%  ·  Under 2.5: 45.1%
-- Double chance 1X: 53.0%  ·  X2: 72.8%
+- Double chance 1X: 53.1%  ·  X2: 72.8%
 
 ## Knockout advancement (incl. extra time + penalties)
 
