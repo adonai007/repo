@@ -11,7 +11,7 @@
   "base_rate": 1.079,
   "strength": {
     "home": {
-      "atk": 3.4459,
+      "atk": 3.447,
       "def": 0.5166
     },
     "away": {
@@ -21,7 +21,7 @@
   },
   "prior_strength": {
     "home": {
-      "atk": 3.4459,
+      "atk": 3.447,
       "def": 0.5166
     },
     "away": {
@@ -48,5 +48,5 @@
     "home": 84,
     "away": 103
   },
-  "generated_at": "2026-07-11T13:30:29+00:00"
+  "generated_at": "2026-07-11T14:05:05+00:00"
 }
