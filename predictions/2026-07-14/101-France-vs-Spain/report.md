@@ -29,14 +29,14 @@
 
 ## Derived markets
 
-- Both teams to score: 45.5%
+- Both teams to score: 45.6%
 - Over 2.5 goals: 38.4%  ·  Under 2.5: 61.6%
 - Double chance 1X: 59.3%  ·  X2: 71.2%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **France advances**: 43.1%
-- **Spain advances**: 56.9%
+- **France advances**: 43.2%
+- **Spain advances**: 56.8%
 
 ## Scoreline heatmap
 
