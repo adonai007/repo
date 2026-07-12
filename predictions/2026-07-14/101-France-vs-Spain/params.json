@@ -8,25 +8,25 @@
     "stage": "semi",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.079,
+  "base_rate": 1.0791,
   "strength": {
     "home": {
-      "atk": 3.4093,
+      "atk": 3.4085,
       "def": 0.3127
     },
     "away": {
-      "atk": 3.6521,
-      "def": 0.2701
+      "atk": 3.6513,
+      "def": 0.2702
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.4093,
+      "atk": 3.4085,
       "def": 0.3127
     },
     "away": {
-      "atk": 3.6521,
-      "def": 0.2701
+      "atk": 3.6513,
+      "def": 0.2702
     }
   },
   "rho": -0.0704,
@@ -43,10 +43,10 @@
   "confidence": "baseline",
   "rationale": "Data-driven prior only (no deep research applied).",
   "research_engine": "prior-baseline",
-  "prior_source": "dixon_coles_fit@martj42:2026-07-11",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-12",
   "n_prior_matches": {
     "home": 103,
     "away": 102
   },
-  "generated_at": "2026-07-11T23:46:52+00:00"
+  "generated_at": "2026-07-12T00:27:29+00:00"
 }

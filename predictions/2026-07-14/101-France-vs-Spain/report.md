@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **France advances**: 43.1%
-- **Spain advances**: 56.9%
+- **France advances**: 43.2%
+- **Spain advances**: 56.8%
 
 ## Scoreline heatmap
 
