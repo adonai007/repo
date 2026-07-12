@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
   "match": {
-    "home": "France",
-    "away": "Spain",
-    "date": "2026-07-14",
+    "home": "England",
+    "away": "Argentina",
+    "date": "2026-07-15",
     "neutral": true,
     "stage": "semi",
-    "venue": "Dallas Stadium"
+    "venue": "Atlanta Stadium"
   },
   "base_rate": 1.079,
   "strength": {
     "home": {
-      "atk": 3.4088,
-      "def": 0.3127
+      "atk": 2.9807,
+      "def": 0.3274
     },
     "away": {
-      "atk": 3.6521,
-      "def": 0.2702
+      "atk": 3.3448,
+      "def": 0.2996
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.4088,
-      "def": 0.3127
+      "atk": 2.9807,
+      "def": 0.3274
     },
     "away": {
-      "atk": 3.6521,
-      "def": 0.2702
+      "atk": 3.3448,
+      "def": 0.2996
     }
   },
   "rho": -0.0704,
@@ -46,7 +46,7 @@
   "prior_source": "dixon_coles_fit@martj42:2026-07-12",
   "n_prior_matches": {
     "home": 103,
-    "away": 102
+    "away": 101
   },
   "generated_at": "2026-07-12T05:04:16+00:00"
 }
