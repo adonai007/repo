@@ -8,28 +8,28 @@
     "stage": "semi",
     "venue": "Atlanta Stadium"
   },
-  "base_rate": 1.0791,
+  "base_rate": 1.0796,
   "strength": {
     "home": {
-      "atk": 2.9802,
-      "def": 0.3274
+      "atk": 2.9973,
+      "def": 0.3227
     },
     "away": {
-      "atk": 3.3441,
-      "def": 0.2997
+      "atk": 3.4667,
+      "def": 0.3025
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.9802,
-      "def": 0.3274
+      "atk": 2.9973,
+      "def": 0.3227
     },
     "away": {
-      "atk": 3.3441,
-      "def": 0.2997
+      "atk": 3.4667,
+      "def": 0.3025
     }
   },
-  "rho": -0.0704,
+  "rho": -0.0706,
   "adjustments": {
     "home_atk": 1.0,
     "home_def": 1.0,
@@ -45,8 +45,8 @@
   "research_engine": "prior-baseline",
   "prior_source": "dixon_coles_fit@martj42:2026-07-13",
   "n_prior_matches": {
-    "home": 103,
-    "away": 101
+    "home": 104,
+    "away": 102
   },
-  "generated_at": "2026-07-13T14:17:17+00:00"
+  "generated_at": "2026-07-13T15:28:19+00:00"
 }

@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **England**: 0.96
-- **Argentina**: 1.18
-- **Total**: 2.15  ·  rho = -0.0704
+- **England**: 0.98
+- **Argentina**: 1.21
+- **Total**: 2.19  ·  rho = -0.0706
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| England win | **28.9%** |
-| Draw | **31.2%** |
-| Argentina win | **39.9%** |
+| England win | **28.8%** |
+| Draw | **30.9%** |
+| Argentina win | **40.3%** |
 
-*Monte Carlo (50,000 sims):* 28.9% / 31.3% / 39.8% · avg goals 2.15
+*Monte Carlo (50,000 sims):* 28.8% / 30.9% / 40.3% · avg goals 2.19
 
 ## Most likely scorelines
 
-- 1-1: 14.3%
-- 0-1: 12.9%
-- 0-0: 12.6%
-- 1-0: 10.3%
+- 1-1: 14.2%
+- 0-1: 12.6%
+- 0-0: 12.2%
+- 1-0: 10.1%
 - 0-2: 8.2%
-- 1-2: 7.9%
+- 1-2: 8.0%
 
 ## Derived markets
 
-- Both teams to score: 43.8%
-- Over 2.5 goals: 36.3%  ·  Under 2.5: 63.7%
-- Double chance 1X: 60.1%  ·  X2: 71.1%
+- Both teams to score: 44.7%
+- Over 2.5 goals: 37.4%  ·  Under 2.5: 62.6%
+- Double chance 1X: 59.7%  ·  X2: 71.2%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **England advances**: 43.6%
-- **Argentina advances**: 56.4%
+- **England advances**: 43.4%
+- **Argentina advances**: 56.6%
 
 ## Scoreline heatmap
 
