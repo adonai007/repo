@@ -6,7 +6,7 @@
 
 - **England**: 0.96
 - **Argentina**: 1.18
-- **Total**: 2.14  ·  rho = -0.0704
+- **Total**: 2.15  ·  rho = -0.0704
 
 ## 1X2 (match result)
 
@@ -30,7 +30,7 @@
 ## Derived markets
 
 - Both teams to score: 43.8%
-- Over 2.5 goals: 36.2%  ·  Under 2.5: 63.8%
+- Over 2.5 goals: 36.3%  ·  Under 2.5: 63.7%
 - Double chance 1X: 60.1%  ·  X2: 71.1%
 
 ## Knockout advancement (incl. extra time + penalties)
