@@ -1,0 +1,505 @@
+{
+  "n_sims": 20000,
+  "n_groups": 12,
+  "bracket_note": "strength-seeded single-elimination approximation of the official R32 slotting",
+  "teams": {
+    "Spain": {
+      "advance": 1.0,
+      "r16": 0.82345,
+      "qf": 0.6317,
+      "sf": 0.44785,
+      "final": 0.3008,
+      "champion": 0.1937
+    },
+    "Argentina": {
+      "advance": 1.0,
+      "r16": 0.82475,
+      "qf": 0.56215,
+      "sf": 0.3907,
+      "final": 0.23725,
+      "champion": 0.1374
+    },
+    "France": {
+      "advance": 1.0,
+      "r16": 0.7913,
+      "qf": 0.5146,
+      "sf": 0.3331,
+      "final": 0.20025,
+      "champion": 0.11335
+    },
+    "England": {
+      "advance": 1.0,
+      "r16": 0.71745,
+      "qf": 0.4109,
+      "sf": 0.2562,
+      "final": 0.13005,
+      "champion": 0.06855
+    },
+    "Brazil": {
+      "advance": 1.0,
+      "r16": 0.7351,
+      "qf": 0.52515,
+      "sf": 0.2749,
+      "final": 0.13785,
+      "champion": 0.0671
+    },
+    "Portugal": {
+      "advance": 1.0,
+      "r16": 0.7178,
+      "qf": 0.3965,
+      "sf": 0.2478,
+      "final": 0.1282,
+      "champion": 0.0665
+    },
+    "Colombia": {
+      "advance": 1.0,
+      "r16": 0.6394,
+      "qf": 0.3804,
+      "sf": 0.1852,
+      "final": 0.09375,
+      "champion": 0.04245
+    },
+    "Morocco": {
+      "advance": 1.0,
+      "r16": 0.66695,
+      "qf": 0.30985,
+      "sf": 0.1728,
+      "final": 0.0853,
+      "champion": 0.04075
+    },
+    "Netherlands": {
+      "advance": 1.0,
+      "r16": 0.65405,
+      "qf": 0.40415,
+      "sf": 0.1769,
+      "final": 0.08075,
+      "champion": 0.03595
+    },
+    "Belgium": {
+      "advance": 1.0,
+      "r16": 0.842,
+      "qf": 0.4189,
+      "sf": 0.1661,
+      "final": 0.0772,
+      "champion": 0.035
+    },
+    "Mexico": {
+      "advance": 1.0,
+      "r16": 0.70075,
+      "qf": 0.36205,
+      "sf": 0.16485,
+      "final": 0.0773,
+      "champion": 0.03295
+    },
+    "Japan": {
+      "advance": 1.0,
+      "r16": 0.6252,
+      "qf": 0.2666,
+      "sf": 0.1505,
+      "final": 0.07225,
+      "champion": 0.03245
+    },
+    "Germany": {
+      "advance": 1.0,
+      "r16": 0.58905,
+      "qf": 0.34985,
+      "sf": 0.1456,
+      "final": 0.0686,
+      "champion": 0.0298
+    },
+    "Switzerland": {
+      "advance": 1.0,
+      "r16": 0.7908,
+      "qf": 0.39045,
+      "sf": 0.15515,
+      "final": 0.06645,
+      "champion": 0.0254
+    },
+    "Norway": {
+      "advance": 1.0,
+      "r16": 0.6062,
+      "qf": 0.2032,
+      "sf": 0.1002,
+      "final": 0.0413,
+      "champion": 0.01665
+    },
+    "Ecuador": {
+      "advance": 1.0,
+      "r16": 0.41095,
+      "qf": 0.2017,
+      "sf": 0.0748,
+      "final": 0.0299,
+      "champion": 0.01075
+    },
+    "Canada": {
+      "advance": 1.0,
+      "r16": 0.55945,
+      "qf": 0.2113,
+      "sf": 0.07265,
+      "final": 0.0236,
+      "champion": 0.00835
+    },
+    "Uruguay": {
+      "advance": 1.0,
+      "r16": 0.3606,
+      "qf": 0.16165,
+      "sf": 0.0575,
+      "final": 0.02075,
+      "champion": 0.00625
+    },
+    "Senegal": {
+      "advance": 1.0,
+      "r16": 0.34595,
+      "qf": 0.1633,
+      "sf": 0.05215,
+      "final": 0.0175,
+      "champion": 0.0055
+    },
+    "Croatia": {
+      "advance": 1.0,
+      "r16": 0.3938,
+      "qf": 0.10325,
+      "sf": 0.04095,
+      "final": 0.01445,
+      "champion": 0.00515
+    },
+    "Australia": {
+      "advance": 1.0,
+      "r16": 0.3748,
+      "qf": 0.1122,
+      "sf": 0.04555,
+      "final": 0.0161,
+      "champion": 0.00465
+    },
+    "Paraguay": {
+      "advance": 1.0,
+      "r16": 0.28255,
+      "qf": 0.09675,
+      "sf": 0.0366,
+      "final": 0.01055,
+      "champion": 0.0034
+    },
+    "Côte d'Ivoire": {
+      "advance": 1.0,
+      "r16": 0.2822,
+      "qf": 0.09585,
+      "sf": 0.03455,
+      "final": 0.0104,
+      "champion": 0.0033
+    },
+    "Austria": {
+      "advance": 1.0,
+      "r16": 0.33305,
+      "qf": 0.09655,
+      "sf": 0.0364,
+      "final": 0.01165,
+      "champion": 0.0028
+    },
+    "Algeria": {
+      "advance": 1.0,
+      "r16": 0.2649,
+      "qf": 0.12365,
+      "sf": 0.037,
+      "final": 0.00975,
+      "champion": 0.0027
+    },
+    "USA": {
+      "advance": 1.0,
+      "r16": 0.44055,
+      "qf": 0.1399,
+      "sf": 0.0403,
+      "final": 0.0103,
+      "champion": 0.0024
+    },
+    "Egypt": {
+      "advance": 1.0,
+      "r16": 0.29925,
+      "qf": 0.0959,
+      "sf": 0.02565,
+      "final": 0.00755,
+      "champion": 0.0022
+    },
+    "IR Iran": {
+      "advance": 1.0,
+      "r16": 0.2087,
+      "qf": 0.079,
+      "sf": 0.0245,
+      "final": 0.00655,
+      "champion": 0.00175
+    },
+    "Congo DR": {
+      "advance": 1.0,
+      "r16": 0.17655,
+      "qf": 0.06185,
+      "sf": 0.02095,
+      "final": 0.00635,
+      "champion": 0.00135
+    },
+    "Scotland": {
+      "advance": 1.0,
+      "r16": 0.17525,
+      "qf": 0.05905,
+      "sf": 0.021,
+      "final": 0.005,
+      "champion": 0.00125
+    },
+    "South Africa": {
+      "advance": 1.0,
+      "r16": 0.2092,
+      "qf": 0.0421,
+      "sf": 0.00805,
+      "final": 0.0016,
+      "champion": 0.0002
+    },
+    "Bosnia and Herzegovina": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Cabo Verde": {
+      "advance": 1.0,
+      "r16": 0.158,
+      "qf": 0.02955,
+      "sf": 0.00355,
+      "final": 0.0007,
+      "champion": 0.0
+    },
+    "Curaçao": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Czechia": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Ghana": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Haiti": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Iraq": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Jordan": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Korea Republic": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "New Zealand": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Panama": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Qatar": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Saudi Arabia": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Sweden": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Tunisia": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Türkiye": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "Uzbekistan": {
+      "advance": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    }
+  },
+  "favorites": [
+    {
+      "team": "Spain",
+      "champion": 0.1937,
+      "final": 0.3008,
+      "semi": 0.44785,
+      "advance": 1.0
+    },
+    {
+      "team": "Argentina",
+      "champion": 0.1374,
+      "final": 0.23725,
+      "semi": 0.3907,
+      "advance": 1.0
+    },
+    {
+      "team": "France",
+      "champion": 0.11335,
+      "final": 0.20025,
+      "semi": 0.3331,
+      "advance": 1.0
+    },
+    {
+      "team": "England",
+      "champion": 0.06855,
+      "final": 0.13005,
+      "semi": 0.2562,
+      "advance": 1.0
+    },
+    {
+      "team": "Brazil",
+      "champion": 0.0671,
+      "final": 0.13785,
+      "semi": 0.2749,
+      "advance": 1.0
+    },
+    {
+      "team": "Portugal",
+      "champion": 0.0665,
+      "final": 0.1282,
+      "semi": 0.2478,
+      "advance": 1.0
+    },
+    {
+      "team": "Colombia",
+      "champion": 0.04245,
+      "final": 0.09375,
+      "semi": 0.1852,
+      "advance": 1.0
+    },
+    {
+      "team": "Morocco",
+      "champion": 0.04075,
+      "final": 0.0853,
+      "semi": 0.1728,
+      "advance": 1.0
+    },
+    {
+      "team": "Netherlands",
+      "champion": 0.03595,
+      "final": 0.08075,
+      "semi": 0.1769,
+      "advance": 1.0
+    },
+    {
+      "team": "Belgium",
+      "champion": 0.035,
+      "final": 0.0772,
+      "semi": 0.1661,
+      "advance": 1.0
+    },
+    {
+      "team": "Mexico",
+      "champion": 0.03295,
+      "final": 0.0773,
+      "semi": 0.16485,
+      "advance": 1.0
+    },
+    {
+      "team": "Japan",
+      "champion": 0.03245,
+      "final": 0.07225,
+      "semi": 0.1505,
+      "advance": 1.0
+    },
+    {
+      "team": "Germany",
+      "champion": 0.0298,
+      "final": 0.0686,
+      "semi": 0.1456,
+      "advance": 1.0
+    },
+    {
+      "team": "Switzerland",
+      "champion": 0.0254,
+      "final": 0.06645,
+      "semi": 0.15515,
+      "advance": 1.0
+    },
+    {
+      "team": "Norway",
+      "champion": 0.01665,
+      "final": 0.0413,
+      "semi": 0.1002,
+      "advance": 1.0
+    },
+    {
+      "team": "Ecuador",
+      "champion": 0.01075,
+      "final": 0.0299,
+      "semi": 0.0748,
+      "advance": 1.0
+    }
+  ]
+}
