@@ -8,25 +8,25 @@
     "stage": "semi",
     "venue": "Dallas Stadium"
   },
-  "base_rate": 1.0795,
+  "base_rate": 1.0796,
   "strength": {
     "home": {
-      "atk": 3.402,
+      "atk": 3.4017,
       "def": 0.3133
     },
     "away": {
-      "atk": 3.6393,
-      "def": 0.2705
+      "atk": 3.6391,
+      "def": 0.2706
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 3.402,
+      "atk": 3.4017,
       "def": 0.3133
     },
     "away": {
-      "atk": 3.6393,
-      "def": 0.2705
+      "atk": 3.6391,
+      "def": 0.2706
     }
   },
   "rho": -0.0706,
@@ -48,5 +48,5 @@
     "home": 103,
     "away": 102
   },
-  "generated_at": "2026-07-14T11:02:37+00:00"
+  "generated_at": "2026-07-14T11:58:38+00:00"
 }
