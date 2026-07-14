@@ -8,25 +8,25 @@
     "stage": "semi",
     "venue": "Atlanta Stadium"
   },
-  "base_rate": 1.0796,
+  "base_rate": 1.0795,
   "strength": {
     "home": {
-      "atk": 2.9969,
-      "def": 0.3227
+      "atk": 2.9972,
+      "def": 0.3226
     },
     "away": {
       "atk": 3.466,
-      "def": 0.3025
+      "def": 0.3024
     }
   },
   "prior_strength": {
     "home": {
-      "atk": 2.9969,
-      "def": 0.3227
+      "atk": 2.9972,
+      "def": 0.3226
     },
     "away": {
       "atk": 3.466,
-      "def": 0.3025
+      "def": 0.3024
     }
   },
   "rho": -0.0706,
@@ -48,5 +48,5 @@
     "home": 103,
     "away": 102
   },
-  "generated_at": "2026-07-14T16:02:40+00:00"
+  "generated_at": "2026-07-14T16:52:45+00:00"
 }
