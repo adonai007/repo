@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **France advances**: 53.1%
-- **England advances**: 46.9%
+- **France advances**: 53.0%
+- **England advances**: 47.0%
 
 ## Scoreline heatmap
 

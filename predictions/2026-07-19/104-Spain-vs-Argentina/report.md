@@ -13,7 +13,7 @@
 | Outcome | Model |
 |---|---|
 | Spain win | **41.0%** |
-| Draw | **31.1%** |
+| Draw | **31.0%** |
 | Argentina win | **28.0%** |
 
 *Monte Carlo (50,000 sims):* 41.0% / 30.9% / 28.1% · avg goals 2.16
