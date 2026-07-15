@@ -6,7 +6,7 @@
 
 - **England**: 0.98
 - **Argentina**: 1.21
-- **Total**: 2.19  ·  rho = -0.0706
+- **Total**: 2.19  ·  rho = -0.0707
 
 ## 1X2 (match result)
 
