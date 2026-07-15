@@ -5,38 +5,38 @@
 ## Expected goals (model)
 
 - **Spain**: 1.21
-- **Argentina**: 0.95
-- **Total**: 2.15  ·  rho = -0.0707
+- **Argentina**: 0.97
+- **Total**: 2.17  ·  rho = -0.0707
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| Spain win | **41.0%** |
-| Draw | **31.0%** |
-| Argentina win | **28.0%** |
+| Spain win | **40.6%** |
+| Draw | **30.9%** |
+| Argentina win | **28.5%** |
 
-*Monte Carlo (50,000 sims):* 41.0% / 30.9% / 28.1% · avg goals 2.16
+*Monte Carlo (50,000 sims):* 40.6% / 30.8% / 28.5% · avg goals 2.18
 
 ## Most likely scorelines
 
 - 1-1: 14.2%
-- 1-0: 13.0%
-- 0-0: 12.5%
+- 1-0: 12.8%
+- 0-0: 12.3%
 - 0-1: 10.1%
-- 2-0: 8.4%
+- 2-0: 8.3%
 - 2-1: 8.0%
 
 ## Derived markets
 
-- Both teams to score: 43.9%
-- Over 2.5 goals: 36.5%  ·  Under 2.5: 63.5%
-- Double chance 1X: 72.0%  ·  X2: 59.0%
+- Both teams to score: 44.3%
+- Over 2.5 goals: 37.0%  ·  Under 2.5: 63.0%
+- Double chance 1X: 71.5%  ·  X2: 59.4%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Spain advances**: 57.5%
-- **Argentina advances**: 42.5%
+- **Spain advances**: 57.0%
+- **Argentina advances**: 43.0%
 
 ## Scoreline heatmap
 

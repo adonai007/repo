@@ -2,7 +2,7 @@
 
 | Match | Stage | Model (H/D/A) | Most likely |
 |---|---|---|---|
-| France vs England | final | 37% / 31% / 32% | 1-1 |
+| France vs England | final | 39% / 30% / 31% | 1-1 |
 
 ---
 *Informational model output — not betting advice.*

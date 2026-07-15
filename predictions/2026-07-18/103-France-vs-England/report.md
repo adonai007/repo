@@ -4,39 +4,39 @@
 
 ## Expected goals (model)
 
-- **France**: 1.16
+- **France**: 1.22
 - **England**: 1.06
-- **Total**: 2.22  ·  rho = -0.0707
+- **Total**: 2.28  ·  rho = -0.0707
 
 ## 1X2 (match result)
 
 | Outcome | Model |
 |---|---|
-| France win | **37.2%** |
-| Draw | **30.8%** |
-| England win | **31.9%** |
+| France win | **39.0%** |
+| Draw | **30.3%** |
+| England win | **30.7%** |
 
-*Monte Carlo (50,000 sims):* 37.3% / 30.7% / 32.0% · avg goals 2.22
+*Monte Carlo (50,000 sims):* 39.0% / 30.2% / 30.8% · avg goals 2.28
 
 ## Most likely scorelines
 
-- 1-1: 14.3%
-- 0-0: 11.8%
-- 1-0: 11.7%
-- 0-1: 10.6%
-- 2-1: 7.8%
-- 2-0: 7.3%
+- 1-1: 14.2%
+- 1-0: 11.6%
+- 0-0: 11.2%
+- 0-1: 9.9%
+- 2-1: 8.1%
+- 2-0: 7.7%
 
 ## Derived markets
 
-- Both teams to score: 45.7%
-- Over 2.5 goals: 38.2%  ·  Under 2.5: 61.8%
-- Double chance 1X: 68.1%  ·  X2: 62.8%
+- Both teams to score: 46.9%
+- Over 2.5 goals: 39.8%  ·  Under 2.5: 60.2%
+- Double chance 1X: 69.3%  ·  X2: 61.0%
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **France advances**: 53.0%
-- **England advances**: 47.0%
+- **France advances**: 54.7%
+- **England advances**: 45.3%
 
 ## Scoreline heatmap
 
