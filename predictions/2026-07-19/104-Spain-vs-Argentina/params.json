@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "Spain",
+    "away": "Argentina",
+    "date": "2026-07-19",
+    "neutral": true,
+    "stage": "final",
+    "venue": "New York/New Jersey Stadium"
+  },
+  "base_rate": 1.0795,
+  "strength": {
+    "home": {
+      "atk": 3.6926,
+      "def": 0.2535
+    },
+    "away": {
+      "atk": 3.466,
+      "def": 0.3025
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 3.6926,
+      "def": 0.2535
+    },
+    "away": {
+      "atk": 3.466,
+      "def": 0.3025
+    }
+  },
+  "rho": -0.0707,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-15",
+  "n_prior_matches": {
+    "home": 103,
+    "away": 102
+  },
+  "generated_at": "2026-07-15T21:47:41+00:00"
+}

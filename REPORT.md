@@ -4,12 +4,13 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **91**
-- Mean RPS: **0.148**  ·  log-loss: 0.802  ·  Brier: 0.465
-- Hit rate (argmax): **69%**
+- Matches graded: **92**
+- Mean RPS: **0.149**  ·  log-loss: 0.803  ·  Brier: 0.466
+- Hit rate (argmax): **70%**
 
 ## Upcoming predictions
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 102 | 2026-07-15 | England vs Argentina | 29% / 31% / 40% | 1-1 |
+| 103 | 2026-07-18 | France vs England | 37% / 31% / 32% | 1-1 |
+| 104 | 2026-07-19 | Spain vs Argentina | 41% / 31% / 28% | 1-1 |

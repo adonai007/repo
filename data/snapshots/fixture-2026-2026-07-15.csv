@@ -100,6 +100,6 @@ match_number,round,datetime_utc,date,location,group,home,away,home_score,away_sc
 99,6,2026-07-11 21:00:00+00:00,2026-07-11,Miami Stadium,,Norway,England,1.0,2.0,England,True,True,quarter
 100,6,2026-07-12 01:00:00+00:00,2026-07-12,Kansas City Stadium,,Argentina,Switzerland,3.0,1.0,Argentina,True,True,quarter
 101,7,2026-07-14 19:00:00+00:00,2026-07-14,Dallas Stadium,,France,Spain,0.0,2.0,Spain,True,True,semi
-102,7,2026-07-15 19:00:00+00:00,2026-07-15,Atlanta Stadium,,England,Argentina,,,,True,False,semi
-103,8,2026-07-18 21:00:00+00:00,2026-07-18,Miami Stadium,,France,To be announced,,,,False,False,final
-104,8,2026-07-19 19:00:00+00:00,2026-07-19,New York/New Jersey Stadium,,Spain,To be announced,,,,False,False,final
+102,7,2026-07-15 19:00:00+00:00,2026-07-15,Atlanta Stadium,,England,Argentina,1.0,2.0,Argentina,True,True,semi
+103,8,2026-07-18 21:00:00+00:00,2026-07-18,Miami Stadium,,France,England,,,,True,False,final
+104,8,2026-07-19 19:00:00+00:00,2026-07-19,New York/New Jersey Stadium,,Spain,Argentina,,,,True,False,final

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "match": {
+    "home": "France",
+    "away": "England",
+    "date": "2026-07-18",
+    "neutral": true,
+    "stage": "final",
+    "venue": "Miami Stadium"
+  },
+  "base_rate": 1.0795,
+  "strength": {
+    "home": {
+      "atk": 3.335,
+      "def": 0.3261
+    },
+    "away": {
+      "atk": 2.9979,
+      "def": 0.3226
+    }
+  },
+  "prior_strength": {
+    "home": {
+      "atk": 3.335,
+      "def": 0.3261
+    },
+    "away": {
+      "atk": 2.9979,
+      "def": 0.3226
+    }
+  },
+  "rho": -0.0707,
+  "adjustments": {
+    "home_atk": 1.0,
+    "home_def": 1.0,
+    "away_atk": 1.0,
+    "away_def": 1.0
+  },
+  "home_advantage": {
+    "home": 1.0,
+    "away": 1.0
+  },
+  "confidence": "baseline",
+  "rationale": "Data-driven prior only (no deep research applied).",
+  "research_engine": "prior-baseline",
+  "prior_source": "dixon_coles_fit@martj42:2026-07-15",
+  "n_prior_matches": {
+    "home": 103,
+    "away": 103
+  },
+  "generated_at": "2026-07-15T21:47:40+00:00"
+}
