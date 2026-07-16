@@ -13,4 +13,4 @@ Auto-generated. *Informational model output — not betting advice.*
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
 | 103 | 2026-07-18 | France vs England | 39% / 30% / 31% | 1-1 |
-| 104 | 2026-07-19 | Spain vs Argentina | 41% / 31% / 29% | 1-1 |
+| 104 | 2026-07-19 | Spain vs Argentina | 41% / 31% / 28% | 1-1 |
