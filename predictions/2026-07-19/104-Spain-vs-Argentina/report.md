@@ -16,7 +16,7 @@
 | Draw | **30.9%** |
 | Argentina win | **28.5%** |
 
-*Monte Carlo (50,000 sims):* 40.6% / 30.8% / 28.5% · avg goals 2.18
+*Monte Carlo (50,000 sims):* 40.6% / 30.8% / 28.6% · avg goals 2.18
 
 ## Most likely scorelines
 
@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Spain advances**: 57.0%
-- **Argentina advances**: 43.0%
+- **Spain advances**: 56.9%
+- **Argentina advances**: 43.1%
 
 ## Scoreline heatmap
 
