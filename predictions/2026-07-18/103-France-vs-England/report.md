@@ -16,7 +16,7 @@
 | Draw | **30.2%** |
 | England win | **30.8%** |
 
-*Monte Carlo (50,000 sims):* 39.0% / 30.2% / 30.7% · avg goals 2.28
+*Monte Carlo (50,000 sims):* 39.1% / 30.2% / 30.7% · avg goals 2.28
 
 ## Most likely scorelines
 
