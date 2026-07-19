@@ -35,8 +35,8 @@
 
 ## Knockout advancement (incl. extra time + penalties)
 
-- **Spain advances**: 56.9%
-- **Argentina advances**: 43.1%
+- **Spain advances**: 57.0%
+- **Argentina advances**: 43.0%
 
 ## Scoreline heatmap
 
