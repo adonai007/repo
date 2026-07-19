@@ -12,4 +12,4 @@ Auto-generated. *Informational model output — not betting advice.*
 
 | # | Date | Match | Model (H/D/A) | Pick |
 |--|--|--|--|--|
-| 104 | 2026-07-19 | Spain vs Argentina | 41% / 31% / 29% | 1-1 |
+| 104 | 2026-07-19 | Spain vs Argentina | 40% / 31% / 29% | 1-1 |
