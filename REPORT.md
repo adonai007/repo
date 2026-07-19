@@ -4,12 +4,6 @@ Auto-generated. *Informational model output — not betting advice.*
 
 ## Scoreboard (graded matches)
 
-- Matches graded: **93**
-- Mean RPS: **0.150**  ·  log-loss: 0.807  ·  Brier: 0.469
+- Matches graded: **94**
+- Mean RPS: **0.151**  ·  log-loss: 0.808  ·  Brier: 0.470
 - Hit rate (argmax): **69%**
-
-## Upcoming predictions
-
-| # | Date | Match | Model (H/D/A) | Pick |
-|--|--|--|--|--|
-| 104 | 2026-07-19 | Spain vs Argentina | 40% / 31% / 29% | 1-1 |
